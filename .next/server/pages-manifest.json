@@ -1,6 +1,16 @@
 {
   "/_app": "pages/_app.js",
+  "/404": "pages/404.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/blog-details": "pages/blog-details.html",
+  "/api/hello": "pages/api/hello.js",
+  "/cart": "pages/cart.html",
+  "/blog": "pages/blog.html",
+  "/contact": "pages/contact.html",
+  "/checkout": "pages/checkout.html",
+  "/course-details": "pages/course-details.html",
+  "/course-list": "pages/course-list.html",
+  "/faqs": "pages/faqs.html",
+  "/": "pages/index.html",
+  "/_document": "pages/_document.js"
 }
