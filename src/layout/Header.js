@@ -345,10 +345,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				</div>
 			</li>
 			<li className="">
-				<a href="/course-details">Curriculum</a>
+				<Link href="/course-details">Curriculum</Link>
 			</li>
 			<li className="dropdown">
-				<a href="/blog-details">blog</a>
+				<Link href="/blog-details">blog</Link>
 			</li>
 		</ul>
 	),
