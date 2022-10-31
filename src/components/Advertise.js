@@ -1,0 +1,32 @@
+import Link from 'next/link';
+import advertise1 from '/public/assets/images/advertise/1.png';
+import advertise2 from '/public/assets/images/advertise/2.png';
+const Advertise = () => {
+	return (
+		<div className="row justify-content-center">
+			<div className="col-lg-6">
+				<div className="advertise-item wow fadeInUp delay-0-2s">
+					<div className="content">
+						<p style={{ fontSize: '17px' }}>Next Cohort</p>
+						<h3>December 15th </h3>
+						<p style={{ fontWeight: 'bold' }}>
+							{' '}
+							<i style={{ padding: '0px 10px' }} className="far fa-user" />
+							Limited Spaces - secure your spot
+						</p>
+						<Link href="/contact">
+							<a className="theme-btn">
+								Book a seat
+								<i className="fas fa-arrow-right" />
+							</a>
+						</Link>
+					</div>
+					<div className="image">
+						<img src={advertise1.src} alt="Advertise" />
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+export default Advertise;

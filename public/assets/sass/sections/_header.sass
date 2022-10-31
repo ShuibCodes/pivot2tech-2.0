@@ -1,0 +1,643 @@
+/*******************************************************/
+/******************* 06. Header style ******************/
+/*******************************************************/
+.main-header
+    position: relative
+    left: 0px
+    top: 0px
+    z-index: 999
+    width: 100%
+    transition: all 500ms ease
+    .header-upper
+        z-index: 5
+        width: 100%
+        position: absolute
+        +gapLR(padding, 55px)
+        transition: all 500ms ease
+        +lgd
+            +gapLR(padding, 0)
+    .logo-outer
+        flex: none
+        +tbd
+            display: none
+    .logo
+        z-index: 9
+        flex: none
+        padding: 25px 50px
+        position: relative
+        border-radius: 12px
+        +gapTB(margin, -26px)
+        background: $primary-color
+        +axld
+            +gapLR(padding, 25px)
+        +lgd
+            padding: 15px
+            max-width: 100px
+            +gapTB(margin, -16px)
+    .nice-select
+        height: auto
+        border: none
+        line-height: 1
+        font-size: 18px
+        padding-left: 0
+        border-radius: 0
+        font-weight: 700
+        margin-left: 75px
+        padding-right: 16px
+        +gapTB(padding, 5px)
+        background-color: transparent
+        &:after
+            right: 0
+            +size(8px)
+            margin-top: -5px
+            border-color: $heading-color
+        .list
+            left: -18px
+            min-width: 100px
+    &.fixed-header
+        .header-upper
+            top: 0
+            position: fixed
+            background: white
+            animation: sticky 1s
+            box-shadow: 0px 0px 30px 0px rgba(87, 95, 245, 0.1)
+        .logo
+            margin-top: 0
+            +gapTB(padding, 15px)
+        .navbar-collapse > ul > li
+            +gapTB(padding, 25px)
+            +tbd
+                +gapTB(padding, 0)
+        .mobile-logo
+            margin-top: 0
+/* Header Top */
+.header-top
+    +gapTB(padding, 8px)
+.top-inner
+    flex-wrap: wrap
+    padding-left: 336px
+    padding-right: 55px
+    +flexcenter(space-between)
+    +axld
+        padding-left: 286px
+    +lgd
+        padding-right: 0
+        padding-left: 176px
+    +tbd
+        padding-left: 90px
+    +msd
+        padding-left: 0
+        justify-content: center
+    .top-left
+        +msd
+            display: none
+        p
+            margin-bottom: 0
+            font-weight: 600
+            b
+                font-weight: 700
+    .top-menu
+        display: flex
+        margin-left: 25px
+        border-left: 1px solid rgba(255, 255, 255, 0.4)
+        +mdd
+            display: none
+        li
+            margin-left: 25px
+            a:hover
+                text-decoration: underline
+.top-right
+    .social-style-two
+        a
+            margin-left: 0
+            margin-right: 25px
+            &:last-child
+                margin-right: 0
+        
+.nav-outer
+    +tbd
+        width: 100%
+ 
+/** Header Main Menu **/
+.main-menu
+    +tbd
+        width: 100%
+    .collapse
+        +tbd
+            overflow: auto
+    .navbar-collapse
+        padding: 0px
+        > ul
+            display: flex
+            +tbd
+                display: block
+                padding: 25px 0
+                background: #FFFFFF
+                > li:last-child
+                    border-bottom: 1px solid #f3f3f3
+        +tbd
+            left: 0
+            width: 100%
+            padding: 0 15px
+            position: absolute
+        li
+            transition: 0.5s
+            padding: 30px 25px
+            +flexcenter(space-between)
+            +lgd
+                padding: 25px 15px
+            +mdd
+                padding: 25px 10px
+            +tbd
+                display: block
+                padding: 0 20px
+                border-top: 1px solid #f3f3f3
+            &.dropdown .dropdown-btn
+                cursor: pointer
+                font-size: 13px
+                margin-left: 8px
+                +tbd
+                    position: absolute
+                    right: 10px
+                    top: 0
+                    width: 50px
+                    height: 43px
+                    border-left: 1px solid #f2f2f2
+                    text-align: center
+                    line-height: 43px
+            a
+                position: relative
+                display: block
+                font-size: 18px
+                opacity: 1
+                font-weight: 700
+                color: $heading-color
+                text-transform: capitalize
+                transition: all 500ms ease
+                +tbd
+                    padding: 10px 10px
+                    line-height: 22px
+            &.current > a, &.current-menu-item > a, > a:hover
+                color: $secondary-color
+                text-decoration: underline
+            li
+                border-top: 1px solid #f3f3f3
+                a
+                    text-transform: capitalize
+            .megamenu
+                position: absolute
+                left: 0px
+                top: 100%
+                width: 100%
+                z-index: 100
+                display: none
+                padding: 20px 0
+                background: #ffffff
+                box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05)
+                +clearfix
+                +tbd
+                    position: relative
+                    box-shadow: none
+                    width: 100%
+                    .container
+                        max-width: 100%
+                    .row
+                        margin: 0px
+                ul
+                    display: block
+                    position: relative
+                    top: 0
+                    width: 100%
+                    box-shadow: none
+            ul
+                position: absolute
+                left: inherit
+                top: 100%
+                min-width: 250px
+                z-index: 100
+                display: none
+                background: #ffffff
+                box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05)
+                +tbd
+                    position: relative
+                    display: none
+                    width: 100%
+                    box-shadow: none
+                    +clearfix
+                    +xsd
+                        min-width: auto
+                li
+                    width: 100%
+                    padding: 7px 20px
+                    +tbd
+                        padding: 0 15px
+                    ul
+                        left: 100%
+                        top: 0%
+                        +tbd
+                            left: auto
+
+    .navbar-header
+        display: none
+        +tbd
+            +flexcenter(space-between)
+        .navbar-toggle
+            float: right
+            padding: 4px 0
+            cursor: pointer
+            background: transparent
+            .icon-bar
+                background: #262d3d
+                height: 3px
+                width: 30px
+                display: block
+                margin: 7px 0
+    .mobile-logo
+        z-index: 5
+        padding: 10px
+        max-width: 75px
+        position: relative
+        +gapTB(margin, -15px)
+        
+/* Menu Right icons */
+.menu-btn-sidebar
+    button
+        background: transparent
+    > button
+        margin-left: 25px
+        +tbd
+            display: none
+    .cart
+        position: relative
+        &:after
+            position: absolute
+            font-weight: 700
+            font-size: 13px
+            content: '2'
+            top: -10px
+            right: -15px
+            color: white
+            font-family: $heading-font
+            +circle($primary-color, 19px)
+            line-height: 17px
+    form
+        display: flex
+        background: white
+        max-width: 195px
+        padding: 5px 15px
+        border-radius: 5px
+        margin-right: 10px
+        align-items: center
+        box-shadow: 10px 0 60px rgba(76, 76, 76, 0.1)
+        +mdd
+            display: none
+        input
+            border: none
+            padding: 5px 0 5px
+            background: transparent
+        button
+            color: $secondary-color
+    
+/* Menu Sidebar */
+.menu-sidebar
+    display: flex
+    margin-left: 35px
+    +tbd
+        display: none
+    button
+        width: 35px
+        cursor: pointer
+        flex-wrap: wrap
+        border-radius: 50%
+        +flexcenter(end)
+        background: transparent
+        .icon-bar
+            height: 3px
+            width: 30px
+            margin: 3px 0
+            background: #262d3d
+  
+/** hidden-sidebar *
+.hidden-bar
+    position: fixed
+    right: -350px
+    top: 0px
+    opacity: 0
+    width: 350px
+    height: 100%
+    z-index: 99999
+    overflow-y: auto
+    visibility: hidden
+    transition: all 0.5s ease
+    background-color: $heading-color
+    +xsd
+        width: 300px
+    .social-style-one
+        a
+            +size(40px)
+            line-height: 40px
+
+.side-content-visible .hidden-bar
+    right: 0px
+    opacity: 1
+    visibility: visible
+
+.hidden-bar .inner-box
+    position: relative
+    padding: 100px 40px 50px
+    +xsd
+        +gapLR(padding, 25px)
+    .cross-icon
+        position: absolute
+        right: 30px
+        top: 30px
+        cursor: pointer
+        color: #ffffff
+        font-size: 20px
+        transition: all 500ms ease
+    h4
+        position: relative
+        color: #ffffff
+        margin-bottom: 35px
+
+/*Appointment Form
+.hidden-bar .appointment-form
+    position: relative
+
+    .form-group
+        position: relative
+        margin-bottom: 20px
+
+    input
+        &[type="text"], &[type="email"]
+            position: relative
+            display: block
+            width: 100%
+            line-height: 23px
+            padding: 10px 25px
+            color: #ffffff
+            font-size: 16px
+            background: none
+            transition: all 300ms ease
+            border: 1px solid rgba(255, 255, 255, 0.1)
+
+    textarea
+        position: relative
+        display: block
+        width: 100%
+        line-height: 23px
+        padding: 10px 25px
+        color: #ffffff
+        font-size: 16px
+        border: 1px solid rgba(255, 255, 255, 0.1)
+        background: none
+        transition: all 300ms ease
+        resize: none
+
+    input::placeholder
+        font-size: 14px
+        color: #bdbdbd
+
+    textarea
+        &::placeholder
+            font-size: 14px
+            color: #bdbdbd
+
+    .form-group button
+        width: 100%
+        margin-bottom: 20px
+        padding: 11px 15px 8px
+
+.form-back-drop
+    position: fixed
+    right: 0px
+    top: 0px
+    width: 100%
+    height: 100%
+    opacity: 0
+    background: rgba(0, 0, 0, 0.7)
+    visibility: hidden
+    z-index: 9990
+    transition: all 0.5s ease
+
+.side-content-visible .form-back-drop
+    opacity: 1
+    visibility: visible
+    
+.main-header
+    /* Header Two */
+    &.header-two
+        .top-left
+            b
+                color: #8b93a7
+            i
+                color: $primary-color
+        .top-menu
+            a
+                color: #bbbbbd
+                &:hover
+                    color: white
+        .navbar-collapse li
+            &.current > a, &.current-menu-item > a, > a:hover
+                color: $primary-color
+        &:not(.fixed-header)
+            .logo-outer
+                .nice-select
+                    &:after
+                        border-color: white
+                    .current
+                        color: white
+            .main-menu
+                .navbar-collapse
+                    > ul
+                        > li
+                            &.current > a, &.current-menu-item > a, > a:hover
+                                color: $primary-color
+                            > a
+                                color: white
+                                +tbd
+                                    color: $base-color
+                            &.dropdown
+                                > .dropdown-btn
+                                    color: white
+                                    +tbd
+                                        color: $base-color
+            .menu-btn-sidebar
+                form
+                    background: transparent
+                    border: 1px solid rgba(255, 255, 255, 0.15)
+                    input,
+                    button,
+                    input::placeholder
+                        color: white
+                > button
+                    color: white
+            .icon-bar
+                background: white
+        .bg-light-blue
+            .top-left
+                b
+                    color: white
+                    
+/* Header Three */
+.main-header
+    &.header-three
+        .container
+            max-width: 1430px
+        .top-inner
+            padding-left: 0
+            padding-right: 0
+            .top-left
+                display: flex
+                align-items: center
+                +msd
+                    display: none
+                p
+                    &:not(:last-child)
+                        +xld
+                            padding-right: 25px
+                            margin-right: 25px
+                            border-right: 1px solid rgba(255, 255, 255, 0.2)
+                    &:last-child
+                        +lgd
+                            display: none
+        .header-inner
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15)
+            +tbd
+                +gapTB(padding, 10px)
+        .logo
+            margin: 0
+            padding: 0
+            background: transparent
+            +lgd
+                max-width: none
+        .main-menu
+            .navbar-collapse
+                > ul
+                    > li
+                        position: relative
+                        &:before
+                            content: ''
+                            height: 3px
+                            width: 0
+                            left: 50%
+                            top: 100%
+                            opacity: 0
+                            transition: 0.5s
+                            position: absolute
+                            background: $yellow-color
+                            transform: translate(-50%, -1.5px)
+                            +tbd
+                                display: none
+                        > a
+                            color: white
+                            +tbd
+                                color: $base-color
+                        &.dropdown
+                            > .dropdown-btn
+                                color: white
+                                transition: 0.5s
+                                +tbd
+                                    color: $base-color
+                        &:hover,
+                        &.current
+                            &:before
+                                opacity: 1
+                                width: 70%
+                            > .dropdown-btn
+                                color: $yellow-color
+                                +tbd
+                                    color: $base-color
+                    li
+                        &.current > a, &.current-menu-item > a, > a:hover
+                            color: $yellow-color
+            .navbar-toggle 
+                .icon-bar
+                    background: white
+        .menu-btn-sidebar
+            .nav-search
+                position: relative
+                +tbd
+                    display: none
+                > button
+                    color: white
+            form
+                right: 0
+                top: 100%
+                margin-right: 0
+                min-width: 200px
+                position: absolute
+                &.hide
+                    display: none
+            > button
+                color: white
+            .icon-bar
+                background: white
+            .cart:after
+                color: $heading-color
+                background: $yellow-color
+        .mobile-logo
+            padding: 0
+            margin-bottom: 0
+            max-width: 150px
+        &.fixed-header
+            .header-upper
+                background: $heading-color
+            .logo
+                margin-bottom: 0
+                
+/* Header Four */
+.main-header
+    &.header-four
+        .top-inner
+            +gapLR(padding, 135px)
+            +lgd
+                +gapLR(padding, 35px)
+            +tbd
+                +gapLR(padding, 15px)
+            .top-left
+                display: flex
+                align-items: center
+                +msd
+                    display: none
+                p
+                    &:not(:last-child)
+                        +xld
+                            padding-right: 25px
+                            margin-right: 25px
+                            border-right: 1px solid rgba(255, 255, 255, 0.2)
+                    &:last-child
+                        +lgd
+                            display: none
+        .header-upper
+            +gapLR(padding, 135px)
+            +lgd
+                +gapLR(padding, 35px)
+            +tbd
+                +gapLR(padding, 15px)
+        .logo
+            margin: 0
+            padding: 0
+            max-width: none
+            background: transparent
+        .menu-btns
+            .nice-select
+                margin-left: 0
+                padding-right: 0
+                margin-right: 30px
+                +mdd
+                    display: none
+                &:after
+                    display: none
+                .current
+                    padding: 6px 0 6px 40px
+                    background: url(../images/shapes/language.png) no-repeat 0 center
+                .list
+                    left: -5px
+                    li
+                        padding-left: 45px
+                        background: url(../images/shapes/language.png) no-repeat 5px center
+        .mobile-logo
+            padding: 0
+            max-width: 150px
+            +gapTB(margin, 10px)

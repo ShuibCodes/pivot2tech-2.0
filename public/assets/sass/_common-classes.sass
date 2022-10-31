@@ -1,0 +1,445 @@
+/*******************************************************/
+/*****************  02. Common Classes *****************/
+/*******************************************************/
+.page-wrapper
+    position: relative
+    z-index: 9
+    width: 100%
+    margin: 0 auto
+    overflow: hidden
+    min-width: 300px
+    background: #FFFFFF
+    
+.container
+    max-width: $container
+    padding-left: $gutter/2
+    padding-right: $gutter/2
+
+.no-gap
+    +colgap(0)
+    
+.small-gap
+    +colgap(10px)
+    
+.large-gap
+    +xld
+        +colgap(75px)
+    
+.col-small
+    +xsd
+        flex: 0 0 100%
+        max-width: 100%
+    
+/** Section Title style **/
+.section-title
+    z-index: 1
+    position: relative
+    h2
+        text-transform: capitalize
+        +tmd
+            font-size: 40px
+        +mod
+            font-size: 35px
+        +msd
+            font-size: 30px
+        .number
+            color: $secondary-color
+        span
+            &:not(.number)
+                display: inline-block
+                padding: 0 15px 10px 10px
+                margin: 0 -15px -10px -10px
+                background: url(../images/shapes/title-bg.png) no-repeat right bottom
+    
+.sub-title
+    color: white
+    font-size: 15px
+    font-weight: 700
+    border-radius: 5px
+    padding: 3px 16px 1px
+    display: inline-block
+    text-transform: uppercase
+    font-family: $heading-font
+    background: $primary-color
+    &.style-two
+        color: $secondary-color
+        background: transparentize($secondary-color, 0.9)
+.sub-title-two
+    font-size: 22px
+    font-weight: 700
+    margin-bottom: 20px
+    display: inline-block
+    color: $secondary-color
+    font-family: $heading-font
+.sub-title-three
+    font-size: 20px
+    font-weight: 700
+    color: $blue-color
+    margin-bottom: 15px
+    display: inline-block
+    span
+        position: relative
+        &:before
+            content: ''
+            width: 100%
+            height: 10px
+            left: 0
+            top: 95%
+            position: absolute
+            background: url(../images/shapes/subtitle-line.png) no-repeat center/cover
+        
+.bg-text
+    text-transform: uppercase
+    position: absolute
+    @extend %heading
+    font-size: 355px
+    font-weight: 800
+    line-height: 0.7
+    opacity: 0.04
+    z-index: -1
+    bottom: 0
+    right: 0
+    +lgd
+        font-size: 200px
+    +mdd
+        font-size: 150px
+    +msd
+        font-size: 100px
+    +smd
+        font-size: 75px
+
+/** Button style **/
+.theme-btn,
+a.theme-btn
+    color: white;
+    cursor: pointer
+    font-weight: 800
+    font-size: 15px
+    transition: 0.5s
+    border-radius: 5px
+    align-items: center
+    display: inline-flex
+    justify-content: center
+    padding: 15px 40px 12px
+    text-transform: uppercase
+    i
+        font-size: 12px
+        transition: 0.5s
+        margin-left: 15px
+    &:hover
+        i
+            margin: 0 -3px 0 18px
+    &:hover,
+    &:focus,
+    &.style-two:not(:hover)
+        background: $secondary-color
+    &:not(:hover),
+    &.style-two:hover
+        background: $primary-color
+    &.style-three
+        color: $heading-color
+        background: transparent
+        border: 1px solid $border-color
+        &:hover
+            color: $secondary-color
+            border-color: $secondary-color
+    &.style-four
+        color: $heading-color
+        background: $yellow-color
+        &:hover
+            color: white
+            background: $secondary-color
+    &.style-five
+        color: $heading-color
+        background: $light-color
+        &:hover
+            color: white
+            background: $yellow-color
+    +smd
+        padding: 12px 20px
+        
+/* Read More Btb */
+.read-more
+    font-size: 15px
+    font-weight: 800
+    align-items: center
+    display: inline-flex
+    text-transform: uppercase
+    text-decoration: underline
+    &.color-two
+        color: $secondary-color
+    i
+        float: right
+        font-size: 13px
+        margin-left: 10px
+        
+/* List style One */
+.list-style-one
+    li
+        display: flex
+        font-size: 18px
+        font-weight: 700
+        font-family: $heading-font
+        &:before
+            flex: none
+            color: white
+            font-size: 11px
+            margin-top: 4px
+            content: "\f00c"
+            margin-right: 15px
+            +circle($primary-color, 25px)
+            font-family: 'Font Awesome 5 Free'
+        &:not(:last-child)
+            margin-bottom: 15px
+        
+/* List style Two */
+.list-style-two
+    li
+        &:not(:last-child)
+            margin-bottom: 8px
+        &:before
+            content: "\f0a4"
+            margin-right: 10px
+            color: $secondary-color
+            font-family: "Font Awesome 5 Free"
+        
+/* List style Three */
+.list-style-three
+    li
+        display: flex
+        &:before
+            flex: none
+            color: white
+            margin-top: 4px
+            content: "\f00c"
+            font-weight: 600
+            margin-right: 20px
+            +circle($secondary-color, 35px)
+            font-family: 'Font Awesome 5 Free'
+        &:not(:last-child)
+            margin-bottom: 10px
+        h5
+            margin-bottom: 5px
+    
+/* List style Four */
+.list-style-four
+    li
+        font-size: 18px
+        font-weight: 700
+        color: $heading-color
+        +xsd
+            font-size: 16px
+        &:not(:last-child)
+            margin-bottom: 8px
+        &:before
+            content: "\f00c"
+            margin-right: 10px
+            color: $secondary-color
+            font-family: "Font Awesome 5 Free"
+            
+/** Social Style One **/
+.social-style-one
+    flex-wrap: wrap
+    display: inline-flex
+    a
+        color: white
+        font-size: 14px
+        +circle(transparentize(white, 0.9), 40px)
+        &:hover
+            background: $secondary-color
+        &:not(:last-child)
+            margin-right: 7px  
+        
+/** Social Style two **/
+.social-style-two
+    flex-wrap: wrap
+    display: inline-flex
+    justify-content: center
+    a
+        opacity: 0.5
+        margin: 0 10px
+        &:hover
+            opacity: 1
+
+/*** Preloader style ** */
+.preloader
+    position: fixed
+    display: block
+    top: 0;
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 999999
+    background: white
+    &:after
+        content: ''
+        +size(50px)
+        padding: 0px
+        border: 2px solid
+        border-radius: 100%
+        position: absolute
+        top: calc(50% - 25px)
+        left: calc(50% - 25px)
+        border-top-color: transparentize($primary-color, 0.35)
+        border-right-color: transparentize($primary-color, 0.85)
+        border-bottom-color: transparentize($secondary-color, 0.35)
+        border-left-color: transparentize($secondary-color, 0.85)
+        animation: preloader 0.8s linear infinite
+
+/* Slick Dots */
+.slick-dots
+    margin-top: 30px
+    +flexcenter(center)
+    li
+        cursor: pointer
+        overflow: hidden
+        transition: 0.5s
+        position: relative
+        +circle(transparent, 22px)
+        border: 1px solid transparent
+        button
+            text-indent: 100px
+            background: transparent
+        &:before
+            content: ''
+            +size(5px)
+            left: 50%
+            top: 50%
+            background: #232323
+            position: absolute
+            border-radius: 50%
+            transform: translate(-50%, -50%)
+        &.slick-active
+            border-color: $secondary-color
+            &:before
+                background: $secondary-color
+                
+    
+/* Pagination */    
+.pagination
+    align-items: center
+    li
+        margin: 10px 5px 0
+        a,
+        .page-link
+            padding: 0
+            border: none
+            font-size: 18px
+            box-shadow: none
+            font-weight: 600
+            color: $heading-color
+            font-family: $heading-font
+            +circle(transparentize($secondary-color, 0.9), 50px)
+            +smd
+                +size(40px)
+                font-size: 14px
+                line-height: 40px
+        &.disabled,
+        &:last-child,
+        &:first-child
+            .page-link
+                border-radius: 50%
+                background: transparentize($secondary-color, 0.9)
+        &:first-child
+            margin-left: 0
+        &:last-child
+            margin-right: 0
+        &.active,
+        &:hover:not(.disabled)
+            .page-link
+                color: white
+                background: $primary-color
+    &.style-two
+        li
+            &.active,
+            &:hover:not(.disabled)
+                .page-link
+                    background: $secondary-color
+                
+/*** Scroll Top style ***/
+.scroll-top
+    position: absolute
+    z-index: 99
+    color: white
+    top: -27.5px
+    display: none
+    right: calc(50% - 27.5px)
+    border: 6px solid #081a55
+    animation: pulse 2s infinite
+    +circle($primary-color, 55px)
+    line-height: 45px
+  
+/* Text White */
+.text-white
+    *,
+    .bg-text
+        color: white
+        
+/* Position */
+.rel
+    position: relative
+    
+@for $i from 0 through 5
+    .z-#{0 + $i}
+        z-index: 0 + $i
+    
+.overlay
+    +overlay(black, 0.3)
+    
+/* Shapes */
+.circle-one,
+.circle-two,
+.circle-dots,
+.rectangle-dots
+    z-index: -1
+    max-width: 20%
+    position: absolute
+.rectangle-dots
+    bottom: 20%
+    left: 5%
+    animation: 8s down-up-three infinite
+.circle-dots
+    top: 25%
+    right: 8%
+    animation: 8s down-up-two infinite
+.circle-one
+    top: 20%
+    left: 25%
+    animation: 50s shapeAnimationOne infinite
+.circle-two
+    top: 25%
+    right: 25%
+    animation: 50s shapeAnimationTwo infinite
+    
+/* Backgruond Size */
+.bgs-cover
+    background-size: cover
+    background-position: center
+
+/* Color + Background */
+.bg-lighter
+    background-color: $light-color
+.bg-light-two
+    background-color: #f4f6f9
+.bg-green
+    background-color: $primary-color
+.bg-blue
+    background-color: #0f256e
+.bg-dark-blue
+    background-color: #081a55
+.bg-light-blue
+    background-color: $secondary-color
+.bg-black
+    background-color: #141517
+     
+/* Border Radius */
+@for $i from 1 through 6
+    .br-#{5 * $i}
+        border-radius: 5px * $i
+    
+.home-one
+    .section-title
+        h2
+            +xld
+                font-size: 48px
+    

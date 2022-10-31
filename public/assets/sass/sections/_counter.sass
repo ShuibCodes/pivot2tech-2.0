@@ -1,0 +1,146 @@
+/*******************************************************/
+/********************* 19. Counter *********************/
+/*******************************************************/
+.counter-wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    &.style-two
+        .success-item
+            margin-top: 75px
+            +tbd
+                margin-top: 35px
+            &:first-child
+                margin-top: 0
+                +tbd
+                    margin-top: 35px
+        .count-text
+            color: $primary-color
+.success-item
+    margin-top: 30px
+    font-weight: 600
+    .count-text
+        display: block
+        line-height: 1
+        font-size: 35px
+        font-weight: 800
+        color: $secondary-color
+        &.plus:after
+            content: '+'
+        &.percent:after
+            content: '%'
+            
+.counter-area
+    z-index: 1
+    position: relative
+    &:before
+        position: absolute
+        +size(100%, 150%)
+        content: ''
+        left: 0
+        bottom: 0
+        z-index: -1
+        background: $light-color
+    .counter-item
+        padding: 40px
+        background: white
+        margin-bottom: 30px
+        span:not(.count-text)
+            font-size: 18px
+            font-weight: 600
+            color: $secondary-color
+    .count-text
+        font-size: 45px
+        margin-bottom: 10px
+        color: $heading-color
+        font-family: $heading-font
+        
+/* Style Two */
+.slider-counter
+    max-width: 570px
+    margin: -120px 10% 0 auto
+    +tbd
+        margin-top: -65px
+        margin-bottom: 45px
+    +mod
+        margin-left: 15px
+.success-item
+    &.style-two
+        transition: 0.5s
+        padding: 40px 65px
+        background: $secondary-color
+        > i, span
+            transition: 0.5s
+        > i
+            font-size: 40px
+            margin-bottom: 15px
+            display: inline-block
+        span:not(.count-text)
+            font-weight: 600
+        .count-text
+            color: white
+            font-size: 45px
+        &:hover
+            background: $yellow-color
+            > i, span
+                color: $heading-color
+            
+/* Circle Counter */
+.counter-number
+    position: relative
+    +gapLR(margin, 25px)
+    +msd
+        margin-right: 0
+    > span
+        position: absolute
+        left: 50%
+        top: 50%
+        font-size: 20px
+        font-weight: 700
+        font-family: $heading-font
+        transform: translate(-50%, -60%)
+        
+/* Count Home 4 */
+.counter-section-three
+    .container
+        max-width: 1380px
+.counter-three-wrap
+    z-index: 2
+    padding: 0 35px
+    flex-wrap: wrap
+    margin-top: -60px
+    +flexcenter(center)
+    position: relative
+    transform: translateY(60px)
+    +xsd
+        +gapLR(padding, 0)
+    .success-item
+        display: flex
+        margin-top: 0
+        padding: 35px 45px
+        position: relative
+        align-items: center
+        +xsd
+            +gapLR(padding, 25px)
+        span:not(.count-text)
+            font-weight: 600
+            line-height: 1.55
+        .count-text
+            color: white
+            font-size: 45px
+            font-weight: 700
+            margin-right: 20px
+            font-family: $heading-font
+            +xsd
+                font-size: 35px
+        &:not(:last-child)
+            &:after
+                content: ''
+                +size(5px)
+                right: 0
+                top: 50%
+                background: white
+                border-radius: 5px
+                position: absolute
+                +mdd
+                    display: none

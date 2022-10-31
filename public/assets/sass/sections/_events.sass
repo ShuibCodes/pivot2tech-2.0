@@ -1,0 +1,180 @@
+/*******************************************************/
+/****************** 14. Event Section ******************/
+/*******************************************************/
+.event-wrap
+    +gapLR(margin, -15px)
+    .event-item
+        +gapLR(margin, 15px)
+    .slick-dots
+        li
+            &:before
+                background: white
+            &.slick-active
+                border-color: white
+                &:before
+                    background: white
+.event-item
+    padding: 30px
+    transition: 0.5s
+    margin-bottom: 30px
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    +xsd
+        +gapLR(padding, 15px)
+    .image
+        position: relative
+        img
+            width: 100%
+            border-radius: 5px
+        .date
+            position: absolute
+            padding: 2px 20px
+            left: 17%
+            width: 66%
+            bottom: -15px
+            font-size: 15px
+            font-weight: 700
+            text-align: center
+            border-radius: 5px
+            background: #204ecf
+    .content
+        padding-top: 50px
+        padding-bottom: 5px
+        h4
+            margin-bottom: 22px
+            +xsd
+                font-size: 20px
+        .location
+            opacity: 0.4
+            i
+                margin-right: 5px
+    &:hover
+        border-color: white
+    
+/* Event Style Two */
+.event-item-two
+    margin-bottom: 40px
+    +flexcenter(space-between)
+    +msd
+        flex-wrap: wrap
+    .content
+        +msd
+            width: 100%
+            margin-top: 25px
+    .date
+        line-height: 1
+        max-width: 55px
+        font-size: 18px
+        font-weight: 700
+        margin-right: 40px
+        font-family: $heading-font
+        b
+            font-size: 45px
+            margin-bottom: 10px
+            padding-bottom: 20px
+            color: $heading-color
+            display: inline-block
+            border-bottom: 2px solid $border-color
+        span
+            font-size: 20px
+    .location
+        margin-bottom: 8px
+        display: inline-block
+        i
+            margin-right: 5px
+            color: $primary-color
+    h4
+        margin-bottom: 15px
+    img
+        flex: none
+        +size(125px)
+        border-radius: 50%
+        margin-right: 40px
+        +msd
+            margin-right: 0
+        
+/* Event Style Three */
+.event-section-three
+    .container
+        max-width: 1380px
+    &:after,
+    &:before,
+    .for-circle:after,
+    .for-circle:before
+        content: ''
+        +size(320px)
+        z-index: -1
+        border-radius: 50%
+        position: absolute
+        border: 1px solid rgba(0, 0, 0, 0.07)
+        +mod
+            +size(150px)
+    &:before
+        left: 3%
+        top: 95%
+    &:after
+        left: 6%
+        top: 105%
+    .for-circle
+        &:before
+            top: 50%
+            right: 8%
+        &:after
+            top: 60%
+            right: 3%
+.event-three-inner
+    background: white
+    padding: 70px 90px 80px
+    box-shadow: 10px 0 60px rgba(175, 175, 175, 0.1)
+    +mod
+        +gapLR(padding, 20px)
+.event-item-three
+    padding: 30px
+    display: flex
+    position: relative
+    margin-bottom: 30px
+    align-items: center
+    border: 1px solid $border-color
+    +msd
+        display: block
+    +xsd
+        +gapLR(padding, 15px)
+    .image
+        flex: none
+        max-width: 150px
+        margin-right: 22px
+        position: relative
+        +msd
+            margin-bottom: 20px
+        .date
+            right: 0
+            bottom: 0
+            color: white
+            font-size: 18px
+            font-weight: 700
+            position: absolute
+            padding: 20px 1px 10px
+            height: calc(100% + 15px)
+            background: $secondary-color
+            -webkit-writing-mode: vertical-lr
+            clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0, 50% 10px)
+    .content
+        .location
+            display: block
+            margin-top: -5px
+            margin-bottom: 5px
+            i
+                margin-right: 5px
+                color: $secondary-color
+        h4
+            margin-bottom: 0
+            +smd
+                font-size: 18px
+    .details-link
+        position: absolute
+        top: -1px
+        right: -1px
+        +size(45px)
+        line-height: 45px
+        text-align: center
+        color: $heading-color
+        background: $yellow-color

@@ -1,0 +1,72 @@
+/*******************************************************/
+/***************** 25. Gallery Section *****************/
+/*******************************************************/
+.gallery-filter
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    border-bottom: 2px solid $border-color
+    li
+        color: #979797
+        cursor: pointer
+        font-size: 18px
+        font-weight: 700
+        transition: 0.5s
+        margin-top: 10px
+        +gapLR(margin, 15px)
+        margin-bottom: -3px
+        padding: 0 10px 25px
+        font-family: $heading-font
+        border-bottom: 4px solid transparent
+        +tbd
+            +gapLR(margin, 5px)
+        +mod
+            font-size: 16px
+            padding-bottom: 10px
+            +gapLR(padding, 5px)
+        +smd
+            font-size: 14px
+        &:hover,
+        &.current
+            color: $heading-color
+        &.current
+            border-color: $primary-color
+.gallery-item
+    text-align: center
+    margin-bottom: 30px
+    .gallery-image
+        position: relative
+        &:before
+            position: absolute
+            content: ''
+            +size(100%)
+            left: 0
+            top: 0
+            opacity: 0
+            transition: 0.5s
+            background: $secondary-color
+        img
+            width: 100%
+        a
+            top: 50%
+            left: 50%
+            z-index: 2
+            opacity: 0
+            color: white
+            font-size: 20px
+            position: absolute
+            +circle($primary-color, 85px)
+            transform: translate(-50%, -50%)
+    .gallery-content
+        padding: 25px
+        box-shadow: 10px 0 60px rgba(139, 139, 139, 0.1)
+        h4
+            margin-bottom: 0
+        span
+            font-weight: 600
+    &:hover
+        .gallery-image
+            &:before
+                opacity: 0.9
+            a
+                opacity: 1

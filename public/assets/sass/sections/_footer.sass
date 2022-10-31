@@ -1,0 +1,173 @@
+/*******************************************************/
+/******************* 33. Main Footer *******************/
+/*******************************************************/
+.footer-title
+    margin-bottom: 25px
+            
+.footer-widget
+    margin-bottom: 50px
+    p
+        color: #d8d8d8
+        
+.menu-widget
+    ul
+        li
+            text-transform: capitalize
+            a
+                color: #d8d8d8
+                position: relative
+                padding-left: 20px
+                &:before
+                    position: absolute
+                    content: ''
+                    +size(5px)
+                    left: 0
+                    top: 8px
+                    transition: 0.5s
+                    border-radius: 50%
+                    background: #d8d8d8
+                &:hover
+                    color: white
+                    &:before
+                        background: white
+                
+            &:not(:last-child)
+                margin-bottom: 10px
+            
+.contact-info-widget
+    ul
+        li
+            display: flex
+            &:not(:last-child)
+                margin-bottom: 10px
+            i
+                flex: none
+                width: 28px
+                font-size: 18px
+                margin-top: 6px
+                margin-right: 5px
+                color: $primary-color
+                
+.video-widget
+    max-width: 300px
+    img
+        width: 100%
+        border-radius: 8px
+    .video-play
+        +size(45px)
+        font-size: 14px
+        line-height: 45px
+        i
+            padding-left: 3px
+            color: $primary-color
+    
+.copyright-area
+    margin-top: 25px
+.copyright-inner
+    flex-wrap: wrap
+    padding-top: 20px
+    padding-bottom: 10px
+    +flexcenter(space-between)
+    p
+        margin-right: 25px
+        margin-bottom: 6px
+        a
+            text-transform: uppercase
+    .footer-menu
+        display: flex
+        flex-wrap: wrap
+        text-transform: capitalize
+        li
+            line-height: 1
+            margin-bottom: 8px
+            a
+                color: #d8d8d8
+                &:hover
+                    color: white
+                    text-decoration: underline
+            &:not(:last-child)
+                margin-right: 25px
+            
+/* Newsletter */
+.footer-newsletter
+    margin-top: 300px
+    margin-bottom: -300px
+    transform: translateY(-300px)
+    .newsletter-video
+        height: 100%
+        margin-right: 0
+        min-height: 400px
+        border-radius: 10px 0 0 10px
+        +tbd
+            border-radius: 10px 10px 0 0
+    .newsletter-content
+        margin: 0
+        margin-left: -30px
+        padding: 60px 60px 70px
+        +tbd
+            margin-left: 0
+        +smd
+            +gapLR(padding, 25px)
+        +xsd
+            +gapLR(padding, 20px)
+    .newsletter-email
+        margin-left: 0
+        padding: 15px
+        label
+            top: 38px
+            left: 40px
+        input
+            padding-left: 50px
+    .theme-btn
+        flex: none
+        +gapLR(padding, 20px)
+        
+/* Gallery Widget */
+.gallery-widget
+    +xld
+        margin-left: -55px
+.gallery-widget-wrap
+    display: flex
+    flex-wrap: wrap
+    margin-right: -10px
+    margin-bottom: -10px
+    .gallery-widget-item
+        position: relative
+        margin: 0 10px 10px 0
+        max-width: calc(33.333% - 10px)
+        a
+            +size(100%)
+            opacity: 0
+            left: 0
+            top: 0
+            color: white
+            position: absolute
+            +flexcenter(center)
+            background: transparentize($secondary-color, 0.5)
+        &:hover
+            a
+                opacity: 1
+        
+/* Scroll To Top */
+.bg-black
+    .scroll-top
+        border-color: #141517
+        background: $yellow-color
+        span
+            color: #141517
+    .contact-info-widget ul li
+        a
+            &:hover
+                color: $secondary-color
+        i
+            color: $yellow-color
+            
+/* Footer Two */
+.footer-two
+    background: #1e2845
+    .logo-inner
+        border-bottom: 1px solid #353e58
+    .copyright-inner
+        border-top: 1px solid #353e58
+    .scroll-top
+        border-color: $primary-color
