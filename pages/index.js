@@ -23,7 +23,7 @@ const Index = () => {
 							<div className="col-lg-7">
 								<div className="hero-content rpt-25 rmb-75">
 									<span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s">
-										Courses start at £32/m!
+										Courses start at £43/m
 									</span>
 									<h1 className="mb-20 wow fadeInUp delay-0-4s">Web Development Bootcamp</h1>
 									<p className="wow fadeInUp delay-0-6s">
@@ -117,7 +117,7 @@ const Index = () => {
 										</h4>
 										<div className="ratting-price">
 											<span className="price">130</span>
-											<span style={{ fontSize: '18px' }}>or £32/m - 4 months</span>
+											<span style={{ fontSize: '18px' }}>or £43/m - 3 months</span>
 										</div>
 										<ul className="coach-footer">
 											<li>
@@ -161,7 +161,7 @@ const Index = () => {
 										</h4>
 										<div className="ratting-price">
 											<span className="price">130</span>
-											<span style={{ fontSize: '18px' }}>or £32/m 4 months</span>
+											<span style={{ fontSize: '18px' }}>or £43/m 3 months</span>
 										</div>
 										<ul className="coach-footer">
 											<li>

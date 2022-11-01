@@ -43,7 +43,7 @@ const Index1Isotope = () => {
 								</h4>
 								<div className="ratting-price">
 									<span className="price">130</span>
-									<span style={{ fontSize: '18px' }}>or £32/m - 4 months</span>
+									<span style={{ fontSize: '18px' }}>or £43/m - 3 months</span>
 								</div>
 								<ul className="coach-footer">
 									<li>
@@ -90,7 +90,7 @@ const Index1Isotope = () => {
 								</h4>
 								<div className="ratting-price">
 									<span className="price">130</span>
-									<span style={{ fontSize: '18px' }}>or £32/m 4 months</span>
+									<span style={{ fontSize: '18px' }}>or 43/m 3 months</span>
 								</div>
 								<ul className="coach-footer">
 									<li>
