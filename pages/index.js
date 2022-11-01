@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
 import Slider from 'react-slick';
+
 import { Accordion, Nav, Tab } from 'react-bootstrap';
 import Index1WorkStepSlider from '../src/components/slider/Index1WorkStepSlider';
 import { index1EventWrap, index1Testimonial } from '../src/sliderProps';
@@ -195,191 +196,16 @@ const Index = () => {
 						</div>
 					</div>
 				</section>
-
-				<section className="features-section-three rel z-1 pt-110 rpt-85 pb-100 rpb-70">
-					<div className="container">
-						<section className="faqs-section pt-20 rpt-90 pb-10 rpb-85 wow fadeInUp delay-0-2s">
-							<div id="learning" className="container">
-								<div className="section-title mb-35">
-									<h3>What our Web Development Bootcamp Looks Like</h3>
-									<span className="sub-title-two">Check out our curriculum week after week.</span>
-								</div>
-								<Tab.Container defaultActiveKey={'tabContent1'}>
-									<Nav className="nav faqs-tab mb-40">
-										<li>
-											<Nav.Link eventKey={'tabContent1'} href="#tabContent1">
-												Week 1-3
-											</Nav.Link>
-										</li>
-										<li>
-											<Nav.Link eventKey={'tabContent2'} href="#tabContent2">
-												Week 4-6
-											</Nav.Link>
-										</li>
-										<li>
-											<Nav.Link eventKey={'tabContent3'} href="#tabContent3">
-												Week 7-9
-											</Nav.Link>
-										</li>
-										<li>
-											<Nav.Link eventKey={'tabContent4'} href="#tabContent4">
-												Week 10-12
-											</Nav.Link>
-										</li>
-										<li>
-											<Nav.Link eventKey={'tabContent5'} href="#tabContent5">
-												Week 13
-											</Nav.Link>
-										</li>
-									</Nav>
-									<Tab.Content className="tab-content faq-accordion">
-										<Tab.Pane className="tab-pane fade" eventKey="tabContent1">
-											<Accordion defaultActiveKey="a1">
-												<div className="container">
-													<div className="feature-three-item wow fadeInUp delay-0-2s">
-														<h4>Foundations: Web Basics</h4>
-														<div className="d-flex my-2">
-															<img
-																className="tech-icon m-1"
-																src="assets/images/logos/html.png"
-															/>
-															<img
-																className="tech-icon m-1"
-																src="assets/images/logos/css.png"
-															/>
-															<img
-																className="tech-icon m-1"
-																src="assets/images/logos/bootstrap.png"
-															/>
-														</div>
-														<ul className="course-info-list">
-															<li>How the Web Works</li>
-															<li>HTML & CSS, Bootstrap 4.0</li>
-															<li>CSS layouts with flexbox and</li>
-															<li>code your first multi-page website </li>
-														</ul>
-													</div>
-												</div>
-											</Accordion>
-										</Tab.Pane>
-										<Tab.Pane className="tab-pane fade" eventKey="tabContent2">
-											<Accordion defaultActiveKey="a1">
-												<div className="container">
-													<div className="feature-three-item ">
-														<h4>Front-end Development</h4>
-														<div className="d-flex my-2">
-															<img
-																className="tech-icon m-2"
-																src="assets/images/logos/js.png"
-															/>
-															<img
-																className="tech-icon m-2"
-																src="assets/images/logos/github.png"
-															/>
-															<img
-																className="tech-icon m-2"
-																src="assets/images/logos/terminal.png"
-															/>
-														</div>
-														<ul className="course-info-list">
-															<li>
-																Programming basics (variable, loops, functions, data
-																structure){' '}
-															</li>
-															<li>Terminal & Github</li>
-															<li>Read / write from files (CSV, JSON, etc.)</li>
-															<li>DOM manipulation</li>
-															<li>
-																Build and deploy a quiz game that you can share with
-																your friends
-															</li>
-														</ul>
-													</div>
-												</div>
-											</Accordion>
-										</Tab.Pane>
-										<Tab.Pane className="tab-pane" eventKey="tabContent3">
-											<Accordion defaultActiveKey="a1">
-												<div className="container">
-													<div className="feature-three-item">
-														<h4>Databases & More JavaScript</h4>
-														<div className="d-flex my-2">
-															<img
-																className="tech-icon m-2"
-																src="assets/images/logos/database.png"
-															/>
-															<img
-																className="tech-icon m-2"
-																src="assets/images/logos/js.png"
-															/>
-														</div>
-														<p>
-															Learn by doing, we’ll buld multiple JavaScript projects
-															using ReactJs and SQL.You will be building CRUD apps
-															(Create, Read, Update, Delete) Using the relational
-															database, SQL, to store and exract data.
-														</p>
-														<ul className="course-info-list">
-															<li>
-																Master JavaScript to add dynamic behaviors to your
-																website.
-															</li>
-
-															<li>DOM manipulation</li>
-															<li>
-																Learn to connect your database to your software with an
-																ORM (Object Relational Mapping).
-															</li>
-														</ul>
-													</div>
-												</div>
-											</Accordion>
-										</Tab.Pane>
-										<Tab.Pane className="tab-pane" eventKey="tabContent4">
-											<Accordion defaultActiveKey="a1">
-												<div className="container">
-													<div className="feature-three-item">
-														<h4>Projects & Testing</h4>
-														<ul className="course-info-list">
-															<li>
-																Using what we covered, we’ll build 2 projects for your
-																portfolios
-															</li>
-															<li>
-																Test your applications using TDD (Test Driven
-																Development) with Jest. This is key for interviews!{' '}
-															</li>
-														</ul>
-													</div>
-												</div>
-											</Accordion>
-										</Tab.Pane>
-
-										<Tab.Pane className="tab-pane " eventKey="tabContent5">
-											<Accordion defaultActiveKey="a1">
-												<div className="container">
-													<div className="feature-three-item">
-														<h4>Porfolio week </h4>
-														<ul className="course-info-list">
-															<li>
-																Introduction to GatsbyJS, a JavaScript framework &
-																Static Site Generator
-															</li>
-															<li>
-																Build and customize your own portfolio to host your
-																projects using GatsbyJS & Netlify
-															</li>
-														</ul>
-													</div>
-												</div>
-											</Accordion>
-										</Tab.Pane>
-									</Tab.Content>
-								</Tab.Container>
-							</div>
-						</section>
+				<div className="text-center">
+					<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+						<Link href="#courses-group">
+							<a className="theme-btn">
+								View Curriculum
+								<i className="fas fa-arrow-right" />
+							</a>
+						</Link>
 					</div>
-				</section>
+				</div>
 				<section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
 					<div className="container">
 						<div className="row justify-content-between align-items-center">
@@ -396,7 +222,7 @@ const Index = () => {
 										<li>Lifetime Access to Pivot2Techs resources </li>
 										<li>CV and Job Application support</li>
 									</ul>
-									<a href="#course-group">
+									<a href="#courses-group">
 										<div className="theme-btn style-four">
 											See Courses <i className="fas fa-arrow-right" />
 										</div>
@@ -415,83 +241,57 @@ const Index = () => {
 						</div>
 					</div>
 				</section>
-
+				<div className="section-title text-center">
+					<span className="sub-title mb-15">Testimonials</span>
+					<h2>What Our Students Say</h2>
+				</div>
 				<section className="testimonials-section bg-white rel z-1 py-100 rpy-100">
 					<div className="container">
 						<div className="row align-items-center justify-content-between">
-							<div className="col-lg-5">
-								<div className="testimonial-left-content rmb-65 wow fadeInLeft delay-0-2s">
-									<div className="section-title">
-										<span className="sub-title mb-15">Testimonials</span>
-										<h2>What Our Students Say</h2>
+							<div className="col-lg-6">
+								<div className="testimonial-item">
+									<div className="testimonial-content">
+										<div className="designation">
+											<h4>Ayaan Qaasim</h4>
+											<span>Fullstack Web Development</span>
+										</div>
+										<p className="testimonial-p">
+											For someone from a completely different industry, Abdulkadir has been really
+											patient and thorough in his explaining to make sure no students fall behind,
+											a terrific course 10/10 would recommend.
+										</p>
+										<div className="ratting">
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+										</div>
 									</div>
 								</div>
 							</div>
+
 							<div className="col-lg-6">
-								<Slider {...index1Testimonial} className=" ">
-									<div className="testimonial-item">
-										<div className="testimonial-content">
-											<div className="designation">
-												<h4>Ayaan Qaasim</h4>
-												<span>Fullstack Web Development</span>
-											</div>
-											<p className="testimonial-p">
-												For someone from a completely different industry, Abdulkadir has been
-												really patient and thorough in his explaining to make sure no students
-												fall behind, a terrific course 10/10 would recommend.
-											</p>
-											<div className="ratting">
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-											</div>
+								<div className="testimonial-item">
+									<div className="testimonial-content">
+										<div className="designation">
+											<h4>Guled Muse</h4>
+											<span>Fullstack Web Development</span>
+										</div>
+										<p className="testimonial-p">
+											I feel as though I am being taken serious. Abdul is giving me a hand with CV
+											tips along with getting me interview ready discussing possible questions as
+											well as practice interviews to prepare me.
+										</p>
+										<div className="ratting">
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
+											<i className="fas fa-star" />
 										</div>
 									</div>
-									<div className="testimonial-item">
-										<div className="testimonial-content">
-											<div className="designation">
-												<h4>Mohammud Jama</h4>
-												<span>Fullstack Web Development</span>
-											</div>
-											<p stlye={{ maxWidth: '300px' }}>
-												I have had the pleasure of having Abdul as my teacher. I found the
-												course extremely fun and engaging with practical projects throughout my
-												learning process it has taught me to apply my understanding and
-												knowledge.
-											</p>
-											<div className="ratting">
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-											</div>
-										</div>
-									</div>
-									<div className="testimonial-item">
-										<div className="testimonial-content">
-											<div className="designation">
-												<h4>Yasin Hassan</h4>
-												<span>Mentorship Programme</span>
-											</div>
-											<p stlye={{ maxWidth: '300px' }}>
-												Abdulkadir has been an amazing mentor providing me with CV checks &
-												assessment centre practice. With his dedication and support I have
-												managed to land my first role as a Software Engineer, I highly recommend
-												the mentorship scheme he is offering.
-											</p>
-											<div className="ratting">
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-												<i className="fas fa-star" />
-											</div>
-										</div>
-									</div>
-								</Slider>
+								</div>
 							</div>
 						</div>
 					</div>
