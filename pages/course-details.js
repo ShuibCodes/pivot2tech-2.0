@@ -69,6 +69,14 @@ const CourseDetails = () => {
 										</ul>
 									</WellernAccordion>
 								</Accordion>
+								<div className="py-20">
+									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+										<button className="theme-btn">
+											Book your seat
+											<i className="fas fa-arrow-right" />
+										</button>
+									</a>
+								</div>
 								<h3>Instructors</h3>
 								<div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
 									<div className="row align-items-center">
@@ -134,23 +142,12 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<Link href="/contact">
-									<button
-										onClick={() => {
-											checkout({
-												lineItems: [
-													{
-														price: 'price_1LyxncB4LR0nzv0DLbhQ5Ojh',
-														quantity: 1,
-													},
-												],
-											});
-										}}
-										className="theme-btn"
-									>
-										Apply Now <i className="fas fa-arrow-right" />
+								<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+									<button className="theme-btn">
+										Book your seat
+										<i className="fas fa-arrow-right" />
 									</button>
-								</Link>
+								</a>
 							</div>
 						</div>
 					</div>

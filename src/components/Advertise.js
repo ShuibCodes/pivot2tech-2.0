@@ -12,9 +12,9 @@ const Advertise = () => {
 						<p style={{ fontWeight: 'bold' }}>
 							{' '}
 							<i style={{ padding: '0px 10px' }} className="far fa-user" />
-							Limited Spaces - secure your spot
+							Only 40 Spaces - secure your spot
 						</p>
-						<Link href="/contact">
+						<Link href="/course-details">
 							<a className="theme-btn">
 								Book a seat
 								<i className="fas fa-arrow-right" />

@@ -13,9 +13,9 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<Fragment>
 			<Head>
-				<title>Wellearn - Education &amp; LMS React NextJS Template || Home</title>
+				<title>Pivot2Tech Bootcamp </title>
 				{/*====== Favicon Icon ======*/}
-				<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+				<link rel="shortcut icon" href="assets/images/favicon-new.ico" type="image/x-icon" />
 				{/*====== Google Fonts ======*/}
 				<link
 					href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"

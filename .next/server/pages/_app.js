@@ -1,116 +1,68 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 8016:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    const { 0: loading , 1: setLoading  } = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoading(false);\n        }, 1000);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Pivot2Tech Bootcamp \"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 16,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"assets/images/favicon-new.ico\",\n                        type: \"image/x-icon\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 18,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 20,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/flaticon.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 25,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/font-awesome-5.9.0.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 27,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/bootstrap-4.5.3.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 29,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/magnific-popup.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 31,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/nice-select.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 33,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/jquery-ui.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 35,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/animate.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 37,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/slick.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 39,\n                        columnNumber: 5\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/style.css\"\n                    }, void 0, false, {\n                        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                        lineNumber: 41,\n                        columnNumber: 5\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                lineNumber: 15,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n                lineNumber: 44,\n                columnNumber: 4\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/shuibabdillahi/Desktop/New Bootcamp Site/React Template/pages/_app.js\",\n        lineNumber: 14,\n        columnNumber: 3\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBO0FBQTZCO0FBQ3lCO0FBQ3ZCO0FBRS9CLFNBQVNJLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBRSxFQUFFO0lBQ3hDLE1BQU0sS0FBQ0MsT0FBTyxNQUFFQyxVQUFVLE1BQUlMLCtDQUFRLENBQUMsSUFBSSxDQUFDO0lBQzVDRCxnREFBUyxDQUFDLElBQU07UUFDZk8sVUFBVSxDQUFDLElBQU07WUFDaEJELFVBQVUsQ0FBQyxLQUFLLENBQUMsQ0FBQztTQUNsQixFQUFFLElBQUksQ0FBQyxDQUFDO0tBQ1QsRUFBRSxFQUFFLENBQUMsQ0FBQztJQUVQLHFCQUNDLDhEQUFDUCwyQ0FBUTs7MEJBQ1IsOERBQUNELGtEQUFJOztrQ0FDSiw4REFBQ1UsT0FBSztrQ0FBQyxzQkFBb0I7Ozs7OzRCQUFRO2tDQUVuQyw4REFBQ0MsTUFBSTt3QkFBQ0MsR0FBRyxFQUFDLGVBQWU7d0JBQUNDLElBQUksRUFBQywrQkFBK0I7d0JBQUNDLElBQUksRUFBQyxjQUFjOzs7Ozs0QkFBRztrQ0FFckYsOERBQUNILE1BQUk7d0JBQ0pFLElBQUksRUFBQywwSEFBMEg7d0JBQy9IRCxHQUFHLEVBQUMsWUFBWTs7Ozs7NEJBQ2Y7a0NBRUYsOERBQUNELE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsNkJBQTZCOzs7Ozs0QkFBRztrQ0FFNUQsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsdUNBQXVDOzs7Ozs0QkFBRztrQ0FFdEUsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsb0NBQW9DOzs7Ozs0QkFBRztrQ0FFbkUsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsbUNBQW1DOzs7Ozs0QkFBRztrQ0FFbEUsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsZ0NBQWdDOzs7Ozs0QkFBRztrQ0FFL0QsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsOEJBQThCOzs7Ozs0QkFBRztrQ0FFN0QsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsNEJBQTRCOzs7Ozs0QkFBRztrQ0FFM0QsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsMEJBQTBCOzs7Ozs0QkFBRztrQ0FFekQsOERBQUNGLE1BQUk7d0JBQUNDLEdBQUcsRUFBQyxZQUFZO3dCQUFDQyxJQUFJLEVBQUMsc0JBQXNCOzs7Ozs0QkFBRzs7Ozs7O29CQUMvQzswQkFFUCw4REFBQ1IsU0FBUztnQkFBRSxHQUFHQyxTQUFTOzs7OztvQkFBSTs7Ozs7O1lBQ2xCLENBQ1Y7Q0FDRjtBQUVELGlFQUFlRixLQUFLLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWxsZXJuLXJlYWN0Ly4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmltcG9ydCB7IEZyYWdtZW50LCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcyc7XHJcblxyXG5mdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcclxuXHRjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZSh0cnVlKTtcclxuXHR1c2VFZmZlY3QoKCkgPT4ge1xyXG5cdFx0c2V0VGltZW91dCgoKSA9PiB7XHJcblx0XHRcdHNldExvYWRpbmcoZmFsc2UpO1xyXG5cdFx0fSwgMTAwMCk7XHJcblx0fSwgW10pO1xyXG5cclxuXHRyZXR1cm4gKFxyXG5cdFx0PEZyYWdtZW50PlxyXG5cdFx0XHQ8SGVhZD5cclxuXHRcdFx0XHQ8dGl0bGU+UGl2b3QyVGVjaCBCb290Y2FtcCA8L3RpdGxlPlxyXG5cdFx0XHRcdHsvKj09PT09PSBGYXZpY29uIEljb24gPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic2hvcnRjdXQgaWNvblwiIGhyZWY9XCJhc3NldHMvaW1hZ2VzL2Zhdmljb24tbmV3Lmljb1wiIHR5cGU9XCJpbWFnZS94LWljb25cIiAvPlxyXG5cdFx0XHRcdHsvKj09PT09PSBHb29nbGUgRm9udHMgPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmtcclxuXHRcdFx0XHRcdGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU11bGlzaDp3Z2h0QDQwMDs1MDA7NjAwOzcwMCZmYW1pbHk9T3N3YWxkOndnaHRAMzAwOzQwMDs1MDA7NjAwOzcwMCZkaXNwbGF5PXN3YXBcIlxyXG5cdFx0XHRcdFx0cmVsPVwic3R5bGVzaGVldFwiXHJcblx0XHRcdFx0Lz5cclxuXHRcdFx0XHR7Lyo9PT09PT0gRmxhdGljb24gPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL2ZsYXRpY29uLm1pbi5jc3NcIiAvPlxyXG5cdFx0XHRcdHsvKj09PT09PSBGb250IEF3ZXNvbWUgPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL2ZvbnQtYXdlc29tZS01LjkuMC5taW4uY3NzXCIgLz5cclxuXHRcdFx0XHR7Lyo9PT09PT0gQm9vdHN0cmFwID09PT09PSovfVxyXG5cdFx0XHRcdDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL2Nzcy9ib290c3RyYXAtNC41LjMubWluLmNzc1wiIC8+XHJcblx0XHRcdFx0ey8qPT09PT09IE1hZ25pZmljIFBvcHVwID09PT09PSovfVxyXG5cdFx0XHRcdDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL2Nzcy9tYWduaWZpYy1wb3B1cC5taW4uY3NzXCIgLz5cclxuXHRcdFx0XHR7Lyo9PT09PT0gTmljZSBTZWxlY3QgPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL25pY2Utc2VsZWN0Lm1pbi5jc3NcIiAvPlxyXG5cdFx0XHRcdHsvKj09PT09PSBqUXVlcnkgVUkgPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL2pxdWVyeS11aS5taW4uY3NzXCIgLz5cclxuXHRcdFx0XHR7Lyo9PT09PT0gQW5pbWF0ZSA9PT09PT0qL31cclxuXHRcdFx0XHQ8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImFzc2V0cy9jc3MvYW5pbWF0ZS5taW4uY3NzXCIgLz5cclxuXHRcdFx0XHR7Lyo9PT09PT0gU2xpY2sgPT09PT09Ki99XHJcblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJhc3NldHMvY3NzL3NsaWNrLm1pbi5jc3NcIiAvPlxyXG5cdFx0XHRcdHsvKj09PT09PSBNYWluIFN0eWxlID09PT09PSovfVxyXG5cdFx0XHRcdDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL2Nzcy9zdHlsZS5jc3NcIiAvPlxyXG5cdFx0XHQ8L0hlYWQ+XHJcblxyXG5cdFx0XHQ8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcblx0XHQ8L0ZyYWdtZW50PlxyXG5cdCk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IE15QXBwO1xyXG4iXSwibmFtZXMiOlsiSGVhZCIsIkZyYWdtZW50IiwidXNlRWZmZWN0IiwidXNlU3RhdGUiLCJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsImxvYWRpbmciLCJzZXRMb2FkaW5nIiwic2V0VGltZW91dCIsInRpdGxlIiwibGluayIsInJlbCIsImhyZWYiLCJ0eXBlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./pages/_app.js
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-
-
-
-function MyApp({ Component , pageProps  }) {
-    const { 0: loading , 1: setLoading  } = (0,external_react_.useState)(true);
-    (0,external_react_.useEffect)(()=>{
-        setTimeout(()=>{
-            setLoading(false);
-        }, 1000);
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Wellearn - Education & LMS React NextJS Template || Home"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "shortcut icon",
-                        href: "assets/images/favicon.png",
-                        type: "image/x-icon"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        href: "https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/flaticon.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/font-awesome-5.9.0.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/bootstrap-4.5.3.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/magnific-popup.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/nice-select.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/jquery-ui.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/animate.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/slick.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/style.css"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        ]
-    });
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -121,7 +73,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(8016));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

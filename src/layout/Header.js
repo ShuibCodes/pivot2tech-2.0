@@ -31,11 +31,11 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				<div className="header-upper">
 					<div className="container-fluid clearfix">
 						<div className="header-inner d-flex align-items-center justify-content-between">
-							<div className="logo-outer d-lg-flex align-items-center">
+							<div className="d-lg-flex align-items-center">
 								<div className="logo">
 									<Link href="/">
 										<a>
-											<img src="assets/images/logos/logo.png" alt="Logo" title="Logo" />
+											<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
 										</a>
 									</Link>
 								</div>
@@ -47,7 +47,11 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 										<div className="mobile-logo bg-green br-10 p-15">
 											<Link href="/">
 												<a>
-													<img src="assets/images/logos/logo.png" alt="Logo" title="Logo" />
+													<img
+														src="assets/images/bootcamp-logo.png"
+														alt="Logo"
+														title="Logo"
+													/>
 												</a>
 											</Link>
 										</div>

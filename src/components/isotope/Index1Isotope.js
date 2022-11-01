@@ -78,7 +78,10 @@ const Index1Isotope = () => {
 								<Link href="/course-grid">
 									<a className="category">13 Weeks</a>
 								</Link>
-								<img src="assets/images/coachs/coach6.jpg" alt="Coach" />
+								<img
+									src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+									alt="Coach"
+								/>
 							</div>
 							<div className="coach-content">
 								<span className="label">Online Lessons</span>
@@ -98,7 +101,7 @@ const Index1Isotope = () => {
 										</p>
 									</li>
 								</ul>
-								<Link href="/course-details">
+								<Link href="/course-details-freelance">
 									<a
 										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 										className="theme-btn"

@@ -18,4 +18,22 @@ export async function checkout({ lineItems }) {
 		successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
 		cancelUrl: window.location.origin,
 	});
+
+	const paymentIntent = await stripe.paymentIntents.create({
+		// Make sure the total amount fits within Afterpay transaction amount limits:
+		// https://stripe.com/docs/payments/afterpay-clearpay#collection-schedule
+		amount: 1000,
+		currency: 'gbp',
+		payment_method_types: ['afterpay_clearpay'],
+		shipping: {
+			name: 'Jenny Rosen',
+			address: {
+				line1: '1234 Main Street',
+				city: 'San Francisco',
+				state: 'CA',
+				country: 'US',
+				postal_code: '94111',
+			},
+		},
+	});
 }

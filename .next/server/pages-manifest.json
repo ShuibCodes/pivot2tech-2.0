@@ -1,16 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/404": "pages/404.html",
-  "/blog-details": "pages/blog-details.html",
-  "/api/hello": "pages/api/hello.js",
-  "/blog": "pages/blog.html",
-  "/contact": "pages/contact.html",
-  "/course-details": "pages/course-details.html",
-  "/cart": "pages/cart.html",
-  "/checkout": "pages/checkout.html",
-  "/course-list": "pages/course-list.html",
-  "/faqs": "pages/faqs.html",
-  "/": "pages/index.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/course-details": "pages/course-details.js"
 }
