@@ -42,7 +42,7 @@ const Index = () => {
 										</div>
 										<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
 											<a
-												href="#learning"
+												href="/curriculum"
 												style={{ backgroundColor: '#1F4ECE' }}
 												className="theme-btn"
 											>
@@ -198,7 +198,7 @@ const Index = () => {
 				</section>
 				<div className="text-center">
 					<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-						<Link href="#courses-group">
+						<Link href="/curriculum">
 							<a className="theme-btn">
 								View Curriculum
 								<i className="fas fa-arrow-right" />
