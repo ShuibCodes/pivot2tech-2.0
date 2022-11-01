@@ -29,9 +29,23 @@ const MobileHeader = () => {
 					<span className="fas fa-chevron-down" />
 				</div>
 			</li>
-
-			<li>
-				<a href="/blog-details">Blog</a>
+			<li className="dropdown">
+				<a href="#">pages</a>
+				<ul style={activeLi('Pages')}>
+					<Pages />
+				</ul>
+				<div className="dropdown-btn" onClick={() => activeMenuSet('Pages')}>
+					<span className="fas fa-chevron-down" />
+				</div>
+			</li>
+			<li className="dropdown">
+				<a href="#">blog</a>
+				<ul style={activeLi('Blog')}>
+					<Blog />
+				</ul>
+				<div className="dropdown-btn" onClick={() => activeMenuSet('Blog')}>
+					<span className="fas fa-chevron-down" />
+				</div>
 			</li>
 		</ul>
 	);

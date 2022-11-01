@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 import { Accordion, Nav, Tab } from 'react-bootstrap';
 import PageBanner from '../src/components/PageBanner';
 import WellernAccordion from '../src/components/WellernAccordion';
@@ -70,6 +71,16 @@ const Faqs = () => {
 														<li>code your first multi-page website </li>
 													</ul>
 												</div>
+												<div className="text-center">
+													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+															<a className="theme-btn">
+																Book your seat
+																<i className="fas fa-arrow-right" />
+															</a>
+														</a>
+													</div>
+												</div>
 											</div>
 										</Accordion>
 									</Tab.Pane>
@@ -105,6 +116,16 @@ const Faqs = () => {
 															friends
 														</li>
 													</ul>
+												</div>
+												<div className="text-center">
+													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+															<a className="theme-btn">
+																Book your seat
+																<i className="fas fa-arrow-right" />
+															</a>
+														</a>
+													</div>
 												</div>
 											</div>
 										</Accordion>
@@ -142,6 +163,16 @@ const Faqs = () => {
 														</li>
 													</ul>
 												</div>
+												<div className="text-center">
+													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+															<a className="theme-btn">
+																Book your seat
+																<i className="fas fa-arrow-right" />
+															</a>
+														</a>
+													</div>
+												</div>
 											</div>
 										</Accordion>
 									</Tab.Pane>
@@ -160,6 +191,16 @@ const Faqs = () => {
 															with Jest. This is key for interviews!{' '}
 														</li>
 													</ul>
+												</div>
+												<div className="text-center">
+													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+															<a className="theme-btn">
+																Book your seat
+																<i className="fas fa-arrow-right" />
+															</a>
+														</a>
+													</div>
 												</div>
 											</div>
 										</Accordion>
@@ -180,6 +221,16 @@ const Faqs = () => {
 															using GatsbyJS & Netlify
 														</li>
 													</ul>
+												</div>
+												<div className="text-center">
+													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+															<a className="theme-btn">
+																Book your seat
+																<i className="fas fa-arrow-right" />
+															</a>
+														</a>
+													</div>
 												</div>
 											</div>
 										</Accordion>

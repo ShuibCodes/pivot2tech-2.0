@@ -15,7 +15,7 @@ export const Courses = () => (
 			<Link href="/course-details">Web Development Bootcamp</Link>
 		</li>
 		<li>
-			<Link href="/course-details-freelance">Freelance Bootcamp</Link>
+			<Link href="/course-details">Freelance Bootcamp</Link>
 		</li>
 	</Fragment>
 );
@@ -25,7 +25,10 @@ export const Pages = () => <Fragment></Fragment>;
 export const Blog = () => (
 	<Fragment>
 		<li>
-			<Link href="/blog-details">Blog </Link>
+			<Link href="/blog">Blog Page</Link>
+		</li>
+		<li>
+			<Link href="/blog-details">Blog Details</Link>
 		</li>
 	</Fragment>
 );
