@@ -3818,6 +3818,7 @@ h6,
 		margin-bottom: -16px;
 	}
 }
+
 .main-header .nice-select {
 	height: auto;
 	border: none;
@@ -3861,6 +3862,9 @@ h6,
 .hero-btn-group {
 	display: flex;
 	gap: 20px;
+}
+.grab-course{
+	scroll-margin-top: 150px;
 }
 
 .main-header.fixed-header .navbar-collapse > ul > li {
@@ -3921,6 +3925,8 @@ h6,
 		-ms-flex-pack: center;
 		justify-content: center;
 	}
+
+	.
 }
 @media only screen and (max-width: 575px) {
 	.top-inner .top-left {
