@@ -33,7 +33,7 @@ const Index = () => {
 
 									<div className="hero-btn-group">
 										<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-											<Link href="#courses-group">
+											<Link href="/course-details">
 												<a className="theme-btn">
 													Grab your course
 													<i className="fas fa-arrow-right" />

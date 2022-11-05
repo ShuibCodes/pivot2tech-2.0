@@ -296,7 +296,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 								<nav className="main-menu navbar-expand-lg">
 									<div className="navbar-header">
 										<div className="mobile-logo bg-green br-10 p-15">
-											<Link href="/">
+											<a href="/">
 												<a>
 													<img
 														src="assets/images/bootcamp-logo.png"
@@ -304,7 +304,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 														title="Logo"
 													/>
 												</a>
-											</Link>
+											</a>
 										</div>
 										{/* Toggle Button */}
 										<button
