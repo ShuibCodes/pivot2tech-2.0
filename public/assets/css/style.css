@@ -3867,6 +3867,10 @@ h6,
 	scroll-margin-top: 150px;
 }
 
+.bold{
+	font-weight: 800;
+}
+
 .main-header.fixed-header .navbar-collapse > ul > li {
 	padding-top: 25px;
 	padding-bottom: 25px;

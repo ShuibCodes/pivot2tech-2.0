@@ -9,7 +9,7 @@ const MobileHeader = () => {
 	return (
 		<ul className="navigation clearfix d-block d-lg-none mobile-header">
 			<li className="dropdown current">
-				<a href="#">home</a>
+				<a href="/">home</a>
 				<ul style={activeLi('home')}>
 					<Home />
 				</ul>
