@@ -188,6 +188,49 @@ const Index = () => {
 									</div>
 								</div>
 							</div>
+							<div className="col-lg-4 col-md-6 item design technology">
+								<div className="coach-item wow fadeInUp delay-0-6s">
+									<div className="coach-image">
+										<img
+											src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
+											alt="freelance-bundle"
+										/>
+									</div>
+									<div className="coach-content">
+										<span className="label">Full Guide</span>
+										<h4>
+											<Link href="/course-details">Beginners Freelancing Guide</Link>
+										</h4>
+										<div className="ratting-price">
+											<span className="price">28</span>
+										</div>
+										<ul className="coach-footer">
+											<li>
+												<i className="far fa-file-alt" />
+												<span>How to find clients 💰</span>
+												<p>
+													{' '}
+													<i className="far fa-file-alt" />5 Website templates- (worth £160+)
+												</p>
+												<p>
+													{' '}
+													<i className="far fa-file-alt" />
+													Video guides to deploy no-code Websites
+												</p>
+											</li>
+										</ul>
+										<a target="_blank" href="https://pivot2tech.gumroad.com/l/zenfw">
+											<a
+												style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+												className="theme-btn"
+											>
+												Get yours
+												<i className="fas fa-arrow-right" />
+											</a>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -226,9 +269,9 @@ const Index = () => {
 										<li>Lifetime Access to Pivot2Techs resources </li>
 										<li>CV and Job Application support</li>
 									</ul>
-									<a href="#courses-group">
+									<a href="/course-details">
 										<div className="theme-btn style-four">
-											See Courses <i className="fas fa-arrow-right" />
+											Learn More <i className="fas fa-arrow-right" />
 										</div>
 									</a>
 								</div>

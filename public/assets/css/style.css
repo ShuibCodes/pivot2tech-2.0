@@ -3819,6 +3819,21 @@ h6,
 	}
 }
 
+@media only screen and (min-width: 1200px) {
+	.main-header .logo {
+		padding: 15px;
+		max-width: 17%;
+		margin-top: -16px;
+		margin-bottom: -16px;
+	}
+}
+.main-header .logo {
+	padding: 15px;
+	max-width: 17%;
+	margin-top: -16px;
+	margin-bottom: -16px;
+}
+
 .main-header .nice-select {
 	height: auto;
 	border: none;
