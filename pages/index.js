@@ -25,12 +25,18 @@ const Index = () => {
 									<span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s">
 										Courses start at £43/m
 									</span>
-									<h1 className="mb-20 wow fadeInUp delay-0-4s">Web Development Bootcamp</h1>
+									<h3 className="mb-20 wow fadeInUp delay-0-4s">
+										Launch your <span style={{ color: '#1F4ECE' }}>tech career,</span> join our
+										coding bootcamps
+									</h3>
+
 									<p className="wow fadeInUp delay-0-6s">
 										Change careers and start your journey as a web developer with our live online
 										courses. Learn the skills to freelance or a Job in tech!
 									</p>
-
+									<span style={{ marginTop: '10px', fontWeight: 'bold', fontSize: '18px' }}>
+										Latest student landed £35k role!
+									</span>
 									<div className="hero-btn-group">
 										<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
 											<Link href="/course-details">

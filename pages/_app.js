@@ -13,6 +13,21 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<Fragment>
 			<Head>
+				<Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=UA-207304431-1" />
+				<Script
+					id="google-analytics"
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-207304431-1', {
+            page_path: window.location.pathname,
+          });
+        `,
+					}}
+				/>
 				<title>Pivot2Tech Bootcamp </title>
 				{/*====== Favicon Icon ======*/}
 				<link rel="shortcut icon" href="assets/images/favicon-new.ico" type="image/x-icon" />
