@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Fragment, useEffect, useState } from 'react';
 import '../styles/globals.css';
+import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
 	const [loading, setLoading] = useState(true);
