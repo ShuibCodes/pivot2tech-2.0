@@ -240,6 +240,14 @@ const Index = () => {
 						</div>
 					</div>
 				</section>
+				<div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
+					<Link href="/contact">
+						<a className="theme-btn grab-course">
+							Question? - Contact us
+							<i className="fas fa-arrow-right" />
+						</a>
+					</Link>
+				</div>
 				{/* Coach Section End */}
 				{/* Work Process Section Start */}
 				<section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
