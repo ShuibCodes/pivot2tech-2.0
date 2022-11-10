@@ -10,7 +10,6 @@ const ContactUs = () => {
 			<section className="contact-form-area wow">
 				<div className="container">
 					<form
-						onSubmit={(e) => e.preventDefault()}
 						id="contact-form"
 						className="contact-form p-50 z-1 rel"
 						name="contact-form"
