@@ -106,6 +106,14 @@ const CourseDetails = () => {
 													<i className="fab fa-instagram" />
 												</a>
 											</div>
+											<div style={{ marginTop: '20px' }} className="text-center">
+												<h4>
+													£43/m for 3 months
+													<br />
+													click the Klarna option{' '}
+													<a href="https://buy.stripe.com/9AQdRL8Sl9sadXOeUV">here</a>
+												</h4>
+											</div>
 										</div>
 									</div>
 								</div>

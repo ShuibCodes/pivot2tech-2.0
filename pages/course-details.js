@@ -70,6 +70,14 @@ const CourseDetails = () => {
 									</WellernAccordion>
 								</Accordion>
 								<div className="py-20">
+									<div style={{ marginTop: '20px' }}>
+										<h5>
+											£43/m for 3 months
+											<br />
+											click the Klarna option{' '}
+											<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">here</a>
+										</h5>
+									</div>
 									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
 										<button className="theme-btn">
 											Book your seat
@@ -77,7 +85,7 @@ const CourseDetails = () => {
 										</button>
 									</a>
 								</div>
-								<h3>Instructors</h3>
+
 								<div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
 									<div className="row align-items-center">
 										<div className="col-sm-5">
@@ -103,6 +111,14 @@ const CourseDetails = () => {
 												<a href="https://linktr.ee/shuaybcodes">
 													<i className="fab fa-instagram" />
 												</a>
+											</div>
+											<div style={{ marginTop: '20px' }} className="text-center">
+												<h3>
+													£43/m for 3 months
+													<br />
+													click the Klarna option{' '}
+													<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">here</a>
+												</h3>
 											</div>
 										</div>
 									</div>

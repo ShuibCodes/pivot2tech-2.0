@@ -14,8 +14,8 @@ const ContactUs = () => {
 						id="contact-form"
 						className="contact-form p-50 z-1 rel"
 						name="contact-form"
-						action="#"
-						method="post"
+						action="https://getform.io/f/a5bd7840-377b-4857-934e-b058c13d4aad"
+						method="POST"
 					>
 						<div className="section-title text-center mb-50">
 							<span className="sub-title-two">Send Us Message</span>
