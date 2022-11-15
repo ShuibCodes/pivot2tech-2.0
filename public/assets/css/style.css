@@ -672,10 +672,10 @@ a.theme-btn.style-five:hover {
 	margin-bottom: 8px;
 }
 .list-style-four li:before {
-	content: '\f00c';
+	content: '✅';
 	margin-right: 10px;
-	color: #204ecf;
-	font-family: 'Font Awesome 5 Free';
+	
+	
 }
 
 /** Social Style One **/

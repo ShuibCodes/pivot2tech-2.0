@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Script from 'next/script';
 import dynamic from 'next/dynamic';
 import Slider from 'react-slick';
-
+import FAQs from '../src/components/FAQ';
 import { Accordion, Nav, Tab } from 'react-bootstrap';
 import Index1WorkStepSlider from '../src/components/slider/Index1WorkStepSlider';
 import { index1EventWrap, index1Testimonial } from '../src/sliderProps';
@@ -83,23 +83,14 @@ const Index = () => {
 						<h3 className="text-center cards-title-text ">
 							Build your dream career with our tech bootcamps
 						</h3>
-						<p className="text-center  cards-paragraph ">
-							Change careers and start your journey as a web developer with our live online courses. Learn
-							the skills to freelance or a Job in tech!
-						</p>
+						<p className="text-center  cards-paragraph "></p>
 						<div className="text-center" style={{ margin: '0 auto' }}>
-							<ul
-								style={{ display: 'flex', gap: '15px', fontSize: '12px', justifyContent: 'center' }}
-								className="list-style-four "
-							>
-								<li style={{ fontSize: '16px' }}>Live & recorded classes</li>
-								<li style={{ fontSize: '16px' }}>For complete beginners</li>
+							<ul style={{ fontSize: '22px' }} className="list-style-four">
+								<li style={{ fontSize: '22px' }}>Live & recorded classes</li>
+								<li style={{ fontSize: '22px' }}>For complete beginners</li>
 							</ul>
-							<ul
-								style={{ display: 'flex', gap: '15px', fontSize: '12px', justifyContent: 'center' }}
-								className="list-style-four  "
-							>
-								<li style={{ fontSize: '16px' }}> online suppport & community</li>
+							<ul style={{ fontSize: '22px' }} className="list-style-four">
+								<li style={{ fontSize: '22px' }}> online suppport & community</li>
 							</ul>
 						</div>
 					</div>
@@ -164,7 +155,7 @@ const Index = () => {
 										<div className="coach-content">
 											<span className="label">Online Lessons</span>
 											<h4>
-												<Link href="/course-details">Freelance Web Development</Link>
+												<Link href="/course-details-freelance">Freelance Web Development</Link>
 											</h4>
 											<div className="ratting-price">
 												<span className="bold" style={{ fontSize: '13px' }}>
@@ -227,29 +218,30 @@ const Index = () => {
 												</p>
 											</li>
 										</ul>
-										<a target="_blank" href="https://pivot2tech.gumroad.com/l/zenfw">
+										<Link href="/product-details">
 											<a
 												style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 												className="theme-btn"
 											>
-												Get yours
+												Learn More
 												<i className="fas fa-arrow-right" />
 											</a>
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
+				<FAQs />
+				{/* <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
 					<Link href="/contact">
 						<a className="theme-btn grab-course">
 							Question? - Contact us
 							<i className="fas fa-arrow-right" />
 						</a>
 					</Link>
-				</div>
+				</div> */}
 				{/* Coach Section End */}
 				{/* Work Process Section Start */}
 				<section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
