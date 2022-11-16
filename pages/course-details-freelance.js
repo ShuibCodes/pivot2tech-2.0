@@ -50,19 +50,19 @@ const CourseDetails = () => {
 												<span className="title">
 													Foundation: Web Development Basics & Freelance Intro
 												</span>{' '}
-												<span className="duration">Week 1-3</span>
+												<span className="duration"> Week 1-3</span>
 											</li>
 											<li>
 												<span className="title">More HTML & CSS</span>{' '}
-												<span className="duration">Week 4-6</span>
+												<span className="duration"> Week 4-6</span>
 											</li>
 											<li>
 												<span className="title">How to Find Clients</span>{' '}
-												<span className="duration">Week 7-9</span>
+												<span className="duration"> Week 7-9</span>
 											</li>
 											<li>
-												<span className="title">Low-code Web Development (Webflow)</span>
-												<span className="duration">Week 10-12</span>
+												<span className="title">Low-code Web Development with projects</span>
+												<span className="duration"> Week 10-12</span>
 											</li>
 											<li>
 												<span className="title">Shopify Web Development</span>

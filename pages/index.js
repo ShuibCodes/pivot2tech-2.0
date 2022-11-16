@@ -118,8 +118,8 @@ const Index = () => {
 													Tuesday & Saturdays 7-9pm
 												</span>
 											</div>
-											<p>
-												<strong>10 spaces left!</strong>
+											<p style={{ fontSize: '20px', color: 'blue' }}>
+												<strong> Last 7 spaces !</strong>
 											</p>
 											<ul className="coach-footer">
 												<li>
@@ -162,15 +162,15 @@ const Index = () => {
 													Thursday & Sundays 7-9pm
 												</span>
 											</div>
-											<p>
-												<strong>12 spaces left!</strong>
+											<p style={{ fontSize: '20px', color: 'blue' }}>
+												<strong>25 spaces</strong>
 											</p>
 											<ul className="coach-footer">
 												<li>
 													<span>
-														Our Freelance package gets you all inclusive experience on how
-														to self-market, attract clients. Alongside your 9-5 or as a
-														career in itself.
+														Learn Ecommerce & Low-code Web development. Learn how to attract
+														clients & earn a remote income alongside your 9-5 or as a career
+														in itself!
 													</span>
 												</li>
 											</ul>
