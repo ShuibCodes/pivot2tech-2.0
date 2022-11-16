@@ -101,7 +101,9 @@ const Index = () => {
 									<div id="what-learn" className="coach-item wow fadeInUp delay-0-4s">
 										<div className="coach-image">
 											<Link href="/course-grid">
-												<a className="category">13 Weeks</a>
+												<a style={{ fontSize: '11px' }} className="category">
+													13 Weeks
+												</a>
 											</Link>
 											<img
 												src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -121,13 +123,27 @@ const Index = () => {
 											<p style={{ fontSize: '20px', color: 'blue' }}>
 												<strong> Last 7 spaces !</strong>
 											</p>
-											<ul className="coach-footer">
+											<ul className="course-tags">
 												<li>
-													<span>
-														Learn skills to secure a £35k software developer role .- HTML,
-														CSS JavaScript, Node JS, testing- heavy emphasis on project
-														based learning!
-													</span>
+													{' '}
+													<span style={{ marginRight: '8px' }}>💻</span> 4 real-life projects
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>👨‍🏫</span>Homework and project
+													review
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>👨‍🔧👩‍🔧</span> Live chat support
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>📆</span> Weekly deadlines
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>∞ </span>Lifetime access
 												</li>
 											</ul>
 											<Link href="/course-details">
@@ -148,9 +164,11 @@ const Index = () => {
 									<div className="coach-item wow fadeInUp delay-0-6s">
 										<div className="coach-image">
 											<Link href="/course-grid">
-												<a className="category">13 Weeks</a>
+												<a style={{ fontSize: '11px' }} className="category">
+													13 Weeks
+												</a>
 											</Link>
-											<img src="assets/images/coachs/coach6.jpg" alt="Coach" />
+											<img src="assets/images/digital-nomad-3.jpg" alt="Coach" />
 										</div>
 										<div className="coach-content">
 											<span className="label">Online Lessons</span>
@@ -165,13 +183,30 @@ const Index = () => {
 											<p style={{ fontSize: '20px', color: 'blue' }}>
 												<strong>25 spaces</strong>
 											</p>
-											<ul className="coach-footer">
+											<ul className="course-tags">
 												<li>
-													<span>
-														Learn Ecommerce & Low-code Web development. Learn how to attract
-														clients & earn a remote income alongside your 9-5 or as a career
-														in itself!
-													</span>
+													{' '}
+													<span style={{ marginRight: '8px' }}> 💰💰</span>Earn extra £800/m
+													Freelancing part time
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}> 💻</span>Learn SEO & Low-code
+													Web Design
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>🛠</span> 5 Website templates
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}> 🧭</span>Blueprint on how to
+													market yourself online
+												</li>
+												<li>
+													{' '}
+													<span style={{ marginRight: '8px' }}>∞</span> Lifetime access to{' '}
+													<Link href="/product-details"> Beginners Freelance bundle</Link>
 												</li>
 											</ul>
 											<Link href="/course-details-freelance">

@@ -6235,6 +6235,15 @@ h6,
 	padding: 4px 20px 2px;
 	background: rgba(32, 78, 207, 0.1);
 }
+
+.course-tags{
+	font-size:16px;
+}
+.course-tags >li {
+	padding: 3px;
+	font-weight: 700
+}
+
 @media only screen and (max-width: 767px) {
 	.coach-filter li {
 		padding-left: 15px;

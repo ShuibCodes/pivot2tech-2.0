@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<title>Pivot2Tech Bootcamp </title>
 				{/*====== Favicon Icon ======*/}
+
 				<link rel="shortcut icon" href="assets/images/favicon-new.ico" type="image/x-icon" />
 				{/*====== Google Fonts ======*/}
 				<link
