@@ -121,7 +121,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong> Last 7 spaces !</strong>
+												<strong> Last 6 spaces !</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
