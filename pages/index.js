@@ -113,7 +113,7 @@ const Index = () => {
 										<div className="coach-content">
 											<span className="label">Online Lessons</span>
 											<h4>
-												<Link href="/course-details">Fullstack Web Development</Link>
+												<Link href="/">Fullstack Web Development</Link>
 											</h4>
 											<div className="ratting-price">
 												<span className="bold" style={{ fontSize: '13px' }}>
@@ -121,7 +121,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong> Last 2 spaces !</strong>
+												<strong> Sorry, we're at capacity :(</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
