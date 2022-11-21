@@ -98,7 +98,7 @@ function FAQ() {
 						<h4>Can I get a refund after paying for a Bootcamp?</h4>
 						<p>
 							{' '}
-							Once lessons begin, we offer a 14-day money back garantee if you're unhappy with the course{' '}
+							Once lessons begin, we offer a 14-day money back garantee if you're unhappy with the course. If you're part of the last cohorts, its 7 days){' '}
 						</p>
 					</div>
 				</div>
