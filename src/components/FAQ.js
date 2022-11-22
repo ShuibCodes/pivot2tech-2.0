@@ -67,10 +67,9 @@ function FAQ() {
 					<div style={{ padding: '0 15px' }}>
 						<h4>What are the time requirements? can I do this part-time?</h4>
 						<p>
-							<br />
-							We highly recommend attending the{' '}
-							<span style={{ color: 'blue', fontWeight: 'bold' }}>YOUR </span> per week to stay motivated
-							and listen
+				
+							We highly recommend attending the lessons, but this is a part-time course so there is a lot of self-study thats expected(we provide resources){' '}
+							
 						</p>
 					</div>
 				</div>
