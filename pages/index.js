@@ -151,7 +151,7 @@ const Index = () => {
 													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 													className="theme-btn"
 												>
-													Book a seat
+													Sold out!
 													<i className="fas fa-arrow-right" />
 												</a>
 											</Link>
