@@ -80,8 +80,8 @@ const CourseDetails = () => {
 									</div>
 									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
 										<button className="theme-btn">
-											Book your seat
-											<i className="fas fa-arrow-right" />
+											SOLD OUT
+											
 										</button>
 									</a>
 								</div>
@@ -116,8 +116,8 @@ const CourseDetails = () => {
 												<h3>
 													£43/m for 3 months
 													<br />
-													click the Klarna option{' '}
-													<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">here</a>
+													SOLD OUT
+													
 												</h3>
 											</div>
 										</div>
@@ -158,10 +158,10 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+								<a href="/">
 									<button className="theme-btn">
-										Book your seat
-										<i className="fas fa-arrow-right" />
+										SOLD OUT
+										
 									</button>
 								</a>
 							</div>
