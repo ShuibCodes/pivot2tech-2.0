@@ -75,14 +75,11 @@ const CourseDetails = () => {
 											£43/m for 3 months
 											<br />
 											click the Klarna option{' '}
-											<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">here</a>
+											<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf">here</a>
 										</h5>
 									</div>
-									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
-										<button className="theme-btn">
-											SOLD OUT
-											
-										</button>
+									<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf">
+										<button className="theme-btn">Book Now</button>
 									</a>
 								</div>
 
@@ -116,8 +113,7 @@ const CourseDetails = () => {
 												<h3>
 													£43/m for 3 months
 													<br />
-													SOLD OUT
-													
+													<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf"></a> here
 												</h3>
 											</div>
 										</div>
@@ -158,11 +154,8 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<a href="/">
-									<button className="theme-btn">
-										SOLD OUT
-										
-									</button>
+								<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf">
+									<button className="theme-btn">Book nw</button>
 								</a>
 							</div>
 						</div>

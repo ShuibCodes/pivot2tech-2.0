@@ -5,6 +5,7 @@ import Script from 'next/script';
 import dynamic from 'next/dynamic';
 import Slider from 'react-slick';
 import FAQs from '../src/components/FAQ';
+import Banner from '../src/components/Banner';
 import { Accordion, Nav, Tab } from 'react-bootstrap';
 import Index1WorkStepSlider from '../src/components/slider/Index1WorkStepSlider';
 import { index1EventWrap, index1Testimonial } from '../src/sliderProps';
@@ -18,11 +19,12 @@ const Index = () => {
 		<Head>
 			<Layout header={1} footer={1}>
 				<section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
+					<Banner />
 					<div className="container">
 						<div className="row align-items-center">
 							<div className="col-lg-7">
 								<div className="hero-content rpt-25 rmb-75">
-									<span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s">
+									<span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
 										Courses start at £43/m
 									</span>
 									<h3 className="mb-20 wow fadeInUp delay-0-4s">
@@ -121,7 +123,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong> Sorry, we're at capacity :(</strong>
+												<strong> Last 12 spots</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
@@ -151,7 +153,7 @@ const Index = () => {
 													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 													className="theme-btn"
 												>
-													Sold out!
+													Book your seat
 													<i className="fas fa-arrow-right" />
 												</a>
 											</Link>

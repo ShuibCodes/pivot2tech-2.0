@@ -365,11 +365,11 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 					</div>
 					<div className="top-right d-flex align-items-center">
 						<div className="social-style-two">
-							<Link href="/contact">
-								<a>
-									<i className="fab fa-twitter" />
-								</a>
-							</Link>
+							<h6 className="py-1">
+								{' '}
+								<span className="px-2">🎁</span> 20% OFF BLACK FRIDAY SALE{' '}
+								<span className="px-2">🎁</span>{' '}
+							</h6>
 						</div>
 					</div>
 				</div>
