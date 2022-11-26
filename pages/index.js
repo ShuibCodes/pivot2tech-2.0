@@ -123,7 +123,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong> Last 12 spots</strong>
+												<strong> Last 8 spots</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
