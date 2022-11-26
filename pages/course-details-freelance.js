@@ -72,7 +72,7 @@ const CourseDetails = () => {
 									</WellernAccordion>
 								</Accordion>
 								<div className="py-20">
-									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+									<a href="https://buy.stripe.com/28oeVP6Kd7k2dXO3cg">
 										<button className="theme-btn">
 											Book your seat
 											<i className="fas fa-arrow-right" />
@@ -108,10 +108,10 @@ const CourseDetails = () => {
 											</div>
 											<div style={{ marginTop: '20px' }} className="text-center">
 												<h4>
-													£43/m for 3 months
+													£34/m for 3 months
 													<br />
 													click the Klarna option{' '}
-													<a style={{color:"blue"}} href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">here</a>
+													<a style={{color:"blue"}} href="https://buy.stripe.com/28oeVP6Kd7k2dXO3cg">here</a>
 												</h4>
 											</div>
 										</div>
@@ -130,8 +130,8 @@ const CourseDetails = () => {
 									/>
 								</div>
 								<div className="price-off">
-									<span className="price">130</span>
-									<span className="bold">OR £43.33 month - 3 months</span>
+									<span className="price">104</span>
+									<span className="bold">OR £33/month - 3 months</span>
 								</div>
 								<ul className="course-details-list mb-25">
 									<strong className="text-center">All Classes Are Recorded</strong>
@@ -151,7 +151,7 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+								<a href="https://buy.stripe.com/28oeVP6Kd7k2dXO3cg">
 									<button className="theme-btn">
 										Book your seat
 										<i className="fas fa-arrow-right" />
