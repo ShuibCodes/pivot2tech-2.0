@@ -72,7 +72,7 @@ const CourseDetails = () => {
 								<div className="py-20">
 									<div style={{ marginTop: '20px' }}>
 										<h5>
-											£43/m for 3 months
+											£34/m for 3 months
 											<br />
 											click the Klarna option{' '}
 											<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf">here</a>
@@ -111,7 +111,7 @@ const CourseDetails = () => {
 											</div>
 											<div style={{ marginTop: '20px' }} className="text-center">
 												<h3>
-													£43/m for 3 months
+													£34/m for 3 months
 													<br />
 													<a href="https://buy.stripe.com/eVabJDb0t1ZIaLC3cf"></a> here
 												</h3>
