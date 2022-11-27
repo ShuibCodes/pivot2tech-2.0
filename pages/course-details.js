@@ -47,24 +47,28 @@ const CourseDetails = () => {
 									>
 										<ul className="course-video-list">
 											<li>
-												<span className="title">Foundation: Web Development Basics</span>{' '}
+												<span className="title">HTML,CSS & source control</span>{' '}
 												<span className="duration">Week 1-3</span>
 											</li>
 											<li>
-												<span className="title">Front-end Development</span>{' '}
+												<span className="title">JavaScript 101. Object oriented programming, loops, functions, arrays, & DOM</span>{' '}
 												<span className="duration">Week 4-6</span>
 											</li>
 											<li>
-												<span className="title">Databases & more JavaScript</span>{' '}
+												<span className="title">Front-end Development. More JavaScript, REST API and diving into REACT & Databases. </span>{' '}
 												<span className="duration">Week 7-9</span>
 											</li>
 											<li>
-												<span className="title">Projects and Test Driven Development</span>
+												<span className="title">Building projects with Test Driven Development and deploying them live on the web</span>
 												<span className="duration">Week 10-12</span>
 											</li>
 											<li>
 												<span className="title">Portfolio Week</span>
 												<span className="duration">Week 13</span>
+											</li>
+											<li>
+												<span className="title">Post-course</span>
+												<span className="duration">Support & guidance from our alumni & teachers in navigating the job market, CV's & job applications</span>
 											</li>
 										</ul>
 									</WellernAccordion>
