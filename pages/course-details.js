@@ -47,31 +47,32 @@ const CourseDetails = () => {
 									>
 										<ul className="course-video-list">
 											<li>
+											<span style={{color:"#1F4ECE", marginRight:'10px'}} className="duration">Week 1-3</span>
 												<span className="title">HTML,CSS & source control</span>{' '}
-												<span style={{color:"#1F4ECE"}} className="duration">Week 1-3</span>
+										
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE"}} className="duration">Week 4-6</span>
+											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 4-6</span>
 												<span className="title">JavaScript 101. Object oriented programming, loops, functions, arrays, & DOM</span>{' '}
 											
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE"}} className="duration">Week 7-9</span>
+											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 7-9</span>
 												<span className="title">Front-end Development. More JavaScript, REST API and diving into REACT & Databases. </span>{' '}
 											
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE"}} className="duration">Week 10-12</span>
+											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 10-12</span>
 												<span className="title">Building projects with Test Driven Development and deploying them live on the web</span>
 												
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE"}} className="duration">Week 13</span>
+											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 13</span>
 												<span className="title">Portfolio Week</span>
 										
 											</li>
 											<li>
-												<span style={{color:"#1F4ECE"}} className="title">Post-course</span>
+												<span style={{color:"#1F4ECE",marginRight:'10px'}} className="title">Post-course</span>
 												<span className="duration">Support & guidance from our alumni & teachers in navigating the job market, CV's & job applications</span>
 											</li>
 										</ul>
