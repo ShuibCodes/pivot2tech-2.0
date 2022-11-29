@@ -123,7 +123,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong> 1 spot left! </strong>
+												<strong> Sorry, We're at Capacity!</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
@@ -153,7 +153,7 @@ const Index = () => {
 													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 													className="theme-btn"
 												>
-													Book your seat
+													SOLD OUT
 													<i className="fas fa-arrow-right" />
 												</a>
 											</Link>
@@ -183,7 +183,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong>15 spaces</strong>
+												<strong>10 spaces</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
@@ -271,14 +271,14 @@ const Index = () => {
 					</div>
 				</section>
 				<FAQs />
-				{/* <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
+				<div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
 					<Link href="/contact">
 						<a className="theme-btn grab-course">
 							Question? - Contact us
 							<i className="fas fa-arrow-right" />
 						</a>
 					</Link>
-				</div> */}
+				</div>
 				{/* Coach Section End */}
 				{/* Work Process Section Start */}
 				<section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
