@@ -367,8 +367,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 						<div className="social-style-two">
 							<h6 className="py-1">
 								{' '}
-								<span className="px-2">🎁</span> 20% OFF BLACK FRIDAY SALE{' '}
-								<span className="px-2">🎁</span>{' '}
+								<span className="px-2">📣</span> Last 10 SPACES <span className="px-2">📣</span>{' '}
 							</h6>
 						</div>
 					</div>

@@ -19,7 +19,7 @@ const Index = () => {
 		<Head>
 			<Layout header={1} footer={1}>
 				<section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
-					<Banner />
+					{/* <Banner /> */}
 					<div className="container">
 						<div className="row align-items-center">
 							<div className="col-lg-7">
