@@ -257,6 +257,7 @@ const Index = () => {
 										<div className="ratting-price">
 											<span className="price">28</span>
 										</div>
+										<p>Learn to Freelance, Be Your Own Boss!</p>
 										<ul className="coach-footer">
 											<li>
 												<i className="far fa-file-alt" />
