@@ -25,7 +25,7 @@ const Index = () => {
 							<div className="col-lg-7">
 								<div className="hero-content rpt-25 rmb-75">
 									<span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-										Courses start at £33/m
+										Courses start at £43/m
 									</span>
 									<h3 className="mb-20 wow fadeInUp delay-0-4s">
 										Launch your <span style={{ color: '#1F4ECE' }}>tech career,</span> join our
@@ -125,7 +125,19 @@ const Index = () => {
 											<p style={{ fontSize: '20px', color: 'blue' }}>
 												<strong> Sorry, We're at Capacity!</strong>
 											</p>
-											<ul className="course-tags">
+											<p style={{ fontSize: '18px', color: 'black' }}>
+												<strong>Next Cohort: 14th March </strong>
+											</p>
+											<Link ahref="https://forms.gle/5A3KUHuDvGn1ZkTC9">
+												<a
+													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+													className="theme-btn"
+												>
+													Register your interest
+													<i className="fas fa-arrow-right" />
+												</a>
+											</Link>
+											<ul style={{ marginTop: '10px' }} className="course-tags">
 												<li>
 													{' '}
 													<span style={{ marginRight: '8px' }}>💻</span> 4 real-life projects
@@ -150,17 +162,22 @@ const Index = () => {
 											</ul>
 											<Link href="/course-details">
 												<a
-													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+													style={{
+														padding: '10px',
+														fontSize: '9px',
+														margin: '10px 0px',
+														backgroundColor: '#0084DF',
+													}}
 													className="theme-btn"
 												>
-													SOLD OUT
-													<i className="fas fa-arrow-right" />
+													Learn More
 												</a>
 											</Link>
 										</div>
 									</div>
 								</div>
 							</Link>
+
 							<Link href="course-details-freelance">
 								<div className="col-lg-4 col-md-6 item design technology">
 									<div className="coach-item wow fadeInUp delay-0-6s">
@@ -183,7 +200,7 @@ const Index = () => {
 												</span>
 											</div>
 											<p style={{ fontSize: '20px', color: 'blue' }}>
-												<strong>10 spaces</strong>
+												<strong>8 spaces</strong>
 											</p>
 											<ul className="course-tags">
 												<li>
