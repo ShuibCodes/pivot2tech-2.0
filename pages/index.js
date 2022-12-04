@@ -130,7 +130,7 @@ const Index = () => {
 											</p>
 
 											<a
-												ahref="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+												href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
 												style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
 												className="theme-btn"
 											>
