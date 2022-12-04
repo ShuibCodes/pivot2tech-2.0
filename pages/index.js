@@ -128,15 +128,16 @@ const Index = () => {
 											<p style={{ fontSize: '18px', color: 'black' }}>
 												<strong>Next Cohort: 14th March </strong>
 											</p>
-											<Link ahref="https://forms.gle/5A3KUHuDvGn1ZkTC9">
-												<a
-													style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
-													className="theme-btn"
-												>
-													Register your interest
-													<i className="fas fa-arrow-right" />
-												</a>
-											</Link>
+
+											<a
+												ahref="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+												style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+												className="theme-btn"
+											>
+												Register your interest
+												<i className="fas fa-arrow-right" />
+											</a>
+
 											<ul style={{ marginTop: '10px' }} className="course-tags">
 												<li>
 													{' '}
