@@ -1,5 +1,18 @@
 {
   "/_app": "pages/_app.js",
+  "/blog-details": "pages/blog-details.js",
+  "/api/hello": "pages/api/hello.js",
+  "/404": "pages/404.js",
+  "/blog": "pages/blog.js",
+  "/cart": "pages/cart.js",
+  "/checkout": "pages/checkout.js",
+  "/contact": "pages/contact.js",
+  "/course-details-freelance": "pages/course-details-freelance.js",
+  "/course-details": "pages/course-details.js",
+  "/course-list": "pages/course-list.js",
+  "/curriculum": "pages/curriculum.js",
+  "/": "pages/index.js",
   "/_error": "pages/_error.js",
+  "/product-details": "pages/product-details.js",
   "/_document": "pages/_document.js"
 }
