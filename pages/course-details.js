@@ -157,7 +157,7 @@ const CourseDetails = () => {
 
 									<li>
 										<i className="fas fa-globe" /> <span></span>{' '}
-										<b>Tuesday & Saturdays 7-9PM GMT</b>
+										<b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
 									</li>
 								</ul>
 
