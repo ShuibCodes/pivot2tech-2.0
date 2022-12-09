@@ -30,6 +30,7 @@ function MyApp({ Component, pageProps }) {
 			/>
 
 			<Script
+        id="script-1"
 				strategy="afterInteractive"
 				dangerouslySetInnerHTML={{
 					__html: `

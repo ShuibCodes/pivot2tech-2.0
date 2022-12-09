@@ -144,7 +144,7 @@ const Index = () => {
                     <p style={{ fontSize: "18px", color: "black" }}>
                       <strong>Next Cohort: 14th March </strong>
                     </p>
-                    <Link ahref="https://forms.gle/5A3KUHuDvGn1ZkTC9">
+                    <Link href="https://forms.gle/5A3KUHuDvGn1ZkTC9">
                       <a
                         style={{
                           padding: "10px",
@@ -254,7 +254,6 @@ const Index = () => {
                         <span style={{ marginRight: "8px" }}>∞</span> Lifetime
                         access to{" "}
                         <Link href="/product-details">
-                          {" "}
                           Beginners Freelance bundle
                         </Link>
                       </li>
