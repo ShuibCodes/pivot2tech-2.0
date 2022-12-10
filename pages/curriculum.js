@@ -73,12 +73,12 @@ const Faqs = () => {
 												</div>
 												<div className="text-center">
 													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+														<Link href="/course-details">
 															<a className="theme-btn">
 																Book your seat
 																<i className="fas fa-arrow-right" />
 															</a>
-														</a>
+														</Link>
 													</div>
 												</div>
 											</div>
@@ -119,12 +119,12 @@ const Faqs = () => {
 												</div>
 												<div className="text-center">
 													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+														<Link href="/course-details">
 															<a className="theme-btn">
 																Book your seat
 																<i className="fas fa-arrow-right" />
 															</a>
-														</a>
+														</Link>
 													</div>
 												</div>
 											</div>
@@ -165,7 +165,7 @@ const Faqs = () => {
 												</div>
 												<div className="text-center">
 													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+														<a href="/course-details">
 															<a className="theme-btn">
 																Book your seat
 																<i className="fas fa-arrow-right" />
@@ -194,12 +194,12 @@ const Faqs = () => {
 												</div>
 												<div className="text-center">
 													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+														<Link href="/course-details">
 															<a className="theme-btn">
 																Book your seat
 																<i className="fas fa-arrow-right" />
 															</a>
-														</a>
+														</Link>
 													</div>
 												</div>
 											</div>
@@ -224,12 +224,12 @@ const Faqs = () => {
 												</div>
 												<div className="text-center">
 													<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-														<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+														<Link href="/course-details">
 															<a className="theme-btn">
 																Book your seat
 																<i className="fas fa-arrow-right" />
 															</a>
-														</a>
+														</Link>
 													</div>
 												</div>
 											</div>
