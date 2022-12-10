@@ -102,11 +102,10 @@ const Index = () => {
 								<div className="col-lg-4 col-md-6 item development photography">
 									<div id="what-learn" className="coach-item wow fadeInUp delay-0-4s">
 										<div className="coach-image">
-											<Link href="/course-grid">
-												<a style={{ fontSize: '11px' }} className="category">
-													13 Weeks
-												</a>
-											</Link>
+											<a style={{ fontSize: '11px' }} className="category">
+												13 Weeks
+											</a>
+
 											<img
 												src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
 												alt="fullstack bootcamp"
@@ -115,7 +114,7 @@ const Index = () => {
 										<div className="coach-content">
 											<span className="label">Online Lessons</span>
 											<h4>
-												<Link href="/">Fullstack Web Development</Link>
+												<Link href="/course-details">Fullstack Web Development</Link>
 											</h4>
 											<div className="ratting-price">
 												<span className="bold" style={{ fontSize: '13px' }}>
@@ -126,7 +125,7 @@ const Index = () => {
 												<strong> Sorry, We're at Capacity!</strong>
 											</p>
 											<p style={{ fontSize: '18px', color: 'black' }}>
-												<strong>Next Cohort: 14th March </strong>
+												<strong>Next Cohort: 15th March </strong>
 											</p>
 
 											<a

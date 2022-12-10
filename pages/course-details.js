@@ -47,38 +47,75 @@ const CourseDetails = () => {
 									>
 										<ul className="course-video-list">
 											<li>
-											<span style={{color:"#1F4ECE", marginRight:'10px'}} className="duration">Week 1-3</span>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 1-3
+												</span>
 												<span className="title">HTML,CSS & source control</span>{' '}
-										
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 4-6</span>
-												<span className="title">JavaScript 101. Object oriented programming, loops, functions, arrays, & DOM</span>{' '}
-											
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 4-6
+												</span>
+												<span className="title">
+													JavaScript 101. Object oriented programming, loops, functions,
+													arrays, & DOM
+												</span>{' '}
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 7-9</span>
-												<span className="title">Front-end Development. More JavaScript, REST API and diving into REACT & Databases. </span>{' '}
-											
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 7-9
+												</span>
+												<span className="title">
+													Front-end Development. More JavaScript, REST API and diving into
+													REACT & Databases.{' '}
+												</span>{' '}
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 10-12</span>
-												<span className="title">Building projects with Test Driven Development and deploying them live on the web</span>
-												
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 10-12
+												</span>
+												<span className="title">
+													Building projects with Test Driven Development and deploying them
+													live on the web
+												</span>
 											</li>
 											<li>
-											<span style={{color:"#1F4ECE",marginRight:'10px'}} className="duration">Week 13</span>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 13
+												</span>
 												<span className="title">Portfolio Week</span>
-										
 											</li>
 											<li>
-												<span style={{color:"#1F4ECE",marginRight:'10px'}} className="title">Post-course</span>
-												<span className="duration">Support & guidance from our alumni & teachers in navigating the job market, CV's & job applications</span>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="title"
+												>
+													Post-course
+												</span>
+												<span className="duration">
+													Support & guidance from our alumni & teachers in navigating the job
+													market, CV's & job applications
+												</span>
 											</li>
 										</ul>
 									</WellernAccordion>
 								</Accordion>
-								<div className="py-20">
+								<div className="py-10">
 									<div style={{ marginTop: '20px' }}>
 										<h5>
 											£34/m for 3 months
@@ -86,10 +123,26 @@ const CourseDetails = () => {
 											click the Klarna option{' '}
 										</h5>
 									</div>
-									<a href="">
-										<button className="theme-btn">SOlD OUT</button>
+									<a
+										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+										className="theme-btn"
+									>
+										SOLD OUT
 									</a>
 								</div>
+								<a
+									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									style={{
+										padding: '10px',
+										fontSize: '11px',
+										margin: '10px 0px',
+										backgroundColor: '#0084DF',
+									}}
+									className="theme-btn"
+								>
+									Register your interest
+									<i className="fas fa-arrow-right" />
+								</a>
 
 								<div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
 									<div className="row align-items-center">
@@ -119,7 +172,7 @@ const CourseDetails = () => {
 											</div>
 											<div style={{ marginTop: '20px' }} className="text-center">
 												<h3>
-													£34/m for 3 months
+													£43/m for 3 months with our interest-free payment plan
 													<br />
 												</h3>
 											</div>
@@ -161,8 +214,28 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<a href="">
-									<button className="theme-btn">SOLD OUT </button>
+								<a
+									style={{
+										padding: '11px',
+										fontSize: '12px',
+										margin: '10px 0px',
+									}}
+									className="theme-btn"
+								>
+									SOLD OUT
+								</a>
+								<a
+									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									style={{
+										padding: '10px',
+										fontSize: '11px',
+										margin: '10px 0px',
+										backgroundColor: '#0084DF',
+									}}
+									className="theme-btn"
+								>
+									Register your interest
+									<i className="fas fa-arrow-right" />
 								</a>
 							</div>
 						</div>
