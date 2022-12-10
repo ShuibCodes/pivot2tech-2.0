@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import PageBanner from '../src/components/PageBanner';
 import Layout from '../src/layout/Layout';
-const BlogDetails = () => {
+constbecame-a-softwar-engineer-without-a-degree-in-8-months = () => {
 	return (
 		<Layout>
-			<section className="blog-details-area py-130 rpy-100">
+			<section className="became-a-softwar-engineer-without-a-degree-in-8-months-area py-130 rpy-100">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-8">
-							<div className="blog-details-wrap">
+							<div className="became-a-softwar-engineer-without-a-degree-in-8-months-wrap">
 								<div className="image mb-25 wow fadeInUp delay-0-2s">
 									<img src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7" alt="Blog" />
 									<a href="#">
@@ -21,10 +21,10 @@ const BlogDetails = () => {
 									</li>
 									<li>
 										<i className="far fa-calendar-alt" />{' '}
-										<Link href="/blog-details">October 12 2022</Link>
+										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">October 12 2022</Link>
 									</li>
 									<li>
-										<Link href="/blog-details">3 min read</Link>
+										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">3 min read</Link>
 									</li>
 								</ul>
 								<h3 className="title">
@@ -120,4 +120,4 @@ const BlogDetails = () => {
 		</Layout>
 	);
 };
-export default BlogDetails;
+export defaultbecame-a-softwar-engineer-without-a-degree-in-8-months;

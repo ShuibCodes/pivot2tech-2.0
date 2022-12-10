@@ -12,10 +12,10 @@ export const Home = () => (
 export const Courses = () => (
 	<Fragment>
 		<li>
-			<Link href="/course-details">Web Development Bootcamp</Link>
+			<Link href="/course-details">Fullstack Web Development</Link>
 		</li>
 		<li>
-			<Link href="/course-details">Freelance Bootcamp</Link>
+			<Link href="/course-details">Freelance Course</Link>
 		</li>
 	</Fragment>
 );
@@ -24,11 +24,11 @@ export const Pages = () => <Fragment></Fragment>;
 
 export const Blog = () => (
 	<Fragment>
-		<li>
+		{/* <li>
 			<Link href="/blog">Blog Page</Link>
-		</li>
+		</li> */}
 		<li>
-			<Link href="/blog-details">Blog Details</Link>
+			<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">Latest</Link>
 		</li>
 	</Fragment>
 );

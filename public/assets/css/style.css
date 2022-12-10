@@ -3813,16 +3813,18 @@ h6,
 @media only screen and (max-width: 1500px) {
 	.main-header .logo {
 		padding: 15px;
-		max-width: 17%;
+		max-width: 40%;
 		margin-top: -16px;
 		margin-bottom: -16px;
 	}
 }
 
+/* this one ifrst  */
+
 @media only screen and (min-width: 1200px) {
 	.main-header .logo {
 		padding: 15px;
-		max-width: 17%;
+		max-width: 40%;
 		margin-top: -16px;
 		margin-bottom: -16px;
 	}
@@ -3833,6 +3835,8 @@ h6,
 	margin-top: -16px;
 	margin-bottom: -16px;
 }
+
+
 
 .main-header .nice-select {
 	height: auto;
@@ -4918,6 +4922,10 @@ h6,
 	.hero-section:after {
 		width: 400px;
 		height: 400px;
+	}
+	.logo{
+		max-width: 40% !important;
+		margin-top: 10px;
 	}
 	.mobile-hero {
 		display: none;
