@@ -9,6 +9,9 @@ const firstBlog = () => {
 					<div className="row">
 						<div className="col-lg-8">
 							<div className="first-blog-wrap">
+								<h3 className="title">
+									How Shuayb became a Software Engineer without a degree in 8 months💻
+								</h3>
 								<div className="image mb-25 wow fadeInUp delay-0-2s">
 									<img src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7" alt="Blog" />
 									<a href="#">
@@ -27,9 +30,7 @@ const firstBlog = () => {
 										<Link href="/first-blog">3 min read</Link>
 									</li>
 								</ul>
-								<h3 className="title">
-									How Shuayb became a Software Engineer without a degree in 8 months💻
-								</h3>
+
 								<h4>Why Software Engineering? </h4>
 								<p>
 									I wasn’t motivated purely by money, my fuel and passion derived from something much
