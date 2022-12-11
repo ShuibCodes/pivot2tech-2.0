@@ -8,7 +8,7 @@ const Advertise = () => {
 				<div className="advertise-item wow fadeInUp delay-0-2s">
 					<div className="content">
 						<p style={{ fontSize: '17px' }}>Next Cohort</p>
-						<h3>8 spaces left for the Freelance Course</h3>
+						<h3>5 spaces left for the Freelance Course</h3>
 						<p style={{ fontWeight: 'bold' }}>
 							{' '}
 							<i style={{ padding: '0px 10px' }} className="far fa-user" />
