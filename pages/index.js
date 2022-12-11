@@ -232,7 +232,7 @@ const Index = () => {
 											<li>
 												{' '}
 												<span style={{ marginRight: '8px' }}>∞</span> Lifetime access to{' '}
-												<Link href="/product-details">Beginners Freelance bundle</Link>
+												<Link href="/product-details"> Beginners Freelance bundle</Link>
 											</li>
 										</ul>
 										<Link href="/course-details-freelance">
@@ -457,20 +457,24 @@ const Index = () => {
 										<ul className="blog-meta">
 											<li>
 												<i className="far fa-user" />{' '}
-												<Link href="/blog-details">By Shuayb</Link>
+												<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
+													By Shuayb
+												</Link>
 											</li>
 											<li>
 												<i className="far fa-comments" />{' '}
-												<Link href="/blog-details">3min read</Link>
+												<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
+													3min read
+												</Link>
 											</li>
 										</ul>
 										<h5>
-											<Link href="/blog-details">
+											<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
 												How Shuayb became a Software Engineer without a degree in 8 months💻
 											</Link>
 										</h5>
 										<p>I took a few online courses on HTML, CSS and JavaScript and began..</p>
-										<Link href="/blog-details">
+										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
 											<a className="read-more">
 												Read more <i className="fas fa-arrow-right" />
 											</a>
