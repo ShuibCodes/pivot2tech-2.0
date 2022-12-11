@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import PageBanner from '../src/components/PageBanner';
 import Layout from '../src/layout/Layout';
-constbecame-a-softwar-engineer-without-a-degree-in-8-months = () => {
+const firstBlog = () => {
 	return (
 		<Layout>
 			<section className="became-a-softwar-engineer-without-a-degree-in-8-months-area py-130 rpy-100">
@@ -120,4 +120,4 @@ constbecame-a-softwar-engineer-without-a-degree-in-8-months = () => {
 		</Layout>
 	);
 };
-export defaultbecame-a-softwar-engineer-without-a-degree-in-8-months;
+export default firstBlog;
