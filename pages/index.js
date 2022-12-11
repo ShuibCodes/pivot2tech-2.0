@@ -456,25 +456,20 @@ const Index = () => {
 									<div className="content">
 										<ul className="blog-meta">
 											<li>
-												<i className="far fa-user" />{' '}
-												<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
-													By Shuayb
-												</Link>
+												<i className="far fa-user" /> <Link href="/first-blog">By Shuayb</Link>
 											</li>
 											<li>
 												<i className="far fa-comments" />{' '}
-												<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
-													3min read
-												</Link>
+												<Link href="/first-blog">3min read</Link>
 											</li>
 										</ul>
 										<h5>
-											<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
+											<Link href="/first-blog">
 												How Shuayb became a Software Engineer without a degree in 8 months💻
 											</Link>
 										</h5>
 										<p>I took a few online courses on HTML, CSS and JavaScript and began..</p>
-										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">
+										<Link href="/first-blog">
 											<a className="read-more">
 												Read more <i className="fas fa-arrow-right" />
 											</a>

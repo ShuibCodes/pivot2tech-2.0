@@ -4,11 +4,11 @@ import Layout from '../src/layout/Layout';
 const firstBlog = () => {
 	return (
 		<Layout>
-			<section className="became-a-softwar-engineer-without-a-degree-in-8-months-area py-130 rpy-100">
+			<section className="first-blog-area py-130 rpy-100">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-8">
-							<div className="became-a-softwar-engineer-without-a-degree-in-8-months-wrap">
+							<div className="first-blog-wrap">
 								<div className="image mb-25 wow fadeInUp delay-0-2s">
 									<img src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7" alt="Blog" />
 									<a href="#">
@@ -21,10 +21,10 @@ const firstBlog = () => {
 									</li>
 									<li>
 										<i className="far fa-calendar-alt" />{' '}
-										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">October 12 2022</Link>
+										<Link href="/first-blog">October 12 2022</Link>
 									</li>
 									<li>
-										<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">3 min read</Link>
+										<Link href="/first-blog">3 min read</Link>
 									</li>
 								</ul>
 								<h3 className="title">

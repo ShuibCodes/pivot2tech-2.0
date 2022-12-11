@@ -343,7 +343,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				<Link href="/course-details">Curriculum</Link>
 			</li>
 			<li className="dropdown">
-				<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">Latest Blog</Link>
+				<Link href="/first-blog">Latest Blog</Link>
 			</li>
 		</ul>
 	),
