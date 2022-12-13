@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import Layout from '../src/layout/Layout';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -17,6 +18,22 @@ const Index1Isotope = dynamic(() => import('../src/components/isotope/Index1Isot
 const Index = () => {
 	return (
 		<Layout header={1} footer={1}>
+			<Head>
+				<title>Pivot2Tech Bootcamp 🚀</title>
+				<meta property="og:url" content="https://pivot2tech.co.uk/" />
+				<meta property="og:type" content="website" />
+				{/* <meta property="fb:app_id" content="your fb app id" /> */}
+				<meta property="og:title" content="Pivot2Tech Bootcamp " />
+				<meta
+					name="twitter:card"
+					content=" ⌛️Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of 160+ students 🎯"
+				/>
+				<meta
+					property="og:description"
+					content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of 160+ students 🎯"
+				/>
+				<meta property="og:image" content="./images/social-share-pic.png" />
+			</Head>
 			<section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
 				{/* <Banner /> */}
 				<div className="container">
@@ -28,11 +45,12 @@ const Index = () => {
 								</span>
 								<h3 className="mb-20 wow fadeInUp delay-0-4s">
 									Launch your <span style={{ color: '#1F4ECE' }}>tech career,</span> join our coding
-									bootcamps
+									bootcamp 🚀
 								</h3>
 
 								<p className="wow fadeInUp delay-0-6s">
-									Change careers and start your journey as a web developer with our live online
+									Change careers and start your journey as a web developer with our{' '}
+									<span style={{ color: '#1F4ECE', fontWeight: '700' }}>part-time, remote </span>
 									courses. Learn the skills to freelance or a Job in tech!
 								</p>
 								<span
@@ -42,7 +60,7 @@ const Index = () => {
 										fontSize: '18px',
 									}}
 								>
-									Latest student landed £35k role!
+									Latest student landed a £35k role!
 								</span>
 								<div className="hero-btn-group">
 									<div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -95,7 +113,7 @@ const Index = () => {
 							<li style={{ fontSize: '22px' }}>For complete beginners</li>
 						</ul>
 						<ul style={{ fontSize: '22px' }} className="list-style-four">
-							<li style={{ fontSize: '22px' }}> online suppport & community</li>
+							<li style={{ fontSize: '22px' }}> Community of over 160+ students!</li>
 						</ul>
 					</div>
 				</div>
