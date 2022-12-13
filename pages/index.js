@@ -24,15 +24,15 @@ const Index = () => {
 				<meta property="og:type" content="website" />
 				{/* <meta property="fb:app_id" content="your fb app id" /> */}
 				<meta property="og:title" content="Pivot2Tech Bootcamp " />
-				<meta
-					name="twitter:card"
-					content=" ⌛️Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of 160+ students 🎯"
-				/>
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta
 					property="og:description"
 					content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of 160+ students 🎯"
 				/>
-				<meta property="og:image" content="./images/social-share-pic.png" />
+				<meta
+					property="og:image"
+					content="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+				/>
 			</Head>
 			<section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
 				{/* <Banner /> */}
