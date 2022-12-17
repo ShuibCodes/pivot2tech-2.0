@@ -92,8 +92,10 @@ const CourseDetails = () => {
 										</div>
 										<div className="col-md-4 col-sm-6">
 											<div className="instructor-details">
-												<h4>Shuayb</h4>
-												<span className="designations">Senior Software Engineer</span>
+												<h4>Shuayb A</h4>
+												<span className="designations">
+													Co-founder of Trident Labs & Freelance Web Developer
+												</span>
 											</div>
 											<p>
 												Self-taught fullstack developer. Runs a digital Agency attracting high
@@ -138,7 +140,7 @@ const CourseDetails = () => {
 									/>
 								</div>
 								<div className="price-off">
-									<span className="price">£130</span>
+									<span className="price">130</span>
 									<span className="bold">OR £43/month - 3 months</span>
 								</div>
 								<ul className="course-details-list mb-25">

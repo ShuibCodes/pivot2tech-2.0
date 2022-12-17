@@ -140,14 +140,14 @@ const Index = () => {
 										</h4>
 										<div className="ratting-price">
 											<span className="bold" style={{ fontSize: '13px' }}>
-												Tuesday & Saturdays 7-9pm
+												Tuesday 7-9pm & Saturdays 12:30-14:30 GMT
 											</span>
 										</div>
 										<p style={{ fontSize: '20px', color: 'blue' }}>
 											<strong> Sorry, We're at Capacity!</strong>
 										</p>
 										<p style={{ fontSize: '18px', color: 'black' }}>
-											<strong>Next Cohort: 14th March </strong>
+											<strong>Next Cohort: 15th March </strong>
 										</p>
 										<Link href="https://forms.gle/5A3KUHuDvGn1ZkTC9">
 											<a

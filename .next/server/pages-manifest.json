@@ -1,10 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-<<<<<<< HEAD
   "/_document": "pages/_document.js",
-  "/404": "pages/404.js"
-=======
-  "/_document": "pages/_document.js"
->>>>>>> 704157e5 (fixing copy)
+  "/course-details": "pages/course-details.js"
 }
