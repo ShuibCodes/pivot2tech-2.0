@@ -1,0 +1,23 @@
+.shadow-sm {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+}
+
+.bg-color {
+    background: rgb(30 41 59) !important;
+}
+
+.width-half {
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .width-half {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .width-half {
+        width: 25%;
+    }
+}

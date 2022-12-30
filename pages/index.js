@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Link from "next/link";
 import Layout from "../src/layout/Layout";
 import Head from "next/head";
@@ -7,9 +8,11 @@ import Slider from "react-slick";
 import FAQs from "../src/components/FAQ";
 import Banner from "../src/components/Banner";
 import { Accordion, Nav, Tab } from "react-bootstrap";
+import WellernAccordion from '../src/components/WellernAccordion';
 import Index1WorkStepSlider from "../src/components/slider/Index1WorkStepSlider";
 import { index1EventWrap, index1Testimonial } from "../src/sliderProps";
 import Advertise from "../src/components/Advertise";
+import CookieBanner from "../src/components/CookieBanner";
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -18,6 +21,17 @@ const Index1Isotope = dynamic(
 );
 
 const Index = () => {
+  const [active, setActive] = useState(false);
+  const [activeFreelance, setActiveFreelance] = useState(false);
+
+  const onClick = (value) => {
+    setActive(value === active ? '' : value);
+  };
+
+  const onClickFreelance = (value) => {
+    setActiveFreelance(value === activeFreelance ? '' : value);
+  }
+
   return (
     <Layout header={1} footer={1}>
       <section className="hero-section rel z-1 pt-150 rpt-135 pb-75 rpb-100">
@@ -110,6 +124,87 @@ const Index = () => {
           </div>
         </div>
         <div id="courses-group" className="container">
+
+          <Accordion
+            className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
+            id="course-faq"
+            defaultActiveKey="collapse1"
+          >
+            <WellernAccordion
+              eventName={'collapse1'}
+              title='Curriculum Breakdown - Fullstack Web Development'
+              active={active}
+              onClick={() => onClick('collapse1')}
+            >
+              <ul className="course-video-list">
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 1-3</span>
+                  <span className="title">HTML,CSS & source control</span>{' '}
+
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 4-6</span>
+                  <span className="title">JavaScript 101. Object oriented programming, loops, functions, arrays, & DOM</span>{' '}
+
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 7-9</span>
+                  <span className="title">Front-end Development. More JavaScript, REST API and diving into REACT & Databases. </span>{' '}
+
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 10-12</span>
+                  <span className="title">Building projects with Test Driven Development and deploying them live on the web</span>
+
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 13</span>
+                  <span className="title">Portfolio Week</span>
+
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="title">Post-course</span>
+                  <span className="duration">Support & guidance from our alumni & teachers in navigating the job market, CV's & job applications</span>
+                </li>
+              </ul>
+            </WellernAccordion>
+          </Accordion>
+
+          <Accordion
+            className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
+            id="course-faq"
+            defaultActiveKey="collapse2"
+          >
+            <WellernAccordion
+              eventName={'collapse2'}
+              title={'Curriculum Breakdown - Freelance Web Development'}
+              active={activeFreelance}
+              onClick={() => onClickFreelance('collapse2')}
+            >
+              <ul className="course-video-list">
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration"> Week 1-3</span>
+                  <span className="title">Foundation: Web Development Basics & Freelance Intro</span>
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration"> Week 4-6</span>
+                  <span className="title">More HTML & CSS</span>{' '}
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration"> Week 7-9</span>
+                  <span className="title">How to Find Clients</span>{' '}
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration"> Week 10-12</span>
+                  <span className="title">Low-code Web Development with projects</span>
+                </li>
+                <li>
+                  <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 13</span>
+                  <span className="title">Shopify Web Development</span>
+                </li>
+              </ul>
+            </WellernAccordion>
+          </Accordion>
           <div className="row coach-active justify-content-center">
             <Link href="/course-details">
               <div className="col-lg-4 col-md-6 item development photography">
@@ -375,11 +470,13 @@ const Index = () => {
                   <li>Lifetime Access to Pivot2Techs resources </li>
                   <li>CV and Job Application support</li>
                 </ul>
-                <a href="/course-details">
-                  <div className="theme-btn style-four">
-                    Learn More <i className="fas fa-arrow-right" />
-                  </div>
-                </a>
+                <Link href="/course-details">
+                  <a>
+                    <div className="theme-btn style-four">
+                      Learn More <i className="fas fa-arrow-right" />
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-6">

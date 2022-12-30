@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { Fragment, useEffect, useState } from 'react';
 import '../styles/globals.css';
+import "../src/components/CookieBanner/index.scss"
 import Script from 'next/script';
+import CookieBanner from "../src/components/CookieBanner";
 
 function MyApp({ Component, pageProps }) {
 	const [loading, setLoading] = useState(true);
@@ -76,7 +78,10 @@ function MyApp({ Component, pageProps }) {
 				<link rel="stylesheet" href="assets/css/style.css" />
 			</Head>
 
-			<Component {...pageProps} />
+          	<div className="position-relative">
+              <CookieBanner />
+			  <Component {...pageProps} />
+            </div>
 		</Fragment>
 	);
 }
