@@ -225,8 +225,24 @@ const Index = () => {
 											</span>
 										</div>
 										<p style={{ fontSize: '20px', color: 'blue' }}>
-											<strong>Last 5 spaces</strong>
+											<strong> Sorry, We're at Capacity!</strong>
 										</p>
+										<p style={{ fontSize: '18px', color: 'black' }}>
+											<strong>Next Cohort: 15th March </strong>
+										</p>
+										<Link href="https://forms.gle/5A3KUHuDvGn1ZkTC9">
+											<a
+												style={{
+													padding: '10px',
+													fontSize: '11px',
+													margin: '10px 0px',
+												}}
+												className="theme-btn"
+											>
+												Register your interest
+												<i className="fas fa-arrow-right" />
+											</a>
+										</Link>
 										<ul className="course-tags">
 											<li>
 												{' '}
