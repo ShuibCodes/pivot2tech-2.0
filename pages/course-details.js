@@ -34,63 +34,116 @@ const CourseDetails = () => {
                   JavaScript, Node JS, testing- heavy emphasis on project based learning
                 </p>
 
-                <h3>Course Curriculum</h3>
-                <Accordion
-                  className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
-                  id="course-faq"
-                  defaultActiveKey="collapse1"
-                >
-                  <WellernAccordion
-                    eventName={'collapse1'}
-                    title={'Curriculum Breakdown'}
-                    active={active}
-                    onClick={() => onClick('collapse1')}
-                  >
-                    <ul className="course-video-list">
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 1-3</span>
-                        <span className="title">HTML,CSS & source control</span>{' '}
-
-                      </li>
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 4-6</span>
-                        <span className="title">JavaScript 101. Object oriented programming, loops, functions, arrays, & DOM</span>{' '}
-
-                      </li>
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 7-9</span>
-                        <span className="title">Front-end Development. More JavaScript, REST API and diving into REACT & Databases. </span>{' '}
-
-                      </li>
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 10-12</span>
-                        <span className="title">Building projects with Test Driven Development and deploying them live on the web</span>
-
-                      </li>
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="duration">Week 13</span>
-                        <span className="title">Portfolio Week</span>
-
-                      </li>
-                      <li>
-                        <span style={{ color: "#1F4ECE", marginRight: '10px' }} className="title">Post-course</span>
-                        <span className="duration">Support & guidance from our alumni & teachers in navigating the job market, CV's & job applications</span>
-                      </li>
-                    </ul>
-                  </WellernAccordion>
-                </Accordion>
-                <div className="py-20">
-                  <div style={{ marginTop: '20px' }}>
-                    <h5>
-                      £34/m for 3 months
-                      <br />
-                      click the Klarna option{' '}
-                    </h5>
-                  </div>
-                  <a href="">
-                    <button className="theme-btn">SOlD OUT</button>
-                  </a>
-                </div>
+								<h3>Course Curriculum </h3>
+								<Accordion
+									className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
+									id="course-faq"
+									defaultActiveKey="collapse1"
+								>
+									<WellernAccordion
+										eventName={'collapse1'}
+										title={'Curriculum Breakdown'}
+										active={active}
+										onClick={() => onClick('collapse1')}
+									>
+										<ul className="course-video-list">
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 1-3
+												</span>
+												<span className="title">HTML,CSS & source control</span>{' '}
+											</li>
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 4-6
+												</span>
+												<span className="title">
+													JavaScript 101. Object oriented programming, loops, functions,
+													arrays, & DOM
+												</span>{' '}
+											</li>
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 7-9
+												</span>
+												<span className="title">
+													Front-end Development. More JavaScript, REST API and diving into
+													REACT & Databases.{' '}
+												</span>{' '}
+											</li>
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 10-12
+												</span>
+												<span className="title">
+													Building projects with Test Driven Development and deploying them
+													live on the web
+												</span>
+											</li>
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="duration"
+												>
+													Week 13
+												</span>
+												<span className="title">Portfolio Week</span>
+											</li>
+											<li>
+												<span
+													style={{ color: '#1F4ECE', marginRight: '10px' }}
+													className="title"
+												>
+													Post-course
+												</span>
+												<span className="duration">
+													Support & guidance from our alumni & teachers in navigating the job
+													market, CV's & job applications
+												</span>
+											</li>
+										</ul>
+									</WellernAccordion>
+								</Accordion>
+								<div className="py-10">
+									<div style={{ marginTop: '20px' }}>
+										<h5>
+											£34/m for 3 months
+											<br />
+											click the Klarna option{' '}
+										</h5>
+									</div>
+									<a
+										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+										className="theme-btn"
+									>
+										SOLD OUT
+									</a>
+								</div>
+								<a
+									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									style={{
+										padding: '10px',
+										fontSize: '11px',
+										margin: '10px 0px',
+										backgroundColor: '#0084DF',
+									}}
+									className="theme-btn"
+								>
+									Register your interest
+									<i className="fas fa-arrow-right" />
+								</a>
 
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
@@ -114,37 +167,37 @@ const CourseDetails = () => {
                           <i className="fab fa-twitter" />
                         </a>
 
-                        <a href="https://linktr.ee/shuaybcodes">
-                          <i className="fab fa-instagram" />
-                        </a>
-                      </div>
-                      <div style={{ marginTop: '20px' }} className="text-center">
-                        <h3>
-                          £34/m for 3 months
-                          <br />
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="course-sidebar rmt-75">
-              <div className="widget widget-course-details wow fadeInUp delay-0-2s">
-                <div className="widget-video">
-                  <img
-                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
-                    alt="Course Details"
-                  />
-                </div>
-                <div className="price-off">
-                  <span className="price">130</span>
-                  <span className="bold">OR £43 month - 3 months</span>
-                </div>
-                <ul className="course-details-list mb-25">
-                  <strong className="text-center">All Classes Are Recorded</strong>
+												<a href="https://linktr.ee/shuaybcodes">
+													<i className="fab fa-instagram" />
+												</a>
+											</div>
+											<div style={{ marginTop: '20px' }} className="text-center">
+												<h3>
+													£43/m for 3 months with our interest-free payment plan
+													<br />
+												</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="col-lg-4">
+						<div className="course-sidebar rmt-75">
+							<div className="widget widget-course-details wow fadeInUp delay-0-2s">
+								<div className="widget-video">
+									<img
+										src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
+										alt="Course Details"
+									/>
+								</div>
+								<div className="price-off">
+									<span className="price">130</span>
+									<span className="bold">OR £43 month - 3 months</span>
+								</div>
+								<ul className="course-details-list mb-25">
+									<strong className="text-center">All Classes Are Recorded</strong>
 
                   <li>
                     <i className="far fa-file-alt" /> <span>Course Level</span> <b>Beginner</b>
@@ -156,21 +209,41 @@ const CourseDetails = () => {
                     <i className="far fa-clock" /> <span>When</span> <b>15 Dec - 22nd March </b>
                   </li>
 
-                  <li>
-                    <i className="fas fa-globe" /> <span></span>{' '}
-                    <b>Tuesday & Saturdays 7-9PM GMT</b>
-                  </li>
-                </ul>
+									<li>
+										<i className="fas fa-globe" /> <span></span>{' '}
+										<b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
+									</li>
+								</ul>
 
-                <a href="">
-                  <button className="theme-btn">SOLD OUT </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </Layout>
-  );
+								<a
+									style={{
+										padding: '11px',
+										fontSize: '12px',
+										margin: '10px 0px',
+									}}
+									className="theme-btn"
+								>
+									SOLD OUT
+								</a>
+								<a
+									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									style={{
+										padding: '10px',
+										fontSize: '11px',
+										margin: '10px 0px',
+										backgroundColor: '#0084DF',
+									}}
+									className="theme-btn"
+								>
+									Register your interest
+									<i className="fas fa-arrow-right" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</Layout>
+	);
 };
 export default CourseDetails;

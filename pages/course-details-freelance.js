@@ -25,13 +25,16 @@ const CourseDetails = () => {
                 </div>
                 <h2>Freelance Web Development</h2>
 
-                <div className="image mb-35">
-                  <img src="assets/images/freelance-pic.jpg" alt="Course Details" />
-                </div>
-                <p>
-                  Our Freelance package gets you an all inclusive experience on how to self-market,
-                  retain & attract customers. Alongside your 9-5 or as a career in itself.
-                </p>
+								<div className="image mb-35">
+									<img
+										src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
+										alt="Course Details"
+									/>
+								</div>
+								<p>
+									Our Freelance package gets you an all inclusive experience on how to self-market,
+									retain & attract customers. Alongside your 9-5 or as a career in itself.
+								</p>
 
                 <h3>Course Curriculum </h3>
                 <Accordion

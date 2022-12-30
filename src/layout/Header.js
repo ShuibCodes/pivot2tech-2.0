@@ -34,9 +34,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 							<div className="d-lg-flex align-items-center">
 								<div className="logo">
 									<Link href="/">
-										<a>
-											<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
-										</a>
+										<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
 									</Link>
 								</div>
 							</div>
@@ -44,11 +42,6 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 								{/* Main Menu */}
 								<nav className="main-menu navbar-expand-lg">
 									<div className="navbar-header">
-										<div className="mobile-logo bg-green br-10 p-15">
-											<Link href="/">
-												<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
-											</Link>
-										</div>
 										{/* Toggle Button */}
 										<button
 											type="button"
@@ -350,7 +343,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				<Link href="/course-details">Curriculum</Link>
 			</li>
 			<li className="dropdown">
-				<Link href="/blog-details">blog</Link>
+				<Link href="/became-a-softwar-engineer-without-a-degree-in-8-months">Latest Blog</Link>
 			</li>
 		</ul>
 	),
