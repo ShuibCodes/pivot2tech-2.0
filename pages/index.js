@@ -278,7 +278,7 @@ const Index = () => {
 												}}
 												className="theme-btn"
 											>
-												Book a seat
+												Learn more
 												<i className="fas fa-arrow-right" />
 											</a>
 										</Link>

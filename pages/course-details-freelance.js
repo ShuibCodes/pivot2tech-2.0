@@ -75,9 +75,9 @@ const CourseDetails = () => {
 									</WellernAccordion>
 								</Accordion>
 								<div className="py-20">
-									<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+									<a href="https://docs.google.com/forms/d/e/1FAIpQLSfgUs1dTTSUgWIttaWP_PcBO4y4C2l3OHg-40tljOrxn8FDTA/viewform?usp=sf_link">
 										<button className="theme-btn">
-											Book your seat
+										SOLD OUT
 											<i className="fas fa-arrow-right" />
 										</button>
 									</a>
@@ -118,9 +118,9 @@ const CourseDetails = () => {
 													click the Klarna option{' '}
 													<a
 														style={{ color: 'blue' }}
-														href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo"
+														href="https://docs.google.com/forms/d/e/1FAIpQLSfgUs1dTTSUgWIttaWP_PcBO4y4C2l3OHg-40tljOrxn8FDTA/viewform?usp=sf_link"
 													>
-														here
+														Pre-register
 													</a>
 												</h4>
 											</div>
@@ -161,9 +161,9 @@ const CourseDetails = () => {
 									</li>
 								</ul>
 
-								<a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSfgUs1dTTSUgWIttaWP_PcBO4y4C2l3OHg-40tljOrxn8FDTA/viewform?usp=sf_link">
 									<button className="theme-btn">
-										Book your seat
+									Register your interest
 										<i className="fas fa-arrow-right" />
 									</button>
 								</a>
