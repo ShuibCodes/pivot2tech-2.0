@@ -119,7 +119,7 @@ const Index = () => {
 				</div>
 				<div id="courses-group" className="container">
 					<div className="row coach-active justify-content-center">
-						<Link href="/course-details">
+						
 							<div className="col-lg-4 col-md-6 item development photography">
 								<div id="what-learn" className="coach-item wow fadeInUp delay-0-4s">
 									<div className="coach-image">
@@ -201,9 +201,9 @@ const Index = () => {
 									</div>
 								</div>
 							</div>
-						</Link>
+						
 
-						<Link href="course-details-freelance">
+						
 							<div className="col-lg-4 col-md-6 item design technology">
 								<div className="coach-item wow fadeInUp delay-0-6s">
 									<div className="coach-image">
@@ -285,7 +285,7 @@ const Index = () => {
 									</div>
 								</div>
 							</div>
-						</Link>
+					
 						<div className="col-lg-4 col-md-6 item design technology">
 							<div className="coach-item wow fadeInUp delay-0-6s">
 								<div className="coach-image">
