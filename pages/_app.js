@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import "../src/components/CookieBanner/index.scss";
 import Script from "next/script";
 import CookieBanner from "../src/components/CookieBanner";
+import SocialModal from "../src/components/SocialModal";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(true);
@@ -87,6 +88,7 @@ function MyApp({ Component, pageProps }) {
 
       <div className="position-relative">
         <CookieBanner />
+        <SocialModal />
         <Component {...pageProps} />
       </div>
     </Fragment>

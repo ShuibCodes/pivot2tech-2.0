@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^1.0.6",
     "@stripe/stripe-js": "^1.42.0",
+    "@supabase/supabase-js": "^2.2.3",
     "bootstrap": "^5.2.2",
     "gray-matter": "^4.0.3",
     "isotope-layout": "^3.0.6",

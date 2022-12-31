@@ -153,9 +153,10 @@ const Index = () => {
             id="course-faq"
             defaultActiveKey="collapse1"
           >
+            <h4>Fullstack Web Development</h4>
             <WellernAccordion
               eventName={"collapse1"}
-              title={"Curriculum Breakdown - Fullstack Web Development"}
+              title={"Curriculum Breakdown"}
               active={active}
               onClick={() => onClick("collapse1")}
             >
@@ -235,9 +236,10 @@ const Index = () => {
             id="course-faq"
             defaultActiveKey="collapse2"
           >
+            <h4>Freelance Web Development</h4>
             <WellernAccordion
               eventName={"collapse2"}
-              title={"Curriculum Breakdown - Freelance Web Development"}
+              title={"Curriculum Breakdown"}
               active={activeFreelance}
               onClick={() => onClickFreelance("collapse2")}
             >
