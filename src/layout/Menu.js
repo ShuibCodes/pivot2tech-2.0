@@ -28,7 +28,7 @@ export const Blog = () => (
 			<Link href="/blog">Blog Page</Link>
 		</li> */}
 		<li>
-			<Link href="/first-blog">Latest</Link>
+			<Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">Latest</Link>
 		</li>
 	</Fragment>
 );

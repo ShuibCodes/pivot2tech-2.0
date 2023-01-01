@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 import { useState } from 'react';
 import { Accordion } from 'react-bootstrap';
 import Slider from 'react-slick';
@@ -8,30 +9,30 @@ import Layout from '../src/layout/Layout';
 import { coachSlider } from '../src/sliderProps';
 import { checkout } from '../checkout';
 const CourseDetails = () => {
-	const [active, setActive] = useState(`collapse1`);
-	const onClick = (value) => {
-		console.log(value);
-		setActive(value === active ? '' : value);
-	};
-	return (
-		<Layout>
-			<section className="course-details-area pt-130 rpt-100">
-				<div className="container">
-					<div className="row large-gap">
-						<div className="col-lg-8">
-							<div className="course-details-content">
-								<div className="course-header">
-									<span className="category">Web Development</span>
-								</div>
-								<h2>Fullstack Web Development Bootcamp</h2>
+  const [active, setActive] = useState(`collapse1`);
+  const onClick = (value) => {
+    console.log(value);
+    setActive(value === active ? '' : value);
+  };
+  return (
+    <Layout>
+      <section className="course-details-area pt-130 rpt-100">
+        <div className="container">
+          <div className="row large-gap">
+            <div className="col-lg-8">
+              <div className="course-details-content">
+                <div className="course-header">
+                  <span className="category">Web Development</span>
+                </div>
+                <h2>Fullstack Web Development Bootcamp</h2>
 
-								<div className="image mb-35">
-									<img src="assets/images/coachs/course-details.jpg" alt="Course Details" />
-								</div>
-								<p>
-									Learn skills to secure a job as a full-stack software engineer.- HTML, CSS
-									JavaScript, Node JS, testing- heavy emphasis on project based learning
-								</p>
+                <div className="image mb-35">
+                  <Image src="/assets/images/coachs/course-details.jpg" alt="course-details" width="735" height="430" />
+                </div>
+                <p>
+                  Learn skills to secure a job as a full-stack software engineer.- HTML, CSS
+                  JavaScript, Node JS, testing- heavy emphasis on project based learning
+                </p>
 
 								<h3>Course Curriculum </h3>
 								<Accordion
@@ -144,27 +145,27 @@ const CourseDetails = () => {
 									<i className="fas fa-arrow-right" />
 								</a>
 
-								<div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
-									<div className="row align-items-center">
-										<div className="col-sm-5">
-											<div className="instructor-image">
-												<img src="assets/images/abdulkadir.jpeg" alt="instructor" />
-											</div>
-										</div>
-										<div className="col-md-4 col-sm-6">
-											<div className="instructor-details">
-												<h4>Abdulkadir Maxamed</h4>
-												<span className="designations">Senior Software Engineer</span>
-											</div>
-											<p>
-												An experienced Software Engineer who works for a global technology
-												consultancy company
-											</p>
-											<h5>Follow Me</h5>
-											<div className="social-style-two">
-												<a href="https://twitter.com/Shuayb__">
-													<i className="fab fa-twitter" />
-												</a>
+                <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
+                  <div className="row align-items-center">
+                    <div className="col-sm-5">
+                      <div className="instructor-image">
+                        <Image src="/assets/images/abdulkadir.jpeg" width="270" height="270" alt="instructor-image" />
+                      </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6">
+                      <div className="instructor-details">
+                        <h4>Abdulkadir Maxamed</h4>
+                        <span className="designations">Senior Software Engineer</span>
+                      </div>
+                      <p>
+                        An experienced Software Engineer who works for a global technology
+                        consultancy company
+                      </p>
+                      <h5>Follow Me</h5>
+                      <div className="social-style-two">
+                        <a href="https://twitter.com/Shuayb__">
+                          <i className="fab fa-twitter" />
+                        </a>
 
 												<a href="https://linktr.ee/shuaybcodes">
 													<i className="fab fa-instagram" />
@@ -198,15 +199,15 @@ const CourseDetails = () => {
 								<ul className="course-details-list mb-25">
 									<strong className="text-center">All Classes Are Recorded</strong>
 
-									<li>
-										<i className="far fa-file-alt" /> <span>Course Level</span> <b>Beginner</b>
-									</li>
-									<li>
-										<i className="far fa-clock" /> <span>Duration</span> <b>13 weeks</b>
-									</li>
-									<li>
-										<i className="far fa-clock" /> <span>When</span> <b>15 Dec - 22nd March </b>
-									</li>
+                  <li>
+                    <i className="far fa-file-alt" /> <span>Course Level</span> <b>Beginner</b>
+                  </li>
+                  <li>
+                    <i className="far fa-clock" /> <span>Duration</span> <b>13 weeks</b>
+                  </li>
+                  <li>
+                    <i className="far fa-clock" /> <span>When</span> <b>15 Dec - 22nd March </b>
+                  </li>
 
 									<li>
 										<i className="fas fa-globe" /> <span></span>{' '}

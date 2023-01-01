@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/future/image';
 import { Fragment, useEffect, useState } from 'react';
 import { sidebarOnclick, stickyNav } from '../utils';
 import { Blog, Courses, Home, Pages } from './Menu';
@@ -34,7 +35,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 							<div className="d-lg-flex align-items-center">
 								<div className="logo">
 									<Link href="/">
-										<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
+										<img src="/assets/images/bootcamp-logo.png" alt="Logo" />
 									</Link>
 								</div>
 							</div>
@@ -91,11 +92,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 					<div className="container clearfix">
 						<div className="header-inner d-flex align-items-center justify-content-between">
 							<div className="logo-outer d-lg-flex align-items-center">
-								<div className="logo">
+								<div className="">
 									<Link href="/">
-										<a>
-											<img src="assets/images/logos/logo-two.png" alt="Logo" title="Logo" />
-										</a>
+										<Image src="/assets/images/bootcamp-logo.png" alt="Logo" width="103" height="69" />
 									</Link>
 								</div>
 							</div>
@@ -270,11 +269,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 					<div className="container-fluid clearfix">
 						<div className="header-inner d-flex align-items-center justify-content-between">
 							<div className="logo-outer d-lg-flex align-items-center">
-								<div className="logo">
+								<div className="">
 									<Link href="/">
-										<a>
-											<img src="assets/images/bootcamp-logo.png" alt="Logo" title="Logo" />
-										</a>
+										<Image src="/assets/images/bootcamp-logo.png" alt="Logo" width="103" height="69" />
 									</Link>
 								</div>
 							</div>
@@ -343,7 +340,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				<Link href="/course-details">Curriculum</Link>
 			</li>
 			<li className="dropdown">
-				<Link href="/first-blog">Latest Blog</Link>
+				<Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">Latest Blog</Link>
 			</li>
 		</ul>
 	),

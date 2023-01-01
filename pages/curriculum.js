@@ -5,6 +5,7 @@ import PageBanner from '../src/components/PageBanner';
 import WellernAccordion from '../src/components/WellernAccordion';
 import Layout from '../src/layout/Layout';
 
+
 const Faqs = () => {
 	return (
 		<Layout>

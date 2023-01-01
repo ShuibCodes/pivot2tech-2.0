@@ -18,7 +18,7 @@ const Layout = ({ children, header, footer }) => {
     <Fragment>
       <VideoPopup />
       <ImageView />
-      <div className="page-wrapper">
+      <div className="page-wrapper relative">
         {/* Preloader */}
         {/* <div className="preloader" /> */}
         {/* main header */}
