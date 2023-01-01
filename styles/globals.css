@@ -3,6 +3,10 @@
 @import 'tailwindcss/utilities';
 /* @import "slick-carousel/slick/slick.css"; */
 
+.curriculum-title{
+	margin: 30px 10px
+}
+
 .navigation li.dropdown:hover > ul {
 	display: block;
 }

@@ -243,6 +243,43 @@ const CourseDetails = () => {
 					</div>
 				</div>
 			</section>
+			<section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-lg-6">
+              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-25">
+                  <h2>
+                    Passionate teachers, innovative methods & modern tools
+                  </h2>
+                </div>
+
+                <ul className="list-style-four pt-5 pb-35">
+                  <li>Small cohorts with 1 teacher for 10 students</li>
+                  <li>Weekly projects using real-life data</li>
+                  <li>Get real-time answers to never be stuck</li>
+                  <li>Lifetime Access to Pivot2Techs resources </li>
+                  <li>CV and Job Application support</li>
+                </ul>
+                <a href="/course-details">
+                  <div className="theme-btn style-four">
+                    Learn More <i className="fas fa-arrow-right" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="mt-10 ">
+                <img
+                  src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                  alt="Why Choose"
+                  className="why-choose-one"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 		</Layout>
 	);
 };
