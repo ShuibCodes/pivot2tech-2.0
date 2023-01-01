@@ -350,14 +350,14 @@ const Header1 = ({ navToggle, setNavToggle }) => (
 				<div className="top-inner">
 					<div className="top-left">
 						<p>
-							<i className="far fa-clock" /> <b>Next Cohort</b> 15 December 2022
+							<i className="far fa-clock" /> <b>Next Cohort</b> 15 March 2023
 						</p>
 					</div>
 					<div className="top-right d-flex align-items-center">
 						<div className="social-style-two">
 							<h6 className="py-1">
 								{' '}
-								<span className="px-2">📣</span> Last 8 SPACES <span className="px-2">📣</span>{' '}
+								<span className="px-2">👇🏾</span> Resgister your interest below <span className="px-2">👇🏾</span>{' '}
 							</h6>
 						</div>
 					</div>

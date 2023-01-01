@@ -15,7 +15,7 @@ export const Courses = () => (
 			<Link href="/course-details">Fullstack Web Development</Link>
 		</li>
 		<li>
-			<Link href="/course-details">Freelance Course</Link>
+			<Link href="/course-details-freelance">Freelance Course</Link>
 		</li>
 	</Fragment>
 );
