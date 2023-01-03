@@ -741,15 +741,15 @@ const Index = () => {
                     <ul className="blog-meta">
                       <li>
                         <i className="far fa-user" />{" "}
-                        <Link href="/first-blog">By Shuayb</Link>
+                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">By Shuayb</Link>
                       </li>
                       <li>
                         <i className="far fa-comments" />{" "}
-                        <Link href="/first-blog">3min read</Link>
+                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">3min read</Link>
                       </li>
                     </ul>
                     <h5>
-                      <Link href="/first-blog">
+                    <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
                         How Shuayb became a Software Engineer without a degree
                         in 8 months💻
                       </Link>
@@ -759,6 +759,46 @@ const Index = () => {
                       and began..
                     </p>
                     <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
+                      <a className="read-more">
+                        Read more <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-sm-6">
+              <div className="blog-item wow fadeInUp delay-0-4s">
+                <div className="blog-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="Blog"
+                  />
+                </div>
+                <div className="blog-content">
+                  <span className="date">
+                    <span>3</span> January
+                  </span>
+                  <div className="content">
+                    <ul className="blog-meta">
+                      <li>
+                        <i className="far fa-user" />{" "}
+                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">By Shuayb</Link>
+                      </li>
+                      <li>
+                        <i className="far fa-comments" />{" "}
+                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">3min read</Link>
+                      </li>
+                    </ul>
+                    <h5>
+                    <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
+                    What are the different roles in Software Engineering? Frontend, Backend & Fullstack
+                      </Link>
+                    </h5>
+                    <p>
+                    Software engineering can be an incredibly rewarding profession, offering a wide range of career opportunities in the technology sector...
+                    </p>
+                    <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
                       <a className="read-more">
                         Read more <i className="fas fa-arrow-right" />
                       </a>

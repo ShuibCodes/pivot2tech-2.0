@@ -21,7 +21,7 @@ export default function Post({ frontmatter, slug, content }) {
                   </h3>
                   <Image src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7" alt="blog-image" width="770" height="433" />
 
-                  <Link href="#">
+                  <Link href="/">
                     <i className="fas fa-share-alt" />
                   </Link>
                 </div>
@@ -44,8 +44,8 @@ export default function Post({ frontmatter, slug, content }) {
                 <div dangerouslySetInnerHTML={{__html: marked(content)}}></div>
                 <div className="tag-coulds pb-25 d-flex align-items-center">
                   <h6 className="mr-3">Tags</h6>
-                  <Link href="/blog">Software Engineering</Link>
-                  <Link href="/blog">Careers</Link>
+                  <Link href="/">Software Engineering</Link>
+                  <Link href="/">Careers</Link>
                 </div>
               </div>
             </div>
