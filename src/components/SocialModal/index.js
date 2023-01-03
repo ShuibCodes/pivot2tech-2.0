@@ -19,7 +19,7 @@ const SocialModal = () => {
         } else {
           setDismiss(window.localStorage.getItem("dismiss-social-modal"));
         }
-      }, 5000);
+      }, 6000);
     }
   }, []);
 
@@ -55,8 +55,8 @@ const SocialModal = () => {
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content p-3">
           <div className="modal-body">
-            <h4>Thank you for taking interest in Pivot2Tech! We are interested in getting to know how you heard about us!</h4>
-            <p>Please provide your email address and select the option that best applies regarding how you heard about us.</p>
+            <h4>Where did you hear about us?</h4>
+           
             <div>
               <label>Email Address</label>
               <input
