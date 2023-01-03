@@ -148,71 +148,65 @@ const Index = () => {
           </div>
         </div>
 
-
-
         <div className="section-title text-center">
-        <span className="sub-title mb-15">Testimonials</span>
-        <h2>What Our Students Say</h2>
-      </div>
-      <section className="testimonials-section bg-white rel z-1 py-100 rpy-100">
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-lg-6">
-              <div className="testimonial-item">
-                <div className="testimonial-content">
-                  <div className="designation">
-                    <h4>Ayaan Qaasim</h4>
-                    <span>Fullstack Web Development</span>
-                  </div>
-                  <p className="testimonial-p">
-                    For someone from a completely different industry, Abdulkadir
-                    has been really patient and thorough in his explaining to
-                    make sure no students fall behind, a terrific course 10/10
-                    would recommend.
-                  </p>
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
+          <span className="sub-title mb-15">Testimonials</span>
+          <h2>What Our Students Say</h2>
+        </div>
+        <section className="testimonials-section bg-white rel z-1 py-100 rpy-100">
+          <div className="container">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-lg-6">
+                <div className="testimonial-item">
+                  <div className="testimonial-content">
+                    <div className="designation">
+                      <h4>Ayaan Qaasim</h4>
+                      <span>Fullstack Web Development</span>
+                    </div>
+                    <p className="testimonial-p">
+                      For someone from a completely different industry,
+                      Abdulkadir has been really patient and thorough in his
+                      explaining to make sure no students fall behind, a
+                      terrific course 10/10 would recommend.
+                    </p>
+                    <div className="ratting">
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div className="col-lg-6">
-              <div className="testimonial-item">
-                <div className="testimonial-content">
-                  <div className="designation">
-                    <h4>Guled Muse</h4>
-                    <span>Fullstack Web Development</span>
-                  </div>
-                  <p className="testimonial-p">
-                    I feel as though I am being taken serious. Abdul is giving
-                    me a hand with CV tips along with getting me interview ready
-                    discussing possible questions as well as practice interviews
-                    to prepare me.
-                  </p>
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
+              <div className="col-lg-6">
+                <div className="testimonial-item">
+                  <div className="testimonial-content">
+                    <div className="designation">
+                      <h4>Guled Muse</h4>
+                      <span>Fullstack Web Development</span>
+                    </div>
+                    <p className="testimonial-p">
+                      I feel as though I am being taken serious. Abdul is giving
+                      me a hand with CV tips along with getting me interview
+                      ready discussing possible questions as well as practice
+                      interviews to prepare me.
+                    </p>
+                    <div className="ratting">
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                      <i className="fas fa-star" />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-
-
+        </section>
 
         <div id="courses-group" className="container">
-         
           <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item development photography">
               <div
@@ -446,17 +440,23 @@ const Index = () => {
         </div>
       </section>
 
-{/* Curriculum */}
-<div className="curriculum-title">
-<h5 className=" px-4">Online, <span style={{color:"#1F4ECD"}}>part-time schedule</span></h5>
-<h4 style={{fontSize:"25px"}} className="px-4 ">Check out what our curriculums cover:</h4>
-</div>
-<Accordion
+      <section className="container">
+        {/* Curriculum */}
+        <div>
+          <div className="curriculum-title">
+            <h5 className=" px-4">
+              Online,{" "}
+              <span style={{ color: "#1F4ECD" }}>part-time schedule</span>
+            </h5>
+            <h4 style={{ fontSize: "25px" }} className="px-4 ">
+              Check out what our curriculums cover:
+            </h4>
+          </div>
+          <Accordion
             className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
             id="course-faq"
             defaultActiveKey="collapse1"
           >
-         
             <WellernAccordion
               eventName={"collapse1"}
               title={"Fullstack Web Development"}
@@ -533,27 +533,26 @@ const Index = () => {
               </ul>
             </WellernAccordion>
           </Accordion>
-                      <div className="text-center">
-                      <Link href="/course-details">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "9px",
-                        margin: "10px 0px",
-                        backgroundColor: "#0084DF",
-                      }}
-                      className="theme-btn"
-                    >
-                      Learn More
-                    </a>
-                  </Link>
-                      </div>
+          <div className="text-center">
+            <Link href="/course-details">
+              <a
+                style={{
+                  padding: "10px",
+                  fontSize: "9px",
+                  margin: "10px 0px",
+                  backgroundColor: "#0084DF",
+                }}
+                className="theme-btn"
+              >
+                Learn More
+              </a>
+            </Link>
+          </div>
           <Accordion
             className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
             id="course-faq"
             defaultActiveKey="collapse2"
           >
-        
             <WellernAccordion
               eventName={"collapse2"}
               title={"Freelance Beginners Bootcamp"}
@@ -569,54 +568,73 @@ const Index = () => {
                     Week 1-3
                   </span>
                   <span className="title">
-                    Foundation: Web Development, HTML & CSS 
+                    Foundation: Web Development, HTML & CSS
                   </span>
                 </li>
                 <li>
                   <span
-                  	style={{ color: "#1F4ECE", marginRight: "10px" }}
-									 className="duration">Week 4-6</span>
-                  <span className="title">Low-code Web Development & SEO Basics </span>
-                </li>
-                <li>
-                  <span
-                  	style={{ color: "#1F4ECE", marginRight: "10px" }}
-										className="duration"> Week 7-9</span>
-                  <span className="title">Advanced Low-code Web Development</span>{" "}
-                </li>
-                <li>
-                  <span
-                  	style={{ color: "#1F4ECE", marginRight: "10px" }}
-									className="duration"> Week 10-12</span>
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 4-6
+                  </span>
                   <span className="title">
-                    Shopify Development
+                    Low-code Web Development & SEO Basics{" "}
                   </span>
                 </li>
                 <li>
                   <span
-                  	style={{ color: "#1F4ECE", marginRight: "10px" }}
-									className="duration">Week 13</span>
-                  <span className="title">How to find clients - UpWork and Brand building guide</span>
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    {" "}
+                    Week 7-9
+                  </span>
+                  <span className="title">
+                    Advanced Low-code Web Development
+                  </span>{" "}
+                </li>
+                <li>
+                  <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    {" "}
+                    Week 10-12
+                  </span>
+                  <span className="title">Shopify Development</span>
+                </li>
+                <li>
+                  <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 13
+                  </span>
+                  <span className="title">
+                    How to find clients - UpWork and Brand building guide
+                  </span>
                 </li>
               </ul>
             </WellernAccordion>
           </Accordion>
-
-          <div className="text-center">
-                      <Link href="/course-details-freelance">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "9px",
-                        margin: "10px 0px",
-                        backgroundColor: "#0084DF",
-                      }}
-                      className="theme-btn"
-                    >
-                      Learn More
-                    </a>
-                  </Link>
-                      </div>
+        </div>
+      </section>
+      <div className="text-center">
+        <Link href="/course-details-freelance">
+          <a
+            style={{
+              padding: "10px",
+              fontSize: "9px",
+              margin: "10px 0px",
+              backgroundColor: "#0084DF",
+            }}
+            className="theme-btn"
+          >
+            Learn More
+          </a>
+        </Link>
+      </div>
 
       <FAQs />
       <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -640,7 +658,7 @@ const Index = () => {
         <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
           <Link href="/course-details">
             <a className="theme-btn">
-             More Details
+              More Details
               <i className="fas fa-arrow-right" />
             </a>
           </Link>
@@ -683,7 +701,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
       <div className="">
@@ -753,11 +771,7 @@ const Index = () => {
           <div className="blog-more-btn pt-30 text-center"></div>
         </div>
       </section>
-    
-  
- 
 
- 
       {/* Blog Section End */}
       {/* Logo Section Start */}
 
