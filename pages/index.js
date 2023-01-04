@@ -13,6 +13,7 @@ import Index1WorkStepSlider from "../src/components/slider/Index1WorkStepSlider"
 import { index1EventWrap, index1Testimonial } from "../src/sliderProps";
 import Advertise from "../src/components/Advertise";
 import { useState } from "react";
+import Team from '../src/components/team'
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -635,7 +636,7 @@ const Index = () => {
           </a>
         </Link>
       </div>
-
+<Team/>
       <FAQs />
       <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
         <Link href="/contact">
