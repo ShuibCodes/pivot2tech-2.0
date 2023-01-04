@@ -44,7 +44,7 @@ const FollowIcon = () => (
 				<Link href="/course-details">Home</Link>
 			</li>
 			<li>
-				<Link href="/first-blog">Blog</Link>
+				<Link href="/contact">Contact</Link>
 			</li>
 		</Fragment>
 	),
