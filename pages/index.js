@@ -636,7 +636,7 @@ const Index = () => {
           </a>
         </Link>
       </div>
-
+<Team/>
       <FAQs />
       <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
         <Link href="/contact">
