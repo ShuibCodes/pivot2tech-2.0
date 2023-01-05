@@ -16,12 +16,9 @@ const Sidebar = () => {
 					{/*Appointment Form*/}
 					<div className="appointment-form">
 						<form
-							onSubmit={(e) => {
-								e.preventDefault();
-								sidebarOnclick();
-							}}
-							method="post"
-							action="#"
+							action="https://getform.io/f/a5bd7840-377b-4857-934e-b058c13d4aad"
+							method="POST"
+							name="contact-form"
 						>
 							<div className="form-group">
 								<input type="text" name="text" defaultValue="" placeholder="Name" required="" />
@@ -29,14 +26,20 @@ const Sidebar = () => {
 							<div className="form-group">
 								<input
 									type="email"
+									id="email-address"
 									name="email"
+									className="form-control"
 									defaultValue=""
 									placeholder="Email Address"
 									required=""
 								/>
 							</div>
 							<div className="form-group">
-								<textarea placeholder="Message" rows={5} defaultValue={''} />
+								<textarea
+									name="message"
+									id="message"
+									className="form-control"
+								placeholder="Message" rows={5} defaultValue={''} />
 							</div>
 							<div className="form-group">
 								<button type="submit" className="theme-btn">
