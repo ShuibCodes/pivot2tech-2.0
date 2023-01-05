@@ -14,7 +14,9 @@ import { index1EventWrap, index1Testimonial } from "../src/sliderProps";
 import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from '../src/components/team'
-import Tweets from '../src/components/tweets'
+import Tweets from "../src/components/tweets";
+
+
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -88,16 +90,16 @@ const Index = () => {
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-                    <Link href="/course-details">
-                      <a className="theme-btn grab-course">
+            
+                      <a href="#courses-group" className="theme-btn grab-course">
                         Grab your course
                         <i className="fas fa-arrow-right" />
                       </a>
-                    </Link>
+                    
                   </div>
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
                     <a
-                      href="/curriculum"
+                      href="#curriculum"
                       style={{ backgroundColor: "#1F4ECE" }}
                       className="theme-btn"
                     >
@@ -138,7 +140,11 @@ const Index = () => {
           <p className="text-center  cards-paragraph "></p>
           <div className="text-center" style={{ margin: "0 auto" }}>
             <ul style={{ fontSize: "22px" }} className="list-style-four">
-              <li style={{ fontSize: "22px" }}>Live & recorded classes</li>
+              <li style={{ fontSize: "22px" }}>Evening Zoom Lessons   
+              <span style={{ color: "#1F4ECE", marginLeft:"6px" }}>
+                 2 days a week
+                 </span>
+                 </li>
               <li style={{ fontSize: "22px" }}>For complete beginners</li>
             </ul>
             <ul style={{ fontSize: "22px" }} className="list-style-four">
@@ -155,8 +161,6 @@ const Index = () => {
           <h2>What Our Students Say</h2>
         </div>
         <Tweets/>
-        
-
         <div id="courses-group" className="container">
           <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item development photography">
@@ -393,7 +397,7 @@ const Index = () => {
 
       <section className="container">
         {/* Curriculum */}
-        <div>
+        <div id="curriculum">
           <div className="curriculum-title">
             <h5 className=" px-4">
               Online,{" "}
@@ -511,61 +515,58 @@ const Index = () => {
               onClick={() => onClickFreelance("collapse2")}
             >
               <ul className="course-video-list">
-                <li>
-                  <span
+              <li>
+                      <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 1-3
                   </span>
-                  <span className="title">
-                    Foundation: Web Development, HTML & CSS
-                  </span>
-                </li>
-                <li>
-                  <span
+                        <span className="title">
+                          Foundation: Web Development Basics & Freelance Intro
+                        </span>{' '}
+                      
+                      </li>
+                      <li>
+                      <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 4-6
                   </span>
-                  <span className="title">
-                    Low-code Web Development & SEO Basics{" "}
-                  </span>
-                </li>
-                <li>
-                  <span
+                        <span className="title">Low-code Web Development & SEO basics</span>{' '}
+                       
+                      </li>
+                      <li>
+                      <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
-                    {" "}
                     Week 7-9
                   </span>
-                  <span className="title">
-                    Advanced Low-code Web Development
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
+                        <span className="title">How to find clients & tools of the trade</span>{' '}
+                      
+                      </li>
+                      <li>
+                      <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
-                    {" "}
                     Week 10-12
                   </span>
-                  <span className="title">Shopify Development</span>
-                </li>
-                <li>
-                  <span
+                        <span className="title">Advanced Low-code Web Development with projects</span>
+                       
+                      </li>
+                      <li>
+                      <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 13
                   </span>
-                  <span className="title">
-                    How to find clients - UpWork and Brand building guide
-                  </span>
-                </li>
+                        <span className="title">eCommerece 101 - Shopify Crash Course </span>
+                     
+                      </li>
               </ul>
             </WellernAccordion>
           </Accordion>
