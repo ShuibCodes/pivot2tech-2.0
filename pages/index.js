@@ -15,6 +15,8 @@ import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from '../src/components/team'
 import Tweets from "../src/components/tweets";
+
+
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -159,60 +161,6 @@ const Index = () => {
           <h2>What Our Students Say</h2>
         </div>
         <Tweets/>
-        {/* <section className="testimonials-section bg-white rel z-1 py-100 rpy-100">
-          <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-lg-6">
-                <div className="testimonial-item">
-                  <div className="testimonial-content">
-                    <div className="designation">
-                      <h4>Ayaan Qaasim</h4>
-                      <span>Fullstack Web Development</span>
-                    </div>
-                    <p className="testimonial-p">
-                      For someone from a completely different industry,
-                      Abdulkadir has been really patient and thorough in his
-                      explaining to make sure no students fall behind, a
-                      terrific course 10/10 would recommend.
-                    </p>
-                    <div className="ratting">
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-6">
-                <div className="testimonial-item">
-                  <div className="testimonial-content">
-                    <div className="designation">
-                      <h4>Guled Muse</h4>
-                      <span>Fullstack Web Development</span>
-                    </div>
-                    <p className="testimonial-p">
-                      I feel as though I am being taken serious. Abdul is giving
-                      me a hand with CV tips along with getting me interview
-                      ready discussing possible questions as well as practice
-                      interviews to prepare me.
-                    </p>
-                    <div className="ratting">
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         <div id="courses-group" className="container">
           <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item development photography">
