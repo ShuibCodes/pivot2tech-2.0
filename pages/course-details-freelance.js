@@ -50,26 +50,56 @@ const CourseDetails = () => {
                   >
                     <ul className="course-video-list">
                       <li>
+                      <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 1-3
+                  </span>
                         <span className="title">
                           Foundation: Web Development Basics & Freelance Intro
                         </span>{' '}
-                        <span className="duration"> Week 1-3</span>
+                      
                       </li>
                       <li>
-                        <span className="title">More HTML & CSS</span>{' '}
-                        <span className="duration"> Week 4-6</span>
+                      <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 4-6
+                  </span>
+                        <span className="title">Low-code Web Development & SEO basics</span>{' '}
+                       
                       </li>
                       <li>
-                        <span className="title">How to Find Clients</span>{' '}
-                        <span className="duration"> Week 7-9</span>
+                      <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 7-9
+                  </span>
+                        <span className="title">How to find clients & tools of the trade</span>{' '}
+                      
                       </li>
                       <li>
-                        <span className="title">Low-code Web Development with projects</span>
-                        <span className="duration"> Week 10-12</span>
+                      <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 10-12
+                  </span>
+                        <span className="title">Advanced Low-code Web Development with projects</span>
+                       
                       </li>
                       <li>
-                        <span className="title">Shopify Web Development</span>
-                        <span className="duration">Week 13</span>
+                      <span
+                    style={{ color: "#1F4ECE", marginRight: "10px" }}
+                    className="duration"
+                  >
+                    Week 13
+                  </span>
+                        <span className="title">eCommerece 101 - Shopify Crash Course </span>
+                     
                       </li>
                     </ul>
                   </WellernAccordion>
