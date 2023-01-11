@@ -77,6 +77,32 @@ a {
 	transition: 0.5s;
 	text-decoration: none;
 }
+
+.webinar-image{
+	width:40%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+
+}
+
+.webinar-container{
+	margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+	.webinar-image {
+	 width: 100%;
+	 margin-top: -100px;
+	}
+
+	.webinar-container{
+		margin: 10px;
+	}
+	
+  }
+
 a:hover,
 a:focus,
 a:visited {

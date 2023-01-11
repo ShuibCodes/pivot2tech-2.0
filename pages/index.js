@@ -155,12 +155,18 @@ const Index = () => {
             </ul>
           </div>
         </div>
-
+        <div className="webinar-container">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1eU4u5y9MetnIu61Bz-4RvEBgDNSVUazPQc3_bFErkzoAdw/viewform?usp=sf_link">
+          <img className="webinar-image" alt="webinar-image"  src="/assets/images/webinar.png"/>
+          </a>
+        </div>
         <div className="section-title text-center">
           <span className="sub-title mb-15">Testimonials</span>
           <h2>What Our Students Say</h2>
         </div>
         <Tweets/>
+        
+                  
         <div id="courses-group" className="container">
           <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item development photography">
