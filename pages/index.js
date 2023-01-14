@@ -156,7 +156,7 @@ const Index = () => {
           </div>
         </div>
         <div className="webinar-container">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1eU4u5y9MetnIu61Bz-4RvEBgDNSVUazPQc3_bFErkzoAdw/viewform?usp=sf_link">
+          <a href="https://www.eventbrite.co.uk/e/pivoting-to-tech-in-2023-tickets-514400815687">
           <img className="webinar-image" alt="webinar-image"  src="/assets/images/webinar.png"/>
           </a>
         </div>
