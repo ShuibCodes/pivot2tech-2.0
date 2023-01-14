@@ -105,12 +105,12 @@ const CourseDetails = () => {
                   </WellernAccordion>
                 </Accordion>
                 <div className="py-20">
-                  <a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
-                    <button className="theme-btn">
-                      Book your seat
-                      <i className="fas fa-arrow-right" />
-                    </button>
-                  </a>
+                <a
+										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+										className="theme-btn"
+									>
+										SOLD OUT
+									</a>
                 </div>
                 <h3>Instructors</h3>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
@@ -143,13 +143,7 @@ const CourseDetails = () => {
                         <h4>
                           £43/m for 3 months
                           <br />
-                          click the Klarna option{' '}
-                          <a
-                            style={{ color: 'blue' }}
-                            href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo"
-                          >
-                            here
-                          </a>
+                          
                         </h4>
                       </div>
                     </div>
@@ -189,12 +183,12 @@ const CourseDetails = () => {
                   </li>
                 </ul>
 
-                <a href="https://buy.stripe.com/fZe8xrecF1ZI1b26oo">
-                  <button className="theme-btn">
-                    Book your seat
-                    <i className="fas fa-arrow-right" />
-                  </button>
-                </a>
+                <a
+										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
+										className="theme-btn"
+									>
+										SOLD OUT
+									</a>
               </div>
             </div>
           </div>
