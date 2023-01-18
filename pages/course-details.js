@@ -229,6 +229,7 @@ const CourseDetails = () => {
 								</ul>
 
 								<a
+										href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
 									style={{
 										padding: '11px',
 										fontSize: '12px',
@@ -238,19 +239,7 @@ const CourseDetails = () => {
 								>
 									Book Now
 								</a>
-								<a
-									href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
-									style={{
-										padding: '10px',
-										fontSize: '11px',
-										margin: '10px 0px',
-										backgroundColor: '#0084DF',
-									}}
-									className="theme-btn"
-								>
-									Book Now
-									<i className="fas fa-arrow-right" />
-								</a>
+							
 							</div>
 						</div>
 					</div>
