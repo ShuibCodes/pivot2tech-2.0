@@ -100,6 +100,26 @@ function FAQ() {
               </div>
             </WellernAccordion>
           </Accordion>
+          <Accordion
+            className="faq-accordion pt-10 "
+            id="course-faq"
+            defaultActiveKey=""
+          >
+         
+            <WellernAccordion
+              eventName={"collapse1"}
+              title={"Do I have to be good at maths to learn code?"}
+              active={active}
+              onClick={() => onClick("collapse1")}
+            >
+              <div className="course-video-list">
+                <p className='p-40'>
+                  You dont need to be good at maths to be a good developer. Learning to program involves Googling (A LOT), collaboration & problem solving. The computer does all the maths for you :) 
+                </p>
+               
+              </div>
+            </WellernAccordion>
+          </Accordion>
 		  <Accordion
             className="faq-accordion pt-10 "
             id="course-faq"

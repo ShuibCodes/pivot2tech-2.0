@@ -137,7 +137,7 @@ const CourseDetails = () => {
 									
 								</div>
 								<a
-									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
 									style={{
 										padding: '10px',
 										fontSize: '11px',
