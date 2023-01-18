@@ -2,6 +2,53 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 /* @import "slick-carousel/slick/slick.css"; */
+.freelance-bundle-reviews{
+	padding: 30px;;
+	max-width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 20px
+}
+
+.review-image{
+	min-width:300px;
+	padding: 20px;
+	
+}
+
+
+.info-copy{
+	font-size: 22px;
+	padding: 10px;
+	font-weight: 700;
+	color:black
+
+}
+
+.info-copy-small{
+	font-size: 19px;
+	padding: 10px;
+	font-weight: 600;
+	color:black;
+	margin-top: -20px
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+	.freelance-bundle-reviews{
+		max-width: 100%;
+		display: block;
+	}
+
+	.review-image{
+		width: 100%;
+		
+	}
+	
+	
+}
 
 .curriculum-title{
 	margin: 30px 10px
@@ -61,6 +108,7 @@ img.mfp-img {
 .header-navigation .main-menu ul > li.has-children.active > a:after {
 	color: #ff344f !important;
 }
+
 
 /* span.current {
   color: unset !important;

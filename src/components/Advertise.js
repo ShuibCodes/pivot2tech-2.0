@@ -10,15 +10,15 @@ const Advertise = () => {
 						<p style={{ fontSize: '17px' }}>Next Cohort</p>
 						<h4 style={{ fontWeight: 'bold' }}>
 							{' '}
-							<i style={{ padding: '0px 10px' }} className="far fa-user" />
-							March 15th
+							
+							 15th March 
 						</h4>
-						<a href="https://docs.google.com/forms/d/e/1FAIpQLSfgUs1dTTSUgWIttaWP_PcBO4y4C2l3OHg-40tljOrxn8FDTA/viewform?usp=sf_link">
+						<Link href="/#courses-group">
 							<a className="theme-btn">
-								Pre-register 
+								Book now
 								<i className="fas fa-arrow-right" />
 							</a>
-						</a>
+						</Link>
 					</div>
 					<div className="image">
 						<img src={advertise1.src} alt="Advertise" />

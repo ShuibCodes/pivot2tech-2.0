@@ -20,9 +20,9 @@ const Footer = ({ footer }) => {
 export default Footer;
 const FollowIcon = () => (
 		<Fragment>
-			<Link href="https://twitter.com/Shuayb__">
+			<Link href="https://www.instagram.com/__shuib__/?hl=en">
 				<a>
-					<i className="fab fa-facebook-f" />
+					<i className="fab fa-instagram" />
 				</a>
 			</Link>
 			<Link href="https://twitter.com/Shuayb__">
@@ -97,7 +97,7 @@ const FollowIcon = () => (
 									<ul>
 										<li>
 											<i className="far fa-envelope" />{' '}
-											<a href="mailto:abdullahshuib124@gmail.com">abdullahshuib124@gmail.com</a>
+											<a href="mailto:pivot2techteam@gmail.com">pivot2techteam@gmail.com</a>
 										</li>
 									</ul>
 								</div>
@@ -167,7 +167,7 @@ const FollowIcon = () => (
 									<ul>
 										<li>
 											<i className="far fa-envelope" />{' '}
-											<a href="mailto:abdullahshuib124@gmail.com">abdullahshuib124@gmail.com</a>
+											<a href="mailto:pivot2techteam@gmail.com">pivot2techteam@gmail.com</a>
 										</li>
 									</ul>
 								</div>

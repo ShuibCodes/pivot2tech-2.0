@@ -8,9 +8,11 @@ tags: ["Software Engineering", "Careers"]
 ---
 
 ### Why Software Engineering?
-I wasn’t motivated purely by money, my fuel and passion derived from something much more liberating than $$. Freedom. The ability to work anywhere and anytime was my primary motivator. I relished in the thought of typing away on my laptop at some distant beach with just the ocean and birds as company. Now this must sound absurd but hear me out, there are people actually living like this, they call themselves Digital Nomads. And so, with hours of research on my back, I set off on this journey.
+I wasn’t motivated purely by money, my fuel and passion derived from something much more liberating than $$. Freedom. The ability to work anywhere and anytime was my primary motivator. I relished in the thought of typing away on my laptop at some distant beach with just the ocean and birds as company. 
 
 Now this must sound absurd but hear me out, there are people actually living like this, they call themselves Digital Nomads. And so, with hours of research on my back, I set off on this journey.
+
+
 
 ### How it started
 I knew I needed a plan, so I made one. After many more hours digging around online, I started to construct a pretty decent plan as to how I was going to do this. Meanwhile, I was in the middle of writing my dissertation for my bachelor’s degree in Radiotherapy & Oncology. Priorities…

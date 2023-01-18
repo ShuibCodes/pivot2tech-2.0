@@ -387,8 +387,13 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <Link href="/course-details">Curriculum</Link>
       </li>
       <li className="dropdown">
-        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
+        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
           Latest Blog
+        </Link>
+      </li>
+      <li className="dropdown">
+        <Link href="/#the-team">
+          Team
         </Link>
       </li>
     </ul>
@@ -406,7 +411,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span> Resgister your interest below{" "}
+                <span className="px-2">👇🏾</span> Limited Spaces! {" "}
                 <span className="px-2">👇🏾</span>{" "}
               </h6>
             </div>
