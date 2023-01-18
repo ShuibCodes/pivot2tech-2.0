@@ -116,20 +116,25 @@ const CourseDetails = () => {
 										</ul>
 									</WellernAccordion>
 								</Accordion>
+								<div className='info-copy'>
+									<p>Our <span style={{color:"blue"}}>part-time program</span> is designed with busy professionals in mind, so you can learn to code while maintaining your current lifestyle.</p>
+								</div>
 								<div className="py-10">
 									<div style={{ marginTop: '20px' }}>
 										<h5>
-											£43/m for 3 months
-											<br />
-											click the Klarna option{' '}
+										Pay in 3 installments 
+										
+										<span>
+										<a
+										href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
+										style={{color:"blue"}}
+									> here
+									</a></span>
+										
+
 										</h5>
 									</div>
-									<a
-										style={{ padding: '10px', fontSize: '11px', margin: '10px 0px' }}
-										className="theme-btn"
-									>
-										SOLD OUT
-									</a>
+									
 								</div>
 								<a
 									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
@@ -141,9 +146,10 @@ const CourseDetails = () => {
 									}}
 									className="theme-btn"
 								>
-									Register your interest
+									Book Now
 									<i className="fas fa-arrow-right" />
 								</a>
+								<h3 className='py-5'>Your Instructor</h3>
 
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
@@ -171,11 +177,18 @@ const CourseDetails = () => {
 													<i className="fab fa-instagram" />
 												</a>
 											</div>
-											<div style={{ marginTop: '20px' }} className="text-center">
-												<h4>
-													£43/m for 3 months with Klarna
-													<br />
+											<div style={{ margin: '10px' }} className="text-center">
+												<h4 className='py-5'>
+													Got a question?
 												</h4>
+												<br />
+											<Link href="/#FAQs">
+												<a className="theme-btn">
+												See the FAQS
+												</a>
+												</Link>
+													
+
 											</div>
 										</div>
 									</div>
@@ -197,7 +210,7 @@ const CourseDetails = () => {
 									<span className="bold">OR £43 month - 3 months</span>
 								</div>
 								<ul className="course-details-list mb-25">
-									<strong className="text-center">All Classes Are Recorded</strong>
+								<strong style={{color:"blue", fontStyle:"italic", fontSize:"18px"}} className="text-center">All Classes Are Recorded</strong>
 
                   <li>
                     <i className="far fa-file-alt" /> <span>Course Level</span> <b>Beginner</b>
@@ -206,7 +219,7 @@ const CourseDetails = () => {
                     <i className="far fa-clock" /> <span>Duration</span> <b>13 weeks</b>
                   </li>
                   <li>
-                    <i className="far fa-clock" /> <span>When</span> <b>15 Dec - 22nd March </b>
+				  <i className="far fa-clock" /> <span>When</span> <b>15 March - 18th June </b>
                   </li>
 
 									<li>
@@ -223,10 +236,10 @@ const CourseDetails = () => {
 									}}
 									className="theme-btn"
 								>
-									SOLD OUT
+									Book Now
 								</a>
 								<a
-									href="https://forms.gle/5A3KUHuDvGn1ZkTC9"
+									href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
 									style={{
 										padding: '10px',
 										fontSize: '11px',
@@ -235,7 +248,7 @@ const CourseDetails = () => {
 									}}
 									className="theme-btn"
 								>
-									Register your interest
+									Book Now
 									<i className="fas fa-arrow-right" />
 								</a>
 							</div>
@@ -261,11 +274,11 @@ const CourseDetails = () => {
                   <li>Lifetime Access to Pivot2Techs resources </li>
                   <li>CV and Job Application support</li>
                 </ul>
-                <a href="/course-details">
-                  <div className="theme-btn style-four">
-                    Learn More <i className="fas fa-arrow-right" />
-                  </div>
-                </a>
+                <div href="/course-details">
+                  <a href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1" className="theme-btn style-four">
+                    Book Bow <i className="fas fa-arrow-right" />
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-lg-6">

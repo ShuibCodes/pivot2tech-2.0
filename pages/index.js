@@ -1,16 +1,11 @@
 import Link from "next/link";
-
 import Layout from "../src/layout/Layout";
 import Head from "next/head";
-import Script from "next/script";
 import dynamic from "next/dynamic";
-import Slider from "react-slick";
 import FAQs from "../src/components/FAQ";
-import Banner from "../src/components/Banner";
 import { Accordion, Nav, Tab } from "react-bootstrap";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Index1WorkStepSlider from "../src/components/slider/Index1WorkStepSlider";
-import { index1EventWrap, index1Testimonial } from "../src/sliderProps";
 import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from '../src/components/team'
@@ -49,7 +44,7 @@ const Index = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="og:description"
-          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of 160+ students 🎯"
+          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 200 students 🎯"
         />
         <meta
           property="og:image"
@@ -63,7 +58,7 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
                 <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Resgister your interest
+                  Applications now open
                 </span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Launch your{" "}
@@ -150,16 +145,12 @@ const Index = () => {
             <ul style={{ fontSize: "22px" }} className="list-style-four">
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 160+ students!
+                Community of over 200+ students!
               </li>
             </ul>
           </div>
         </div>
-        <div className="webinar-container">
-          <a href="https://www.eventbrite.co.uk/e/pivoting-to-tech-in-2023-tickets-514400815687">
-          <img className="webinar-image" alt="webinar-image"  src="/assets/images/webinar.png"/>
-          </a>
-        </div>
+       
         <div className="section-title text-center">
           <span className="sub-title mb-15">Testimonials</span>
           <h2>What Our Students Say</h2>
@@ -169,7 +160,10 @@ const Index = () => {
                   
         <div id="courses-group" className="container">
           <div className="row coach-active justify-content-center">
+
+            
             <div className="col-lg-4 col-md-6 item development photography">
+            <Link href="/course-details">
               <div
                 id="what-learn"
                 className="coach-item wow fadeInUp delay-0-4s"
@@ -186,34 +180,23 @@ const Index = () => {
                   />
                 </div>
                 <div className="coach-content">
-                  <span className="label">Online Lessons</span>
+                  <span className="label">Online Lessons - 13 weeks</span>
                   <h4>
                     <Link href="/">Fullstack Web Development</Link>
                   </h4>
                   <div className="ratting-price">
-                    <span className="bold" style={{ fontSize: "13px" }}>
-                      Tuesday 7-9pm & Saturdays 12:30-14:30 GMT
+                
+                  <span className="bold" style={{ fontSize: "18px" }}>
+                      Tuesday's 7-9pm <br></br>
+                      Saturday's 12:30-14:30 (GMT)
                     </span>
                   </div>
+                 
+                 
+                  
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong> Sorry, We're at Capacity!</strong>
+                    <strong> 40 spaces</strong>
                   </p>
-                  <p style={{ fontSize: "18px", color: "black" }}>
-                    <strong>Next Cohort: 15th March </strong>
-                  </p>
-                  <Link href="https://forms.gle/5A3KUHuDvGn1ZkTC9">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Register your interest
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
                   <ul style={{ marginTop: "10px" }} className="course-tags">
                     <li>
                       {" "}
@@ -245,20 +228,23 @@ const Index = () => {
                     <a
                       style={{
                         padding: "10px",
-                        fontSize: "9px",
+                        fontSize: "11px",
                         margin: "10px 0px",
-                        backgroundColor: "#0084DF",
                       }}
                       className="theme-btn"
                     >
-                      Learn More
+                      Book Now
+                      <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
               </div>
+              </Link>
             </div>
+    
 
             <div className="col-lg-4 col-md-6 item design technology">
+              <Link href="/course-details-freelance">
               <div className="coach-item wow fadeInUp delay-0-6s">
                 <div className="coach-image">
                   <Link href="/course-grid">
@@ -269,64 +255,58 @@ const Index = () => {
                   <img src="assets/images/digital-nomad-3.jpg" alt="Coach" />
                 </div>
                 <div className="coach-content">
-                  <span className="label">Online Lessons</span>
+                  <span className="label">Online Lessons - 13 Weeks</span>
                   <h4>
                     <Link href="/course-details-freelance">
-                      Freelance Web Development
+                      The Freelance Bootcamp
                     </Link>
                   </h4>
                   <div className="ratting-price">
-                    <span className="bold" style={{ fontSize: "13px" }}>
-                      Thursday & Sundays 7-9pm
+                    <span style={{ fontSize: "16px", color: "black" }}>
+                  Start Earning a Side Freelancing Income. Turn your digital skills into a paycheck!
                     </span>
                   </div>
+                  <div>
+                  <span className="bold" style={{ fontSize: "18px" }}>
+                      Thursdays & Saturdays 7-9pm
+                    
+                    </span>
+                  </div>
+                
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong> Sorry, We're at Capacity!</strong>
+                    <strong> 40 spaces</strong>
                   </p>
-                  <p style={{ fontSize: "18px", color: "black" }}>
-                    <strong>Next Cohort: 15th March </strong>
-                  </p>
-                  <Link href="https://forms.gle/5A3KUHuDvGn1ZkTC9">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Register your interest
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
+                  
                   <ul className="course-tags">
                     <li>
                       {" "}
                       <span style={{ marginRight: "8px" }}> 💰💰</span>Earn
-                      extra £800/m Freelancing part time
+                      an extra £1000/m from home
                     </li>
                     <li>
                       {" "}
-                      <span style={{ marginRight: "8px" }}> 💻</span>Learn SEO &
-                      Low-code Web Design
+                      <span style={{ marginRight: "8px" }}> 💻</span>
+                      Low-code Web Development
                     </li>
                     <li>
                       {" "}
-                      <span style={{ marginRight: "8px" }}>🛠</span> 5 Website
-                      templates
+                      <span style={{ marginRight: "8px" }}> 📈</span>
+                     SEO 
                     </li>
                     <li>
                       {" "}
-                      <span style={{ marginRight: "8px" }}> 🧭</span>Blueprint
-                      on how to market yourself online
+                      <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital Marketing
                     </li>
                     <li>
                       {" "}
-                      <span style={{ marginRight: "8px" }}>∞</span> Lifetime
-                      access to{" "}
-                      <Link href="/product-details">
-                        Beginners Freelance bundle
-                      </Link>
+                      <span style={{ marginRight: "8px" }}> 🧭</span> How to find clients - fast
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>∞</span> How to begin from scratch and quickly build a portfolio like 
+                       <span>
+                       <a style={{ color: "blue", textDecoration:"underline" }}href="https://shuayb-portfolio.webflow.io/">  this</a>
+                        </span> 
                     </li>
                   </ul>
                   <Link href="/course-details-freelance">
@@ -338,14 +318,15 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn more
+                      Book Now
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
               </div>
+              </Link>
             </div>
-
+                        
             <div className="col-lg-4 col-md-6 item design technology">
               <div className="coach-item wow fadeInUp delay-0-6s">
                 <div className="coach-image">
@@ -355,7 +336,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="coach-content">
-                  <span className="label">Full Guide</span>
+                  <span className="label">Lifetime access</span>
                   <h4>
                     <Link href="/course-details">
                       Beginners Freelancing Guide
@@ -364,22 +345,28 @@ const Index = () => {
                   <div className="ratting-price">
                     <span className="price">28</span>
                   </div>
-                  <p>Learn to Freelance, Be Your Own Boss!</p>
-                  <ul className="coach-footer">
+                  <p>Guide inclides all you need to start + Grow a Freelancing Business:</p>
+                  <ul className="">
                     <li>
-                      <i className="far fa-file-alt" />
-                      <span>How to find clients 💰</span>
-                      <p>
-                        {" "}
-                        <i className="far fa-file-alt" />5 Website templates-
+                      <span style={{marginRight:"7px"}}>✅</span>
+                      <span>  Comprehensive step-by-step on finding clients</span>
+                      </li>
+                      <li>
+                        <span style={{marginRight:"7px"}}>✅</span>
+                       5 Low-code Website templates-
                         (worth £160+)
-                      </p>
-                      <p>
-                        {" "}
-                        <i className="far fa-file-alt" />
+                      </li>
+                      
+                     
+                      <li> <span style={{marginRight:"7px"}}>✅</span>
                         Video guides to deploy no-code Websites
-                      </p>
-                    </li>
+                     </li>
+                     <li> <span style={{marginRight:"7px"}}>✅</span>
+                     Website Creation Checklist
+                     </li>
+                     
+                     
+                    
                   </ul>
                   <Link href="/product-details">
                     <a
@@ -540,7 +527,7 @@ const Index = () => {
                   >
                     Week 4-6
                   </span>
-                        <span className="title">Low-code Web Development & SEO basics</span>{' '}
+                        <span className="title">Low-code Web Development & SEO. With project work </span>{' '}
                        
                       </li>
                       <li>
@@ -550,7 +537,7 @@ const Index = () => {
                   >
                     Week 7-9
                   </span>
-                        <span className="title">How to find clients & tools of the trade</span>{' '}
+                        <span className="title">The personal branding process fo freelancers. Finding clients offline & online</span>{' '}
                       
                       </li>
                       <li>
@@ -560,7 +547,7 @@ const Index = () => {
                   >
                     Week 10-12
                   </span>
-                        <span className="title">Advanced Low-code Web Development with projects</span>
+                        <span className="title">Lowcode web developement projects and processes. Ecommerce deep-dive with (Shopify)</span>
                        
                       </li>
                       <li>
@@ -570,7 +557,7 @@ const Index = () => {
                   >
                     Week 13
                   </span>
-                        <span className="title">eCommerece 101 - Shopify Crash Course </span>
+                        <span className="title">Working with clients - Contracts and Client Situations</span>
                      
                       </li>
               </ul>
@@ -593,8 +580,12 @@ const Index = () => {
           </a>
         </Link>
       </div>
+      <div id="the-team">
 <Team/>
+</div>
+      <div id="FAQs">
       <FAQs />
+      </div>
       <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
         <Link href="/contact">
           <a className="theme-btn grab-course">
@@ -614,9 +605,9 @@ const Index = () => {
       </section>
       <div className="text-center">
         <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-          <Link href="/course-details">
+          <Link href="/#courses-group">
             <a className="theme-btn">
-              More Details
+              Grab your course
               <i className="fas fa-arrow-right" />
             </a>
           </Link>

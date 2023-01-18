@@ -51,7 +51,7 @@ function FAQ() {
             >
               <div className="course-video-list">
                 <p className='p-40'>
-				We highly recommend attending the lessons, but this is a part-time course so there is a lot of self-study thats expected. You can also book 1-1 lessons with our instructors anytime!
+				We highly recommend attending the lessons, but this is a part-time, evening course. 4 hours a weel. So there is a lot of self-study thats expected. You can also book 1-1 lessons with our instructors anytime! Details of the times are on the course pages
                 </p>
                
               </div>
@@ -128,15 +128,13 @@ function FAQ() {
          
             <WellernAccordion
               eventName={"collapse1"}
-              title={"Can I get a refund after paying for a Bootcamp?"}
+              title={"What is you refund policy"}
               active={active}
               onClick={() => onClick("collapse1")}
             >
               <div className="course-video-list">
                 <p className='p-40'>
-				Once lessons begin, we offer a 14-day money back garantee if you're unhappy with the course. If you're part of the last cohorts, its 7 days)
-
-LEARN MORE
+                We offer a cooling-off period of 14 days from the date of purchase and on the condition the bootcamp has not yet commenced. All refund requests are to be made in writing via email to pivot2techteam@gmail.com
 
                 </p>
                
