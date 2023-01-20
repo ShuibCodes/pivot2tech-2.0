@@ -8,9 +8,8 @@ import WellernAccordion from "../src/components/WellernAccordion";
 import Index1WorkStepSlider from "../src/components/slider/Index1WorkStepSlider";
 import Advertise from "../src/components/Advertise";
 import { useState } from "react";
-import Team from '../src/components/team'
+import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
-
 
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
@@ -34,14 +33,29 @@ const Index = () => {
   };
 
   return (
-    <Layout header={1} footer={1}>
+    <Layout
+      header={1}
+      footer={1}
+    >
       <Head>
         <title>Pivot2Tech Bootcamp 🚀</title>
-        <meta property="og:url" content="https://pivot2tech.co.uk/" />
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://pivot2tech.co.uk/"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
         {/* <meta property="fb:app_id" content="your fb app id" /> */}
-        <meta property="og:title" content="Pivot2Tech Bootcamp " />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          property="og:title"
+          content="Pivot2Tech Bootcamp "
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
         <meta
           property="og:description"
           content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 200 students 🎯"
@@ -85,12 +99,13 @@ const Index = () => {
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-            
-                      <a href="#courses-group" className="theme-btn grab-course">
-                        Grab your course
-                        <i className="fas fa-arrow-right" />
-                      </a>
-                    
+                    <a
+                      href="#courses-group"
+                      className="theme-btn grab-course"
+                    >
+                      Grab your course
+                      <i className="fas fa-arrow-right" />
+                    </a>
                   </div>
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
                     <a
@@ -133,16 +148,26 @@ const Index = () => {
             Build your dream career with our tech bootcamps
           </h3>
           <p className="text-center  cards-paragraph "></p>
-          <div className="text-center" style={{ margin: "0 auto" }}>
-            <ul style={{ fontSize: "22px" }} className="list-style-four">
-              <li style={{ fontSize: "22px" }}>Evening Zoom Lessons   
-              <span style={{ color: "#1F4ECE", marginLeft:"6px" }}>
-                 2 days a week
-                 </span>
-                 </li>
+          <div
+            className="text-center"
+            style={{ margin: "0 auto" }}
+          >
+            <ul
+              style={{ fontSize: "22px" }}
+              className="list-style-four"
+            >
+              <li style={{ fontSize: "22px" }}>
+                Evening Zoom Lessons
+                <span style={{ color: "#1F4ECE", marginLeft: "6px" }}>
+                  2 days a week
+                </span>
+              </li>
               <li style={{ fontSize: "22px" }}>For complete beginners</li>
             </ul>
-            <ul style={{ fontSize: "22px" }} className="list-style-four">
+            <ul
+              style={{ fontSize: "22px" }}
+              className="list-style-four"
+            >
               <li style={{ fontSize: "22px" }}>
                 {" "}
                 Community of over 200+ students!
@@ -150,183 +175,209 @@ const Index = () => {
             </ul>
           </div>
         </div>
-       
+
         <div className="section-title text-center">
           <span className="sub-title mb-15">Testimonials</span>
           <h2>What Our Students Say</h2>
         </div>
-        <Tweets/>
-        
-                  
-        <div id="courses-group" className="container">
-          <div className="row coach-active justify-content-center">
+        <Tweets />
 
-            
+        <div
+          id="courses-group"
+          className="container"
+        >
+          <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item development photography">
-            <Link href="/course-details">
-              <div
-                id="what-learn"
-                className="coach-item wow fadeInUp delay-0-4s"
-              >
-                <div className="coach-image">
-                  <Link href="/course-grid">
-                    <a style={{ fontSize: "11px" }} className="category">
-                      13 Weeks
-                    </a>
-                  </Link>
-                  <img
-                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                    alt="fullstack bootcamp"
-                  />
-                </div>
-                <div className="coach-content">
-                  <span className="label">Online Lessons - 13 weeks</span>
-                  <h4>
-                    <Link href="/">Fullstack Web Development</Link>
-                  </h4>
-                  <div className="ratting-price">
-                
-                  <span className="bold" style={{ fontSize: "18px" }}>
-                      Tuesday's 7-9pm <br></br>
-                      Saturday's 12:30-14:30 (GMT)
-                    </span>
+              <Link href="/course-details">
+                <div
+                  id="what-learn"
+                  className="coach-item wow fadeInUp delay-0-4s"
+                >
+                  <div className="coach-image">
+                    <Link href="/course-grid">
+                      <a
+                        style={{ fontSize: "11px" }}
+                        className="category"
+                      >
+                        13 Weeks
+                      </a>
+                    </Link>
+                    <img
+                      src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                      alt="fullstack bootcamp"
+                    />
                   </div>
-                 
-                 
-                  
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong> 40 spaces</strong>
-                  </p>
-                  <ul style={{ marginTop: "10px" }} className="course-tags">
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>💻</span> 4 real-life
-                      projects
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework and
-                      project review
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live chat
-                      support
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>📆</span> Weekly
-                      deadlines
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
-                      access
-                    </li>
-                  </ul>
-                  <Link href="/course-details">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
+                  <div className="coach-content">
+                    <span className="label">Online Lessons - 13 weeks</span>
+                    <h4>
+                      <Link href="/">Fullstack Web Development</Link>
+                    </h4>
+                    <div className="ratting-price">
+                      <span
+                        className="bold"
+                        style={{ fontSize: "18px" }}
+                      >
+                        Tuesday's 7-9pm <br></br>
+                        Saturday's 12:30-14:30 (GMT)
+                      </span>
+                    </div>
+
+                    <p style={{ fontSize: "20px", color: "blue" }}>
+                      <strong> 40 spaces</strong>
+                    </p>
+                    <ul
+                      style={{ marginTop: "10px" }}
+                      className="course-tags"
                     >
-                      Book Now
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>💻</span> 4
+                        real-life projects
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework
+                        and project review
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live
+                        chat support
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>📆</span> Weekly
+                        deadlines
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
+                        access
+                      </li>
+                    </ul>
+                    <Link href="/course-details">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Book Now
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
                 </div>
-              </div>
               </Link>
             </div>
-    
 
             <div className="col-lg-4 col-md-6 item design technology">
               <Link href="/course-details-freelance">
-              <div className="coach-item wow fadeInUp delay-0-6s">
-                <div className="coach-image">
-                  <Link href="/course-grid">
-                    <a style={{ fontSize: "11px" }} className="category">
-                      13 Weeks
-                    </a>
-                  </Link>
-                  <img src="assets/images/digital-nomad-3.jpg" alt="Coach" />
-                </div>
-                <div className="coach-content">
-                  <span className="label">Online Lessons - 13 Weeks</span>
-                  <h4>
-                    <Link href="/course-details-freelance">
-                      The Freelance Bootcamp 
+                <div className="coach-item wow fadeInUp delay-0-6s">
+                  <div className="coach-image">
+                    <Link href="/course-grid">
+                      <a
+                        style={{ fontSize: "11px" }}
+                        className="category"
+                      >
+                        7 Weeks
+                      </a>
                     </Link>
-                  </h4>
-                  <div className="ratting-price">
-                    <span style={{ fontSize: "16px", color: "black" }}>
-                  Start Earning a Side Freelancing Income. Turn your digital skills into a paycheck!
-                    </span>
+                    <img
+                      src="assets/images/digital-nomad-3.jpg"
+                      alt="Coach"
+                    />
                   </div>
-                  <div>
-                  <span className="bold" style={{ fontSize: "18px" }}>
-                      Thursdays & Saturdays 7-9pm
-                    
-                    </span>
+                  <div className="coach-content">
+                    <span className="label">Online Lessons - 7 Weeks</span>
+                    <h4>
+                      <Link href="/course-details-freelance">
+                        The Freelance Bootcamp
+                      </Link>
+                    </h4>
+                    <div className="ratting-price">
+                      <span style={{ fontSize: "16px", color: "black" }}>
+                        Start Earning a Side Freelancing Income. Turn your
+                        digital skills into a paycheck!
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="bold"
+                        style={{ fontSize: "18px" }}
+                      >
+                        Thursdays & Saturdays 7-9pm
+                      </span>
+                    </div>
+
+                    <p style={{ fontSize: "20px", color: "blue" }}>
+                      <strong> 40 spaces</strong>
+                    </p>
+
+                    <ul className="course-tags">
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 💰💰</span>Earn an
+                        extra £1000/m from home
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 💻</span>
+                        Low-code Web Development
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 📈</span>
+                        SEO
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
+                        Marketing
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 🧭</span> How to
+                        find clients - fast
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>∞</span> How to
+                        begin from scratch and quickly build a portfolio like
+                        <span>
+                          <a
+                            style={{
+                              color: "blue",
+                              textDecoration: "underline",
+                            }}
+                            href="https://shuayb-portfolio.webflow.io/"
+                          >
+                            {" "}
+                            this
+                          </a>
+                        </span>
+                      </li>
+                    </ul>
+                    <Link href="/course-details-freelance">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Book Now
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
                   </div>
-                
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong> 40 spaces</strong>
-                  </p>
-                  
-                  <ul className="course-tags">
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 💰💰</span>Earn
-                      an extra £1000/m from home
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 💻</span>
-                      Low-code Web Development
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 📈</span>
-                     SEO 
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital Marketing
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 🧭</span> How to find clients - fast
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>∞</span> How to begin from scratch and quickly build a portfolio like 
-                       <span>
-                       <a style={{ color: "blue", textDecoration:"underline" }}href="https://shuayb-portfolio.webflow.io/">  this</a>
-                        </span> 
-                    </li>
-                  </ul>
-                  <Link href="/course-details-freelance">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Book Now
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
                 </div>
-              </div>
               </Link>
             </div>
-                        
+
             <div className="col-lg-4 col-md-6 item design technology">
               <div className="coach-item wow fadeInUp delay-0-6s">
                 <div className="coach-image">
@@ -345,28 +396,33 @@ const Index = () => {
                   <div className="ratting-price">
                     <span className="price">28</span>
                   </div>
-                  <p>Guide inclides all you need to start + Grow a Freelancing Business:</p>
+                  <p>
+                    Guide inclides all you need to start + Grow a Freelancing
+                    Business:
+                  </p>
                   <ul className="">
                     <li>
-                      <span style={{marginRight:"7px"}}>✅</span>
-                      <span>  Comprehensive step-by-step on finding clients</span>
-                      </li>
-                      <li>
-                        <span style={{marginRight:"7px"}}>✅</span>
-                       5 Low-code Website templates-
-                        (worth £160+)
-                      </li>
-                      
-                     
-                      <li> <span style={{marginRight:"7px"}}>✅</span>
-                        Video guides to deploy no-code Websites
-                     </li>
-                     <li> <span style={{marginRight:"7px"}}>✅</span>
-                     Website Creation Checklist
-                     </li>
-                     
-                     
-                    
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      <span>
+                        {" "}
+                        Comprehensive step-by-step on finding clients
+                      </span>
+                    </li>
+                    <li>
+                      <span style={{ marginRight: "7px" }}>✅</span>5 Low-code
+                      Website templates- (worth £160+)
+                    </li>
+
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      Video guides to deploy no-code Websites
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      Website Creation Checklist
+                    </li>
                   </ul>
                   <Link href="/product-details">
                     <a
@@ -396,7 +452,10 @@ const Index = () => {
               Online,{" "}
               <span style={{ color: "#1F4ECD" }}>part-time schedule</span>
             </h5>
-            <h4 style={{ fontSize: "25px" }} className="px-4 ">
+            <h4
+              style={{ fontSize: "25px" }}
+              className="px-4 "
+            >
               Check out what our curriculums cover:
             </h4>
           </div>
@@ -508,58 +567,63 @@ const Index = () => {
               onClick={() => onClickFreelance("collapse2")}
             >
               <ul className="course-video-list">
-              <li>
-                      <span
+                <li>
+                  <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 1-3
                   </span>
-                        <span className="title">
-                          Foundation: Web Development Basics & Freelance Intro
-                        </span>{' '}
-                      
-                      </li>
-                      <li>
-                      <span
+                  <span className="title">
+                    Foundation: Web Development Basics & Freelance Intro
+                  </span>{" "}
+                </li>
+                <li>
+                  <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 4-6
                   </span>
-                        <span className="title">Low-code Web Development & SEO. With project work </span>{' '}
-                       
-                      </li>
-                      <li>
-                      <span
+                  <span className="title">
+                    Low-code Web Development & SEO. With project work{" "}
+                  </span>{" "}
+                </li>
+                <li>
+                  <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 7-9
                   </span>
-                        <span className="title">The personal branding process fo freelancers. Finding clients offline & online</span>{' '}
-                      
-                      </li>
-                      <li>
-                      <span
+                  <span className="title">
+                    The personal branding process fo freelancers. Finding
+                    clients offline & online
+                  </span>{" "}
+                </li>
+                <li>
+                  <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 10-12
                   </span>
-                        <span className="title">Lowcode web developement projects and processes. Ecommerce deep-dive with (Shopify)</span>
-                       
-                      </li>
-                      <li>
-                      <span
+                  <span className="title">
+                    Lowcode web developement projects and processes. Ecommerce
+                    deep-dive with (Shopify)
+                  </span>
+                </li>
+                <li>
+                  <span
                     style={{ color: "#1F4ECE", marginRight: "10px" }}
                     className="duration"
                   >
                     Week 13
                   </span>
-                        <span className="title">Working with clients - Contracts and Client Situations</span>
-                     
-                      </li>
+                  <span className="title">
+                    Working with clients - Contracts and Client Situations
+                  </span>
+                </li>
               </ul>
             </WellernAccordion>
           </Accordion>
@@ -581,10 +645,10 @@ const Index = () => {
         </Link>
       </div>
       <div id="the-team">
-<Team/>
-</div>
+        <Team />
+      </div>
       <div id="FAQs">
-      <FAQs />
+        <FAQs />
       </div>
       <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
         <Link href="/contact">
@@ -663,7 +727,10 @@ const Index = () => {
 
       {/* Testimonials Section End */}
       {/* Blog Section Start */}
-      <section id="blog" className="blog-section">
+      <section
+        id="blog"
+        className="blog-section"
+      >
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-8">
@@ -690,15 +757,19 @@ const Index = () => {
                     <ul className="blog-meta">
                       <li>
                         <i className="far fa-user" />{" "}
-                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">By Shuayb</Link>
+                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
+                          By Shuayb
+                        </Link>
                       </li>
                       <li>
                         <i className="far fa-comments" />{" "}
-                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">3min read</Link>
+                        <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
+                          3min read
+                        </Link>
                       </li>
                     </ul>
                     <h5>
-                    <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
+                      <Link href="blog/become-a-software-engineer-without-a-degree-in-8-months">
                         How Shuayb became a Software Engineer without a degree
                         in 8 months💻
                       </Link>
@@ -732,20 +803,27 @@ const Index = () => {
                     <ul className="blog-meta">
                       <li>
                         <i className="far fa-user" />{" "}
-                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">By Shuayb</Link>
+                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
+                          By Shuayb
+                        </Link>
                       </li>
                       <li>
                         <i className="far fa-comments" />{" "}
-                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">3min read</Link>
+                        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
+                          3min read
+                        </Link>
                       </li>
                     </ul>
                     <h5>
-                    <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
-                    What are the different roles in Software Engineering? Frontend, Backend & Fullstack
+                      <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
+                        What are the different roles in Software Engineering?
+                        Frontend, Backend & Fullstack
                       </Link>
                     </h5>
                     <p>
-                    Software engineering can be an incredibly rewarding profession, offering a wide range of career opportunities in the technology sector...
+                      Software engineering can be an incredibly rewarding
+                      profession, offering a wide range of career opportunities
+                      in the technology sector...
                     </p>
                     <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
                       <a className="read-more">
