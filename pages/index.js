@@ -207,6 +207,7 @@ const Index = () => {
                       alt="fullstack bootcamp"
                     />
                   </div>
+
                   <div className="coach-content">
                     <span className="label">Online Lessons - 13 weeks</span>
                     <h4>
@@ -228,6 +229,49 @@ const Index = () => {
                     <ul
                       style={{ marginTop: "10px" }}
                       className="course-tags"
+
+                 
+                 
+                  
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong> 32 spaces left</strong>
+                  </p>
+                  <ul style={{ marginTop: "10px" }} className="course-tags">
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>💻</span> 4 real-life
+                      projects
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework and
+                      project review
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live chat
+                      support
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>📆</span> Weekly
+                      deadlines
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
+                      access
+                    </li>
+                  </ul>
+                  <Link href="/course-details">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+
                     >
                       <li>
                         {" "}
@@ -374,6 +418,58 @@ const Index = () => {
                       </a>
                     </Link>
                   </div>
+
+                
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong> 31 spaces left</strong>
+                  </p>
+                  
+                  <ul className="course-tags">
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 💰💰</span>Earn
+                      an extra £1000/m from home
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 💻</span>
+                      Low-code Web Development
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 📈</span>
+                     SEO 
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital Marketing
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 🧭</span> How to find clients - fast
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>∞</span> How to begin from scratch and quickly build a portfolio like 
+                       <span>
+                       <a style={{ color: "blue", textDecoration:"underline" }}href="https://shuayb-portfolio.webflow.io/">  this</a>
+                        </span> 
+                    </li>
+                  </ul>
+                  <Link href="/course-details-freelance">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Book Now
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+
                 </div>
               </Link>
             </div>
