@@ -12,15 +12,33 @@ const Header = ({ header }) => {
   const [navToggle, setNavToggle] = useState(false);
   switch (header) {
     case 1:
-      return <Header1 navToggle={navToggle} setNavToggle={setNavToggle} />;
+      return (
+        <Header1
+          navToggle={navToggle}
+          setNavToggle={setNavToggle}
+        />
+      );
     case 3:
-      return <Header3 navToggle={navToggle} setNavToggle={setNavToggle} />;
+      return (
+        <Header3
+          navToggle={navToggle}
+          setNavToggle={setNavToggle}
+        />
+      );
     case 4:
-      return <Header4 navToggle={navToggle} setNavToggle={setNavToggle} />;
+      return (
+        <Header4
+          navToggle={navToggle}
+          setNavToggle={setNavToggle}
+        />
+      );
 
     default:
       return (
-        <DefaultHeader navToggle={navToggle} setNavToggle={setNavToggle} />
+        <DefaultHeader
+          navToggle={navToggle}
+          setNavToggle={setNavToggle}
+        />
       );
   }
 };
@@ -37,7 +55,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               <div className="d-lg-flex align-items-center">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/assets/images/bootcamp-logo.png" alt="Logo" />
+                    <img
+                      src="/assets/images/bootcamp-logo.png"
+                      alt="Logo"
+                    />
                   </Link>
                 </div>
               </div>
@@ -72,7 +93,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
               {/* Menu Button */}
               <div className="menu-btn-sidebar d-flex align-items-center">
                 {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+                <div
+                  className="menu-sidebar"
+                  onClick={() => sidebarOnclick()}
+                >
                   <button>
                     <span className="icon-bar" />
                     <span className="icon-bar" />
@@ -175,7 +199,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   <i className="far fa-user-circle" />
                 </button>
                 {/* menu sidbar */}
-                <div className="menu-sidebar" onClick={() => sidebarOnclick()}>
+                <div
+                  className="menu-sidebar"
+                  onClick={() => sidebarOnclick()}
+                >
                   <button>
                     <span className="icon-bar" />
                     <span className="icon-bar" />
@@ -392,9 +419,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         </Link>
       </li>
       <li className="dropdown">
-        <Link href="/#the-team">
-          Team
-        </Link>
+        <Link href="/#the-team">Team</Link>
       </li>
     </ul>
   ),
@@ -411,8 +436,8 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span> 67 spaces left 👇🏾 {" "}
-                <span className="px-2">👇🏾</span>{" "}
+                <span className="px-2">👇🏾</span> 59 spaces left{" "}
+                <span className="px-2">👇🏾</span>
               </h6>
             </div>
           </div>
