@@ -316,7 +316,7 @@ const CourseDetails = () => {
                     href="https://buy.stripe.com/fZe7tn7Oh33MbPGeV1"
                     className="theme-btn style-four"
                   >
-                    Book Bow <i className="fas fa-arrow-right" />
+                    Book Now <i className="fas fa-arrow-right" />
                   </a>
                 </div>
               </div>
