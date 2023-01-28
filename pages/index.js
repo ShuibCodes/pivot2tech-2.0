@@ -220,10 +220,11 @@ const Index = () => {
                         Tuesday's 7-9pm <br></br>
                         Saturday's 12:30-14:30 (GMT)
                       </span>
+                      <p>(Times may change during Ramadan)</p>
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> 23 spaces left</strong>
+                      <strong> 18 spaces left!</strong>
                     </p>
                     <ul
                       style={{ marginTop: "10px" }}
@@ -308,12 +309,13 @@ const Index = () => {
                         className="bold"
                         style={{ fontSize: "18px" }}
                       >
-                        Thursdays & Saturdays 7-9pm
+                        <span>Thursdays & Saturdays 7-9pm </span>
                       </span>
+                      <p>(Times may change during Ramadan)</p>
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> 23 spaces left</strong>
+                      <strong> 18 spaces left!</strong>
                     </p>
 
                     <ul className="course-tags">

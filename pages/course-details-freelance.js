@@ -304,6 +304,7 @@ const CourseDetails = () => {
                     <i className="fas fa-globe" /> <span></span>{" "}
                     <b>Thursday & Sundays 7-9PM GMT</b>
                   </li>
+                  <p>(Times may change during Ramadan)</p>
                 </ul>
 
                 <a
