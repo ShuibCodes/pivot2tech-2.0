@@ -391,12 +391,26 @@ const Index = () => {
                 <div className="coach-content">
                   <span className="label">Lifetime access</span>
                   <h4>
-                    <Link href="/course-details">
+                    <Link href="/product-details">
                       Beginners Freelancing Guide
                     </Link>
                   </h4>
                   <div className="ratting-price">
-                    <span className="price">28</span>
+                    <span
+                      style={{ color: "#1F4ECD" }}
+                      className="price"
+                    >
+                      13{" "}
+                      <span
+                        style={{
+                          textDecoration: "line-through",
+                          marginLeft: "20px",
+                        }}
+                        className="price"
+                      >
+                        28
+                      </span>
+                    </span>
                   </div>
                   <p>
                     Guide inclides all you need to start + Grow a Freelancing
