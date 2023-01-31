@@ -346,20 +346,8 @@ const Index = () => {
                       </li>
                       <li>
                         {" "}
-                        <span style={{ marginRight: "8px" }}>∞</span> How to
-                        begin from scratch and quickly build a portfolio like
-                        <span>
-                          <a
-                            style={{
-                              color: "blue",
-                              textDecoration: "underline",
-                            }}
-                            href="https://shuayb-portfolio.webflow.io/"
-                          >
-                            {" "}
-                            this
-                          </a>
-                        </span>
+                        <span style={{ marginRight: "8px" }}>∞</span>
+                        begin from scratch and build a professional portfolio
                       </li>
                     </ul>
                     <Link href="/course-details-freelance">
