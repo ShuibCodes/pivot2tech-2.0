@@ -224,7 +224,7 @@ const Index = () => {
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> 6 spaces left!</strong>
+                      <strong> 10 spaces left!</strong>
                     </p>
                     <ul
                       style={{ marginTop: "10px" }}
@@ -315,7 +315,7 @@ const Index = () => {
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> 18 spaces left!</strong>
+                      <strong> 10 spaces left!</strong>
                     </p>
 
                     <ul className="course-tags">
