@@ -133,7 +133,7 @@ const ProductDetails = () => {
               layout="responsive"
               objectFit="contain"
               alt="testimonial for freelance bundle"
-              src="/assets/images/review-1.png"
+              src="/assets/images/freelance-review.png"
             />
           </div>
 
