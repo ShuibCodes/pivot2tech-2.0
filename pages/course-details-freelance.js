@@ -188,7 +188,7 @@ const CourseDetails = () => {
                 </Accordion>
                 <div className="py-20">
                   <a
-                    href="https://buy.stripe.com/00geVP4C56fY1b29AG"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -196,7 +196,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Book Now
+                    Reserve your space
                   </a>
                 </div>
                 <h3>Your Instructor</h3>
@@ -235,26 +235,21 @@ const CourseDetails = () => {
                         style={{ marginTop: "20px" }}
                         className="text-center"
                       >
-                        <h4>
-                          Pay in installments
-                          <br />
-                          <a
-                            style={{ color: "blue" }}
-                            href="https://buy.stripe.com/00geVP4C56fY1b29AG"
-                          >
-                            here
-                          </a>
-                        </h4>
+                        <h4>Next cohort: June 2023</h4>
                       </div>
                       <div
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <h4 className="py-5">Got a question?</h4>
                         <br />
-                        <Link href="/#FAQs">
-                          <a className="theme-btn">See the FAQS</a>
-                        </Link>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
+                          <a
+                            style={{ fontSize: "14px" }}
+                            className="theme-btn"
+                          >
+                            Join Waiting List
+                          </a>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -297,7 +292,7 @@ const CourseDetails = () => {
                   </li>
                   <li>
                     <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>15 March - 3rd May </b>
+                    <b>June 2023 </b>
                   </li>
 
                   <li>
@@ -308,7 +303,7 @@ const CourseDetails = () => {
                 </ul>
 
                 <a
-                  href="https://buy.stripe.com/00geVP4C56fY1b29AG"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
                   style={{
                     padding: "10px",
                     fontSize: "11px",
@@ -316,7 +311,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Book Now
+                  Reserve your space
                 </a>
               </div>
             </div>

@@ -224,8 +224,20 @@ const Index = () => {
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> Last 3 spaces!</strong>
+                      <strong>Next Cohort: June 2023</strong>
                     </p>
+                    <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Joining Waiting list
+                      <i className="fas fa-arrow-right" />
+                    </a>
                     <ul
                       style={{ marginTop: "10px" }}
                       className="course-tags"
@@ -265,7 +277,7 @@ const Index = () => {
                         }}
                         className="theme-btn"
                       >
-                        Book Now
+                        Course details
                         <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
@@ -315,8 +327,21 @@ const Index = () => {
                     </div>
 
                     <p style={{ fontSize: "20px", color: "blue" }}>
-                      <strong> Last 2 spaces!</strong>
+                      <strong>Next Cohort: June 2023</strong>
                     </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Joining Waiting list
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </a>
 
                     <ul className="course-tags">
                       <li>
@@ -359,7 +384,7 @@ const Index = () => {
                         }}
                         className="theme-btn"
                       >
-                        Book Now
+                        Course details
                         <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
@@ -401,8 +426,8 @@ const Index = () => {
                     </span>
                   </div>
                   <p>
-                    Guide inclides all you need to start + Grow a Freelancing
-                    Business:
+                    Guide includes all you need to start Freelancing & work
+                    remotely 🌴
                   </p>
                   <ul className="">
                     <li>
@@ -437,7 +462,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn More
+                      Grab a copy
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
