@@ -45,8 +45,8 @@ const ProductDetails = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <span className="price">26</span>
-                  {/* <span
+                  <span className="price">13</span>
+                  <span
                     style={{
                       textDecoration: "line-through",
                       marginLeft: "20px",
@@ -54,7 +54,7 @@ const ProductDetails = () => {
                     className="price"
                   >
                     28
-                  </span> */}
+                  </span>
                 </div>
 
                 <div>
