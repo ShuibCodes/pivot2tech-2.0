@@ -18,23 +18,23 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Script
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=UA-207304431-1"
+        src="https://www.googletagmanager.com/gtag/js?id=G-QQSSMGG0L8"
       />
+      n
       <Script
         id="google-analytics"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-207304431-1', {
-            page_path: window.location.pathname,
-          });
+         
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-QQSSMGG0L8');
         `,
         }}
       />
-
       <Script
         id="script-1"
         strategy="afterInteractive"
@@ -51,7 +51,6 @@ function MyApp({ Component, pageProps }) {
         `,
         }}
       />
-
       <Head>
         <title>Pivot2Tech Bootcamp </title>
         {/*====== Favicon Icon ======*/}
@@ -67,25 +66,51 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         {/*====== Flaticon ======*/}
-        <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/flaticon.min.css"
+        />
         {/*====== Font Awesome ======*/}
-        <link rel="stylesheet" href="assets/css/font-awesome-5.9.0.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/font-awesome-5.9.0.min.css"
+        />
         {/*====== Bootstrap ======*/}
-        <link rel="stylesheet" href="assets/css/bootstrap-4.5.3.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/bootstrap-4.5.3.min.css"
+        />
         {/*====== Magnific Popup ======*/}
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/magnific-popup.min.css"
+        />
         {/*====== Nice Select ======*/}
-        <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/nice-select.min.css"
+        />
         {/*====== jQuery UI ======*/}
-        <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/jquery-ui.min.css"
+        />
         {/*====== Animate ======*/}
-        <link rel="stylesheet" href="assets/css/animate.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/animate.min.css"
+        />
         {/*====== Slick ======*/}
-        <link rel="stylesheet" href="assets/css/slick.min.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/slick.min.css"
+        />
         {/*====== Main Style ======*/}
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+          rel="stylesheet"
+          href="assets/css/style.css"
+        />
       </Head>
-
       <div className="position-relative">
         <CookieBanner />
         <SocialModal />
