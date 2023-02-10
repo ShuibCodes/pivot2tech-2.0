@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import { Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
@@ -6,6 +7,34 @@ import Image from "next/image";
 const ProductDetails = () => {
   return (
     <Layout>
+      <Head>
+        <title>Beginners Freelancing Guide | Pivot2Tech</title>
+        <meta
+          property="og:url"
+          content="https://pivot2tech.co.uk/product-details"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        {/* <meta property="fb:app_id" content="your fb app id" /> */}
+        <meta
+          property="og:title"
+          content="Beginners Freelancing Guide  | Pivot2Tech "
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="og:description"
+          content="Guide includes all you need to start Freelancing & work remotely 🌴"
+        />
+        <meta
+          property="og:image"
+          content="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
+        />
+      </Head>
       <section className="product-details pt-130 rpt-100">
         <div className="container">
           <div className="row align-items-center justify-content-between">

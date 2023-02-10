@@ -2,12 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
-import Slider from "react-slick";
-import PageBanner from "../src/components/PageBanner";
-import WellernAccordion from "../src/components/WellernAccordion";
+import Head from "next/head";
 import Layout from "../src/layout/Layout";
-import { coachSlider } from "../src/sliderProps";
-import { checkout } from "../checkout";
+import WellernAccordion from "../src/components/WellernAccordion";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -16,6 +13,34 @@ const CourseDetails = () => {
   };
   return (
     <Layout>
+      <Head>
+        <title>Fullstack Web Development Course | Pivot2Tech</title>
+        <meta
+          property="og:url"
+          content="https://pivot2tech.co.uk/course-details"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        {/* <meta property="fb:app_id" content="your fb app id" /> */}
+        <meta
+          property="og:title"
+          content="Fullstack Web Development Course | Pivot2Tech "
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="og:description"
+          content="Our part-time program is designed with busy professionals in mind, so you can learn to code while maintaining your current lifestyle."
+        />
+        <meta
+          property="og:image"
+          content="https://images.techopedia.com/images/uploads/women-in-tech2.jpg?w=800&h=0&mode=max&quality=70&scale=both"
+        />
+      </Head>
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
@@ -28,7 +53,7 @@ const CourseDetails = () => {
 
                 <div className="image mb-35">
                   <Image
-                    src="/assets/images/coachs/course-details.jpg"
+                    src="/assets/images/women-in-tech.jpeg"
                     alt="course-details"
                     width="735"
                     height="430"
@@ -39,7 +64,13 @@ const CourseDetails = () => {
                   engineer.- HTML, CSS JavaScript, Node JS, testing- heavy
                   emphasis on project based learning
                 </p>
-
+                <div className="info-copy">
+                  <p>
+                    Our <span style={{ color: "blue" }}>part-time program</span>{" "}
+                    is designed with busy professionals in mind, so you can
+                    learn to code while maintaining your current lifestyle.
+                  </p>
+                </div>
                 <h3>Course Curriculum </h3>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
@@ -122,13 +153,7 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-                <div className="info-copy">
-                  <p>
-                    Our <span style={{ color: "blue" }}>part-time program</span>{" "}
-                    is designed with busy professionals in mind, so you can
-                    learn to code while maintaining your current lifestyle.
-                  </p>
-                </div>
+
                 <div className="py-10">
                   <div style={{ marginTop: "20px" }}>
                     <h5>Next cohort: June 2023</h5>

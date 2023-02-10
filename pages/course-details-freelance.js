@@ -2,12 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
-import Slider from "react-slick";
-import PageBanner from "../src/components/PageBanner";
+import Head from "next/head";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
-import { coachSlider } from "../src/sliderProps";
-import { checkout } from "../checkout";
+
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -16,6 +14,34 @@ const CourseDetails = () => {
   };
   return (
     <Layout>
+      <Head>
+        <title>Freelance Bootcamp | Pivot2Tech</title>
+        <meta
+          property="og:url"
+          content="https://pivot2tech.co.uk/course-details-freelance"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        {/* <meta property="fb:app_id" content="your fb app id" /> */}
+        <meta
+          property="og:title"
+          content="Freelance Bootcamp | Pivot2Tech "
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="og:description"
+          content="With our comprehensive courses and experienced mentors, you'll be ready to land your first paying client in no time."
+        />
+        <meta
+          property="og:image"
+          content="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
+        />
+      </Head>
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
@@ -24,7 +50,7 @@ const CourseDetails = () => {
                 <div className="course-header">
                   <span className="category">Freelance</span>
                 </div>
-                <h2>Freelance Web Development</h2>
+                <h2>Freelance Bootcamp</h2>
                 <h3>7 Weeks</h3>
 
                 <div className="image mb-35">
@@ -241,10 +267,9 @@ const CourseDetails = () => {
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <br />
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
                           <a
-                            style={{ fontSize: "14px" }}
+                            style={{ fontSize: "13px" }}
                             className="theme-btn"
                           >
                             Join Waiting List
