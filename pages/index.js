@@ -371,7 +371,7 @@ const Index = () => {
                       style={{ fontSize: "11px" }}
                       className="category"
                     >
-                      13 Weeks
+                      7 Weeks
                     </a>
                   </Link>
                   <img
