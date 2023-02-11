@@ -88,7 +88,7 @@ const ProductDetails = () => {
 
                 <div>
                   <h6>
-                    If you cant commit to a 3-month bootcamp but want to start
+                    If you cant commit to a 7-week course but want to start
                     freelancing, this guide is for you
                   </h6>
                   <p>
@@ -141,9 +141,9 @@ const ProductDetails = () => {
                   >
                     <a
                       style={{ color: "white" }}
-                      href="https://pivot2tech.gumroad.com/l/zenfw"
+                      href="https://whop.com/pivot2teech"
                     >
-                      Buy Now
+                      Grab a copy
                     </a>
                   </button>
                 </form>

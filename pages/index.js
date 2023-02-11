@@ -210,7 +210,7 @@ const Index = () => {
                       13{" "}
                       <span
                         style={{
-                          textDecoration: "piline-through",
+                          textDecoration: "line-through",
                           marginLeft: "20px",
                         }}
                         className="price"
