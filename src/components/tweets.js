@@ -11,7 +11,7 @@ function tweets() {
               <TwitterTweetEmbed tweetId={"1620505159142113282"} />
             </div>
             <div class="col-md-6 col-lg-3 py-5">
-              <TwitterTweetEmbed tweetId={"1610628383053959168"} />
+              <TwitterTweetEmbed tweetId={"1620867915602923533"} />
             </div>
             <div class="col-md-6 col-lg-3 py-5">
               <TwitterTweetEmbed tweetId={"1605616175806697473"} />

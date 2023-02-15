@@ -80,7 +80,7 @@ const Index = () => {
                   our coding bootcamp 🚀
                 </h3>
 
-                <p className="wow fadeInUp delay-0-6s">
+                <p className="wow">
                   Change careers and start your journey as a web developer with
                   our{" "}
                   <span style={{ color: "#1F4ECE", fontWeight: "700" }}>
@@ -188,7 +188,7 @@ const Index = () => {
         >
           <div className="row coach-active justify-content-center">
             <div className="col-lg-4 col-md-6 item design technology">
-              <div className="coach-item wow fadeInUp delay-0-6s">
+              <div className="coach-item">
                 <div className="coach-image">
                   <img
                     src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
@@ -364,14 +364,14 @@ const Index = () => {
 
             <div className="col-lg-4 col-md-6 item design technology">
               {/* <Link href="/course-details-freelance"> */}
-              <div className="coach-item wow fadeInUp delay-0-6s">
+              <div className="coach-item wow">
                 <div className="coach-image">
                   <Link href="/course-grid">
                     <a
                       style={{ fontSize: "11px" }}
                       className="category"
                     >
-                      7 Weeks
+                      Weeks
                     </a>
                   </Link>
                   <img

@@ -1,9 +1,8 @@
-import { RadioGroup } from "@headlessui/react";
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/initSupabase";
 
 const SocialModal = () => {
-  const [dismiss, setDismiss] = useState(true);
+  const [dismiss, setDismiss] = useState(false);
   const [email, setEmail] = useState("");
   const [noEmailError, setNoEmailError] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
@@ -19,7 +18,7 @@ const SocialModal = () => {
         } else {
           setDismiss(window.localStorage.getItem("dismiss-social-modal"));
         }
-      }, 6000);
+      }, 100000);
     }
   }, []);
 
@@ -31,7 +30,8 @@ const SocialModal = () => {
       supabase
         .from("pivot2tech")
         .insert({ email: email, awareness: selectedOption })
-        .single().then(() => {
+        .single()
+        .then(() => {
           window.localStorage.setItem("dismiss-social-modal", true);
           setDismiss(true);
         });
@@ -41,7 +41,7 @@ const SocialModal = () => {
   const handleModalClose = () => {
     window.localStorage.setItem("dismiss-social-modal", true);
     setDismiss(true);
-  }
+  };
 
   return (
     <div
@@ -52,40 +52,70 @@ const SocialModal = () => {
       aria-labelledby="exampleModalCenterTitle"
       aria-hidden="true"
     >
-      <div className="modal-dialog modal-dialog-centered" role="document">
+      <div
+        className="modal-dialog modal-dialog-centered"
+        role="document"
+      >
         <div className="modal-content p-3">
           <div className="modal-body">
-            <h4>Where did you hear about us?</h4>
-           
+            <button
+              style={{
+                position: "absolute",
+                right: "30px",
+                top: "-8px",
+                backgroundColor: "white",
+                fontSize: "22px",
+                fontWeight: "600",
+              }}
+              onClick={handleModalClose}
+            >
+              x
+            </button>
+
             <div>
-              <label>Email Address</label>
-              <input
-                type="text"
-                placeholder="Email"
-                required
-                onChange={(e) => setEmail(e.target.value)}
-                value={email}
-                className={noEmailError ? "mb-3 border border-danger" : "mb-3"}
-              />
-              {noEmailError && (<span className="text-danger">Please provide an email!</span>)}
-              <RadioGroup>
+              <div>
+                <img
+                  style={{ marginTop: "20px" }}
+                  width="450px"
+                  height="250px"
+                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                ></img>
+              </div>
+              <div>
                 <div>
-                  <input className="mr-3" onChange={(e) => setSelectedOption(e.target.value)} value="twitter" type="radio" name="option1" />
-                  <label>Twitter</label>
+                  <h3
+                    className="newsletter-title"
+                    style={{ paddingTop: "20px" }}
+                  >
+                    {" "}
+                    Pivot2Tech Newsletter!
+                  </h3>
+                  <p>First to be notified of new cohorts!</p>
+                  <ul>
+                    {" "}
+                    <li>✅ Tech careers </li>
+                    <li>✅ Freelancing & earning a remote income </li>
+                    <li>✅ Productivity & financial literacy </li>
+                  </ul>
                 </div>
-                <div>
-                  <input className="mr-3" onChange={(e) => setSelectedOption(e.target.value)} value="instagram" type="radio" name="option1" />
-                  <label>Instagram</label>
+                <div style={{ marginTop: "15px" }}>
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    required
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    className={
+                      noEmailError ? "mb-3 border border-danger" : "mb-3"
+                    }
+                  />
+                  {noEmailError && (
+                    <span className="text-danger">
+                      Please provide an email!
+                    </span>
+                  )}
                 </div>
-                <div>
-                  <input className="mr-3" onChange={(e) => setSelectedOption(e.target.value)} value="word of mouth" type="radio" name="option1" />
-                  <label>Word of mouth</label>
-                </div>
-                <div>
-                  <input className="mr-3" onChange={(e) => setSelectedOption(e.target.value)} value="other" type="radio" name="option1" />
-                  <label>Other</label>
-                </div>
-              </RadioGroup>
+              </div>
             </div>
           </div>
           <div className="modal-footer">
@@ -95,15 +125,7 @@ const SocialModal = () => {
               data-dismiss="modal"
               onClick={handleDismiss}
             >
-              Submit
-            </button>
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-dismiss="modal"
-              onClick={handleModalClose}
-            >
-              Close
+              Subscribe
             </button>
           </div>
         </div>
