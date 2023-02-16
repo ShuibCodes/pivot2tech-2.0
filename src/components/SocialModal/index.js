@@ -123,6 +123,7 @@ const SocialModal = () => {
               type="button"
               className="btn btn-primary"
               data-dismiss="modal"
+              id="newsletter-subscribe"
               onClick={handleDismiss}
             >
               Subscribe
