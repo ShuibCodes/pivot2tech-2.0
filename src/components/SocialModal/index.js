@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/initSupabase";
 
 const SocialModal = () => {
-  const [dismiss, setDismiss] = useState(false);
+  const [dismiss, setDismiss] = useState(true);
   const [email, setEmail] = useState("");
   const [noEmailError, setNoEmailError] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
@@ -18,7 +18,7 @@ const SocialModal = () => {
         } else {
           setDismiss(window.localStorage.getItem("dismiss-social-modal"));
         }
-      }, 100000);
+      }, 6000);
     }
   }, []);
 
@@ -42,7 +42,6 @@ const SocialModal = () => {
     window.localStorage.setItem("dismiss-social-modal", true);
     setDismiss(true);
   };
-
   return (
     <div
       className={`modal ${dismiss ? "" : "d-block show fadeInUp"}`}
