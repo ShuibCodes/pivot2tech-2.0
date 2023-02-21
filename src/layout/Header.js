@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/future/image";
 import { Fragment, useEffect, useState } from "react";
 import { sidebarOnclick, stickyNav } from "../utils";
-import { Blog, Courses, Home, Pages } from "./Menu";
+import { Blog, Courses, Home, Pages, Resources } from "./Menu";
 import MobileHeader from "./MobileHeader";
 
 const Header = ({ header }) => {
@@ -405,6 +405,15 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <a href="#">Courses</a>
         <ul>
           <Courses />
+        </ul>
+        <div className="dropdown-btn">
+          <span className="fas fa-chevron-down" />
+        </div>
+      </li>
+      <li className="dropdown">
+        <a href="#">Resources</a>
+        <ul>
+          <Resources />
         </ul>
         <div className="dropdown-btn">
           <span className="fas fa-chevron-down" />

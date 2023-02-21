@@ -10,6 +10,7 @@ import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
+import Roadmap from "../src/components/roadmap";
 
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
@@ -471,7 +472,9 @@ const Index = () => {
           </div>
         </div>
       </section>
-
+      <div>
+        <Roadmap />
+      </div>
       <section className="container">
         {/* Curriculum */}
         <div id="curriculum">
