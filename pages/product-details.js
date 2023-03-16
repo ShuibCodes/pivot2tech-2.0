@@ -4,6 +4,7 @@ import { Nav, Tab } from "react-bootstrap";
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import Image from "next/image";
+
 const ProductDetails = () => {
   return (
     <Layout>
@@ -87,6 +88,7 @@ const ProductDetails = () => {
                 </div>
 
                 <div>
+                  <h4>100+ copies sold</h4>
                   <h6>
                     If you cant commit to a 7-week course but want to start
                     freelancing, this guide is for you
@@ -100,7 +102,7 @@ const ProductDetails = () => {
                     <li>
                       {" "}
                       <span style={{ padding: "7px" }}>✅</span> How to find
-                      clients 💰
+                      clients using UpWork
                     </li>
                     <li>
                       {" "}
@@ -152,8 +154,8 @@ const ProductDetails = () => {
           </div>
         </div>
       </section>
-      <div>
-        <h4 className="text-center">The Results 👇🏾</h4>
+      <div style={{ marginTop: "30px" }}>
+        <h4 className="text-center">What others are saying 👇🏾</h4>
         <div className="p-10 freelance-bundle-reviews">
           <div className="review-image">
             <Image
