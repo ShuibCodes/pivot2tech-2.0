@@ -424,7 +424,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
       </li>
       <li className="dropdown">
         <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
-          Latest Blog
+          Blog
         </Link>
       </li>
       <li className="dropdown">

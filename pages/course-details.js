@@ -257,8 +257,8 @@ const CourseDetails = () => {
                   />
                 </div>
                 <div className="price-off">
-                  <span className="price">130</span>
-                  <span className="bold">OR £43 month - 3 months</span>
+                  <span className="price">300</span>
+                  <span className="bold">OR £75 month - 4 months</span>
                 </div>
                 <ul className="course-details-list mb-25">
                   <strong
