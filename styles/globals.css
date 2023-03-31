@@ -36,6 +36,17 @@
   margin-top: -20px;
 }
 
+.section-flex {
+  display: flex;
+  gap: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-flex {
+    display: flex;
+    gap: 10px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .freelance-bundle-reviews {
     max-width: 100%;

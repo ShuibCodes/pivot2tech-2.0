@@ -194,7 +194,14 @@ const CourseDetails = () => {
                           Week 7
                         </span>
                         <span className="title">
-                          SEO (Search Engine Optimization) & Ecommerce (Shopify)
+                          SEO (Search Engine Optimization) & Ecommerce
+                          (Shopify).
+                          <br />
+                          <br />
+                          You Will learn the key areas of SEO, understanding
+                          keywords, on-page optimization, technical SEO and
+                          more. This will tie in directly with Ecommerce, and
+                          you will build your own demo online store
                         </span>
                       </li>
                       <li>
@@ -206,7 +213,13 @@ const CourseDetails = () => {
                         </span>
                         <span className="title">
                           Freelance Beginners Bundle. Free access to templates,
-                          checklists & a comprehensive guide to Upwork{" "}
+                          checklists & a comprehensive guide to Upwork .
+                          <br />
+                          <br />
+                          By the end of the course, you will be have 3 projects
+                          and a portfolio, ready to secure your first paying
+                          client. Access to the recordings will also be
+                          available forever.
                         </span>
                       </li>
                     </ul>
@@ -324,7 +337,9 @@ const CourseDetails = () => {
                     <i className="fas fa-globe" /> <span></span>{" "}
                     <b>Thursday & Sundays 7-9PM GMT</b>
                   </li>
-                  <p>(Times may change during Ramadan)</p>
+                  <p>
+                    International Students are Welcome, classes are recorded
+                  </p>
                 </ul>
 
                 <a

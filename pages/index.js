@@ -59,7 +59,7 @@ const Index = () => {
         />
         <meta
           property="og:description"
-          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 200 students 🎯"
+          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 300 students 🎯"
         />
         <meta
           property="og:image"
@@ -96,7 +96,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  Latest student landed a £35k role!
+                  Latest student landed a £40k role!
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -171,7 +171,7 @@ const Index = () => {
             >
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 200+ students!
+                Community of over 300+ students!
               </li>
             </ul>
           </div>
@@ -475,239 +475,6 @@ const Index = () => {
       <div>
         <Roadmap />
       </div>
-      <section className="container">
-        {/* Curriculum */}
-        <div id="curriculum">
-          <div className="curriculum-title">
-            <h5 className=" px-4">
-              Online,{" "}
-              <span style={{ color: "#1F4ECD" }}>part-time schedule</span>
-            </h5>
-            <h4
-              style={{ fontSize: "25px" }}
-              className="px-4 "
-            >
-              Check out what our curriculums cover:
-            </h4>
-          </div>
-          <Accordion
-            className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
-            id="course-faq"
-            defaultActiveKey="collapse1"
-          >
-            <WellernAccordion
-              eventName={"collapse1"}
-              title={"Fullstack Web Development"}
-              active={active}
-              onClick={() => onClick("collapse1")}
-            >
-              <ul className="course-video-list">
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 1-3
-                  </span>
-                  <span className="title">HTML,CSS & source control</span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 4-6
-                  </span>
-                  <span className="title">
-                    JavaScript 101. Object oriented programming, loops,
-                    functions, arrays, & DOM
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 7-9
-                  </span>
-                  <span className="title">
-                    Front-end Development. More JavaScript, REST API and diving
-                    into REACT & Databases.{" "}
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 10-12
-                  </span>
-                  <span className="title">
-                    Building projects with Test Driven Development and deploying
-                    them live on the web
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 13
-                  </span>
-                  <span className="title">Portfolio Week</span>
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="title"
-                  >
-                    Post-course
-                  </span>
-                  <span className="duration">
-                    Support & guidance from our alumni & teachers in navigating
-                    the job market, CV's & job applications
-                  </span>
-                </li>
-              </ul>
-            </WellernAccordion>
-          </Accordion>
-          <div className="text-center">
-            <Link href="/course-details">
-              <a
-                style={{
-                  padding: "10px",
-                  fontSize: "9px",
-                  margin: "10px 0px",
-                  backgroundColor: "#0084DF",
-                }}
-                className="theme-btn"
-              >
-                Learn More
-              </a>
-            </Link>
-          </div>
-          <Accordion
-            className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
-            id="course-faq"
-            defaultActiveKey="collapse2"
-          >
-            <WellernAccordion
-              eventName={"collapse2"}
-              title={"Freelance Beginners Bootcamp"}
-              active={activeFreelance}
-              onClick={() => onClickFreelance("collapse2")}
-            >
-              <ul className="course-video-list">
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 1-3
-                  </span>
-                  <span className="title">
-                    Foundation: Web Development Basics & Freelance Intro
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 4-6
-                  </span>
-                  <span className="title">
-                    Low-code Web Development & SEO. With project work{" "}
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 7-9
-                  </span>
-                  <span className="title">
-                    The personal branding process fo freelancers. Finding
-                    clients offline & online
-                  </span>{" "}
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 10-12
-                  </span>
-                  <span className="title">
-                    Lowcode web developement projects and processes. Ecommerce
-                    deep-dive with (Shopify)
-                  </span>
-                </li>
-                <li>
-                  <span
-                    style={{ color: "#1F4ECE", marginRight: "10px" }}
-                    className="duration"
-                  >
-                    Week 13
-                  </span>
-                  <span className="title">
-                    Working with clients - Contracts and Client Situations
-                  </span>
-                </li>
-              </ul>
-            </WellernAccordion>
-          </Accordion>
-        </div>
-      </section>
-      <div className="text-center">
-        <Link href="/course-details-freelance">
-          <a
-            style={{
-              padding: "10px",
-              fontSize: "9px",
-              margin: "10px 0px",
-              backgroundColor: "#0084DF",
-            }}
-            className="theme-btn"
-          >
-            Learn More
-          </a>
-        </Link>
-      </div>
-      <div id="the-team">
-        <Team />
-      </div>
-      <div id="FAQs">
-        <FAQs />
-      </div>
-      <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
-        <Link href="/contact">
-          <a className="theme-btn grab-course">
-            Question? - Contact us
-            <i className="fas fa-arrow-right" />
-          </a>
-        </Link>
-      </div>
-      {/* Coach Section End */}
-      {/* Work Process Section Start */}
-      <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
-        <div className="container">
-          <div id="what-learn">
-            <Index1WorkStepSlider />
-          </div>
-        </div>
-      </section>
-      <div className="text-center">
-        <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-          <Link href="/#courses-group">
-            <a className="theme-btn">
-              Grab your course
-              <i className="fas fa-arrow-right" />
-            </a>
-          </Link>
-        </div>
-      </div>
       <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
           <div className="row justify-content-between align-items-center">
@@ -745,6 +512,39 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
+        <div className="container">
+          <div id="what-learn">
+            <Index1WorkStepSlider />
+          </div>
+        </div>
+      </section>
+
+      <div id="the-team">
+        <Team />
+      </div>
+      <div id="FAQs">
+        <FAQs />
+      </div>
+      <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
+        <Link href="/contact">
+          <a className="theme-btn grab-course">
+            Question? - Contact us
+            <i className="fas fa-arrow-right" />
+          </a>
+        </Link>
+      </div>
+
+      <div className="text-center">
+        <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+          <Link href="/#courses-group">
+            <a className="theme-btn">
+              Grab your course
+              <i className="fas fa-arrow-right" />
+            </a>
+          </Link>
+        </div>
+      </div>
 
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
