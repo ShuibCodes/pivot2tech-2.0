@@ -108,7 +108,7 @@ const Index = () => {
                       <i className="fas fa-arrow-right" />
                     </a>
                   </div>
-                  <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
+                  {/* <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
                     <a
                       href="#curriculum"
                       style={{ backgroundColor: "#1F4ECE" }}
@@ -117,7 +117,7 @@ const Index = () => {
                       Pick a mentor
                       <i className="fas fa-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -406,7 +406,7 @@ const Index = () => {
                       fontSize: "11px",
                       margin: "10px 0px",
                     }}
-                    className="theme-btn"
+                    className="theme-bt fn"
                   >
                     10 Freelance Spaces left
                     <i className="fas fa-arrow-right" />
