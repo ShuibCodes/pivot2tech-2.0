@@ -396,9 +396,9 @@ const Index = () => {
                     <p>(Times may change during Ramadan)</p>
                   </div>
 
-                  <p style={{ fontSize: "20px", color: "blue" }}>
+                  {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Freealnce Spots</strong>
-                  </p>
+                  </p> */}
                   <a
                     href="https://pivot2tech.co.uk/course-details"
                     style={{
