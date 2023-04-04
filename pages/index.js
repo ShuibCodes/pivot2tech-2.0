@@ -11,7 +11,7 @@ import { useState } from "react";
 import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
 import Roadmap from "../src/components/roadmap";
-
+import Mentoring from "../src/components/mentoring";
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -114,7 +114,7 @@ const Index = () => {
                       style={{ backgroundColor: "#1F4ECE" }}
                       className="theme-btn"
                     >
-                      View Curriculum
+                      Pick a mentor
                       <i className="fas fa-arrow-right" />
                     </a>
                   </div>
@@ -158,6 +158,9 @@ const Index = () => {
               className="list-style-four"
             >
               <li style={{ fontSize: "22px" }}>
+                New, 1-1 mentoring. Pick a Mentor today!
+              </li>
+              <li style={{ fontSize: "22px" }}>
                 Evening Zoom Lessons
                 <span style={{ color: "#1F4ECE", marginLeft: "6px" }}>
                   2 days a week
@@ -176,7 +179,7 @@ const Index = () => {
             </ul>
           </div>
         </div>
-
+        <Mentoring />
         <div className="section-title text-center">
           <span className="sub-title mb-15">Testimonials</span>
           <h2>What Our Students Say</h2>
@@ -487,7 +490,7 @@ const Index = () => {
                 </div>
 
                 <ul className="list-style-four pt-5 pb-35">
-                  <li>Small cohorts with 1 teacher for 10 students</li>
+                  <li>Small cohorts with 2 teachers for 10-20 students</li>
                   <li>Weekly projects using real-life data</li>
                   <li>Get real-time answers to never be stuck</li>
                   <li>Lifetime Access to Pivot2Techs resources </li>
