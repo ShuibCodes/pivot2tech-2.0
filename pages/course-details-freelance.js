@@ -227,7 +227,7 @@ const CourseDetails = () => {
                 </Accordion>
                 <div className="py-20">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="https://buy.stripe.com/00geVP4C56fY1b29AG"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -235,7 +235,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Reserve your space
+                    Join Now
                   </a>
                 </div>
                 <h3>Your Instructor</h3>
@@ -274,18 +274,18 @@ const CourseDetails = () => {
                         style={{ marginTop: "20px" }}
                         className="text-center"
                       >
-                        <h4>Next cohort: June 2023</h4>
+                        {/* <h4>Next cohort: June 2023</h4> */}
                       </div>
                       <div
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
+                        <a href="https://buy.stripe.com/00geVP4C56fY1b29AG">
                           <a
                             style={{ fontSize: "13px" }}
                             className="theme-btn"
                           >
-                            Join Waiting List
+                            Sign Up Now
                           </a>
                         </a>
                       </div>
@@ -330,7 +330,7 @@ const CourseDetails = () => {
                   </li>
                   <li>
                     <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>June 2023 </b>
+                    <b>April </b>
                   </li>
 
                   <li>
@@ -343,7 +343,7 @@ const CourseDetails = () => {
                 </ul>
 
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                  href="https://buy.stripe.com/00geVP4C56fY1b29AG"
                   style={{
                     padding: "10px",
                     fontSize: "11px",
@@ -351,7 +351,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Reserve your space
+                  Join Now
                 </a>
               </div>
             </div>

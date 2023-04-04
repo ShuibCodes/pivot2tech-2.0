@@ -1,5 +1,5 @@
 import React from "react";
-import { TwitterFollowButton, TwitterTweetEmbed } from "react-twitter-embed";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 function tweets() {
   return (
     <div>
