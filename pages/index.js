@@ -397,10 +397,10 @@ const Index = () => {
                   </div>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>10 Freealnce Spots left!</strong>
+                    <strong>10 Freealnce Spots</strong>
                   </p>
-                  <Link
-                    href="course-details-freelance"
+                  <a
+                    href="https://pivot2tech.co.uk/course-details"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -408,9 +408,9 @@ const Index = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Now
+                    10 Freelance Spaces left
                     <i className="fas fa-arrow-right" />
-                  </Link>
+                  </a>
                   <ul
                     style={{ marginTop: "10px" }}
                     className="course-tags"
