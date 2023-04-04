@@ -231,9 +231,9 @@ const Index = () => {
                     <p>(Times may change during Ramadan)</p>
                   </div>
 
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>12 Spaces Remaining!</strong>
-                  </p>
+                  {/* <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong>10 Spaces Remaining!</strong>
+                  </p> */}
 
                   <ul className="course-tags">
                     <li>
