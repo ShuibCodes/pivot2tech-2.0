@@ -397,10 +397,10 @@ const Index = () => {
                   </div>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>Next Cohort: June 2023</strong>
+                    <strong>10 Freealnce Spots left!</strong>
                   </p>
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                  <Link
+                    href="course-details-freelance"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -408,9 +408,9 @@ const Index = () => {
                     }}
                     className="theme-btn"
                   >
-                    Joining Waiting list
+                    Join Now
                     <i className="fas fa-arrow-right" />
-                  </a>
+                  </Link>
                   <ul
                     style={{ marginTop: "10px" }}
                     className="course-tags"
