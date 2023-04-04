@@ -228,7 +228,7 @@ const Index = () => {
                     >
                       <span>Thursdays & Sundays 7-9pm </span>
                     </span>
-                    <p>(Times may change during Ramadan)</p>
+                    <h4>10 Spaces Left</h4>
                   </div>
 
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
