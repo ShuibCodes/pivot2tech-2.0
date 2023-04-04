@@ -225,6 +225,8 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
+
+                <h4>Pay in 4 installments of £32 !</h4>
                 <div className="py-20">
                   <a
                     href="https://buy.stripe.com/00geVP4C56fY1b29AG"
