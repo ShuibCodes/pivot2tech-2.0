@@ -290,6 +290,7 @@ const CourseDetails = () => {
                             Sign Up Now
                           </a>
                         </a>
+                        <h4 style={{ marginTop: "50px" }}>Limited Spaces</h4>
                       </div>
                     </div>
                   </div>
@@ -321,7 +322,18 @@ const CourseDetails = () => {
                   >
                     All Classes Are Recorded
                   </strong>
-
+                  <br />
+                  <strong
+                    style={{
+                      color: "black",
+                      fontStyle: "italic",
+                      fontSize: "18px",
+                      marginTop: "13px",
+                    }}
+                    className="text-center"
+                  >
+                    *Last cohort at this price*
+                  </strong>
                   <li>
                     <i className="far fa-file-alt" /> <span>Course Level</span>{" "}
                     <b>Beginner</b>

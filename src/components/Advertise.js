@@ -14,6 +14,7 @@ const Advertise = () => {
                 More Freelance Spaces
                 <i className="fas fa-arrow-right" />
               </a>
+              <h4>7 Freelance Spaces Left</h4>
             </a>
           </div>
           <div className="image">
