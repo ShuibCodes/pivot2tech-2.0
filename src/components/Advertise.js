@@ -7,14 +7,13 @@ const Advertise = () => {
       <div className="col-lg-6">
         <div className="advertise-item wow fadeInUp delay-0-2s">
           <div className="content">
-            <p style={{ fontSize: "17px" }}>NEW SPACES</p>
-            <h4 style={{ fontWeight: "bold" }}> </h4>
-            <a href="https://pivot2tech.co.uk/course-details-freelance">
+            <p style={{ fontSize: "17px" }}>Next Cohort</p>
+            <h4 style={{ fontWeight: "bold" }}> June 2023</h4>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
               <a className="theme-btn">
-                More Freelance Spaces
+                Join Waiting List
                 <i className="fas fa-arrow-right" />
               </a>
-              <h4>7 Freelance Spaces Left</h4>
             </a>
           </div>
           <div className="image">
