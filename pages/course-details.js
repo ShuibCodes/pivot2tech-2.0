@@ -303,7 +303,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Reserve your spot
+                  Join Waiting List
                 </a>
               </div>
             </div>

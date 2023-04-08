@@ -351,7 +351,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Reserve your space
+                  Join Waiting List
                 </a>
               </div>
             </div>
