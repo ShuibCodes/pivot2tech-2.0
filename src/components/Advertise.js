@@ -9,7 +9,8 @@ const Advertise = () => {
           <div className="content">
             <p style={{ fontSize: "17px" }}>Next Cohort</p>
             <h4 style={{ fontWeight: "bold" }}> June 2023</h4>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
+
+            <a href="#courses-group">
               <a className="theme-btn">
                 Join Waiting List
                 <i className="fas fa-arrow-right" />
