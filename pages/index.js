@@ -228,7 +228,7 @@ const Index = () => {
                     >
                       <span>Thursdays & Sundays 7-9pm </span>
                     </span>
-                    <h4 style={{ color: "#1F4ECD" }}>4 Spaces Left</h4>
+                    <h4 style={{ color: "#1F4ECD" }}>3 Spaces Left</h4>
                   </div>
 
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
