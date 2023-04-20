@@ -316,6 +316,9 @@ const Index = () => {
                       </span>
                     </span>
                   </div>
+                  <a style={{ color: "#1F4ECD", textDecoration: "underline" }}>
+                    Pay Once, Keep forever
+                  </a>
                   <p>
                     Guide includes all you need to start Freelancing & work
                     remotely 🌴
