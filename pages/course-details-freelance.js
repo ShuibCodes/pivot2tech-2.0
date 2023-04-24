@@ -51,7 +51,7 @@ const CourseDetails = () => {
                   <span className="category">Freelance</span>
                 </div>
                 <h2>Freelance Bootcamp</h2>
-                <h3>7 Weeks</h3>
+                <h3>Part time, 7 Weeks</h3>
 
                 <div className="image mb-35">
                   <img
@@ -225,11 +225,9 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-
-                <h4>Pay in 4 installments of £32 !</h4>
                 <div className="py-20">
                   <a
-                    href="https://buy.stripe.com/00geVP4C56fY1b29AG"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -237,7 +235,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Now
+                    Join Waiting List
                   </a>
                 </div>
                 <h3>Your Instructor</h3>
@@ -276,21 +274,20 @@ const CourseDetails = () => {
                         style={{ marginTop: "20px" }}
                         className="text-center"
                       >
-                        {/* <h4>Next cohort: June 2023</h4> */}
+                        <h4>Next cohort: June 2023</h4>
                       </div>
                       <div
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <a href="https://buy.stripe.com/00geVP4C56fY1b29AG">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
                           <a
                             style={{ fontSize: "13px" }}
                             className="theme-btn"
                           >
-                            Sign Up Now
+                            Join Waiting List
                           </a>
                         </a>
-                        <h4 style={{ marginTop: "50px" }}>Limited Spaces</h4>
                       </div>
                     </div>
                   </div>
@@ -308,8 +305,8 @@ const CourseDetails = () => {
                   />
                 </div>
                 <div className="price-off">
-                  <span className="price">130</span>
-                  <span className="bold">OR £32/month - 4 months</span>
+                  <span className="price">200</span>
+                  <span className="bold">Or 3 Interest-free Installments</span>
                 </div>
                 <ul className="course-details-list mb-25">
                   <strong
@@ -322,18 +319,7 @@ const CourseDetails = () => {
                   >
                     All Classes Are Recorded
                   </strong>
-                  <br />
-                  <strong
-                    style={{
-                      color: "black",
-                      fontStyle: "italic",
-                      fontSize: "18px",
-                      marginTop: "13px",
-                    }}
-                    className="text-center"
-                  >
-                    *Last cohort at this price*
-                  </strong>
+
                   <li>
                     <i className="far fa-file-alt" /> <span>Course Level</span>{" "}
                     <b>Beginner</b>
@@ -344,7 +330,7 @@ const CourseDetails = () => {
                   </li>
                   <li>
                     <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>April </b>
+                    <b>June 2023 </b>
                   </li>
 
                   <li>
@@ -357,7 +343,7 @@ const CourseDetails = () => {
                 </ul>
 
                 <a
-                  href="https://buy.stripe.com/00geVP4C56fY1b29AG"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
                   style={{
                     padding: "10px",
                     fontSize: "11px",
@@ -365,7 +351,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Join Now
+                  Join Waiting List
                 </a>
               </div>
             </div>

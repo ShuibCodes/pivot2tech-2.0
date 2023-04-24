@@ -50,6 +50,7 @@ const CourseDetails = () => {
                   <span className="category">Web Development</span>
                 </div>
                 <h2>Fullstack Web Development Bootcamp</h2>
+                <h5>Part time, 13-weeks</h5>
 
                 <div className="image mb-35">
                   <Image
