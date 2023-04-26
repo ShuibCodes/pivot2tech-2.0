@@ -75,7 +75,8 @@ const ProductDetails = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <span className="price">13</span>
+                  <span className="price">10</span>
+
                   <span
                     style={{
                       textDecoration: "line-through",
@@ -86,7 +87,9 @@ const ProductDetails = () => {
                     28
                   </span>
                 </div>
-
+                <p style={{ fontWeight: "700", fontSize: "21px" }}>
+                  ** Limited time offer **
+                </p>
                 <div>
                   <h4>100+ copies sold</h4>
                   <h6>

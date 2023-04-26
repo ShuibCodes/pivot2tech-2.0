@@ -104,7 +104,7 @@ const Index = () => {
                       href="#courses-group"
                       className="theme-btn grab-course"
                     >
-                      Grab your course
+                      Explore Bootcamps
                       <i className="fas fa-arrow-right" />
                     </a>
                   </div>
@@ -191,6 +191,91 @@ const Index = () => {
           className="container"
         >
           <div className="row coach-active justify-content-center">
+            <div className="col-lg-4 col-md-6 item development photography">
+              {/* <Link href="/course-details"> */}
+              <div
+                id="what-learn"
+                className="coach-item wow fadeInUp delay-0-4s"
+              >
+                <div className="coach-image">
+                  <Link href="/course-grid">
+                    <a
+                      style={{ fontSize: "11px" }}
+                      className="category"
+                    >
+                      13 Weeks
+                    </a>
+                  </Link>
+                  <img
+                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                    alt="fullstack bootcamp"
+                  />
+                </div>
+                <div className="coach-content">
+                  <span className="label">Online Lessons - 13 weeks</span>
+                  <h4>
+                    <Link href="/">Fullstack Web Development</Link>
+                  </h4>
+                  <div className="ratting-price">
+                    <span
+                      className="bold"
+                      style={{ fontSize: "18px" }}
+                    >
+                      Tuesday's 7-9pm <br></br>
+                      Saturday's 12:30-14:30 (GMT)
+                    </span>
+                  </div>
+
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong>Next Cohort: June 2023</strong>
+                  </p>
+                  <ul
+                    style={{ marginTop: "10px" }}
+                    className="course-tags"
+                  >
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>💻</span> 4 real-life
+                      projects
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework and
+                      project review
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live chat
+                      support
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>📆</span> Weekly
+                      deadlines
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
+                      access
+                    </li>
+                  </ul>
+                  <Link href="/course-details">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      View Bootcamp
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              {/* </Link> */}
+            </div>
             <div className="col-lg-4 col-md-6 item design technology">
               {/* <Link href="/course-details-freelance"> */}
               <div className="coach-item wow">
@@ -228,9 +313,10 @@ const Index = () => {
                     >
                       <span>Thursdays & Sundays 7-9pm </span>
                     </span>
-                    <h4 style={{ color: "#1F4ECD" }}>3 Spaces Left</h4>
                   </div>
-
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong>Next Cohort: June 2023</strong>
+                  </p>
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Spaces Remaining!</strong>
                   </p> */}
@@ -276,7 +362,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Join Now
+                      View Bootcamp
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
@@ -304,7 +390,7 @@ const Index = () => {
                       style={{ color: "#1F4ECD" }}
                       className="price"
                     >
-                      13{" "}
+                      10{" "}
                       <span
                         style={{
                           textDecoration: "line-through",
@@ -328,7 +414,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>✅</span>
                       <span>
                         {" "}
-                        Comprehensive step-by-step on finding clients
+                        Comprehensive vidoe on finding clients online
                       </span>
                     </li>
                     <li>
@@ -362,93 +448,6 @@ const Index = () => {
                   </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6 item development photography">
-              {/* <Link href="/course-details"> */}
-              <div
-                id="what-learn"
-                className="coach-item wow fadeInUp delay-0-4s"
-              >
-                <div className="coach-image">
-                  <Link href="/course-grid">
-                    <a
-                      style={{ fontSize: "11px" }}
-                      className="category"
-                    >
-                      13 Weeks
-                    </a>
-                  </Link>
-                  <img
-                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                    alt="fullstack bootcamp"
-                  />
-                </div>
-                <div className="coach-content">
-                  <span className="label">Online Lessons - 13 weeks</span>
-                  <h4>
-                    <Link href="/">Fullstack Web Development</Link>
-                  </h4>
-                  <div className="ratting-price">
-                    <span
-                      className="bold"
-                      style={{ fontSize: "18px" }}
-                    >
-                      Tuesday's 7-9pm <br></br>
-                      Saturday's 12:30-14:30 (GMT)
-                    </span>
-                    <p>(Times may change during Ramadan)</p>
-                  </div>
-
-                  {/* <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>10 Freealnce Spots</strong>
-                  </p> */}
-
-                  <ul
-                    style={{ marginTop: "10px" }}
-                    className="course-tags"
-                  >
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>💻</span> 4 real-life
-                      projects
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework and
-                      project review
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live chat
-                      support
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>📆</span> Weekly
-                      deadlines
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
-                      access
-                    </li>
-                  </ul>
-                  <Link href="/course-details">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Course details
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              {/* </Link> */}
             </div>
           </div>
         </div>
