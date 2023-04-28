@@ -180,11 +180,6 @@ const Index = () => {
           </div>
         </div>
         {/* <Mentoring /> */}
-        <div className="section-title text-center">
-          <span className="sub-title mb-15">Testimonials</span>
-          <h2>What Our Students Say</h2>
-        </div>
-        <Tweets />
 
         <div
           id="courses-group"
@@ -452,6 +447,11 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="section-title text-center">
+        <span className="sub-title mb-15">Testimonials</span>
+        <h2>What Our Students Say</h2>
+      </div>
+      <Tweets />
       <div>
         <Roadmap />
       </div>
