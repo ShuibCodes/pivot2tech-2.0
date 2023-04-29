@@ -146,7 +146,7 @@ const ProductDetails = () => {
                   >
                     <a
                       style={{ color: "white" }}
-                      href="https://whop.com/pivot2teech"
+                      href="https://whop.com/pivot2tech"
                     >
                       Grab a copy
                     </a>
