@@ -75,7 +75,7 @@ const ProductDetails = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <span className="price">10</span>
+                  <span className="price">20</span>
 
                   <span
                     style={{
@@ -87,9 +87,9 @@ const ProductDetails = () => {
                     28
                   </span>
                 </div>
-                <p style={{ fontWeight: "700", fontSize: "21px" }}>
+                {/* <p style={{ fontWeight: "700", fontSize: "21px" }}>
                   ** Limited time offer **
-                </p>
+                </p> */}
                 <div>
                   <h4>100+ copies sold</h4>
                   <h6>

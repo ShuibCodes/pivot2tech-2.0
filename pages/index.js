@@ -385,7 +385,7 @@ const Index = () => {
                       style={{ color: "#1F4ECD" }}
                       className="price"
                     >
-                      10{" "}
+                      28{" "}
                       <span
                         style={{
                           textDecoration: "line-through",
