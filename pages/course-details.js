@@ -5,6 +5,7 @@ import { Accordion } from "react-bootstrap";
 import Head from "next/head";
 import Layout from "../src/layout/Layout";
 import WellernAccordion from "../src/components/WellernAccordion";
+import Blocks from "../src/components/fullstack-blocks";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -44,7 +45,7 @@ const CourseDetails = () => {
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <div className="course-details-content">
                 <div className="course-header">
                   <span className="category">Web Development</span>
@@ -60,19 +61,48 @@ const CourseDetails = () => {
                     height="430"
                   />
                 </div>
-                <p>
-                  Learn skills to secure a job as a full-stack software
-                  engineer.- HTML, CSS JavaScript, Node JS, testing- heavy
-                  emphasis on project based learning
-                </p>
-                <div className="info-copy">
-                  <p>
-                    Our <span style={{ color: "blue" }}>part-time program</span>{" "}
-                    is designed with busy professionals in mind, so you can
-                    learn to code while maintaining your current lifestyle.
-                  </p>
+
+                <div className="">
+                  <div className="">
+                    <h6>
+                      Next Bootcamp Kickoff:{" "}
+                      <span
+                        style={{
+                          color: "#1F4ECE",
+                          fontSize: "22px",
+                          marginLeft: "15px",
+                        }}
+                      >
+                        June 22nd
+                      </span>
+                    </h6>
+
+                    <ul
+                      style={{
+                        fontSize: "18px",
+                        fontWeight: "700",
+                        marginLeft: "8px",
+                      }}
+                    >
+                      <li>7-9pm BST</li>
+                      <li>13 weeks</li>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    style={{
+                      padding: "10px",
+                      fontSize: "11px",
+                      margin: "10px 0px",
+                      backgroundColor: "#0084DF",
+                    }}
+                    className="theme-btn"
+                  >
+                    Join Waiting List
+                    <i className="fas fa-arrow-right" />
+                  </a>
                 </div>
-                <h3>Course Curriculum </h3>
+
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -157,22 +187,34 @@ const CourseDetails = () => {
 
                 <div className="py-10">
                   <div style={{ marginTop: "20px" }}>
-                    <h5>Next cohort: June 2023</h5>
+                    <h5>Next cohort: June 22nd</h5>
                   </div>
                 </div>
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
-                  style={{
-                    padding: "10px",
-                    fontSize: "11px",
-                    margin: "10px 0px",
-                    backgroundColor: "#0084DF",
-                  }}
-                  className="theme-btn"
+
+                <Blocks />
+
+                <div
+                  style={{ margin: "auto", textAlign: "center" }}
+                  className="m-auto py-50"
                 >
-                  Join Waiting List
-                  <i className="fas fa-arrow-right" />
-                </a>
+                  <p className="info-copy text-center">
+                    Receive a personalized certificate to enance your CV
+                  </p>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    style={{
+                      padding: "10px",
+                      fontSize: "11px",
+                      margin: "10px 0px",
+                      backgroundColor: "#0084DF",
+                    }}
+                    className="theme-btn"
+                  >
+                    Join Waiting List
+                    <i className="fas fa-arrow-right" />
+                  </a>
+                </div>
+
                 <h2 className="py-1 my-20">Your Instructors</h2>
 
                 <div className="p-20 p-md-1 row">
@@ -196,7 +238,7 @@ const CourseDetails = () => {
                               Senior Software Engineer
                             </span>
                           </div>
-                          <p>
+                          <p style={{ maxWidth: "70%" }}>
                             An experienced Software Engineer who works for a
                             global technology consultancy company
                           </p>
@@ -235,10 +277,10 @@ const CourseDetails = () => {
                               Software Engineer & Mentor
                             </span>
                           </div>
-                          <p>
+                          <p style={{ maxWidth: "70%" }}>
                             Jamie is an Web Developer and digital nomad. He
-                            helps teach and mentor students Wednesday & Sundays
-                            7-9pm GMT.
+                            helps teach and mentor students in weekly booster
+                            sessions & CV clinics.
                           </p>
                         </div>
                       </div>
@@ -283,7 +325,7 @@ const CourseDetails = () => {
                   </li>
                   <li>
                     <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>June 2023 </b>
+                    <b>June 22nd </b>
                   </li>
 
                   <li>

@@ -45,7 +45,7 @@ const CourseDetails = () => {
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
-            <div className="col-lg-8">
+            <div className="col-lg-12">
               <div className="course-details-content">
                 <div className="course-header">
                   <span className="category">Freelance</span>
@@ -58,6 +58,45 @@ const CourseDetails = () => {
                     src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
                     alt="Course Details"
                   />
+                </div>
+                <div className="">
+                  <div className="">
+                    <h6>
+                      Next Bootcamp Kickoff:{" "}
+                      <span
+                        style={{
+                          color: "#1F4ECE",
+                          fontSize: "22px",
+                          marginLeft: "15px",
+                        }}
+                      >
+                        June 22nd
+                      </span>
+                    </h6>
+
+                    <ul
+                      style={{
+                        fontSize: "18px",
+                        fontWeight: "700",
+                        marginLeft: "8px",
+                      }}
+                    >
+                      <li>7-9pm BST</li>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    style={{
+                      padding: "10px",
+                      fontSize: "11px",
+                      margin: "10px 0px",
+                      backgroundColor: "#0084DF",
+                    }}
+                    className="theme-btn"
+                  >
+                    Join Waiting List
+                    <i className="fas fa-arrow-right" />
+                  </a>
                 </div>
                 <p style={{ fontSize: "20px", fontWeight: "700" }}>
                   The Ultimate Guide to Freelancing:
@@ -100,8 +139,8 @@ const CourseDetails = () => {
                       height="80%"
                       layout="responsive"
                       objectFit="contain"
-                      alt="testimonial for freelance bundle"
-                      src="/assets/images/review-1.png"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/freelance-review-2.png"
                     />
                   </div>
 
@@ -111,10 +150,11 @@ const CourseDetails = () => {
                       height="80%"
                       layout="responsive"
                       objectFit="contain"
-                      alt="testimonial tweet for freelance bundle "
-                      src="/assets/images/review-3.png"
+                      alt="testimonial tweet for freelance course "
+                      src="/assets/images/freelance-review.jpeg"
                     />
                   </div>
+
                   <div className="review-image">
                     <Image
                       width="100%"
@@ -138,6 +178,118 @@ const CourseDetails = () => {
                   </p>
                 </div>
 
+                <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+                  <div className="container">
+                    <div className="row justify-content-between align-items-center">
+                      <div className="col-lg-6">
+                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                          <div className="section-title mb-25">
+                            <h2>
+                              Turn more pitches into projects with a strong
+                              portfolio
+                            </h2>
+                          </div>
+
+                          <div>
+                            <p>
+                              Your best pitch is always your best past work. We
+                              teach you to show instead of tell by using strong
+                              portfolio samples. Get the best possible samples
+                              in the least amount of time so that more of your
+                              pitches turn into projects.
+                            </p>
+                          </div>
+                          <div href="/course-details">
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                              className="theme-btn style-four"
+                            >
+                              Join Waiting List
+                              <i className="fas fa-arrow-right" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className=" ">
+                          <img
+                            src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                            alt="Why Choose"
+                            className="why-choose-one"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+                  <div className="">
+                    <div className="row justify-content-between align-items-center">
+                      <div className="col-lg-6">
+                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                          <div className="section-title mb-25">
+                            <h2>
+                              Handle any client situation with actual experience
+                            </h2>
+                          </div>
+
+                          <div>
+                            <p>
+                              Working with a wide variety of clients means
+                              you’ll have to be prepared for anything.Because we
+                              give you real project experience while teaching
+                              you how to handle any client scenario, you won’t
+                              be left scrambling when things do get challenging.
+                            </p>
+                          </div>
+                          <div href="/course-details">
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                              className="theme-btn style-four"
+                            >
+                              Join Waiting List
+                              <i className="fas fa-arrow-right" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="mt-10 ">
+                          <img
+                            src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                            alt="Why Choose"
+                            className="why-choose-one freelance-section"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div className="py-20">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    style={{
+                      padding: "10px",
+                      fontSize: "11px",
+                      margin: "10px 0px",
+                    }}
+                    className="theme-btn"
+                  >
+                    Join Waiting List
+                  </a>
+                </div>
+                <div>
+                  <p className="info-copy">
+                    Learn in-demand, recession-proof online skills to earn a
+                    side income online
+                  </p>
+                  <p
+                    style={{ marginTop: "-18px" }}
+                    className="info-copy"
+                  >
+                    From SEO to low-code web development
+                  </p>
+                </div>
                 <h3>Course Curriculum </h3>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
@@ -241,7 +393,7 @@ const CourseDetails = () => {
                 <h3>Your Instructor</h3>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
-                    <div className="col-sm-5">
+                    <div className="col-sm-4">
                       <div className="instructor-image">
                         <img
                           src="assets/images/shuayb.jpg"
@@ -274,7 +426,7 @@ const CourseDetails = () => {
                         style={{ marginTop: "20px" }}
                         className="text-center"
                       >
-                        <h4>Next cohort: June 2023</h4>
+                        <h4>Next cohort: June 22nd</h4>
                       </div>
                       <div
                         style={{ margin: "10px" }}
@@ -330,7 +482,7 @@ const CourseDetails = () => {
                   </li>
                   <li>
                     <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>June 2023 </b>
+                    <b>June 22nd </b>
                   </li>
 
                   <li>

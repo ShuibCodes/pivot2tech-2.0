@@ -73,12 +73,14 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
                 {/* <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Applications opening soon
+                  Applications now open
                 </span> */}
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
-                  Launch your{" "}
-                  <span style={{ color: "#1F4ECE" }}>tech career,</span> join
-                  our coding bootcamp 🚀
+                  Learn new skills today,
+                  <span style={{ color: "#1F4ECE" }}>
+                    {" "}
+                    Launch your tech career
+                  </span>
                 </h3>
 
                 <p className="wow">
@@ -158,9 +160,6 @@ const Index = () => {
               className="list-style-four"
             >
               <li style={{ fontSize: "22px" }}>
-                New, 1-1 mentoring. Pick a Mentor today!
-              </li>
-              <li style={{ fontSize: "22px" }}>
                 Evening Zoom Lessons
                 <span style={{ color: "#1F4ECE", marginLeft: "6px" }}>
                   2 days a week
@@ -211,18 +210,21 @@ const Index = () => {
                   <h4>
                     <Link href="/">Fullstack Web Development</Link>
                   </h4>
-                  <div className="ratting-price">
-                    <span
-                      className="bold"
-                      style={{ fontSize: "18px" }}
-                    >
-                      Tuesday's 7-9pm <br></br>
-                      Saturday's 12:30-14:30 (GMT)
-                    </span>
-                  </div>
+
+                  <span style={{ fontSize: "16px", color: "black" }}>
+                    Take your skills to the max by learning development from the
+                    inside-out.
+                  </span>
+                  <hr />
+                  <span
+                    className="bold"
+                    style={{ fontSize: "18px" }}
+                  >
+                    Tuesday's & Saturdays
+                  </span>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>Next Cohort: June 2023</strong>
+                    <strong>Next Cohort: June 22nd</strong>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -246,7 +248,7 @@ const Index = () => {
                     <li>
                       {" "}
                       <span style={{ marginRight: "8px" }}>📆</span> Weekly
-                      deadlines
+                      homework
                     </li>
                     <li>
                       {" "}
@@ -297,8 +299,8 @@ const Index = () => {
                   </h4>
                   <div className="ratting-price">
                     <span style={{ fontSize: "16px", color: "black" }}>
-                      Start Earning a Side Freelancing Income. Turn your digital
-                      skills into a paycheck!
+                      Start Earning a side Freelancing income from home. Turn
+                      your digital skills into a paycheck!
                     </span>
                   </div>
                   <div>
@@ -306,11 +308,11 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "18px" }}
                     >
-                      <span>Thursdays & Sundays 7-9pm </span>
+                      <span>Thursdays & Sundays</span>
                     </span>
                   </div>
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>Next Cohort: June 2023</strong>
+                    <strong>Next Cohort: June 22nd</strong>
                   </p>
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Spaces Remaining!</strong>
@@ -345,7 +347,7 @@ const Index = () => {
                     <li>
                       {" "}
                       <span style={{ marginRight: "8px" }}>∞</span>
-                      begin from scratch and build a professional portfolio
+                      Lifetime access
                     </li>
                   </ul>
                   <Link href="/course-details-freelance">
@@ -401,15 +403,22 @@ const Index = () => {
                     Pay Once, Keep forever
                   </a>
                   <p>
-                    Guide includes all you need to start Freelancing & work
-                    remotely 🌴
+                    Get the guide to everything you need to become a freelancer
+                    on your own.
                   </p>
                   <ul className="">
                     <li>
                       <span style={{ marginRight: "7px" }}>✅</span>
                       <span>
                         {" "}
-                        Comprehensive vidoe on finding clients online
+                        Comprehensive videos on finding clients with{" "}
+                        <a
+                          style={{ color: "blue", textDecoration: "underline" }}
+                          target="_blank"
+                          href="https://www.upwork.com/"
+                        >
+                          Upwork
+                        </a>
                       </span>
                     </li>
                     <li>
@@ -455,6 +464,21 @@ const Index = () => {
       <div>
         <Roadmap />
       </div>
+      <section style={{ maxWidth: " 800px", margin: "auto", padding: "30px" }}>
+        <h3 className="text-center cards-title-text ">
+          Build an unshakeable foundation
+        </h3>
+        <p
+          style={{
+            fontSize: "22px",
+            textAlign: "center",
+          }}
+        >
+          Whether you opt for our beginner, freelance or full stack course
+          options, you know you’re building a solid foundation for the rest of
+          your tech career.
+        </p>
+      </section>
       <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
           <div className="row justify-content-between align-items-center">

@@ -59,8 +59,10 @@ export default class Index1WorkStepSlider extends Component {
             <div className="content">
               <h4>Learn software fundamentals and databases</h4>
               <p>
-                learn HTML, CSS & JavaScript, the building blocks of Web
-                Development
+                If you want to take your career to its highest potential, you
+                need to learn full stack. You’ll have the widest appeal to
+                employers and earn the top of your pay bracket as soon as
+                possible.
               </p>
             </div>
           </div>
@@ -70,11 +72,14 @@ export default class Index1WorkStepSlider extends Component {
               className="number"
             />
             <div className="content">
-              <h4>Master fullstack Web Development</h4>
+              <h4>Earn the right to work the way you want.</h4>
               <p>
-                Develop responsive web pages with HTML and CSS. Master modern
-                JavaScript and all the tools and environment like Webpack and
-                Node.js.
+                Freelancing puts you in control to work as you wish with no
+                income cap.
+                <br />
+                We teach you how to find clients and get hired by them, so that
+                as you build up your experience and learn what you like most,
+                you’re able to eventually do it exclusively.
               </p>
             </div>
           </div>
@@ -84,10 +89,11 @@ export default class Index1WorkStepSlider extends Component {
               className="number"
             />
             <div className="content">
-              <h4>Deploy your apps from live</h4>
+              <h4>Deploy apps live and prove your concepts </h4>
               <p>
                 Build complete web applications and deploy them online with a
-                live domain
+                live domain. Use them as portfolio peices to stand out from the
+                crowd in job applications
               </p>
             </div>
           </div>

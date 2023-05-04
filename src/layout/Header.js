@@ -438,7 +438,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="top-inner">
           <div className="top-left">
             <p>
-              <i className="far fa-clock" /> <b>Next Cohort</b> June 2023
+              <i className="far fa-clock" /> <b>Next Cohort</b> June 22nd
             </p>
           </div>
           <div className="top-right d-flex align-items-center">
