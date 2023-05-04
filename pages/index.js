@@ -72,9 +72,9 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Applications now open
-                </span>
+                {/* <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
+                  Applications opening soon
+                </span> */}
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Launch your{" "}
                   <span style={{ color: "#1F4ECE" }}>tech career,</span> join
