@@ -3,7 +3,7 @@ import path from "path";
 import Link from "next/link";
 import Image from "next/image";
 import matter from "gray-matter";
-import { marked } from 'marked';
+import { marked } from "marked";
 
 import Layout from "../../src/layout/Layout";
 
@@ -16,10 +16,13 @@ export default function Post({ frontmatter, slug, content }) {
             <div className="col-lg-8">
               <div className="became-a-softwar-engineer-without-a-degree-in-8-months-wrap">
                 <div className="image mb-25 wow fadeInUp delay-0-2s">
-                  <h3 className="title">
-                    {frontmatter.title} 💻
-                  </h3>
-                  <Image src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7" alt="blog-image" width="770" height="433" />
+                  <h3 className="title">{frontmatter.title} 💻</h3>
+                  {/* <Image
+                    src="https://miro.medium.com/max/1400/0*qmzWtFXW7TrRCM_7"
+                    alt="blog-image"
+                    width="770"
+                    height="433"
+                  /> */}
 
                   <Link href="/">
                     <i className="fas fa-share-alt" />
@@ -40,8 +43,10 @@ export default function Post({ frontmatter, slug, content }) {
                       {frontmatter.read_time}
                     </Link>
                   </li>
-               </ul>
-                <div dangerouslySetInnerHTML={{__html: marked(content)}}></div>
+                </ul>
+                <div
+                  dangerouslySetInnerHTML={{ __html: marked(content) }}
+                ></div>
                 <div className="tag-coulds pb-25 d-flex align-items-center">
                   <h6 className="mr-3">Tags</h6>
                   <Link href="/">Software Engineering</Link>
@@ -69,15 +74,18 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug }}) {
-  const markdownFrontMatter = fs.readFileSync(path.join('posts', `${slug}.md`), 'utf-8')
-  const {data: frontmatter, content } = matter(markdownFrontMatter);
+export async function getStaticProps({ params: { slug } }) {
+  const markdownFrontMatter = fs.readFileSync(
+    path.join("posts", `${slug}.md`),
+    "utf-8"
+  );
+  const { data: frontmatter, content } = matter(markdownFrontMatter);
 
   return {
     props: {
       slug,
       frontmatter,
-      content
+      content,
     },
   };
 }

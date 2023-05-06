@@ -8591,10 +8591,22 @@ h6,
 /*******************************************************/
 .blog-item {
 	border-radius: 5px;
-	margin-bottom: 30px;
+
+	
+}
+
+.blog-image{
+	min-height: 180px;
+	min-width: 260px;
+}
+
+.blog-content h5{
+	font-size: 18px;
 }
 .blog-item .blog-content {
 	padding: 25px;
+	
+
 }
 @media only screen and (max-width: 375px) {
 	.blog-item .blog-content {
@@ -8602,10 +8614,14 @@ h6,
 		padding-right: 20px;
 	}
 }
+
+
+
+
 .blog-item .blog-content h5,
 .blog-item .blog-content h4,
 .blog-item .blog-content p {
-	margin-bottom: 5px;
+	
 }
 @media only screen and (max-width: 375px) {
 	.blog-item .blog-content h5,
