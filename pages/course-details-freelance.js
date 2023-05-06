@@ -213,7 +213,7 @@ const CourseDetails = () => {
                       <div className="col-lg-6">
                         <div className=" ">
                           <img
-                            src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGl0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
                             alt="Why Choose"
                             className="why-choose-one"
                           />
@@ -256,7 +256,7 @@ const CourseDetails = () => {
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
-                            src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                            src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                             alt="Why Choose"
                             className="why-choose-one freelance-section"
                           />

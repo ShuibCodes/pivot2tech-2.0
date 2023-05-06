@@ -62,7 +62,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                   </Link>
                 </div>
               </div>
-              <div className="nav-outer clearfix">
+              <div className="nav-outer ">
                 {/* Main Menu */}
                 <nav className="main-menu navbar-expand-lg">
                   <div className="navbar-header">
@@ -394,7 +394,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
     </Fragment>
   ),
   Menus = () => (
-    <ul className="navigation clearfix d-none d-lg-flex">
+    <ul className="navigation d-none d-lg-flex">
       <li>
         <ul>
           <Home />
@@ -423,9 +423,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <Link href="/course-details">Curriculum</Link>
       </li>
       <li className="dropdown">
-        <Link href="blog/what-are-the-different-roles-in-software-engineering-frontend-backend-and-fullstack">
-          Blog
-        </Link>
+        <Link href="Blogs">Blog</Link>
       </li>
       <li className="dropdown">
         <Link href="/#the-team">Team</Link>
