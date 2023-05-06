@@ -2,7 +2,7 @@
 title: "Become a Software Engineer without a degree in 8 months"
 author: "Shuayb"
 date: "October 12 2022"
-image: ![image](/images/different-jobs-image.png)
+
 read_time: "3 min read"
 tags: ["Software Engineering", "Careers"]
 ---
