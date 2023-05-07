@@ -1,5 +1,5 @@
 ---
-title: "From Beginner to Web Developer: 7 Steps to Get "
+title: "From Beginner to Web Developer: 7 Steps to Get You Started"
 author: "Shuayb"
 date: "May 6 2023"
 read_time: "3 min read"
