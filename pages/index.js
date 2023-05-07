@@ -178,6 +178,11 @@ const Index = () => {
             </ul>
           </div>
         </div>
+        <div className="section-title text-center">
+          <span className="sub-title mb-15">Testimonials</span>
+          <h2>What Our Students Say</h2>
+        </div>
+        <Tweets />
         {/* <Mentoring /> */}
 
         <div
@@ -456,11 +461,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <div className="section-title text-center">
-        <span className="sub-title mb-15">Testimonials</span>
-        <h2>What Our Students Say</h2>
-      </div>
-      <Tweets />
+
       <div>
         <Roadmap />
       </div>
@@ -497,7 +498,7 @@ const Index = () => {
                   <li>Lifetime Access to Pivot2Techs resources </li>
                   <li>CV and Job Application support</li>
                 </ul>
-                <a href="/course-details">
+                <a href="#courses-group">
                   <div className="theme-btn style-four">
                     Learn More <i className="fas fa-arrow-right" />
                   </div>
