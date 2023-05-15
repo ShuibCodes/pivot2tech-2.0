@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import placeholder from "../../public/assets/images/about/mentoring-placeholder.png";
+import mentoringImage from "../../public/assets/images/mentoring-image.png";
 
 function mentoring() {
   return (
@@ -8,19 +8,16 @@ function mentoring() {
       <div className="container">
         <div className="row justify-content-between align-items-center">
           <div className="col-lg-6">
-            <div
-              className="mt-10"
-              style={{ margin: "20px" }}
-            >
+            <div className="mt-10">
               <Image
-                src={placeholder}
+                src={mentoringImage}
                 alt="mentoring-photo"
                 className="why-choose-one"
               />
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+            <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s p-10">
               <div className="section-title mb-25">
                 <h3>Our Mentoring Scheme is now live!</h3>
               </div>
@@ -32,7 +29,7 @@ function mentoring() {
                 <li>comprenesive CV Clinic </li>
                 <li>Access to our pool of tech recruiters</li>
               </ul>
-              <a href="/course-details">
+              <a href="https://pivot2tech-mentoring.webflow.io/">
                 <div className="theme-btn style-four">
                   Choose your mentor
                   <i className="fas fa-arrow-right" />

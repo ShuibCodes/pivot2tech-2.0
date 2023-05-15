@@ -178,12 +178,13 @@ const Index = () => {
             </ul>
           </div>
         </div>
+
         <div className="section-title text-center">
           <span className="sub-title mb-15">Testimonials</span>
           <h2>What Our Students Say</h2>
         </div>
         <Tweets />
-        {/* <Mentoring /> */}
+        <Mentoring />
 
         <div
           id="courses-group"
