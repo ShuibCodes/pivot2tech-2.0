@@ -38,7 +38,9 @@ const FollowIcon = () => (
         <Link href="/course-details">Fullstack Web Development</Link>
       </li>
       <li>
-        <Link href="/course-details-freelance">Freelance Bootcamp</Link>
+        <Link href="/course-details-freelance">
+          Freelance Web & Digital Marketing
+        </Link>
       </li>
       <li>
         <Link href="/course-details">Home</Link>

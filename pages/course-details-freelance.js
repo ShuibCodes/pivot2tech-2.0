@@ -15,7 +15,7 @@ const CourseDetails = () => {
   return (
     <Layout>
       <Head>
-        <title>Freelance Bootcamp | Pivot2Tech</title>
+        <title>Freelance Web & Digital Marketing | Pivot2Tech</title>
         <meta
           property="og:url"
           content="https://pivot2tech.co.uk/course-details-freelance"
@@ -50,7 +50,7 @@ const CourseDetails = () => {
                 <div className="course-header">
                   <span className="category">Freelance</span>
                 </div>
-                <h2>Freelance Bootcamp</h2>
+                <h2>Freelance Web & Digital Marketing</h2>
                 <h3>Part time, 7 Weeks</h3>
 
                 <div className="image mb-35">
@@ -118,7 +118,7 @@ const CourseDetails = () => {
                     </li>
                     <li>
                       <span style={{ marginRight: "10px" }}>✅</span>
-                      How to begin from scratch and quickly build a portfolio
+                      SEO, Google Ads and other Digital Marketing skills
                     </li>
                     <li>
                       <span style={{ marginRight: "10px" }}>✅</span>
@@ -169,7 +169,8 @@ const CourseDetails = () => {
 
                 <div>
                   <p className="info-copy">
-                    Our Freelance Bootcamp is the perfect way to get started.
+                    Our Freelance Web & Digital Marketing course is the perfect
+                    way to get started.
                   </p>
                   <br />
                   <p className="info-copy-small">

@@ -300,7 +300,7 @@ const Index = () => {
                   <span className="label">Online Lessons - 7 Weeks</span>
                   <h4>
                     <Link href="/course-details-freelance">
-                      The Freelance Bootcamp
+                      Freelance Web & Digital Marketing
                     </Link>
                   </h4>
                   <div className="ratting-price">
