@@ -184,7 +184,7 @@ const Index = () => {
           <h2>What Our Students Say</h2>
         </div>
         <Tweets />
-        <Mentoring />
+        {/* <Mentoring /> */}
 
         <div
           id="courses-group"
