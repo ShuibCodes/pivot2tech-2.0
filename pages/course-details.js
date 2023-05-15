@@ -89,7 +89,7 @@ const CourseDetails = () => {
                     </ul>
                   </div>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="#pricing"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -98,7 +98,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Waiting List
+                    Enroll Today
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -201,7 +201,7 @@ const CourseDetails = () => {
                     Receive a personalized certificate to enance your CV
                   </p>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="#pricing"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -210,7 +210,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Waiting List
+                    Enroll Today
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -290,11 +290,53 @@ const CourseDetails = () => {
               </div>
             </div>
           </div>
+          <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+            <div className="container">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-lg-6">
+                  <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                    <div className="section-title mb-25">
+                      <h2>
+                        Passionate teachers, innovative methods & modern tools
+                      </h2>
+                    </div>
+
+                    <ul className="list-style-four pt-5 pb-35">
+                      <li>Small cohorts with 1 teacher for 10 students</li>
+                      <li>Weekly projects using real-life data</li>
+                      <li>Get real-time answers to never be stuck</li>
+                      <li>Lifetime Access to Pivot2Techs resources </li>
+                      <li>CV and Job Application support</li>
+                    </ul>
+                    <div>
+                      <a
+                        href="#pricing"
+                        className="theme-btn style-four"
+                      >
+                        Secure a spot
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="mt-10 ">
+                    <img
+                      src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                      alt="Why Choose"
+                      className="why-choose-one"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <div className="col-lg-4">
             <div className="course-sidebar rmt-75">
               <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                 <div className="widget-video">
                   <img
+                    id="pricing"
                     src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
                     alt="Course Details"
                   />
@@ -332,13 +374,14 @@ const CourseDetails = () => {
                     <i className="fas fa-globe" /> <span></span>{" "}
                     <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
                   </li>
-                  <p>
-                    International Students are Welcome, classes are recorded
+                  <p>International Students are Welcome</p>
+                  <p style={{ color: "blue" }}>
+                    Click Klarna option to pay in 3 installments
                   </p>
                 </ul>
 
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                  href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
                   style={{
                     padding: "11px",
                     fontSize: "12px",
@@ -346,49 +389,8 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Join Waiting List
+                  Enroll Today!
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-6">
-              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
-                <div className="section-title mb-25">
-                  <h2>
-                    Passionate teachers, innovative methods & modern tools
-                  </h2>
-                </div>
-
-                <ul className="list-style-four pt-5 pb-35">
-                  <li>Small cohorts with 1 teacher for 10 students</li>
-                  <li>Weekly projects using real-life data</li>
-                  <li>Get real-time answers to never be stuck</li>
-                  <li>Lifetime Access to Pivot2Techs resources </li>
-                  <li>CV and Job Application support</li>
-                </ul>
-                <div href="/course-details">
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
-                    className="theme-btn style-four"
-                  >
-                    Join Waiting List
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="mt-10 ">
-                <img
-                  src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                  alt="Why Choose"
-                  className="why-choose-one"
-                />
               </div>
             </div>
           </div>

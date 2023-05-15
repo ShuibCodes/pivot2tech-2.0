@@ -85,7 +85,7 @@ const CourseDetails = () => {
                     </ul>
                   </div>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="#pricing"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -94,7 +94,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Waiting List
+                    Enroll Today
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -202,10 +202,10 @@ const CourseDetails = () => {
                           </div>
                           <div href="/course-details">
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                              href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Enroll Today
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -245,10 +245,10 @@ const CourseDetails = () => {
                           </div>
                           <div href="/course-details">
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                              href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Enroll Today
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -268,7 +268,7 @@ const CourseDetails = () => {
                 </section>
                 <div className="py-20">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -276,7 +276,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Waiting List
+                    Enroll Today
                   </a>
                 </div>
                 <div>
@@ -380,7 +380,7 @@ const CourseDetails = () => {
                 </Accordion>
                 <div className="py-20">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                    href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
                     style={{
                       padding: "10px",
                       fontSize: "11px",
@@ -388,7 +388,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Join Waiting List
+                    Enroll Today
                   </a>
                 </div>
                 <h3>Your Instructor</h3>
@@ -433,12 +433,12 @@ const CourseDetails = () => {
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link">
+                        <a href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9">
                           <a
                             style={{ fontSize: "13px" }}
                             className="theme-btn"
                           >
-                            Join Waiting List
+                            Enroll Today
                           </a>
                         </a>
                       </div>
@@ -453,6 +453,7 @@ const CourseDetails = () => {
               <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                 <div className="widget-video">
                   <img
+                    id="pricing"
                     src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
                     alt="Course Details"
                   />
@@ -469,6 +470,7 @@ const CourseDetails = () => {
                       fontSize: "18px",
                     }}
                     className="text-center"
+                    id="price"
                   >
                     All Classes Are Recorded
                   </strong>
@@ -490,13 +492,15 @@ const CourseDetails = () => {
                     <i className="fas fa-globe" /> <span></span>{" "}
                     <b>Thursday & Sundays 7-9PM GMT</b>
                   </li>
-                  <p>
-                    International Students are Welcome, classes are recorded
+                  <p>International Students are Welcome</p>
+
+                  <p style={{ color: "blue" }}>
+                    Click Klarna option to pay in 3 installments
                   </p>
                 </ul>
 
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdeO7J7yLaY8721yXjyUZEbU_zJW_Y42S8YoTLkCnSGcpiefA/viewform?usp=sf_link"
+                  href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
                   style={{
                     padding: "10px",
                     fontSize: "11px",
@@ -504,7 +508,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Join Waiting List
+                  Enroll Today
                 </a>
               </div>
             </div>

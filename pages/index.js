@@ -72,9 +72,9 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                {/* <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Applications now open
-                </span> */}
+                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
+                  Applications now open - Limited Spaces
+                </span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Learn new skills today,
                   <span style={{ color: "#1F4ECE" }}>
@@ -271,7 +271,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      View Bootcamp
+                      Enroll today
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
@@ -365,7 +365,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      View Bootcamp
+                      Enroll Today
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
@@ -463,9 +463,7 @@ const Index = () => {
         </div>
       </section>
 
-      <div>
-        <Roadmap />
-      </div>
+      <div>{/* <Roadmap /> */}</div>
       <section style={{ maxWidth: " 800px", margin: "auto", padding: "30px" }}>
         <h3 className="text-center cards-title-text ">
           Build an unshakeable foundation
@@ -499,7 +497,7 @@ const Index = () => {
                   <li>Lifetime Access to Pivot2Techs resources </li>
                   <li>CV and Job Application support</li>
                 </ul>
-                <a href="#courses-group">
+                <a href="/course-details">
                   <div className="theme-btn style-four">
                     Learn More <i className="fas fa-arrow-right" />
                   </div>

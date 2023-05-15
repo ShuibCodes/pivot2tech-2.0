@@ -443,7 +443,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span>Join the waiting list{" "}
+                <span className="px-2">👇🏾</span>Spaces Now Open{" "}
                 <span className="px-2">👇🏾</span>
               </h6>
             </div>
