@@ -314,7 +314,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "18px" }}
                     >
-                      <span>Thursdays & Sundays</span>
+                      <span>Every Sunday - 7pm GMT</span>
                     </span>
                   </div>
                   <p style={{ fontSize: "20px", color: "blue" }}>
