@@ -118,15 +118,12 @@ const SocialModal = () => {
             </div>
           </div>
           <div className="modal-footer">
-            <button
-              type="button"
+            <a
+              href="https://successful-author-1700.ck.page/30754e634c"
               className="btn btn-primary"
-              data-dismiss="modal"
-              id="newsletter-subscribe"
-              onClick={handleDismiss}
             >
               Subscribe
-            </button>
+            </a>
           </div>
         </div>
       </div>
