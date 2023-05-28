@@ -51,37 +51,34 @@ const CourseDetails = () => {
                   <span className="category">Freelance</span>
                 </div>
                 <h2>Freelance Web & Digital Marketing</h2>
-                <h3>Part time, 7 Weeks</h3>
+                <h6
+                  style={{
+                    color: "#1F4ECE",
+                    fontSize: "24px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  23 spaces left!
+                </h6>
 
                 <div className="image mb-35">
                   <img
                     src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
                     alt="Course Details"
+                    style={{ width: "70%" }}
                   />
                 </div>
+
                 <div className="">
                   <div className="">
-                    <h6>
-                      Next Bootcamp Kickoff:{" "}
-                      <span
-                        style={{
-                          color: "#1F4ECE",
-                          fontSize: "22px",
-                          marginLeft: "15px",
-                        }}
-                      >
-                        June 22nd
-                      </span>
-                    </h6>
-
                     <ul
                       style={{
-                        fontSize: "18px",
+                        fontSize: "22px",
                         fontWeight: "700",
                         marginLeft: "8px",
                       }}
                     >
-                      <li>7-9pm BST</li>
+                      <li>Part time - 7 weeks </li>
                     </ul>
                   </div>
                   <a
@@ -166,7 +163,73 @@ const CourseDetails = () => {
                     />
                   </div>
                 </div>
+                <div className="col-lg-4">
+                  <div className="course-sidebar rmt-75">
+                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                      <div className="widget-video">
+                        <img
+                          id="pricing"
+                          src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
+                          alt="Course Details"
+                        />
+                      </div>
+                      <div className="price-off">
+                        <span className="price">199</span>
+                        <span className="bold">
+                          Or 3 interest-free installments
+                        </span>
+                      </div>
+                      <ul className="course-details-list mb-25">
+                        <strong
+                          style={{
+                            color: "blue",
+                            fontStyle: "italic",
+                            fontSize: "18px",
+                          }}
+                          className="text-center"
+                          id="price"
+                        >
+                          All Classes Are Recorded
+                        </strong>
 
+                        <li>
+                          <i className="far fa-file-alt" />{" "}
+                          <span>Course Level</span> <b>Beginner</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>Duration</span>{" "}
+                          <b>7 weeks</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>When</span>{" "}
+                          <b>June 22nd </b>
+                        </li>
+
+                        <li>
+                          <i className="fas fa-globe" /> <span></span>{" "}
+                          <b> Sundays 7-9PM GMT</b>
+                        </li>
+                        <p>International Students are Welcome</p>
+
+                        <p style={{ color: "blue" }}>
+                          Click Klarna option to pay in 3 installments
+                        </p>
+                      </ul>
+
+                      <a
+                        href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Enroll Today
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 <div>
                   <p className="info-copy">
                     Our Freelance Web & Digital Marketing course is the perfect
@@ -445,71 +508,6 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="course-sidebar rmt-75">
-              <div className="widget widget-course-details wow fadeInUp delay-0-2s">
-                <div className="widget-video">
-                  <img
-                    id="pricing"
-                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
-                    alt="Course Details"
-                  />
-                </div>
-                <div className="price-off">
-                  <span className="price">199</span>
-                  <span className="bold">Or 3 interest-free installments</span>
-                </div>
-                <ul className="course-details-list mb-25">
-                  <strong
-                    style={{
-                      color: "blue",
-                      fontStyle: "italic",
-                      fontSize: "18px",
-                    }}
-                    className="text-center"
-                    id="price"
-                  >
-                    All Classes Are Recorded
-                  </strong>
-
-                  <li>
-                    <i className="far fa-file-alt" /> <span>Course Level</span>{" "}
-                    <b>Beginner</b>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <span>Duration</span>{" "}
-                    <b>7 weeks</b>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>June 22nd </b>
-                  </li>
-
-                  <li>
-                    <i className="fas fa-globe" /> <span></span>{" "}
-                    <b> Sundays 7-9PM GMT</b>
-                  </li>
-                  <p>International Students are Welcome</p>
-
-                  <p style={{ color: "blue" }}>
-                    Click Klarna option to pay in 3 installments
-                  </p>
-                </ul>
-
-                <a
-                  href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
-                  style={{
-                    padding: "10px",
-                    fontSize: "11px",
-                    margin: "10px 0px",
-                  }}
-                  className="theme-btn"
-                >
-                  Enroll Today
-                </a>
               </div>
             </div>
           </div>

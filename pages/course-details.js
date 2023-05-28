@@ -48,7 +48,15 @@ const CourseDetails = () => {
             <div className="col-lg-12">
               <div className="course-details-content">
                 <div className="course-header">
-                  <span className="category">Web Development</span>
+                  <h6
+                    style={{
+                      color: "#1F4ECE",
+                      fontSize: "24px",
+                      marginLeft: "15px",
+                    }}
+                  >
+                    30 spaces left!
+                  </h6>
                 </div>
                 <h2>Fullstack Web Development Bootcamp</h2>
                 <h5>Part time, 13-weeks</h5>
@@ -64,17 +72,14 @@ const CourseDetails = () => {
 
                 <div className="">
                   <div className="">
-                    <h6>
-                      Next Bootcamp Kickoff:{" "}
-                      <span
-                        style={{
-                          color: "#1F4ECE",
-                          fontSize: "22px",
-                          marginLeft: "15px",
-                        }}
-                      >
-                        June 22nd
-                      </span>
+                    <h6
+                      style={{
+                        color: "#1F4ECE",
+                        fontSize: "22px",
+                        marginLeft: "15px",
+                      }}
+                    >
+                      30 spaces left!
                     </h6>
 
                     <ul
@@ -185,9 +190,69 @@ const CourseDetails = () => {
                   </WellernAccordion>
                 </Accordion>
 
-                <div className="py-10">
-                  <div style={{ marginTop: "20px" }}>
-                    <h5>Next cohort: June 22nd</h5>
+                <div className="col-lg-4">
+                  <div className="course-sidebar rmt-75">
+                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                      <div className="widget-video">
+                        <img
+                          id="pricing"
+                          src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
+                          alt="Course Details"
+                        />
+                      </div>
+                      <div className="price-off">
+                        <span className="price">299</span>
+                        <span className="bold">
+                          or 3 interest-free installments
+                        </span>
+                      </div>
+                      <ul className="course-details-list mb-25">
+                        <strong
+                          style={{
+                            color: "blue",
+                            fontStyle: "italic",
+                            fontSize: "18px",
+                          }}
+                          className="text-center"
+                        >
+                          All Classes Are Recorded
+                        </strong>
+
+                        <li>
+                          <i className="far fa-file-alt" />{" "}
+                          <span>Course Level</span> <b>Beginner</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>Duration</span>{" "}
+                          <b>13 weeks</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>When</span>{" "}
+                          <b>June 22nd </b>
+                        </li>
+
+                        <li>
+                          <i className="fas fa-globe" /> <span></span>{" "}
+                          <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
+                        </li>
+                        <p>International Students are Welcome</p>
+                        <p style={{ color: "blue" }}>
+                          Click Klarna option to pay in 3 installments
+                        </p>
+                      </ul>
+
+                      <a
+                        href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
+                        style={{
+                          padding: "11px",
+                          fontSize: "12px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Enroll Today!
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -331,69 +396,6 @@ const CourseDetails = () => {
               </div>
             </div>
           </section>
-          <div className="col-lg-4">
-            <div className="course-sidebar rmt-75">
-              <div className="widget widget-course-details wow fadeInUp delay-0-2s">
-                <div className="widget-video">
-                  <img
-                    id="pricing"
-                    src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
-                    alt="Course Details"
-                  />
-                </div>
-                <div className="price-off">
-                  <span className="price">299</span>
-                  <span className="bold">or 3 interest-free installments</span>
-                </div>
-                <ul className="course-details-list mb-25">
-                  <strong
-                    style={{
-                      color: "blue",
-                      fontStyle: "italic",
-                      fontSize: "18px",
-                    }}
-                    className="text-center"
-                  >
-                    All Classes Are Recorded
-                  </strong>
-
-                  <li>
-                    <i className="far fa-file-alt" /> <span>Course Level</span>{" "}
-                    <b>Beginner</b>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <span>Duration</span>{" "}
-                    <b>13 weeks</b>
-                  </li>
-                  <li>
-                    <i className="far fa-clock" /> <span>When</span>{" "}
-                    <b>June 22nd </b>
-                  </li>
-
-                  <li>
-                    <i className="fas fa-globe" /> <span></span>{" "}
-                    <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
-                  </li>
-                  <p>International Students are Welcome</p>
-                  <p style={{ color: "blue" }}>
-                    Click Klarna option to pay in 3 installments
-                  </p>
-                </ul>
-
-                <a
-                  href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
-                  style={{
-                    padding: "11px",
-                    fontSize: "12px",
-                    margin: "10px 0px",
-                  }}
-                  className="theme-btn"
-                >
-                  Enroll Today!
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </Layout>
