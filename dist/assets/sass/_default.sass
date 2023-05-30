@@ -1,0 +1,151 @@
+/*******************************************************/
+/******************* 01. Default Style *****************/
+/*******************************************************/
+*
+    margin: 0
+    padding: 0
+    border: none
+    outline: none
+    box-shadow: none
+
+body
+    color: $base-color
+    background: white
+    font-weight: 400
+    line-height: 1.82
+    font-size: $base-size
+    font-family: $base-font
+
+a
+    color: $base-color
+    cursor: pointer
+    outline: none
+    transition: 0.5s
+    text-decoration: none
+    &:hover, &:focus, &:visited
+        text-decoration: none
+        outline: none
+    &:hover
+        color: $primary-color
+
+h1, h2, h3, h4, h5, h6
+    @extend %heading
+    margin-bottom: 12px
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+    color: $heading-color
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white h1 a,
+.text-white h2 a,
+.text-white h3 a,
+.text-white h4 a,
+.text-white h5 a,
+.text-white h6 a
+    color: white
+
+h1
+    font-size: $h1-size
+
+h2
+    font-size: $h2-size
+
+h3
+    line-height: 1.35
+    font-size: $h3-size
+
+h4
+    line-height: 1.4
+    font-size: $h4-size
+
+h5
+    line-height: 1.5
+    font-size: $h5-size
+
+h6
+    font-size: $h6-size
+
+ul, li
+    list-style: none
+    padding: 0
+    margin: 0
+
+img
+    max-width: 100%
+    display: inline-block
+ 
+header, section, footer
+    +clearfix
+
+/*======= Input Styles =======*/
+input,
+select,
+textarea,
+.nice-select,
+.form-control
+    width: 100%
+    height: auto
+    font-size: 18px
+    font-weight: 600
+    border-radius: 5px
+    padding: 16px 30px
+    background: $light-color
+    font-family: $heading-font
+    border: 1px solid $light-color
+    +smd
+        font-size: 16px
+.nice-select
+    line-height: 1.5
+    
+textarea
+	display: inherit
+
+.form-group
+    margin-bottom: 30px
+    
+input:focus,
+textarea:focus,
+.form-control:focus,
+.nice-select.open, 
+.nice-select:active,
+.nice-select:focus
+    outline: none
+    box-shadow: none
+    background: transparent
+    border-color: $border-color
+    
+button:focus
+    outline: none
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder,
+.form-control::placeholder
+    color: $heading-color
+    text-transform: capitalize
+    
+input[type=search]::-ms-clear
+	display: none
+	width: 0
+	height: 0
+
+input[type=search]::-ms-reveal
+	display: none
+	width: 0
+	height: 0
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration
+	display: none
+
+input[type=checkbox], input[type=radio]
+	height: auto
+	width: auto
+    

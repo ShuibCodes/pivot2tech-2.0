@@ -1,0 +1,218 @@
+/*******************************************************/
+/****************** 10. About Section ******************/
+/*******************************************************/
+.about-man
+    z-index: 1
+    text-align: center
+    position: relative
+    &:before
+        content: ''
+        left: 50%
+        top: 0
+        z-index: -1
+        position: absolute
+        +circle($light-color, 540px)
+        transform: translate(-55%, - 10%)
+.about-content
+    +xld
+        margin-left: 60px
+.about-btns
+    .theme-btn
+        margin-right: 30px
+        
+/* About Two */
+.about-two-left
+    max-width: 500px
+    position: relative
+    +tbd
+        max-width: none
+.about-two-images
+    img
+        width: 70%
+        border-radius: 10px
+        &:first-child
+            margin-left: 30%
+        &:last-child
+            margin-top: -10%
+            margin-right: 30%
+.about-content-two
+    max-width: 490px
+    +xld
+        margin-left: auto
+    +tbd
+        max-width: none
+.about-image-over-item
+    align-items: center
+    padding: 15px 35px
+    min-height: 70px
+    display: flex
+    background: white
+    position: absolute
+    border-radius: 35px
+    box-shadow: 10px 0 60px rgba(75, 131, 252, 0.15)
+    +smd
+        min-height: 50px
+        padding: 5px 20px
+    &:first-child
+        top: 15%
+        left: -15%
+        +lgd
+            left: 0
+    &:last-child
+        bottom: 15%
+        right: -15%
+        +lgd
+            right: 0
+    img
+        flex: none
+        margin-right: 15px
+        +smd
+            width: 25px
+    h5
+        margin-bottom: 0
+        +smd
+            font-size: 16px
+        
+/* About Three */
+.about-three-image
+    padding-right: 50px
+    margin-right: -75px
+    +mdd
+        margin-right: 0
+.about-three-image-content
+    padding: 40px 50px
+    +flexcenter(space-between)
+    margin: -85px -50px 0 85px
+    +mtd
+        margin-left: 10px
+    +mod
+        margin-left: 25px
+    +msd
+        flex-wrap: wrap
+    +smd
+        +gapLR(padding, 25px)
+    h4
+        font-size: 24px
+        margin-bottom: 0
+        font-weight: 600
+        +msd
+            margin-top: 20px
+        +xsd
+            font-size: 20px
+.about-content-three
+    max-width: 500px
+    margin-left: auto
+    +tbd
+        margin-left: 0
+    
+/* About Four */
+.about-four-content
+    .list-style-four
+        li
+            &:before
+                color: $primary-color
+.about-four-right-part
+    position: relative
+    .image-one,
+    .image-two
+        width: 65%
+    .image-one
+        display: block
+        margin-left: auto
+        margin-bottom: -25%
+        +xsd
+            margin-bottom: -15%
+    .saticfiction
+        top: 10%
+        left: 10%
+        max-width: 205px
+        text-align: center
+        position: absolute
+        padding: 35px 30px 15px
+        +smd
+            top: 0
+            left: 0
+            max-width: 150px
+            padding: 25px 15px 5px
+            h4
+                font-size: 16px
+        .counter-number
+            margin-bottom: 10px
+            display: inline-block
+            +msd
+                margin-left: 0
+    .experience
+        right: 5%
+        bottom: 4%
+        max-width: 155px
+        text-align: center
+        position: absolute
+        padding: 25px 25px 10px
+        +smd
+            right: 0
+            bottom: 0
+            max-width: 125px
+            padding: 15px 15px 1px
+            h5
+                font-size: 16px
+        i
+            font-size: 50px
+            margin-bottom: 15px
+            display: inline-block
+/* About Page */
+.about-page-middle
+    position: relative
+    max-width: 500px
+    img
+        width: 100%
+    .circle-content
+        +size(220px)
+        left: 50%
+        top: 50%
+        color: white
+        padding: 20px
+        line-height: 1
+        font-size: 20px
+        font-weight: 700
+        text-align: center
+        position: absolute
+        border-radius: 50%
+        +flexcenter(center)
+        flex-direction: column
+        font-family: $heading-font
+        background: $secondary-color
+        transform: translate(-50%, -50%)
+        b
+            font-size: 60px
+            margin-bottom: 15px
+        span
+            line-height: 1.5
+            margin-bottom: 10px
+        +smd
+            +size(150px)
+            font-size: 16px
+            b
+                font-size: 40px
+                margin-bottom: 8px
+            
+/* Rules And Condition */
+.rules-condition-content
+    .section-title
+        margin-right: -30px
+        +tbd
+            margin-right: 0
+.rules-condition-image-part
+    position: relative
+    img
+        width: 100%
+    .logo
+        position: absolute
+        left: 58.333333%
+        top: 50%
+        padding: 35px
+        +circle($primary-color, 150px)
+        transform: translate(-50%, -50%)
+        line-height: 1
+        +xsd
+            +size(100px)
+            padding: 25px

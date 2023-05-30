@@ -1,0 +1,74 @@
+/*******************************************************/
+/************** 32. Cart Checkout Section **************/
+/*******************************************************/
+/* Checkout Page */
+.from-title
+    +xsd()
+        font-size: 25px
+.package-summary
+    table
+        width: 100%
+    tbody
+        background: $light-color
+        tr
+            &:not(:last-child)
+                border-bottom: 1px solid $border-color
+            td
+                padding: 10px 25px
+                +xsd()
+                    +gapLR(padding, 22px)
+                
+/* Cart Page */
+.total-cart-price
+    padding: 20px 25px 6px
+    background: $light-color
+    +flexcenter(space-between)
+    +smd()
+        +gapLR(padding, 15px)
+        h5
+            font-size: 16px
+        
+.cart-item-wrap
+    .alert
+        margin-bottom: 0
+        position: relative
+        +gapTB(padding, 25px)
+        +flexcenter(space-between)
+        border-bottom: 1px solid $border-color
+        +mod()
+            display: block
+            text-align: center
+        .product-name
+            flex: none
+            width: 165px
+            margin-bottom: 0
+            +mod()
+                width: 100%
+                margin-bottom: 15px
+        .avilable
+            i
+                font-size: 14px
+                margin-right: 2px
+                color: $primary-color
+        .product-total-price
+            font-weight: 800
+            color: $heading-color
+            +mod()
+                display: block
+                margin-top: 15px
+        .quantity-input
+            display: flex
+            max-width: 120px
+            +mod()
+                margin: 15px auto
+            button
+                flex: none
+                width: 33px
+            input
+                padding: 5px 10px
+                text-align: center
+        .close
+            +mod()
+                top: 10px
+                right: 15px
+                position: absolute

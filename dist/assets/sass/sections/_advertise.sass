@@ -1,0 +1,33 @@
+/*******************************************************/
+/**************** 21. Advertise Section ****************/
+/*******************************************************/
+.advertise-item
+    z-index: 1
+    border-radius: 5px
+    position: relative
+    margin-bottom: 30px
+    padding: 32px 45px 40px
+    +flexcenter(space-between)
+    background: transparentize($primary-color, 0.9)
+    +msd
+        display: block
+    +xsd
+        +gapLR(padding, 25px)
+    &.bg-two
+        background: transparentize($secondary-color, 0.9)
+    .content
+        max-width: 68%
+        +msd
+            max-width: 100%
+    .image
+        margin: -20px -10px -20px -40px
+        position: relative
+        z-index: -1
+        +msd
+            margin: 25px 0 0
+    h4
+        font-size: 24px
+    .theme-btn
+        font-size: 14px
+        padding: 9px 23px 7px
+    

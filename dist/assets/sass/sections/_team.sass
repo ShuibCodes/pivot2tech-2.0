@@ -1,0 +1,204 @@
+/*******************************************************/
+/****************** 22. Team Members ******************/
+/*******************************************************/
+.team-section
+    .bg-text
+        right: 50%
+        opacity: 0.015
+        transform: translate(50%)
+        text-transform: capitalize
+.team-content
+    p
+        opacity: 0.7
+.team-members
+    z-index: 1
+    margin-top: -60px
+    position: relative
+    +tbd
+        margin-top: 0
+    &:before
+        content: ''
+        top: 60px
+        left: 50%
+        z-index: -1
+        position: absolute
+        +size(850px, 425px)
+        transform: translate(-50%)
+        border-radius: 0 0 425px 425px
+        background: transparentize(white, 0.97)
+        +tbd
+            display: none
+.team-member
+    position: relative
+    margin-bottom: 30px
+    img
+        width: 100%
+        border-radius: 5px
+    .team-over
+        +size(100%)
+        left: 0
+        top: 0
+        opacity: 0
+        transition: 0.5s
+        border-radius: 5px
+        position: absolute
+        +flexcenter(center)
+        +gapTB(padding, 25px)
+        flex-direction: column
+        transform: scale3d(0, 1, 1)
+        background: transparentize($secondary-color, 0.07)
+        h4
+            margin-top: auto
+            margin-bottom: 0
+        span
+            font-weight: 700
+            margin-bottom: 5px
+    &:hover
+        .team-over
+            opacity: 1
+            transform: scale3d(1, 1, 1)
+        
+/* Team Style Two */
+.team-member-two
+    text-align: center
+    margin-bottom: 55px
+    .image
+        position: relative
+        img
+            width: 100%
+            border-radius: 5px
+        .social-style-two
+            position: absolute
+            left: 50%
+            opacity: 0
+            bottom: 50px
+            transition: 0.5s
+            border-radius: 5px
+            width: max-content
+            padding: 8px 20px 3px
+            transform: translate(-50%)
+            background: $secondary-color
+            a
+                color: white
+                opacity: 0.65
+                &:hover
+                    opacity: 1
+    .member-description
+        h4
+            margin: 25px 0 0
+        span
+            font-weight: 700
+            color: $secondary-color
+    &:hover
+        .social-style-two
+            bottom: 20px
+            opacity: 1
+        
+/* Instructors */
+.instructor-item
+    text-align: center
+    position: relative
+    margin-bottom: -15px
+    .image
+        img
+            width: 100%
+            border-radius: 5px
+    .member-description
+        transition: 0.5s
+        padding-top: 25px
+        background: white
+        h4
+            margin-bottom: 0
+        > span
+            font-weight: 700
+            color: $secondary-color
+        .ratting
+            opacity: 0
+            transition: 0.5s
+            margin-bottom: 5px
+            i
+                color: #ffa200
+                font-size: 13px
+            span
+                font-size: 18px
+                font-weight: 700
+        .social-style-two
+            opacity: 0
+            transition: 0.5s
+            margin-top: -10px
+            width: max-content
+            border-radius: 5px
+            padding: 8px 20px 3px
+            transform: translateY(20px)
+            background: $secondary-color
+            a
+                color: white
+                opacity: 0.65
+                &:hover
+                    opacity: 1
+    &:hover
+        .member-description
+            transform: translateY(-75px)
+            box-shadow: 10px 0 60px rgba(139, 139, 139, 0.1)
+        .ratting,
+        .social-style-two
+            opacity: 1
+            
+/* Become An Instructor */
+.join-our-team-content
+    .list-style-three
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        li
+            width: 48%
+            +msd
+                width: 100%
+.join-our-team-image-part
+    max-width: 525px
+    flex-wrap: wrap
+    position: relative
+    margin-bottom: -30px
+    +flexcenter(space-between)
+    +xld
+        margin-left: auto
+    img
+        width: 100%
+        margin-bottom: 30px
+    .image-one
+        width: calc(54% - 15px)
+    .image-two
+        width: calc(46% - 15px)
+    .years-of-experience
+        color: white
+        left: 50px
+        bottom: 60px
+        display: flex
+        line-height: 1
+        font-size: 20px
+        max-width: 270px
+        position: absolute
+        align-items: center
+        padding: 15px 40px 30px
+        font-family: $heading-font
+        background: $secondary-color
+        +smd
+            left: 15px
+            bottom: 100px
+            max-width: 200px
+            padding: 5px 25px 20px
+        b
+            font-size: 60px
+            margin-right: 15px
+            +smd
+                font-size: 35px
+        span
+            margin-top: 10px
+            line-height: 30px
+            +smd
+                font-size: 16px
+                line-height: 26px
+    .bg-text
+        top: 20px
+        left: 35px
+        font-size: 100px

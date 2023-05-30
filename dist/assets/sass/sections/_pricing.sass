@@ -1,0 +1,72 @@
+/*******************************************************/
+/***************** 24. Pricing Section *****************/
+/*******************************************************/
+.pricin-item
+    overflow: hidden
+    background: white
+    position: relative
+    padding: 40px 55px
+    margin-bottom: 30px
+    .popularity
+        color: white
+        font-weight: 800
+        position: absolute
+        text-transform: uppercase
+        background: #ffa200
+        right: 0
+        opacity: 0
+        top: -120px
+        transition: 0.5s
+        transform: rotate(180deg)
+        padding: 25px 7px 15px 5px
+        -webkit-writing-mode: vertical-lr
+        clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 0 0, 50% 10px)
+        
+    .icon
+        margin-bottom: 35px
+        +circle($light-color, 125px)
+    h4
+        font-size: 24px
+        margin-bottom: 0
+    .price
+        display: block
+        line-height: 1
+        font-size: 75px
+        font-weight: 600
+        margin-top: 15px
+        color: $primary-color
+        &:before
+            content: '$'
+            font-size: 24px
+        &:after
+            font-size: 18px
+            color: $base-color
+            content: '/ Per month'
+    .save
+        font-size: 18px
+        font-weight: 600
+        color: $secondary-color
+    .list-style-two
+        margin-top: 25px
+        li
+            &:before
+                content: "\f058"
+    .theme-btn
+        margin-top: 35px
+        +gapLR(padding, 30px)
+    &.style-two
+        height: 100%
+        margin-bottom: 0
+        +gapLR(padding, 40px)
+        border: 1px solid $border-color
+        .list-style-two
+            padding-top: 30px
+            border-top: 1px solid $border-color
+        +smd
+            +gapLR(padding, 25px)
+    +smd
+        +gapLR(padding, 25px)
+    &:hover
+        .popularity
+            top: 0
+            opacity: 1

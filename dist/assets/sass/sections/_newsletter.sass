@@ -1,0 +1,199 @@
+/*******************************************************/
+/**************** 13. Newsletter Section ***************/
+/*******************************************************/
+.newsletter-video
+    overflow: hidden
+    border-radius: 5px
+    margin-right: -50px
+    +tbd
+        margin: 0
+    &:before
+        z-index: 1
+    img
+        width: 100%
+.newsletter-content
+    margin-right: -70px
+    margin-left: -110px
+    padding: 95px 70px 95px 200px
+    +mtd
+        padding-left: 165px
+    +tbd
+        margin: 0
+        padding: 75px
+    +mod
+        +gapLR(padding, 25px)
+    +xsd
+        +gapLR(padding, 15px)
+    h2
+        +mtd
+            font-size: 42px
+.newsletter-email
+    z-index: 2
+    display: flex
+    padding: 20px
+    background: white
+    border-radius: 5px
+    position: relative
+    margin-left: -160px
+    +tbd
+        margin-left: 0
+    +msd
+        display: block
+    +xsd
+        +gapLR(padding, 10px)
+    label
+        top: 44px
+        left: 45px
+        line-height: 1
+        cursor: pointer
+        margin-bottom: 0
+        position: absolute
+        color: $secondary-color
+        +xsd
+            left: 25px
+    input
+        padding: 15px 0 15px 50px
+        +xsd
+            padding-left: 40px
+        &::placeholder
+            font-weight: 600
+            color: $heading-color
+    
+.video-play
+    left: 50%
+    top: 50%
+    z-index: 3
+    position: absolute
+    +circle(white, 80px)
+    color: $secondary-color
+    transform: translate(-50%, -50%)
+    
+.newsletter-radios
+    display: flex
+    font-size: 20px
+    flex-wrap: wrap
+    @extend %heading
+    .custom-radio
+        padding-left: 35px
+        &:not(:last-child)
+            margin-right: 35px
+    .custom-control-label
+        cursor: pointer
+        &:after
+            top: 6px
+            left: -35px
+            +circle(transparentize($primary-color, 0.85), 25px)
+        &:before
+            top: 9px
+            z-index: 1
+            left: -28px
+            border: none
+            font-size: 12px
+            content: "\f00c"
+            font-weight: 600
+            color: $primary-color
+            background: transparent
+            font-family: "Font Awesome 5 Free"
+    .custom-control-input:checked~.custom-control-label
+        &::before
+            box-shadow: none
+            background-color: transparent
+        &::after
+            background-image: none
+            background-color: $primary-color
+        
+/* Newsletter Video Section */
+.newsletter-video-section
+    +gapLR(padding, 55px)
+    +lgd
+        +gapLR(padding, 0)
+.newsletter-video-part
+    height: 720px
+    +mod
+        height: 500px
+    +msd
+        height: 400px
+    &:before
+        opacity: 0.45
+    .video-play
+        color: white
+        background: $primary-color
+        +amd
+            +size(110px)
+            line-height: 110px
+    .notification
+        left: 16%
+        bottom: 15%
+        max-width: 250px
+        position: absolute
+        padding: 45px 40px 25px
+        +mdd
+            left: 10%
+            bottom: 10%
+        +mod
+            display: none
+        img
+            margin-bottom: 18px
+        &:before
+            content: ''
+            left: -40%
+            top: 15%
+            +size(150px, 70px)
+            position: absolute
+            background: url(../images/shapes/notification-line.png) no-repeat center/cover
+            +mdd
+                left: -30%
+    .bg-text
+        right: 50%
+        bottom: 50%
+        opacity: 0.2
+        font-size: 300px
+        color: transparent
+        text-transform: capitalize
+        -webkit-text-stroke: 1px white
+        transform: translate(50%, 50%)
+        +mdd
+            font-size: 200px
+        +mod
+            font-size: 150px
+        +msd
+            font-size: 100px
+        +xsd
+            font-size: 80px
+        &:before
+            content: ''
+            +size(320px)
+            position: absolute
+            border-radius: 50%
+            border: 1px solid white
+            transform: translate(-50%, -25%)
+            +mdd
+                +size(200px)
+            +mod
+                display: none
+.newsletter-video-content
+    z-index: 1
+    position: relative
+    margin-left: -330px
+    padding: 60px 70px 70px
+    +mdd
+        margin-left: 0
+    +msd
+        +gapLR(padding, 25px)
+    .newsletter-radios 
+        .custom-control-label
+            +xsd
+                font-size: 18px
+            &:before
+                color: white
+    .newsletter-email
+        margin-left: 0
+        label
+            top: 40px
+            i
+                color: $secondary-color
+        input
+            +gapTB(padding, 10px)
+        .theme-btn
+            flex: none
+            +gapLR(padding, 30px)

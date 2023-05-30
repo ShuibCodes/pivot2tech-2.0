@@ -79,6 +79,11 @@ export async function getStaticProps({ params: { slug } }) {
     path.join("posts", `${slug}.md`),
     "utf-8"
   );
+
+
+  // const res = 
+
+
   const { data: frontmatter, content } = matter(markdownFrontMatter);
 
   return {
