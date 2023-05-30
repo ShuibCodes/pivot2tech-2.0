@@ -230,7 +230,7 @@ const Index = () => {
                   </span>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>30 spaces left!</strong>
+                    <strong>28 spaces left!</strong>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
