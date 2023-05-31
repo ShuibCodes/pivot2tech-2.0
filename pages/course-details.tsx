@@ -1,3 +1,4 @@
+import { createClient } from 'next-sanity'
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -6,7 +7,10 @@ import Head from "next/head";
 import Layout from "../src/layout/Layout";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Blocks from "../src/components/fullstack-blocks";
-const CourseDetails = () => {
+import { ICourse } from '../src/types/general';
+const CourseDetails = ({ mainCourse }: {
+  mainCourse: ICourse
+}) => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
     console.log(value);
@@ -51,153 +55,155 @@ const CourseDetails = () => {
               <div className="course-details-content">
 
                 <div style={{
-              display: "grid",
-              gridTemplateColumns: "2fr 1fr",
-              gridGap: "20px",
-              marginBottom: "20px",
+                  display: "grid",
+                  gridTemplateColumns: "2fr 1fr",
+                  gridGap: "20px",
+                  marginBottom: "20px",
 
-            }} >
+                }} >
 
-                <div className="w-full">
+                  <div className="w-full">
 
-                <div className="course-header">
-                  <h6
-                    style={{
-                      color: "#1F4ECE",
-                      fontSize: "24px",
-                      marginLeft: "15px",
-                    }}
-                  >
-                    30 spaces left!
-                  </h6>
-                </div>
-                <h2>Fullstack Web Development Bootcamp</h2>
-                <h5>Part time, 13-weeks</h5>
 
-                <div className="image mb-35">
-                  <Image
-                    src="/assets/images/women-in-tech.jpeg"
-                    alt="course-details"
-                    width="735"
-                    height="430"
-                  />
+                    <h2>
+                      {mainCourse.title}
+                    </h2>
 
-<div className="">
-                  <div className="">
-                    <h6
-                      style={{
-                        color: "#1F4ECE",
-                        fontSize: "22px",
-                        marginLeft: "15px",
-                      }}
-                    >
-                      30 spaces left!
-                    </h6>
+                    <h5>
+                      {mainCourse.subtitle}
+                    </h5>
 
-                    <ul
-                      style={{
-                        fontSize: "18px",
-                        fontWeight: "700",
-                        marginLeft: "8px",
-                      }}
-                    >
-                      <li>7-9pm BST</li>
-                      <li>13 weeks</li>
-                    </ul>
-                  </div>
-                  <a
-                    href="#pricing"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
-                </div>
-                </div>
+                    <div className="image mb-35">
+                      <Image
+                        src={mainCourse.mainImageUrl}
+                        alt="course-details"
+                        width="735"
+                        height="430"
+                      />
 
-                <div className="w-full d-none d-lg-block">
-                  <div className="course-sidebar rmt-75">
-                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
-                      <div className="widget-video">
-                        <img
-                          id="pricing"
-                          src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
-                          alt="Course Details"
-                        />
-                      </div>
+                      <div className="">
+                        <div className="">
 
-                      
-                      <div className="price-off">
-                        <span className="price">299</span>
-                        <span className="bold">
-                          or 3 interest-free installments
-                        </span>
-                      </div>
-                      <ul className="course-details-list mb-25">
-                        <strong
+                          <h6
+                            style={{
+                              color: "#1F4ECE",
+                              fontSize: "22px",
+                              marginLeft: "15px",
+                            }}
+                          >
+                            {mainCourse.spaces} spaces left!
+                          </h6>
+
+                          <ul
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "700",
+                              marginLeft: "8px",
+                            }}
+                          >
+
+                            <li>
+                              {mainCourse.courseTime}
+                            </li>
+
+                            <li>
+                              {mainCourse.duration}
+                            </li>
+                          </ul>
+                        </div>
+                        <a
+                          href="#pricing"
                           style={{
-                            color: "blue",
-                            fontStyle: "italic",
-                            fontSize: "18px",
+                            padding: "10px",
+                            fontSize: "11px",
+                            margin: "10px 0px",
+                            backgroundColor: "#0084DF",
                           }}
-                          className="text-center"
+                          className="theme-btn"
                         >
-                          All Classes Are Recorded
-                        </strong>
+                          Enroll Today
+                          <i className="fas fa-arrow-right" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
-                        <li>
-                          <i className="far fa-file-alt" />{" "}
-                          <span>Course Level</span> <b>Beginner</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>Duration</span>{" "}
-                          <b>13 weeks</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>June 22nd </b>
-                        </li>
+                  <div className="w-full d-none d-lg-block">
+                    <div className="course-sidebar rmt-75">
+                      <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                        <div className="widget-video">
+                          <img
+                            id="pricing"
+                            src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
+                            alt="Course Details"
+                          />
+                        </div>
 
-                        <li>
-                          <i className="fas fa-globe" /> <span></span>{" "}
-                          <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
-                        </li>
-                        <p>International Students are Welcome</p>
-                        <p style={{ color: "blue" }}>
-                          Click Klarna option to pay in 3 installments
-                        </p>
-                      </ul>
 
-                      <a
-                        href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
-                        style={{
-                          padding: "11px",
-                          fontSize: "12px",
-                          margin: "10px 0px",
-                        }}
-                        className="theme-btn"
-                      >
-                        Enroll Today!
-                      </a>
+                        <div className="price-off">
+                          <span className="price">299</span>
+                          <span className="bold">
+                            or 3 interest-free installments
+                          </span>
+                        </div>
+                        <ul className="course-details-list mb-25">
+                          <strong
+                            style={{
+                              color: "blue",
+                              fontStyle: "italic",
+                              fontSize: "18px",
+                            }}
+                            className="text-center"
+                          >
+                            All Classes Are Recorded
+                          </strong>
+
+                          <li>
+                            <i className="far fa-file-alt" />{" "}
+                            <span>Course Level</span> <b>Beginner</b>
+                          </li>
+                          <li>
+                            <i className="far fa-clock" /> <span>Duration</span>{" "}
+                            <b>{mainCourse.duration}</b>
+                          </li>
+                          <li>
+                            <i className="far fa-clock" /> <span>When</span>{" "}
+                            {/* <b>{mainCourse.courseDate?.toDateString()}</b> */}
+                          </li>
+
+                          <li>
+                            <i className="fas fa-globe" /> <span></span>{" "}
+                            <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
+                          </li>
+                          <p>International Students are Welcome</p>
+                          <p style={{ color: "blue" }}>
+                            Click Klarna option to pay in 3 installments
+                          </p>
+                        </ul>
+
+                        <a
+                          href={mainCourse.purchaseLink}
+                          style={{
+                            padding: "11px",
+                            fontSize: "12px",
+                            margin: "10px 0px",
+                          }}
+                          className="theme-btn"
+                        >
+                          Enroll Today!
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-                </div>
 
 
 
 
-              
-                
 
-            
+
+
+
 
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
@@ -211,72 +217,20 @@ const CourseDetails = () => {
                     onClick={() => onClick("collapse1")}
                   >
                     <ul className="course-video-list">
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 1-3
-                        </span>
-                        <span className="title">HTML,CSS & source control</span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 4-6
-                        </span>
-                        <span className="title">
-                          JavaScript 101. Object oriented programming, loops,
-                          functions, arrays, & DOM
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 7-9
-                        </span>
-                        <span className="title">
-                          Front-end Development. More JavaScript, REST API and
-                          diving into REACT & Databases.{" "}
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 10-12
-                        </span>
-                        <span className="title">
-                          Building projects with Test Driven Development and
-                          deploying them live on the web
-                        </span>
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 13
-                        </span>
-                        <span className="title">Portfolio Week</span>
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="title"
-                        >
-                          Post-course
-                        </span>
-                        <span className="duration">
-                          Support & guidance from our alumni & teachers in
-                          navigating the job market, CV's & job applications
-                        </span>
-                      </li>
+
+                      {mainCourse.kv.map((item, index) => (
+
+                        <li>
+                          <span
+                            style={{ color: "#1F4ECE", marginRight: "10px" }}
+                            className="duration"
+                          >
+                            {item.key}
+                          </span>
+                          <span className="title">{item.value}</span>{" "}
+                        </li>
+                      ))}
+
                     </ul>
                   </WellernAccordion>
                 </Accordion>
@@ -496,3 +450,30 @@ const CourseDetails = () => {
   );
 };
 export default CourseDetails;
+
+
+
+export async function getStaticProps() {
+
+
+  const client = createClient({
+    projectId: "ljgfsbre",
+    dataset: "production",
+    apiVersion: "2023-05-30",
+    useCdn: false
+  });
+
+  const mainCourse = await client.fetch(`
+  *[_type == "course"] {
+    ...,
+    'authorName': author->name,
+    'mainImageUrl': mainImage.asset->url,
+    'categoryList': categories[]->title,
+  }[0]
+  `);
+
+  return {
+    props: { mainCourse },
+    revalidate: 600,
+  };
+}

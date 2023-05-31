@@ -11,13 +11,28 @@ export default defineType({
       type: 'string',
     }),
     defineField({
-      name: 'timing',
-      title: 'Timing',
+      name: 'subtitle',
+      title: 'Subtitle',
       type: 'string',
     }),
     defineField({
       name: 'spaces',
       title: 'Spaces Left',
+      type: 'string',
+    }),
+    defineField({
+      name: 'courseTime',
+      title: 'Course Time',
+      type: 'string',
+    }),
+    defineField({
+      name: 'purchaseLink',
+      title: 'Purchase Link',
+      type: 'string',
+    }),
+    defineField({
+      name: 'duration',
+      title: 'Duration',
       type: 'string',
     }),
 
@@ -62,15 +77,12 @@ export default defineType({
       type: 'array',
       of: [{type: 'reference', to: {type: 'category'}}],
     }),
+   
+
     defineField({
-      name: 'publishedAt',
-      title: 'Published at',
-      type: 'datetime',
-    }),
-    defineField({
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
+      name: 'kv',
+      title: 'Curriculum Breakdown',
+      type: 'keyValueArray',
     }),
   ],
 
