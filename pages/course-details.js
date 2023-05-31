@@ -45,8 +45,21 @@ const CourseDetails = () => {
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
+
+
             <div className="col-lg-12">
               <div className="course-details-content">
+
+                <div style={{
+              display: "grid",
+              gridTemplateColumns: "2fr 1fr",
+              gridGap: "20px",
+              marginBottom: "20px",
+
+            }} >
+
+                <div className="w-full">
+
                 <div className="course-header">
                   <h6
                     style={{
@@ -68,9 +81,8 @@ const CourseDetails = () => {
                     width="735"
                     height="430"
                   />
-                </div>
 
-                <div className="">
+<div className="">
                   <div className="">
                     <h6
                       style={{
@@ -107,6 +119,85 @@ const CourseDetails = () => {
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
+                </div>
+                </div>
+
+                <div className="w-full d-none d-lg-block">
+                  <div className="course-sidebar rmt-75">
+                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                      <div className="widget-video">
+                        <img
+                          id="pricing"
+                          src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60"
+                          alt="Course Details"
+                        />
+                      </div>
+
+                      
+                      <div className="price-off">
+                        <span className="price">299</span>
+                        <span className="bold">
+                          or 3 interest-free installments
+                        </span>
+                      </div>
+                      <ul className="course-details-list mb-25">
+                        <strong
+                          style={{
+                            color: "blue",
+                            fontStyle: "italic",
+                            fontSize: "18px",
+                          }}
+                          className="text-center"
+                        >
+                          All Classes Are Recorded
+                        </strong>
+
+                        <li>
+                          <i className="far fa-file-alt" />{" "}
+                          <span>Course Level</span> <b>Beginner</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>Duration</span>{" "}
+                          <b>13 weeks</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>When</span>{" "}
+                          <b>June 22nd </b>
+                        </li>
+
+                        <li>
+                          <i className="fas fa-globe" /> <span></span>{" "}
+                          <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
+                        </li>
+                        <p>International Students are Welcome</p>
+                        <p style={{ color: "blue" }}>
+                          Click Klarna option to pay in 3 installments
+                        </p>
+                      </ul>
+
+                      <a
+                        href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
+                        style={{
+                          padding: "11px",
+                          fontSize: "12px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Enroll Today!
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+
+
+
+              
+                
+
+            
 
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
@@ -354,6 +445,9 @@ const CourseDetails = () => {
                 </div>
               </div>
             </div>
+
+
+
           </div>
           <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
             <div className="container">
