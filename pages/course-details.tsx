@@ -1,5 +1,4 @@
 import { createClient } from 'next-sanity'
-import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
@@ -84,15 +83,7 @@ const CourseDetails = ({ mainCourse }: {
                       <div className="">
                         <div className="">
 
-                          <h6
-                            style={{
-                              color: "#1F4ECE",
-                              fontSize: "22px",
-                              marginLeft: "15px",
-                            }}
-                          >
-                            {mainCourse.spaces} spaces left!
-                          </h6>
+
 
                           <ul
                             style={{
@@ -111,19 +102,36 @@ const CourseDetails = ({ mainCourse }: {
                             </li>
                           </ul>
                         </div>
-                        <a
-                          href="#pricing"
-                          style={{
-                            padding: "10px",
-                            fontSize: "11px",
-                            margin: "10px 0px",
-                            backgroundColor: "#0084DF",
-                          }}
-                          className="theme-btn"
-                        >
-                          Enroll Today
-                          <i className="fas fa-arrow-right" />
-                        </a>
+                        <div style={{
+                          display: "flex",
+                          justifyContent: "start",
+                          alignItems: "center",
+                          marginLeft: "8px",
+                        }}>
+                          <a
+                            href="#pricing"
+                            style={{
+                              padding: "10px",
+                              fontSize: "11px",
+                              margin: "10px 0px",
+                              backgroundColor: "#0084DF",
+                            }}
+                            className="theme-btn"
+                          >
+                            Enroll Today
+                            <i className="fas fa-arrow-right" />
+                          </a>
+                          <h6
+                            style={{
+                              color: "#1F4ECE",
+                              fontSize: "22px",
+                              marginLeft: "15px",
+                            }}
+                          >
+                            {mainCourse.spaces} spaces left!
+                          </h6>
+
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -180,6 +188,9 @@ const CourseDetails = ({ mainCourse }: {
                             Click Klarna option to pay in 3 installments
                           </p>
                         </ul>
+
+
+
 
                         <a
                           href={mainCourse.purchaseLink}
@@ -310,19 +321,36 @@ const CourseDetails = ({ mainCourse }: {
                   <p className="info-copy text-center">
                     Receive a personalized certificate to enance your CV
                   </p>
-                  <a
-                    href="#pricing"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                    <i className="fas fa-arrow-right" />
-                  </a>
+                  <div style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginLeft: "8px",
+                  }}>
+                    <a
+                      href="#pricing"
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                        backgroundColor: "#0084DF",
+                      }}
+                      className="theme-btn"
+                    >
+                      Enroll Today
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                    <h6
+                      style={{
+                        color: "#1F4ECE",
+                        fontSize: "22px",
+                        marginLeft: "15px",
+                      }}
+                    >
+                      {mainCourse.spaces} spaces left!
+                    </h6>
+
+                  </div>
                 </div>
 
                 <h2 className="py-1 my-20">Your Instructors</h2>
