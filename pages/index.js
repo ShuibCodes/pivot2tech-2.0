@@ -173,7 +173,7 @@ const Index = () => {
             >
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 300+ students!
+                Community of over 500+ students!
               </li>
             </ul>
           </div>
@@ -230,7 +230,7 @@ const Index = () => {
                   </span>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>28 spaces left!</strong>
+                    <strong>24 spaces left!</strong>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
