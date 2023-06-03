@@ -485,7 +485,7 @@ export async function getStaticProps() {
 
 
   const client = createClient({
-    projectId: "ljgfsbre",
+    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset: "production",
     apiVersion: "2023-05-30",
     useCdn: false

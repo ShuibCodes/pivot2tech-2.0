@@ -85,7 +85,7 @@ export default function Post({ post }) {
 export async function getStaticPaths() {
 
   const client = createClient({
-    projectId: "ljgfsbre",
+    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset: "production",
     apiVersion: "2023-05-30",
     useCdn: false
@@ -108,7 +108,7 @@ export async function getStaticProps({ params }) {
   const { slug } = params;
 
   const client = createClient({
-    projectId: "ljgfsbre",
+    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset: "production",
     apiVersion: "2023-05-30",
     useCdn: false

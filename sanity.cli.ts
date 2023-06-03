@@ -2,9 +2,9 @@
 * This configuration file lets you run `$ sanity [command]` in this folder
 * Go to https://www.sanity.io/docs/cli to learn more.
 **/
-import { defineCliConfig } from 'sanity/cli'
+var defineCliConfig = require('sanity/cli').defineCliConfig;
 
-const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID
-const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET
+var projectId = "sy2u7u0j";
+var dataset = "production";
 
-export default defineCliConfig({ api: { projectId, dataset } })
+module.exports = defineCliConfig({ api: { projectId: projectId, dataset: dataset } });

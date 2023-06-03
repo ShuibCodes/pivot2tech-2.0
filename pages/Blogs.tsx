@@ -5,7 +5,7 @@ import Layout from "../src/layout/Layout";
 import { createClient } from "next-sanity";
 
 
-function Insights({posts}) {
+function Blog({posts}) {
   return (
     <Layout>
       <section
@@ -45,7 +45,7 @@ function Insights({posts}) {
                     <ul className="blog-meta">
                       <li>
                         <i className="far fa-user" />{" "}
-                        <Link href={`/insights/${post.slug.current}`}>
+                        <Link href={`/blog/${post.slug.current}`}>
                           <span>
 
                           By {post.authorName}
@@ -54,18 +54,18 @@ function Insights({posts}) {
                       </li>
                       <li>
                         <i className="far fa-comments" />{" "}
-                        <Link href={`/insights/${post.slug.current}`}>
+                        <Link href={`/blog/${post.slug.current}`}>
                           3min read
                         </Link>
                       </li>
                     </ul>
                     <h5>
-                    <Link href={`/insights/${post.slug.current}`}>
+                    <Link href={`/blog/${post.slug.current}`}>
                        {post.title}
                       </Link>
                     </h5>
 
-                    <Link href={`/insights/${post.slug.current}`}>
+                    <Link href={`/blog/${post.slug.current}`}>
                       <a className="read-more">
                         Read more <i className="fas fa-arrow-right" />
                       </a>
@@ -88,7 +88,7 @@ function Insights({posts}) {
   );
 }
 
-export default Insights;
+export default Blog;
 
 
 
@@ -100,7 +100,7 @@ export async function getStaticProps() {
   //   "utf-8"
   // );
   const client = createClient({
-    projectId: "ljgfsbre",
+    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset: "production",
     apiVersion: "2023-05-30",
     useCdn: false

@@ -49,13 +49,4 @@ export const Blog = () => (
     </li>
   </Fragment>
 );
-export const Insights = () => (
-  <Fragment>
-    {/* <li>
-			<Link href="/blog">Blog Page</Link>
-		</li> */}
-    <li>
-      <Link href="insights">Insights</Link>
-    </li>
-  </Fragment>
-);
+

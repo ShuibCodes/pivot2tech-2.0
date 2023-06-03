@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "^1.0.6",
+    "@sanity/cli": "^3.11.5",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.11.3",
     "@stripe/stripe-js": "^1.42.0",

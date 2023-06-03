@@ -1,26 +1,32 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/initSupabase";
 
-const SocialModal = () => {
+
+
+export default function SocialModal() {
   const [dismiss, setDismiss] = useState(true);
   const [email, setEmail] = useState("");
   const [noEmailError, setNoEmailError] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
 
+
+
   useEffect(() => {
     if (window) {
       setTimeout(() => {
         if (
-          window.localStorage.getItem("dismiss-social-modal") === false ||
+          window?.localStorage.getItem("dismiss-social-modal") === false ||
           window.localStorage.getItem("dismiss-social-modal") === undefined
         ) {
           setDismiss(false);
         } else {
-          setDismiss(window.localStorage.getItem("dismiss-social-modal"));
+          setDismiss(window?.localStorage.getItem("dismiss-social-modal"));
         }
       }, 6000);
     }
   }, []);
+
+
 
   const handleDismiss = () => {
     if (email === "") {
@@ -38,23 +44,25 @@ const SocialModal = () => {
     }
   };
 
+
+
   const handleModalClose = () => {
-    window.localStorage.setItem("dismiss-social-modal", true);
+    window.localStorage.setItem("dismiss-social-modal", "true");
     setDismiss(true);
   };
   return (
     <div
       className={`modal ${dismiss ? "" : "d-block show fadeInUp"}`}
       id="exampleModalCenter"
-      tabIndex="-1"
+      // tabIndex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
+
       <div
         className="modal-dialog modal-dialog-centered"
-        role="document"
-      >
+        role="document">
+
         <div className="modal-content p-3">
           <div className="modal-body">
             <button
@@ -66,10 +74,11 @@ const SocialModal = () => {
                 fontSize: "22px",
                 fontWeight: "600",
               }}
-              onClick={handleModalClose}
-            >
-              x
+              onClick={handleModalClose}>
+
             </button>
+
+
 
             <div>
               <div>
@@ -77,17 +86,18 @@ const SocialModal = () => {
                   style={{ marginTop: "20px" }}
                   width="450px"
                   height="250px"
-                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                ></img>
+                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
               </div>
               <div>
                 <div>
                   <h3
                     className="newsletter-title"
                     style={{ paddingTop: "20px" }}
+
+
+
                   >
-                    {" "}
-                    Pivot2Tech Newsletter!
+                    {" "} Pivot2Tech Newsletter!
                   </h3>
                   <p>First to be notified of new cohorts!</p>
                   <ul>
@@ -115,20 +125,21 @@ const SocialModal = () => {
                   )}
                 </div>
               </div>
-            </div>
-          </div>
+            </div >
+          </div >
           <div className="modal-footer">
-            <a
-              href="https://successful-author-1700.ck.page/30754e634c"
+            <button
+              type="button"
               className="btn btn-primary"
-            >
+              data-dismiss="modal"
+              id="newsletter-subscribe"
+              onClick={handleDismiss}>
+
               Subscribe
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+            </button>
+          </div >
+        </div >
+      </div >
+    </div >
   );
 };
-
-export default SocialModal;
