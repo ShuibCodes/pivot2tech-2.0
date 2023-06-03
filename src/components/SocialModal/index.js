@@ -82,19 +82,11 @@ const SocialModal = () => {
               </div>
               <div>
                 <div>
-                  <h3
-                    className="newsletter-title"
-                    style={{ paddingTop: "20px" }}
-                  >
-                    {" "}
-                    Pivot2Tech Newsletter!
-                  </h3>
-                  <p>First to be notified of new cohorts!</p>
+                  <h4 className="py-20">Sign up to Pivot2Tech Updates</h4>
                   <ul>
                     {" "}
-                    <li>✅ Tech careers </li>
-                    <li>✅ Freelancing & earning a remote income </li>
-                    <li>✅ Productivity & financial literacy </li>
+                    <li>✅ New Cohorts & Discounts </li>
+                    <li>✅ New Courses </li>
                   </ul>
                 </div>
                 <div style={{ marginTop: "15px" }}>
@@ -118,12 +110,15 @@ const SocialModal = () => {
             </div>
           </div>
           <div className="modal-footer">
-            <a
-              href="https://successful-author-1700.ck.page/30754e634c"
+            <button
+              type="button"
               className="btn btn-primary"
+              data-dismiss="modal"
+              id="newsletter-subscribe"
+              onClick={handleDismiss}
             >
               Subscribe
-            </a>
+            </button>
           </div>
         </div>
       </div>
