@@ -7,7 +7,7 @@ export interface ICourse {
     courseTime: string;
     duration: string;
     courseDate: Date;
-    mainImageUrl : string;
+    mainImageUrl : string; 
     purchaseLink: string;
     slug: {
       _type: 'slug';
