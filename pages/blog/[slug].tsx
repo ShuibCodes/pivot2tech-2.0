@@ -5,6 +5,7 @@ import { createClient } from "next-sanity";
 import PortableText from "react-portable-text"
 
 
+
 import Layout from "../../src/layout/Layout";
 
 export default function Post({ post }) {
@@ -16,7 +17,7 @@ export default function Post({ post }) {
   });
 
   return (
-    <Layout>
+    <Layout header={null} footer={null} key={1}>
       <section className="became-a-softwar-engineer-without-a-degree-in-8-months-area py-130 rpy-100">
         <div className="container">
           <div className="row">

@@ -15,8 +15,10 @@ const CourseDetails = ({ mainCourse }: {
     console.log(value);
     setActive(value === active ? "" : value);
   };
+
+  
   return (
-    <Layout>
+    <Layout header={null} footer={null} key={4}>
       <Head>
         <title>Fullstack Web Development Course | Pivot2Tech</title>
         <meta
@@ -222,6 +224,7 @@ const CourseDetails = ({ mainCourse }: {
                   defaultActiveKey="collapse1"
                 >
                   <WellernAccordion
+                    className=""
                     eventName={"collapse1"}
                     title={"Curriculum Breakdown"}
                     active={active}
@@ -236,9 +239,11 @@ const CourseDetails = ({ mainCourse }: {
                             style={{ color: "#1F4ECE", marginRight: "10px" }}
                             className="duration"
                           >
-                            {item.key}
+                            {/* @ts-expect-error */}
+                            {item?.key}
                           </span>
-                          <span className="title">{item.value}</span>{" "}
+                            {/* @ts-expect-error */}
+                          <span className="title">{item?.value}</span>{" "}
                         </li>
                       ))}
 

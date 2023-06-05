@@ -1,4 +1,3 @@
-import fs from 'fs';
 import path from 'path';
 import Head from "next/head";
 import Link from 'next/link';

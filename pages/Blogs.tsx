@@ -7,7 +7,7 @@ import { createClient } from "next-sanity";
 
 function Blog({posts}) {
   return (
-    <Layout>
+    <Layout header={null} footer={null} key={2}>
       <section
         id="blog"
         className="blog-section"
