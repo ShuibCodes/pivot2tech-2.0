@@ -55,7 +55,7 @@ const CourseDetails = () => {
                       marginLeft: "15px",
                     }}
                   >
-                    30 spaces left!
+                    22 spaces left!
                   </h6>
                 </div>
                 <h2>Fullstack Web Development Bootcamp</h2>
@@ -79,7 +79,7 @@ const CourseDetails = () => {
                         marginLeft: "15px",
                       }}
                     >
-                      30 spaces left!
+                      22 spaces left!
                     </h6>
 
                     <ul
