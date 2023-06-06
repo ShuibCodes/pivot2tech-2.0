@@ -75,8 +75,8 @@ const SocialModal = () => {
               <div>
                 <img
                   style={{ marginTop: "20px" }}
-                  width="450px"
-                  height="250px"
+                  width="200px"
+                  height="150px"
                   src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 ></img>
               </div>
