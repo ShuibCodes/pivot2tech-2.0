@@ -52,8 +52,7 @@ const CourseDetails = () => {
                   gridGap: "20px",
                   marginBottom: "20px",
 
-                }} >
-
+                }}>
                   <div className="w-full">
 
 
