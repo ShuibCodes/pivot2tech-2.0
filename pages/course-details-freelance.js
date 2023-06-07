@@ -81,6 +81,12 @@ const CourseDetails = () => {
                       <li>Part time - 7 weeks </li>
                     </ul>
                   </div>
+                  <p
+                    className="bold"
+                    style={{ fontSize: "18px" }}
+                  >
+                    June 22nd
+                  </p>
                   <a
                     href="#pricing"
                     style={{

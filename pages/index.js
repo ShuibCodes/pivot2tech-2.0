@@ -224,11 +224,16 @@ const Index = () => {
                   <hr />
                   <span
                     className="bold"
-                    style={{ fontSize: "18px" }}
+                    style={{ fontSize: "14px" }}
                   >
                     Tuesday's & Saturdays
                   </span>
-
+                  <p
+                    className="bold"
+                    style={{ fontSize: "18px" }}
+                  >
+                    June 22nd
+                  </p>
                   <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>22 spaces left!</strong>
                   </p>
@@ -312,10 +317,16 @@ const Index = () => {
                   <div>
                     <span
                       className="bold"
-                      style={{ fontSize: "18px" }}
+                      style={{ fontSize: "14px" }}
                     >
                       <span>Every Sunday - 7pm GMT</span>
                     </span>
+                    <p
+                      className="bold"
+                      style={{ fontSize: "18px" }}
+                    >
+                      June 22nd
+                    </p>
                   </div>
                   <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>22 spaces left!</strong>

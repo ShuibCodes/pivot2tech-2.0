@@ -90,7 +90,12 @@ const CourseDetails = () => {
                       }}
                     >
                       <li>7-9pm BST</li>
-                      <li>13 weeks</li>
+                      <p
+                        className="bold"
+                        style={{ fontSize: "18px" }}
+                      >
+                        June 22nd
+                      </p>
                     </ul>
                   </div>
                   <a
