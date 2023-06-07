@@ -479,7 +479,11 @@ const CourseDetails = () => {
                         </span>
                       </div>
                       <p>
-                        Self-taught fullstack developer. Runs a digital Agency
+                        Self-taught Web Developer & Digital Marketer.He runs a{" "}
+                        <a href="https://agreeddigital.com/">
+                          {" "}
+                          digital Agency{" "}
+                        </a>
                         attracting high level clientele on day to day business.
                       </p>
                       <h5>Follow Me</h5>
