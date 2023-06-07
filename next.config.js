@@ -5,7 +5,7 @@ module.exports = {
 		}
 	},
 	images: {
-		domains: ["miro.medium.com", "cdn.sanity.io"],
+		domains: ["miro.medium.com", "cdn.sanity.io", "images.unsplash.com", "stripe-camo.global.ssl.fastly.net"],
 	},
 	eslint: {
 		// Warning: This allows production builds to successfully complete even if

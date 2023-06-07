@@ -45,57 +45,89 @@ const CourseDetails = () => {
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
-            <div className="col-lg-12">
-              <div className="course-details-content">
-                <div className="course-header">
-                  <span className="category">Freelance</span>
-                </div>
-                <h2>Freelance Web & Digital Marketing</h2>
-                <h6
-                  style={{
-                    color: "#1F4ECE",
-                    fontSize: "24px",
-                    marginLeft: "15px",
-                  }}
-                >
-                  23 spaces left!
-                </h6>
 
-                <div className="image mb-35">
-                  <img
-                    src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
-                    alt="Course Details"
-                    style={{ width: "70%" }}
-                  />
-                </div>
+          <div style={{
+                  display: "grid",
+                  gridTemplateColumns: "2fr 1fr",
+                  gridGap: "20px",
+                  marginBottom: "20px",
 
-                <div className="">
-                  <div className="">
-                    <ul
-                      style={{
-                        fontSize: "22px",
-                        fontWeight: "700",
-                        marginLeft: "8px",
-                      }}
-                    >
-                      <li>Part time - 7 weeks </li>
-                    </ul>
-                  </div>
-                  <a
-                    href="#pricing"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
-                <p style={{ fontSize: "20px", fontWeight: "700" }}>
+                }} >
+
+                  <div className="w-full">
+
+
+                    <h2>
+                    Freelance Web & Digital Marketing
+
+                    </h2>
+
+                    <h5>
+                    Freelance
+                    </h5>
+
+                    <div className="image mb-35">
+                      <Image
+                        src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
+                        alt="course-details"
+                        width="735"
+                        height="430"
+                      />
+
+                      <div className="">
+                        <div className="">
+
+
+
+                          <ul
+                            style={{
+                              fontSize: "18px",
+                              fontWeight: "700",
+                              marginLeft: "8px",
+                            }}
+                          >
+
+                            <li>
+                              {/* {mainCourse.courseTime} */}
+
+                              Part time - 7 weeks
+                            </li>
+
+                          
+                          </ul>
+                        </div>
+                        <div style={{
+                          display: "flex",
+                          justifyContent: "start",
+                          alignItems: "center",
+                          marginLeft: "8px",
+                        }}>
+                          <a
+                            href="#pricing"
+                            style={{
+                              padding: "10px",
+                              fontSize: "11px",
+                              margin: "10px 0px",
+                              backgroundColor: "#0084DF",
+                            }}
+                            className="theme-btn"
+                          >
+                            Enroll Today
+                            <i className="fas fa-arrow-right" />
+                          </a>
+                          <h6
+                            style={{
+                              color: "#1F4ECE",
+                              fontSize: "22px",
+                              marginLeft: "15px",
+                            }}
+                          >
+                            30 spaces left!
+                          </h6>
+
+                        </div>
+
+                        <p style={{ fontSize: "20px", fontWeight: "700" }}>
                   The Ultimate Guide to Freelancing:
                   <ul
                     style={{ fontSize: "16px", padding: "5px 10px" }}
@@ -128,6 +160,99 @@ const CourseDetails = () => {
                     </li>
                   </ul>
                 </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="w-full d-none d-lg-block">
+                    <div className="course-sidebar rmt-75">
+                      <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                        <div className="widget-video">
+                          <img
+                            id="pricing"
+                            src="https://stripe-camo.global.ssl.fastly.net/9f2416a67c351f3755de8a712be31f49509f642296f5207760427f25873fbd61/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a6446387854484e7756464a434e4578534d473536646a424566475a7358327870646d56664e45526e543274745633426a4e6a6c4a5a486844523259344f577477616b743030307055556a615a566f"
+                            alt="Course Details"
+                          />
+                        </div>
+
+                        
+
+
+                        <div className="price-off">
+                          <span className="price">299</span>
+                          <span className="bold">
+                            or 3 interest-free installments
+                          </span>
+                        </div>
+                        <ul className="course-details-list mb-25">
+                          <strong
+                            style={{
+                              color: "blue",
+                              fontStyle: "italic",
+                              fontSize: "18px",
+                            }}
+                            className="text-center"
+                          >
+                            All Classes Are Recorded
+                          </strong>
+
+                          <li>
+                            <i className="far fa-file-alt" />{" "}
+                            <span>Course Level</span> <b>Beginner</b>
+                          </li>
+                          <li>
+                            <i className="far fa-clock" /> <span>Duration</span>{" "}
+                            <b>Part time - 7 weeks</b>
+                          </li>
+                          <li>
+                            <i className="far fa-clock" /> <span>When</span>{" "}
+                            {/* <b>{mainCourse.courseDate?.toDateString()}</b> */}
+                          </li>
+
+                          <li>
+                            <i className="fas fa-globe" /> <span></span>{" "}
+                            <b>Tuesdays 7-9pm & Saturdays 12:30-14:30PM GMT</b>
+                          </li>
+                          <p>International Students are Welcome</p>
+                          <p style={{ color: "blue" }}>
+                            Click Klarna option to pay in 3 installments
+                          </p>
+                        </ul>
+
+
+
+                        
+
+
+
+{/* 
+                        <a
+                          href={mainCourse.purchaseLink}
+                          style={{
+                            padding: "11px",
+                            fontSize: "12px",
+                            margin: "10px 0px",
+                          }}
+                          className="theme-btn"
+                        >
+                          Enroll Today!
+                        </a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+            <div className="col-lg-12">
+              <div className="course-details-content">
+               
+               
+
+               
+
+             
+              
                 <h4 className="text-center">Student results 👇🏾</h4>
                 <div className="p-10 freelance-bundle-reviews">
                   <div className="review-image">
