@@ -10,8 +10,7 @@ import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
-import Roadmap from "../src/components/roadmap";
-import Mentoring from "../src/components/mentoring";
+import { supabase } from "../lib/initSupabase";
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -22,6 +21,30 @@ const Index1Isotope = dynamic(
 const Index = () => {
   const [active, setActive] = useState(false);
   const [activeFreelance, setActiveFreelance] = useState(false);
+
+  const [dismiss, setDismiss] = useState(true);
+  const [email, setEmail] = useState("");
+  const [noEmailError, setNoEmailError] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState("not empty");
+
+  const handleDismiss = () => {
+    if (email === "") {
+      setNoEmailError(true);
+      return;
+    } else {
+      supabase
+        .from("pivot2tech")
+        .insert({ email: email, awareness: selectedOption })
+        .single()
+        .then(() => {
+          window.localStorage.setItem("dismiss-social-modal", true);
+          setDismiss(true);
+        });
+      setEmail("");
+      setFormSubmitted("empty");
+    }
+  };
 
   const onClick = (value) => {
     console.log(value);
@@ -527,6 +550,99 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="container">
+        <div className="newsletter-container">
+          <div className="section-title mb-20">
+            <span className="sub-title mb-25">Newsletter</span>
+            <h2>Don't Miss Our Updates</h2>
+          </div>
+          <p>
+            Stay up to date on Pivot2Tech's updates and free webinars
+            surrounding coding jobs and freelancing tips.
+          </p>
+          <form
+            onSubmit={(e) => e.preventDefault()}
+            className="form-newsletter"
+            action="#"
+          >
+            <div className="newsletter-radios mb-25">
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-wekly"
+                  name="example1"
+                  defaultChecked=""
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-wekly"
+                >
+                  New Cohorts
+                </label>
+              </div>
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-monthly"
+                  name="example1"
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-monthly"
+                >
+                  Discounts
+                </label>
+              </div>
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-monthly"
+                  name="example1"
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-monthly"
+                >
+                  New Courses
+                </label>
+              </div>
+            </div>
+            {formSubmitted === "empty" ? (
+              <p>Thanks! we'll be in touch soon </p>
+            ) : (
+              <div className="newsletter-email">
+                <label htmlFor="email">
+                  <i className="far fa-envelope" />
+                </label>
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  id="email"
+                  type="email"
+                  placeholder="Enter Email Address"
+                  required=""
+                  className={
+                    noEmailError ? "mb-3 border border-danger" : "mb-3"
+                  }
+                />
+
+                <button
+                  type="button"
+                  data-dismiss="modal"
+                  style={{ height: "60px", marginLeft: "15px" }}
+                  className="theme-btn"
+                  onClick={handleDismiss}
+                >
+                  Subscribe
+                </button>
+              </div>
+            )}
+          </form>
+        </div>
+      </div>
       <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
         <div className="container">
           <div id="what-learn">
