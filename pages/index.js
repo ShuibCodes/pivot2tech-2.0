@@ -258,7 +258,7 @@ const Index = () => {
                     June 22nd
                   </p>
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>22 spaces left!</strong>
+                    <strong>16 spaces left!</strong>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -342,7 +342,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "14px" }}
                     >
-                      <span>Every Sunday - 7pm GMT</span>
+                      <span>Every Sunday - 7-9PM GMT</span>
                     </span>
                     <p
                       className="bold"
@@ -352,7 +352,7 @@ const Index = () => {
                     </p>
                   </div>
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>22 spaces left!</strong>
+                    <strong>12 spaces left!</strong>
                   </p>
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Spaces Remaining!</strong>
