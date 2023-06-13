@@ -83,7 +83,7 @@ const CourseDetails = () => {
                     marginLeft: "15px",
                   }}
                 >
-                  16 spaces left!
+                  12 left!
                 </h6>
 
                 <div className="image mb-35">
