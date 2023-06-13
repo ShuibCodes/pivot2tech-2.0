@@ -316,7 +316,7 @@ const Index = () => {
                       style={{ fontSize: "11px" }}
                       className="category"
                     >
-                      Weeks
+                      7 Weeks
                     </a>
                   </Link>
                   <img
@@ -469,7 +469,7 @@ const Index = () => {
                     <li>
                       {" "}
                       <span style={{ marginRight: "7px" }}>✅</span>
-                      Video guides to deploy no-code Websites
+                      Client contract & proposal tempalte
                     </li>
                     <li>
                       {" "}
