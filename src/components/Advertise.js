@@ -11,7 +11,7 @@ const Advertise = () => {
             <h4 style={{ fontWeight: "bold" }}>LAST 28 SPACES</h4>
             <a href="#courses-group">
               <a className="theme-btn">
-                Enroll Today!
+                Secure your space
                 <i className="fas fa-arrow-right" />
               </a>
             </a>
