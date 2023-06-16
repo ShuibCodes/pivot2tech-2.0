@@ -97,16 +97,6 @@ const CourseDetails = () => {
 
                 <div className="">
                   <div className="">
-                    <h6
-                      style={{
-                        color: "#1F4ECE",
-                        fontSize: "22px",
-                        marginLeft: "15px",
-                      }}
-                    >
-                      12 spaces left!
-                    </h6>
-
                     <ul
                       style={{
                         fontSize: "18px",
