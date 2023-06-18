@@ -84,7 +84,7 @@ const ProductDetails = () => {
                     }}
                     className="price"
                   >
-                    28
+                    35
                   </span>
                 </div>
                 {/* <p style={{ fontWeight: "700", fontSize: "21px" }}>

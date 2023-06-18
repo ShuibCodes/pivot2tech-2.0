@@ -10,8 +10,7 @@ import Advertise from "../src/components/Advertise";
 import { useState } from "react";
 import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
-import Roadmap from "../src/components/roadmap";
-import Mentoring from "../src/components/mentoring";
+import { supabase } from "../lib/initSupabase";
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
   {
@@ -22,6 +21,30 @@ const Index1Isotope = dynamic(
 const Index = () => {
   const [active, setActive] = useState(false);
   const [activeFreelance, setActiveFreelance] = useState(false);
+
+  const [dismiss, setDismiss] = useState(true);
+  const [email, setEmail] = useState("");
+  const [noEmailError, setNoEmailError] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState("not empty");
+
+  const handleDismiss = () => {
+    if (email === "") {
+      setNoEmailError(true);
+      return;
+    } else {
+      supabase
+        .from("pivot2tech")
+        .insert({ email: email, awareness: selectedOption })
+        .single()
+        .then(() => {
+          window.localStorage.setItem("dismiss-social-modal", true);
+          setDismiss(true);
+        });
+      setEmail("");
+      setFormSubmitted("empty");
+    }
+  };
 
   const onClick = (value) => {
     console.log(value);
@@ -173,7 +196,7 @@ const Index = () => {
             >
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 300+ students!
+                Community of over 500+ students!
               </li>
             </ul>
           </div>
@@ -224,13 +247,18 @@ const Index = () => {
                   <hr />
                   <span
                     className="bold"
-                    style={{ fontSize: "18px" }}
+                    style={{ fontSize: "14px" }}
                   >
                     Tuesday's & Saturdays
                   </span>
-
+                  <p
+                    className="bold"
+                    style={{ fontSize: "18px" }}
+                  >
+                    June 22nd
+                  </p>
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>28 spaces left!</strong>
+                    <strong>LAST 11 SPACES </strong>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -288,7 +316,7 @@ const Index = () => {
                       style={{ fontSize: "11px" }}
                       className="category"
                     >
-                      Weeks
+                      7 Weeks
                     </a>
                   </Link>
                   <img
@@ -312,13 +340,19 @@ const Index = () => {
                   <div>
                     <span
                       className="bold"
+                      style={{ fontSize: "14px" }}
+                    >
+                      <span>Every Sunday - 7-9PM GMT</span>
+                    </span>
+                    <p
+                      className="bold"
                       style={{ fontSize: "18px" }}
                     >
-                      <span>Every Sunday - 7pm GMT</span>
-                    </span>
+                      June 22nd
+                    </p>
                   </div>
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>23 spaces left!</strong>
+                    <strong>LAST 11 SPACES</strong>
                   </p>
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Spaces Remaining!</strong>
@@ -435,7 +469,7 @@ const Index = () => {
                     <li>
                       {" "}
                       <span style={{ marginRight: "7px" }}>✅</span>
-                      Video guides to deploy no-code Websites
+                      Client contract & proposal tempalte
                     </li>
                     <li>
                       {" "}
@@ -516,6 +550,99 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="container">
+        <div className="newsletter-container">
+          <div className="section-title mb-20">
+            <span className="sub-title mb-25">Newsletter</span>
+            <h2>Don't Miss Our Updates</h2>
+          </div>
+          <p>
+            Stay up to date on Pivot2Tech's updates and free webinars
+            surrounding coding jobs and freelancing tips.
+          </p>
+          <form
+            onSubmit={(e) => e.preventDefault()}
+            className="form-newsletter"
+            action="#"
+          >
+            <div className="newsletter-radios mb-25">
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-wekly"
+                  name="example1"
+                  defaultChecked=""
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-wekly"
+                >
+                  New Cohorts
+                </label>
+              </div>
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-monthly"
+                  name="example1"
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-monthly"
+                >
+                  Discounts
+                </label>
+              </div>
+              <div className="custom-control custom-radio">
+                <input
+                  type="radio"
+                  className="custom-control-input"
+                  id="hero-monthly"
+                  name="example1"
+                />
+                <label
+                  className="custom-control-label"
+                  htmlFor="hero-monthly"
+                >
+                  New Courses
+                </label>
+              </div>
+            </div>
+            {formSubmitted === "empty" ? (
+              <p>Thanks! we'll be in touch soon </p>
+            ) : (
+              <div className="newsletter-email">
+                <label htmlFor="email">
+                  <i className="far fa-envelope" />
+                </label>
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  id="email"
+                  type="email"
+                  placeholder="Enter Email Address"
+                  required=""
+                  className={
+                    noEmailError ? "mb-3 border border-danger" : "mb-3"
+                  }
+                />
+
+                <button
+                  type="button"
+                  data-dismiss="modal"
+                  style={{ height: "60px", marginLeft: "15px" }}
+                  className="theme-btn"
+                  onClick={handleDismiss}
+                >
+                  Subscribe
+                </button>
+              </div>
+            )}
+          </form>
+        </div>
+      </div>
       <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
         <div className="container">
           <div id="what-learn">

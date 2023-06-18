@@ -84,27 +84,18 @@ export default function SocialModal() {
               <div>
                 <img
                   style={{ marginTop: "20px" }}
-                  width="450px"
-                  height="250px"
-                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
+                  width="200px"
+                  height="150px"
+                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                ></img>
               </div>
               <div>
                 <div>
-                  <h3
-                    className="newsletter-title"
-                    style={{ paddingTop: "20px" }}
-
-
-
-                  >
-                    {" "} Pivot2Tech Newsletter!
-                  </h3>
-                  <p>First to be notified of new cohorts!</p>
+                  <h4 className="py-20">Sign up to Pivot2Tech Updates</h4>
                   <ul>
                     {" "}
-                    <li>✅ Tech careers </li>
-                    <li>✅ Freelancing & earning a remote income </li>
-                    <li>✅ Productivity & financial literacy </li>
+                    <li>✅ New Cohorts & Discounts </li>
+                    <li>✅ New Courses </li>
                   </ul>
                 </div>
                 <div style={{ marginTop: "15px" }}>
@@ -131,15 +122,12 @@ export default function SocialModal() {
             <button
               type="button"
               className="btn btn-primary"
-              data-dismiss="modal"
-              id="newsletter-subscribe"
-              onClick={handleDismiss}>
-
+            >
               Subscribe
             </button>
-          </div >
-        </div >
-      </div >
-    </div >
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
