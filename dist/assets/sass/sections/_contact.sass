@@ -1,0 +1,63 @@
+/*******************************************************/
+/****************** 27. Contact Area *******************/
+/*******************************************************/
+.contact-info-area
+    .bg-text
+        bottom: 65px
+        font-weight: 800
+    &:before
+        content: ''
+        bottom: 0
+        z-index: -1
+        +size(330px)
+        left: -150px
+        border-radius: 50%
+        position: absolute
+        background: $light-color
+        animation: 5s down-up-one infinite
+.contact-info-box
+    padding: 35px
+    background: white
+    text-align: center
+    border-radius: 5px
+    box-shadow: 10px 0 60px rgba(138, 138, 138, 0.1)
+    > i
+        color: white
+        font-size: 35px
+        transition: 0.5s
+        margin-bottom: 25px
+        display: inline-block
+        +circle($primary-color, 80px)
+    h4
+        margin-bottom: 10px
+    span
+        font-size: 18px
+        font-weight: 600
+    &:hover
+        > i
+            background: $secondary-color
+.contact-page-image
+    +xld
+        margin-left: 100px
+        margin-right: -150px
+        
+.contact-form
+    background: white
+    margin-top: -290px
+    border-radius: 5px
+    transform: translateY(290px)
+.contact-page-map
+    margin-bottom: -310px
+    
+
+/* 404 Error Page */
+.error-inner
+    img
+        margin-left: -120px
+        +mod
+            margin-left: -50px
+        +smd
+            margin-left: -25px
+    .theme-btn
+        +xld
+            +gapLR(padding, 70px)

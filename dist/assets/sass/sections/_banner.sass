@@ -1,0 +1,52 @@
+/*******************************************************/
+/******************* 10. Page Banner *******************/
+/*******************************************************/
+.page-banner-area
+    background-size: cover
+    background-position: center
+    +overlay(#081a55, 0.85)
+    padding-top: 215px
+    padding-bottom: 125px
+    +lgd
+        padding-top: 205px
+    +tbd
+        padding-top: 138px
+        padding-bottom: 75px
+    &:before
+        mix-blend-mode: multiply
+    .circle-one,
+    .circle-two
+        top: 45%
+.page-title
+    font-size: 60px
+    text-transform: capitalize
+    +mod
+        font-size: 50px
+    +msd
+        font-size: 45px
+    +smd
+        font-size: 40px
+    +xsd
+        font-size: 35px
+.breadcrumb
+    padding: 0
+    font-size: 20px
+    background: transparent
+    justify-content: center
+    text-transform: capitalize
+    +xsd
+        font-size: 16px
+.breadcrumb-item
+    &.active
+        color: $primary-color
+        text-decoration: underline
+    &+.breadcrumb-item::before
+        content: "\f101"
+        font-weight: 600
+        color: white
+        float: left
+        font-size: 16px
+        margin: 5px 10px 0
+        font-family: "Font Awesome 5 Free"
+        +xsd
+            margin-top: 0

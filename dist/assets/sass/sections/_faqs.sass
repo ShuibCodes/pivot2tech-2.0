@@ -1,0 +1,185 @@
+/*******************************************************/
+/******************* 26. FAQs Section ******************/
+/*******************************************************/
+.faqs-tab
+    display: flex
+    flex-wrap: wrap
+    border-bottom: 2px solid $border-color
+    li
+        &:not(:last-child)
+            margin-right: 20px
+            +tbd
+                margin-right: 10px
+        a
+            color: #979797
+            font-size: 18px
+            font-weight: 700
+            transition: 0.5s
+            padding-top: 10px
+            margin-bottom: -3px
+            padding: 0 10px 15px
+            display: inline-block
+            font-family: $heading-font
+            border-bottom: 4px solid transparent
+            +tbd
+                padding-bottom: 0
+                padding-left: 0
+                border-width: 2px
+                margin-bottom: 10px
+            +smd
+                font-size: 14px
+            &:hover,
+            &.active
+                color: $heading-color
+            &.active
+                border-color: $primary-color
+        &:first-child
+            a
+                padding-left: 0
+            
+.faq-accordion
+    .card
+        border: none
+        background: transparent
+        &:not(:last-child)
+            margin-bottom: 10px
+    .card-header
+        font-size: 20px
+        font-weight: 700
+        border-radius: 0
+        padding: 11px 40px
+        background: transparent
+        color: $secondary-color
+        +flexcenter(space-between)
+        font-family: $heading-font
+        border: 1px solid $border-color
+        +smd
+            font-size: 18px
+            line-height: 1.2
+            +gapLR(padding, 20px)
+        &.collapsed
+            text-decoration: none
+            color: $heading-color
+            background: $light-color
+            border-color: $light-color
+            .toggle-btn
+                transform: rotate(0deg)
+                &:after,
+                &:before
+                    background: $heading-color
+                &:before
+                    transform: translate(-50%, -50%) rotate(0)
+        .toggle-btn
+            height: 15px
+            width: 15px
+            flex: none
+            transition: 0.5s
+            margin-left: 15px
+            position: relative
+            transform: rotate(180deg)
+            &:after,
+            &:before
+                position: absolute
+                content: ''
+                left: 50%
+                top: 50%
+                transition: 0.5s
+                background: $secondary-color
+                transform: translate(-50%, -50%)
+            &:before
+                width: 2px
+                height: 100%
+                transform: translate(-50%, -50%) rotate(90deg)
+            &:after
+                height: 2px
+                width: 100%
+    .card-body
+        padding: 0
+        border: 1px solid $border-color
+        border-top: none
+        
+.tab-content
+    .card
+        background: white
+        margin-bottom: 15px
+        box-shadow: inset 10px 0 60px rgba(139, 139, 139, 0.1)
+    .card-body,
+    .card-header
+        border: none
+        border-radius: 5px
+        +gapLR(padding, 30px)
+        +smd
+            +gapLR(padding, 15px)
+    .card-body
+        padding-bottom: 5px
+    .card-header
+        font-size: 18px
+        background: transparent
+        +smd
+            font-size: 16px
+        &.collapsed
+            background: #f4f6fd
+            
+/* Video Part */
+.video-inner
+    &:before
+        z-index: 1
+    .video-play
+        color: white
+        +size(100px)
+        font-size: 20px
+        line-height: 100px
+        background: $secondary-color
+        +smd
+            +size(60px)
+            font-size: 16px
+            line-height: 60px
+        
+/* FAQs Form */
+.faq-contact-info
+    display: flex
+    .icon
+        flex: none
+        color: white
+        margin-top: 3px
+        margin-right: 15px
+        +circle($secondary-color, 50px)
+    h6
+        margin-bottom: 0
+    a
+        font-size: 24px
+.faq-form
+    .form-group
+        position: relative
+        > label
+            top: 0
+            right: 0
+            cursor: pointer
+            position: absolute
+            color: $secondary-color
+        .nice-select,
+        .form-control
+            border: none
+            border-radius: 0
+            padding: 0 15px 15px 0
+            background: transparent
+            border-bottom: 2px solid $border-color
+            &:focus
+                border-color: $heading-color
+        .nice-select
+            &:after
+                right: 3px
+                +size(10px)
+                margin-top: -10px
+                border-width: 3px
+                border-color: $secondary-color
+    .form-btn-label
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        .theme-btn
+            margin-top: 10px
+            margin-right: 30px
+        label
+            cursor: pointer
+            margin-top: 10px

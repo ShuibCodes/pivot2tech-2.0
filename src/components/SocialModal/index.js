@@ -1,26 +1,32 @@
 import { useEffect, useState } from "react";
 import { supabase } from "../../../lib/initSupabase";
 
-const SocialModal = () => {
+
+
+export default function SocialModal() {
   const [dismiss, setDismiss] = useState(true);
   const [email, setEmail] = useState("");
   const [noEmailError, setNoEmailError] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
 
+
+
   useEffect(() => {
     if (window) {
       setTimeout(() => {
         if (
-          window.localStorage.getItem("dismiss-social-modal") === false ||
+          window?.localStorage.getItem("dismiss-social-modal") === false ||
           window.localStorage.getItem("dismiss-social-modal") === undefined
         ) {
           setDismiss(false);
         } else {
-          setDismiss(window.localStorage.getItem("dismiss-social-modal"));
+          setDismiss(window?.localStorage.getItem("dismiss-social-modal"));
         }
       }, 6000);
     }
   }, []);
+
+
 
   const handleDismiss = () => {
     if (email === "") {
@@ -38,23 +44,25 @@ const SocialModal = () => {
     }
   };
 
+
+
   const handleModalClose = () => {
-    window.localStorage.setItem("dismiss-social-modal", true);
+    window.localStorage.setItem("dismiss-social-modal", "true");
     setDismiss(true);
   };
   return (
     <div
       className={`modal ${dismiss ? "" : "d-block show fadeInUp"}`}
       id="exampleModalCenter"
-      tabIndex="-1"
+      // tabIndex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
-    >
+      aria-hidden="true">
+
       <div
         className="modal-dialog modal-dialog-centered"
-        role="document"
-      >
+        role="document">
+
         <div className="modal-content p-3">
           <div className="modal-body">
             <button
@@ -66,10 +74,11 @@ const SocialModal = () => {
                 fontSize: "22px",
                 fontWeight: "600",
               }}
-              onClick={handleModalClose}
-            >
-              x
+              onClick={handleModalClose}>
+
             </button>
+
+
 
             <div>
               <div>
@@ -107,15 +116,12 @@ const SocialModal = () => {
                   )}
                 </div>
               </div>
-            </div>
-          </div>
+            </div >
+          </div >
           <div className="modal-footer">
             <button
               type="button"
               className="btn btn-primary"
-              data-dismiss="modal"
-              id="newsletter-subscribe"
-              onClick={handleDismiss}
             >
               Subscribe
             </button>
@@ -125,5 +131,3 @@ const SocialModal = () => {
     </div>
   );
 };
-
-export default SocialModal;

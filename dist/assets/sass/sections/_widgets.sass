@@ -1,0 +1,359 @@
+/*******************************************************/
+/***************** 29. Sidebar Widgets *****************/
+/*******************************************************/
+.widget-title
+    margin-bottom: 20px
+.widget
+    border-radius: 3px
+    padding: 35px 33px
+    border: 1px solid $border-color
+    &:not(:last-child)
+        margin-bottom: 30px
+    +xsd
+        +gapLR(padding, 25px)
+    
+.widget-search
+    border: none
+    font-size: 18px
+    font-weight: 600
+    +gapTB(padding, 18px)
+    background: $light-color
+    font-family: $heading-font
+    form
+        display: flex
+        align-items: center
+        input
+            border: none
+            padding: 5px 0 0
+            background: transparent
+            &::placeholder
+                font-size: 18px
+        button
+            flex: none
+            color: $primary-color
+            background: transparent
+            
+.widget-menu
+    ul
+        li
+            font-weight: 600
+            &:not(:last-child)
+                margin-bottom: 10px
+            &:before
+                content: "\f101"
+                font-size: 14px
+                margin-right: 8px
+                font-family: 'Font Awesome 5 Free'
+            
+.widget-radio
+    .custom-control
+        font-weight: 600
+        padding-left: 30px
+        &:not(:last-child)
+            margin-bottom: 10px
+    .custom-control-label
+        cursor: pointer
+        &::after
+            +size(18px)
+            left: -30px
+            transition: 0.3s
+            border-radius: 50%
+            border: 1px solid $border-color
+        &:before
+            opacity: 0
+            +size(18px)
+            left: -30px
+            font-size: 8px
+            transition: 0.3s
+            content: "\f00c"
+            line-height: 17px
+            text-align: center
+            font-family: "Font Awesome 5 Free"
+    .custom-control-input
+        &:checked
+            &~.custom-control-label
+                &::before
+                    opacity: 1
+                    box-shadow: none
+                    background-image: none
+                    border-color: $primary-color
+                    background-color: $primary-color
+                &::after
+                    background-image: none
+                    border-color: $primary-color
+            
+.widget-ratting
+    ul
+        li
+            display: flex
+            cursor: pointer
+            width: max-content
+            align-items: center
+            &:not(:last-child)
+                margin-bottom: 6px
+            i
+                color: #bbbbbb
+                font-size: 13px
+                margin-right: 1px
+                &.checked
+                    color: #ffa200
+            span
+                font-weight: 600
+                margin-left: 5px
+                
+.widget-course-details
+    padding: 35px
+    border: none
+    max-width: 500px
+    box-shadow: 10px 0 60px rgba(139, 139, 139, 0.1)
+    +xsd
+        +gapLR(padding, 25px)
+    .widget-video
+        position: relative
+        margin: -20px -20px 0
+        img
+            width: 100%
+    .price-off
+        display: flex
+        line-height: 1
+        align-items: center
+        +gapTB(margin, 30px)
+        .price
+            font-size: 30px
+            font-weight: 800
+            margin-right: 15px
+            color: $primary-color
+            &:before
+                content: '$'
+        .off
+            color: white
+            font-size: 13px
+            font-weight: 600
+            border-radius: 13px
+            padding: 8px 13px 5px
+            text-transform: uppercase
+            background: $secondary-color
+    .theme-btn
+        width: 100%
+        margin-right: 22px
+    .social-style-two
+        margin-top: 20px
+        a
+            font-size: 20px
+            color: $secondary-color
+.youtube-video-play
+    color: white
+    left: 50%
+    top: 50%
+    font-size: 13px
+    +size(55px, 40px)
+    line-height: 40px
+    border-radius: 5px
+    background: #ff0000
+    position: absolute
+    text-align: center
+    transform: translate(-50%, -50%)
+.course-details-list
+    li
+        display: flex
+        align-items: center
+        +gapTB(padding, 15px)
+        border-bottom: 1px solid $border-color
+        &:first-child
+            border-top: 1px solid $border-color
+        i
+            margin-right: 10px
+            color: $secondary-color
+        span
+            font-weight: 600
+            margin-right: auto
+            padding-right: 10px
+        b
+            color: $heading-color
+            
+.widget-recent-courses
+    ul
+        li
+            display: flex
+            align-items: center
+            &:not(:last-child)
+                margin-bottom: 25px
+            .image
+                flex: none
+                max-width: 85px
+                margin-right: 25px
+            h6
+                font-size: 17px
+                margin-bottom: 0
+            .content
+                span
+                    font-size: 13px
+                    font-family: $heading-font
+                    a
+                        font-weight: 700
+                        
+.widget-about
+    text-align: center
+    .image
+        margin-bottom: 30px
+        img
+            max-width: 80%
+            border-radius: 50%
+    h4
+        font-size: 24px
+    .social-style-two
+        width: 90%
+        margin-top: 20px
+        padding-top: 25px
+        border-top: 1px solid $border-color
+        a
+            &:hover
+                color: $secondary-color
+.tag-coulds
+    display: flex
+    flex-wrap: wrap
+    margin-right: -10px
+    margin-bottom: -10px
+    a
+        font-weight: 700
+        padding: 1px 15px
+        border-radius: 5px
+        background: #e8edfa
+        margin: 0 10px 10px 0
+        &:hover
+            color: white
+            background: $primary-color
+        
+.widget-products
+    ul
+        li
+            display: flex
+            align-items: center
+            &:not(:last-child)
+                margin-bottom: 30px
+            .image
+                flex: none
+                +size(70px)
+                padding: 10px
+                margin-right: 20px
+                +flexcenter(center)
+                background: $light-color
+            .content
+                h6
+                    margin-bottom: 0
+                > span
+                    font-size: 14px
+                .ratting
+                    line-height: 1
+                    i
+                        font-size: 12px
+                        margin-right: 1px
+                        color: $yellow-color
+                        
+.newsletter-widget
+    form
+        h6
+            font-size: 18px
+            font-weight: 600
+            line-height: 1.65
+            margin-bottom: 20px
+        .email-input
+            display: flex
+            background: white
+            align-items: center
+            margin-bottom: 10px
+            border-radius: 5px
+            padding: 7px 0 6px 20px
+            label
+                cursor: pointer
+                margin: 2px 10px 0 0
+                i
+                    color: $secondary-color
+            input
+                padding: 0
+                border: none
+                font-size: 16px
+                color: $base-color
+        .theme-btn
+            padding: 8px 16px 5px
+                        
+.widget-price-filter
+    .ui-widget
+        &.ui-widget-content
+            height: 3px
+            border: none
+            cursor: pointer
+            margin-top: 35px
+            margin-bottom: 20px
+            background: #e7e8eb
+    .ui-widget-header
+        background: $primary-color
+    .ui-state-default
+        border: none
+        top: -6px
+        margin-left: 0
+        cursor: pointer
+        +size(3px, 15px)
+        background: $primary-color
+    .price, #price
+        font-size: 18px
+        font-weight: 800
+        color: $heading-color
+        font-family: $base-font
+    .price
+        +flexcenter(space-between)
+        span
+            &:before
+                content: '$'
+    #price
+        padding: 0
+        width: 44px
+        border: none
+        background: transparent
+    
+.course-sidebar
+    .widget
+        &:not(:last-child)
+            margin-bottom: 40px
+        
+.blog-sidebar
+    .widget-title
+        padding: 0 33px 18px
+        margin: -18px -33px 30px
+        border-bottom: 1px solid $primary-color
+        +xsd
+            +gapLR(padding, 25px)
+            +gapLR(margin, -25px)
+        
+.shop-sidebar
+    .widget-title
+        margin-bottom: 25px
+        padding-bottom: 20px
+        border-bottom: 1px solid $border-color
+        &:before
+            font-size: 18px
+            content: "\f192"
+            font-weight: 400
+            margin-right: 15px
+            color: $secondary-color
+            font-family: "Font Awesome 5 Free"
+    .widget
+        padding: 0
+        border: none
+        &:not(:last-child)
+            margin-bottom: 40px
+    .widget-search
+        padding: 10px 25px
+    .widget-menu
+        ul
+            li
+                +flexcenter(space-between)
+                &:before
+                    display: none
+                span
+                    margin-left: 8px
+    .tag-coulds
+        a
+            font-size: 15px
+            &:hover
+                background: $secondary-color

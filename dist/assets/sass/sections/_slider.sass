@@ -1,0 +1,128 @@
+/*******************************************************/
+/******************* 29. Main Slider *******************/
+/*******************************************************/
+.slider-section
+    position: relative
+    .pagingInfo
+        top: 50%
+        right: 16%
+        color: white
+        font-size: 24px
+        font-weight: 700
+        +flexcenter(center)
+        position: absolute
+        font-family: $heading-font
+        transform: translateY(-50%)
+        +circle(transparent, 150px)
+        border: 1px solid rgba(255, 255, 255, 0.15)
+        +mdd
+            right: 25px
+        +mod
+            right: 5px
+            +size(75px)
+            font-size: 16px
+            background: rgba(0, 0, 0, 0.75)
+        .pagingStatus
+            line-height: 1
+            font-size: 50px
+            margin-right: -10px
+            margin-bottom: 30px
+            +mod
+                font-size: 22px
+                margin-bottom: 20px
+        .separator
+            line-height: 1
+            margin-top: 30px
+            +mod
+                margin-top: 20px
+        .pagingCount
+            line-height: 1
+            margin-top: 30px
+            +mod
+                margin-top: 20px
+    .bg-text
+        z-index: 1
+        opacity: 0.1
+        font-size: 250px
+        color: transparent
+        -webkit-text-stroke: 1px
+        text-transform: capitalize
+        -webkit-text-stroke-color: white
+        +lgd
+            font-size: 200px
+        +mdd
+            font-size: 150px
+        +tbd
+            font-size: 100px
+        +mod
+            font-size: 80px
+        +smd
+            font-size: 50px
+    .circle-one,
+    .circle-two
+        z-index: 1
+    .circle-one
+        top: 60%
+        left: 65%
+.main-slider
+    .slider-item
+        padding-top: 95px
+        min-height: 815px
+        +flexcenter(center)
+        +overlay(#141517, 0.7)
+        background-size: cover
+        background-position: center
+        +tbd
+            padding-top: 65px
+            min-height: 700px
+    .slider-content
+        z-index: 2
+        padding: 60px
+        max-width: 650px
+        background: white
+        margin-right: 175px
+        position: relative
+        margin-bottom: 5px
+        +mod
+            margin-right: 0
+        +msd
+            padding-left: 25px
+        +xsd
+            padding-right: 25px
+        h2
+            font-size: 58px
+            +tbd
+                font-size: 45px
+            +msd
+                font-size: 40px
+            +smd
+                font-size: 35px
+            +xsd
+                font-size: 30px
+        .slider-btns
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            .theme-btn
+                margin-top: 15px
+                margin-right: 20px
+            .slider-video-play
+                color: white
+                margin-top: 15px
+                +circle($secondary-color, 55px)
+                &:hover
+                    background: $yellow-color
+        *
+            animation-duration: 1s
+            animation-fill-mode: both
+        
+.slick-active
+    *
+        animation-name: fadeInUp
+    .sub-title-three
+        animation-delay: 0.4s
+    h2
+        animation-delay: 0.65s
+    .slider-btns
+        animation-delay: 0.9s
+        

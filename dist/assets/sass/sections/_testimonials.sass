@@ -1,0 +1,358 @@
+/*******************************************************/
+/************** 15. Testimonials Section ***************/
+/*******************************************************/
+.partner-title
+    font-family: $base-font
+    span
+        color: $secondary-color
+.partner-iamges-wrap
+    position: relative
+    display: inline-flex
+    img
+        +size(50px)
+        border-radius: 50%
+        &:not(:first-child)
+            margin-left: -30px
+    .plus
+        top: 0
+        right: 0
+        color: white
+        font-size: 25px
+        font-weight: 500
+        position: absolute
+        +circle(transparentize($primary-color, 0.5), 50px)
+        
+.testimonial-wrap
+    margin: -100px
+    .slick-list
+        padding: 100px
+    .slick-dots
+        position: absolute
+        top: 140px
+        right: 100px
+        margin-top: 0
+        +msd
+            top: 55px
+            right: 50%
+            transform: translate(50%)
+.testimonial-author
+    margin: 0 0 -110px -100px
+    +tbd
+        margin-left: 25px
+    +xsd
+        margin-left: 15px
+.testimonial-content
+    z-index: 1
+    position: relative
+    padding: 35px 60px
+    box-shadow: 10px 0 60px transparentize($heading-color, 0.93)
+    +msd
+        +gapLR(padding, 25px)
+    +xsd
+        +gapLR(padding, 15px)
+    &:after
+        content: "\f10e"
+        font-weight: 600
+        line-height: 1
+        top: 40px
+        right: 70px
+        z-index: -1
+        opacity: 0.05
+        font-size: 120px
+        position: absolute
+        font-family: 'Font Awesome 5 Free'
+        +tbd
+            top: 50%
+    .designation
+        margin-left: 100px
+        margin-bottom: 45px
+        +tbd
+            background: white
+            border-radius: 5px
+            margin-bottom: 30px
+            padding: 10px 0 10px 20px
+        +smd
+            margin-left: 25px
+        +xsd
+            margin-left: 10px
+        h4
+            font-size: 24px
+            margin-bottom: 0
+            +xsd
+                font-size: 20px
+        span
+            font-weight: 600
+            color: $secondary-color
+    p
+        font-size: 20px
+        +smd
+            font-size: 18px
+        +xsd
+            font-size: 16px
+    .ratting
+        padding-top: 5px
+        i
+            color: #ff9c00
+            font-size: 14px
+            margin-right: 5px
+            
+/* Testimonial Two */
+.testimonials-section-two
+    &:before
+        position: absolute
+        content: ''
+        right: 0
+        width: 70%
+        top: -80px
+        z-index: -1
+        background: $light-color
+        height: calc(100% + 160px)
+    .container
+        +xld
+            max-width: 1380px
+    .testimonial-item-two
+        display: flex
+        align-items: center
+        +tbd
+            display: block
+        &.slick-active
+            .testimonial-author-two
+                opacity: 1
+                transform: translate(0)
+.testimonial-two-wrap
+    &:after
+        position: absolute
+        content: ""
+        right: 0
+        top: -50px
+        z-index: -1
+        opacity: 0.05
+        line-height: 1
+        font-size: 300px
+        font-family: 'Flaticon'
+        +mod
+            display: none
+    .slick-dots
+        bottom: 30px
+        position: absolute
+        left: calc(33% + 120px)
+        +mtd
+            left: calc(33% + 50px)
+        +tbd
+            bottom: 0
+            left: auto
+            position: relative
+        li
+            &.slick-active
+                border-color: $primary-color
+                &:before
+                    background: $primary-color
+.testimonial-author-two
+    width: 33%
+    flex: none
+    opacity: 0
+    transition: 0.5s
+    margin-right: 120px
+    transform: translate(50px)
+    +mtd
+        margin-right: 50px
+    +tbd
+        width: auto
+        margin-right: 0
+        margin-bottom: 35px
+.testimonial-content-two
+    padding-bottom: 100px
+    margin-top: -5px
+    +tbd
+        padding-bottom: 20px
+    .designation
+        margin-bottom: 20px
+        h3
+            margin-bottom: 3px
+            +msd
+                font-size: 25px
+            +smd
+                font-size: 20px
+        span
+            font-size: 18px
+            font-weight: 600
+            color: $secondary-color
+    p
+        font-size: 35px
+        line-height: 1.3
+        color: $heading-color
+        +mod
+            font-size: 30px
+        +msd
+            font-size: 25px
+        +smd
+            font-size: 20px
+    .ratting
+        padding-top: 5px
+        i
+            color: #ff9c00
+            font-size: 14px
+            margin-right: 3px
+            
+/* Testimonial Three */
+.testimonial-three
+    position: relative
+    &:before
+        content: ''
+        width: 100%
+        height: 200%
+        left: 0
+        bottom: 0
+        z-index: -1
+        position: absolute
+        background: #f4f6f9
+.testimonial-three-wrap
+    .slick-list
+        overflow: visible
+    .testimonial-three-item
+        display: flex
+        +smd
+            display: block
+        .image
+            flex: none
+            transition: 0.5s
+            max-width: 100px
+            margin: 25px 25px 25px 0
+            transform: translate(30px)
+            +smd
+                margin-top: 0
+        .quality-rating
+            display: flex
+            flex-wrap: wrap
+            position: relative
+            align-items: center
+            padding-bottom: 10px
+            +smd
+                margin-left: 25px
+            &:before
+                top: -10px
+                left: -25px
+                content: "\f10d"
+                font-weight: 600
+                position: absolute
+                color: $secondary-color
+                font-family: 'Font Awesome 5 Free'
+            h4
+                color: $secondary-color
+                margin: 0 15px 5px 0
+            .ratting
+                margin-bottom: 5px
+                i
+                    color: $yellow-color
+        .content
+            p
+                font-size: 18px
+                margin-bottom: 15px
+                &:after
+                    top: 15px
+                    left: 10px
+                    content: "\f10e"
+                    font-weight: 600
+                    position: relative
+                    color: $secondary-color
+                    font-family: 'Font Awesome 5 Free'
+            h5
+                margin-bottom: 0
+            .designation
+                font-weight: 600
+        &.slick-active
+            .image
+                transform: translate(0)
+    &:after
+        top: 50%
+        right: 0
+        z-index: -1
+        opacity: 0.05
+        line-height: 1
+        content: "\f10e"
+        font-weight: 600
+        font-size: 200px
+        position: absolute
+        color: $secondary-color
+        transform: translateY(-50%)
+        font-family: 'Font Awesome 5 Free'
+        +mod
+            font-size: 100px
+    .slick-dots
+        margin-left: 123px
+        justify-content: start
+        +smd
+            margin-left: 0
+        
+/* Testimonial Four */
+.testimonials-four-iamge
+    text-align: center
+    background-position: center
+    background-repeat: no-repeat
+    +mod
+        padding-bottom: 0
+.testimonial-four-wrap
+    .slick-list
+        padding: 75px 0 30px !important
+    .testimonial-item-four
+        width: 470px
+        opacity: 0.4
+        z-index: 1
+        transition: 0.5s
+        padding: 40px 50px
+        border-radius: 5px
+        position: relative
+        border-radius: 7px
+        background: $light-color
+        transform: translate(170px)
+        box-shadow: inset 10px 0 60px rgba(30, 40, 69, 0.07)
+        +mdd
+            transform: translate(0)
+        +smd
+            +gapLR(padding, 25px)
+        .author-designation
+            display: flex
+            margin-bottom: 22px
+            align-items: center
+            .author
+                flex: none
+                margin-right: 20px
+                img
+                    +size(65px)
+                    border-radius: 50%
+                    +xsd
+                        +size(50px)
+            .designation
+                h4
+                    font-size: 24px
+                    margin-bottom: 0
+                    +smd
+                        font-size: 20px
+                    +xsd
+                        font-size: 16px
+                span
+                    font-weight: 600
+                    color: $secondary-color
+        p
+            font-size: 20px
+            +smd
+                font-size: 16px
+        .ratting
+            i
+                font-size: 14px
+                margin-right: 3px
+                color: $yellow-color
+        &.slick-center
+            opacity: 1
+            z-index: 2
+            width: 570px
+            background: white
+            transform: translate(0 , -50px)
+            box-shadow: 10px 0 40px rgba(32, 78, 207, 0.15)
+            +mod
+                transform: translate(0)
+                box-shadow: inset 10px 0 40px rgba(32, 78, 207, 0.15)
+            + .testimonial-item-four
+                transform: translate(-170px)
+                +mdd
+                    transform: translate(0)

@@ -1,0 +1,21 @@
+/*******************************************************/
+/******************* 17. Client Logo *******************/
+/*******************************************************/
+.logo-inner
+    flex-wrap: wrap
+    +gapLR(margin, -15px)
+    +flexcenter(space-between)
+    +tbd
+        justify-content: center
+    .logo-item
+        transition: 0.5s
+        margin-bottom: 50px
+        +gapLR(margin, 15px)
+        filter: opacity(0.5) grayscale(1)
+        &:hover
+                filter: opacity(1) grayscale(0)
+        +mod
+            width: 25%
+            text-align: center
+    &.style-two
+        justify-content: space-between

@@ -1,0 +1,325 @@
+/*******************************************************/
+/******************* 07. Hero Section ******************/
+/*******************************************************/
+.hero-section
+    z-index: 1
+    overflow: hidden
+    position: relative
+    &:before
+        position: absolute
+        content: ''
+        left: 0
+        bottom: 0
+        z-index: -1
+        +circle($light-color, 330px)
+        transform: translate(-25%, 50%)
+    &:after
+        position: absolute
+        content: ''
+        right: 0
+        top: 0
+        z-index: -1
+        +circle($light-color, 965px)
+        transform: translate(15%, -50%)
+        +mdd
+            +size(500px)
+        +tbd
+            right: 50%
+            transform: translate(50%, -60%)
+        +msd
+            +size(400px)
+        +smd
+            +size(300px)
+        
+.hero-content
+    h1
+        text-transform: capitalize
+        +mdd
+            font-size: 55px
+        +mod
+            font-size: 50px
+        +msd
+            font-size: 40px
+        +xsd
+            font-size: 32px
+    p
+        font-size: 18px
+        +smd
+            font-size: 16px
+        
+.hero-right-images
+    +xld
+        margin-right: -150px
+    
+/* Hero Two */
+.hero-section-two
+    overflow: hidden
+.hero-content-two
+    +container(700px)
+    h1
+        +mdd
+            font-size: 55px
+        +mod
+            font-size: 50px
+        +msd
+            font-size: 40px
+        +xsd
+            font-size: 32px
+    .list-style-one
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        +xsd
+            margin-left: 30px
+            justify-content: start
+        li
+            +gapLR(margin, 20px)
+            +msd
+                font-size: 16px
+                margin-bottom: 10px
+                +gapLR(margin, 10px)
+.hero-two-btns
+    flex-wrap: wrap
+    +flexcenter(center)
+    .theme-btn
+        &:not(:last-child)
+            margin-right: 20px
+    .video-play
+        left: 0
+        +size(auto)
+        line-height: 1
+        position: relative
+        transform: translate(0)
+        background: transparent
+        i
+            margin-right: 10px
+            +circle(white, 55px)
+            color: $secondary-color
+        span
+            font-size: 15px
+            font-weight: 800
+            text-decoration: underline
+    
+.admin-speech
+    text-align: left
+    +container(570px)
+    position: relative
+    padding: 30px 50px
+    background: #1c317c
+    border-radius: 12px
+    font-family: $heading-font
+    +msd
+        +gapLR(margin, 25px)
+        +gapLR(padding, 25px)
+    .image
+        position: absolute
+        left: 0
+        top: 0
+        transform: translate(-50%, -45%)
+        img
+            +size(70px)
+            border-radius: 50%
+    p
+        opacity: 0.8
+    .name
+        opacity: 0.7
+        display: flex
+        font-size: 16px
+        font-weight: 700
+        align-items: center
+        &:before
+            content: ''
+            +size(25px, 2px)
+            margin-right: 10px
+            background: $primary-color
+        
+.hero-two-left,
+.hero-two-right
+    z-index: -1
+    max-width: 25%
+    position: absolute
+.hero-two-left
+    left: 5%
+    bottom: 0
+    &:before
+        content: ''
+        left: -5%
+        bottom: 0
+        z-index: -2
+        +size(90%, 85%)
+        position: absolute
+        background: $secondary-color
+        border-radius: 200px 200px 0 0
+.hero-two-right
+    right: 5%
+    bottom: 100px
+    &:after,
+    &:before
+        content: ''
+        left: 44%
+        z-index: -2
+        position: absolute
+        border-radius: 50%
+        background: $secondary-color
+    &:before
+        +size(475px)
+        opacity: 0.5
+        bottom: 13%
+    &:after
+        +size(350px)
+        bottom: 10%
+        animation: fadeInRight 1s linear 1.5s both
+    
+/* Hero Three */
+.hero-three-image-part
+    z-index: 1
+    max-width: 630px
+    text-align: center
+    position: relative
+    margin-left: -85px
+    +gapLR(padding, 50px)
+    +lgd
+        margin-left: 0
+    .hero-chart
+        top: 0
+        right: 10%
+        padding: 25px
+        max-width: 190px
+        background: white
+        position: absolute
+        text-align: center
+        border-radius: 20px
+        box-shadow: 10px 0 60px rgba(75, 131, 252, 0.15)
+        +msd
+            display: none
+        h5
+            margin: 15px 0 0
+            line-height: 25px
+    .hero-circle
+        left: 0
+        bottom: 10%
+        z-index: -1
+        position: absolute
+        animation: 35s rotated_circle infinite
+    .about-image-over-item
+        &:first-child
+            top: 25%
+            left: -25%
+            +lgd
+                left: 0
+                top: 50%
+        &:last-child
+            right: 0
+            bottom: 20%
+            +msd
+                bottom: 0
+    &:after
+        content: ''
+        +size(590px)
+        opacity: 0.1
+        left: 50%
+        top: 50%
+        z-index: -1
+        position: absolute
+        border-radius: 50%
+        transform: translate(-60%, -52%)
+        background: linear-gradient( rgb(15,37,110) 0%, rgb(255,255,255) 100%)
+        +tbd
+            +size(400px)
+        +smd
+            +size(200px)
+.hero-content-three
+    .hero-sub-title
+        font-size: 20px
+        font-weight: 700
+        display: inline-block
+        color: $heading-color
+        font-family: $heading-font
+        span
+            font-size: 30px
+            color: $secondary-color
+        &:before
+            content: "\f00c"
+            font-weight: 600
+            margin-right: 15px
+            color: $secondary-color
+            font-family: "Font Awesome 5 Free"
+    h1
+        font-size: 58px
+        +mdd
+            font-size: 50px
+        +mod
+            font-size: 45px
+        +msd
+            font-size: 35px
+        +xsd
+            font-size: 29px
+        span
+            padding-right: 15px
+            margin-right: -15px
+            padding-bottom: 6px
+            margin-bottom: -6px
+            display: inline-block
+            background: url(../images/shapes/title-bg.png) no-repeat right bottom
+    .list-style-one
+        display: flex
+        flex-wrap: wrap
+        li
+            &:not(:last-child)
+                margin-right: 35px
+            &:before
+                background: $secondary-color
+    .hero-btns
+        .theme-btn
+            &:first-child
+                margin-right: 5px
+            
+.hero-section-three
+    .hero-rectangle
+        position: absolute
+        z-index: -2
+        bottom: 10%
+        right: 8%
+        animation: 20s moveLeftRight infinite
+    .hero-circles-one,
+    .hero-circles-two,
+    .hero-circles-two:after,
+    .hero-circles-one:after,
+    .hero-circles-one:before,
+        z-index: -1
+        content: ''
+        position: absolute
+        border-radius: 50%
+        background: rgba(30, 40, 69, 0.03)
+    .hero-circles-one
+        +size(280px)
+        top: 0
+        right: 0
+        transform: translate(35%, -20px)
+        +tbd
+            +size(150px)
+    .hero-circles-two
+        +size(780px)
+        top: 0
+        right: 0
+        transform: translate(45%, -35%)
+        +tbd
+            +size(450px)
+    .hero-circles-two:after,
+    .hero-circles-one:after,
+    .hero-circles-one:before
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+    .hero-circles-one:before
+        +size(calc(100% + 150px))
+        +tbd
+            +size(calc(100% + 100px))
+    .hero-circles-one:after
+        +size(calc(100% + 330px))
+        +tbd
+            +size(calc(100% + 200px))
+    .hero-circles-two:after
+        +size(calc(100% + 200px))
+        +tbd
+            +size(calc(100% + 100px))
