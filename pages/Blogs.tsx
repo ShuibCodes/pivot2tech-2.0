@@ -16,7 +16,7 @@ function Blog({posts}) {
           style={{ marginTop: "100px" }}
           className="container"
         >
-          <div className="row">
+          <div className="row"> 
 
               {posts.map((post) => {
                 const day = new Date(post.publishedAt).getDate();
