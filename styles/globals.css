@@ -24,6 +24,19 @@
   min-width: 300px;
   padding: 20px;
 }
+.newsletter-container {
+  padding: 20px;
+}
+.newsletter-container .form {
+  padding: 80px;
+}
+.form-newsletter {
+  max-width: 90%;
+}
+
+.newsletter-email {
+  margin-left: -25px;
+}
 
 .info-copy {
   font-size: 22px;

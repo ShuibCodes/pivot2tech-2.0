@@ -12,6 +12,31 @@ const CourseDetails = () => {
     console.log(value);
     setActive(value === active ? "" : value);
   };
+
+  const [dismiss, setDismiss] = useState(true);
+  const [email, setEmail] = useState("");
+  const [noEmailError, setNoEmailError] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState("not empty");
+
+  const handleDismiss = () => {
+    if (email === "") {
+      setNoEmailError(true);
+      return;
+    } else {
+      supabase
+        .from("pivot2tech")
+        .insert({ email: email, awareness: selectedOption })
+        .single()
+        .then(() => {
+          window.localStorage.setItem("dismiss-social-modal", true);
+          setDismiss(true);
+        });
+      setEmail("");
+      setFormSubmitted("empty");
+    }
+  };
+
   return (
     <Layout>
       <Head>
@@ -73,60 +98,33 @@ const CourseDetails = () => {
                         height="430"
                       />
 
-                      <div className="">
-                        <div className="">
-
-
-
-                          <ul
-                            style={{
-                              fontSize: "18px",
-                              fontWeight: "700",
-                              marginLeft: "8px",
-                            }}
-                          >
-
-                            <li>
-                              {/* {mainCourse.courseTime} */}
-
-                              Part time - 7 weeks
-                            </li>
-
-                          
-                          </ul>
-                        </div>
-                        <div style={{
-                          display: "flex",
-                          justifyContent: "start",
-                          alignItems: "center",
-                          marginLeft: "8px",
-                        }}>
-                          <a
-                            href="#pricing"
-                            style={{
-                              padding: "10px",
-                              fontSize: "11px",
-                              margin: "10px 0px",
-                              backgroundColor: "#0084DF",
-                            }}
-                            className="theme-btn"
-                          >
-                            Enroll Today
-                            <i className="fas fa-arrow-right" />
-                          </a>
-                          <h6
-                            style={{
-                              color: "#1F4ECE",
-                              fontSize: "22px",
-                              marginLeft: "15px",
-                            }}
-                          >
-                            30 spaces left!
-                          </h6>
-
-                        </div>
-
-                        <p style={{ fontSize: "20px", fontWeight: "700" }}>
+                <div className="">
+                  <div className="">
+                    <ul
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "700",
+                        marginLeft: "8px",
+                      }}
+                    >
+                      <li>Part time - 7 weeks </li>
+                    </ul>
+                  </div>
+                  <a
+                    href="#pricing"
+                    style={{
+                      padding: "10px",
+                      fontSize: "11px",
+                      margin: "10px 0px",
+                      backgroundColor: "#0084DF",
+                    }}
+                    className="theme-btn"
+                  >
+                    Enroll Today
+                    <i className="fas fa-arrow-right" />
+                  </a>
+                </div>
+                <p style={{ fontSize: "20px", fontWeight: "700" }}>
                   The Ultimate Guide to Freelancing:
                   <ul
                     style={{ fontSize: "16px", padding: "5px 10px" }}
@@ -453,19 +451,7 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
-                <div className="py-20">
-                  <a
-                    href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                  </a>
-                </div>
+
                 <div>
                   <p className="info-copy">
                     Learn in-demand, recession-proof online skills to earn a
@@ -565,18 +551,101 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-                <div className="py-20">
-                  <a
-                    href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                  </a>
+
+                <div className="container">
+                  <div className="newsletter-container">
+                    <div className="section-title mb-20">
+                      <span className="sub-title mb-25">Newsletter</span>
+                      <h2>Don't Miss Our Updates</h2>
+                    </div>
+                    <p>
+                      Stay up to date on Pivot2Tech's updates and free webinars
+                      surrounding coding jobs and freelancing tips.
+                    </p>
+                    <form
+                      onSubmit={(e) => e.preventDefault()}
+                      className="form-newsletter"
+                      action="#"
+                    >
+                      <div className="newsletter-radios mb-25">
+                        <div className="custom-control custom-radio">
+                          <input
+                            type="radio"
+                            className="custom-control-input"
+                            id="hero-wekly"
+                            name="example1"
+                            defaultChecked=""
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="hero-wekly"
+                          >
+                            New Cohorts
+                          </label>
+                        </div>
+                        <div className="custom-control custom-radio">
+                          <input
+                            type="radio"
+                            className="custom-control-input"
+                            id="hero-monthly"
+                            name="example1"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="hero-monthly"
+                          >
+                            Discounts
+                          </label>
+                        </div>
+                        <div className="custom-control custom-radio">
+                          <input
+                            type="radio"
+                            className="custom-control-input"
+                            id="hero-monthly"
+                            name="example1"
+                          />
+                          <label
+                            className="custom-control-label"
+                            htmlFor="hero-monthly"
+                          >
+                            New Courses
+                          </label>
+                        </div>
+                      </div>
+                      {formSubmitted === "empty" ? (
+                        <p>Thanks! we'll be in touch soon </p>
+                      ) : (
+                        <div className="newsletter-email">
+                          <label htmlFor="email">
+                            <i className="far fa-envelope" />
+                          </label>
+                          <input
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
+                            id="email"
+                            type="email"
+                            placeholder="Enter Email Address"
+                            required=""
+                            className={
+                              noEmailError
+                                ? "mb-3 border border-danger"
+                                : "mb-3"
+                            }
+                          />
+
+                          <button
+                            type="button"
+                            data-dismiss="modal"
+                            style={{ height: "60px", marginLeft: "15px" }}
+                            className="theme-btn"
+                            onClick={handleDismiss}
+                          >
+                            Subscribe
+                          </button>
+                        </div>
+                      )}
+                    </form>
+                  </div>
                 </div>
                 <h3>Your Instructor</h3>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
@@ -597,7 +666,11 @@ const CourseDetails = () => {
                         </span>
                       </div>
                       <p>
-                        Self-taught fullstack developer. Runs a digital Agency
+                        Self-taught Web Developer & Digital Marketer.He runs a{" "}
+                        <a href="https://agreeddigital.com/">
+                          {" "}
+                          digital Agency{" "}
+                        </a>
                         attracting high level clientele on day to day business.
                       </p>
                       <h5>Follow Me</h5>
@@ -635,7 +708,6 @@ const CourseDetails = () => {
               </div>
             </div>
           </div>
-        </div>
       </section>
     </Layout>
   );

@@ -419,15 +419,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <span className="fas fa-chevron-down" />
         </div>
       </li>
-      <li className="">
-        <Link href="/course-details">Curriculum</Link>
-      </li>
+
       <li className="dropdown">
         <Link href="Blogs">Blog</Link>
-      </li>
-  
-      <li className="dropdown">
-        <Link href="/#the-team">Team</Link>
       </li>
     </ul>
   ),
@@ -444,7 +438,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span>Spaces Now Open{" "}
+                <span className="px-2">👇🏾</span>44 Spaces Left{" "}
                 <span className="px-2">👇🏾</span>
               </h6>
             </div>
