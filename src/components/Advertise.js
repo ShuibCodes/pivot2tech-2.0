@@ -8,7 +8,7 @@ const Advertise = () => {
         <div className="advertise-item wow fadeInUp delay-0-2s">
           <div className="content">
             <p style={{ fontSize: "17px" }}>June 22</p>
-            <h4 style={{ fontWeight: "bold" }}>LAST 22 SPACES</h4>
+            <h4 style={{ fontWeight: "bold" }}>FINAL 12 SPACES</h4>
             <a href="#courses-group">
               <a className="theme-btn">
                 Secure your space
