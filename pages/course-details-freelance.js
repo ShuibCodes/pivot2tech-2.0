@@ -80,8 +80,15 @@ const CourseDetails = () => {
             >
               <div className="w-full">
                 <h2>Freelance Web & Digital Marketing</h2>
-
-                <h5>Freelance</h5>
+                <h6
+                  style={{
+                    color: "#1F4ECE",
+                    fontSize: "24px",
+                    marginLeft: "15px",
+                  }}
+                >
+                  7 spaces left!
+                </h6>
 
                 <div className="image mb-35">
                   <Image
