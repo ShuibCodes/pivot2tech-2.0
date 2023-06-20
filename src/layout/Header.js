@@ -438,7 +438,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span>44 Spaces Left{" "}
+                <span className="px-2">👇🏾</span>Applications close Friday!{" "}
                 <span className="px-2">👇🏾</span>
               </h6>
             </div>
