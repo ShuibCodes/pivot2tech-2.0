@@ -300,7 +300,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">199</span>
+                        <span className="price">299</span>
                         <span className="bold">
                           Or 3 interest-free installments
                         </span>
@@ -343,7 +343,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
+                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                         style={{
                           padding: "10px",
                           fontSize: "11px",
@@ -391,7 +391,7 @@ const CourseDetails = () => {
                           </div>
                           <div href="/course-details">
                             <a
-                              href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
+                              href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                               className="theme-btn style-four"
                             >
                               Enroll Today
@@ -434,7 +434,7 @@ const CourseDetails = () => {
                           </div>
                           <div href="/course-details">
                             <a
-                              href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9"
+                              href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                               className="theme-btn style-four"
                             >
                               Enroll Today
@@ -697,7 +697,7 @@ const CourseDetails = () => {
                         style={{ margin: "10px" }}
                         className="text-center"
                       >
-                        <a href="https://buy.stripe.com/8wMdRL3y1gUC6vmeV9">
+                        <a href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA">
                           <a
                             style={{ fontSize: "13px" }}
                             className="theme-btn"
