@@ -13,13 +13,12 @@ const E404 = () => {
             </div>
             <h4>Click below to get access to the Pivot2Tech Discord channel</h4>
             <h6 style={{ padding: "30px 0px" }}>
-              You will be redirected to seperate channel, then you will receive
-              an{" "}
-              <span style={{ color: "blue" }}>
-                onboarding email in 5-7 days
-              </span>
+              Make sure you make a Discord account and download the app{" "}
             </h6>
-
+            <p>
+              All information including Zoom links, guides and access to the
+              team will be on there
+            </p>
             <a
               href="https://discord.gg/mKEWp9bGhv"
               className="theme-btn style-two"
