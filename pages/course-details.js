@@ -72,62 +72,96 @@ const CourseDetails = () => {
           <div className="row large-gap">
             <div className="col-lg-12">
               <div className="course-details-content">
-                <div className="course-header">
-                  <h6
-                    style={{
-                      color: "#1F4ECE",
-                      fontSize: "24px",
-                      marginLeft: "15px",
-                    }}
-                  >
-                    4 spaces left!
-                  </h6>
-                </div>
-                <h2>Fullstack Web Development Bootcamp</h2>
-                <h5>Part time, 13-weeks</h5>
+                <div className="course-header"></div>
 
-                <div className="image mb-35">
-                  <Image
-                    src="/assets/images/women-in-tech.jpeg"
-                    alt="course-details"
-                    width="735"
-                    height="430"
-                  />
-                </div>
+                <section className="why-choose-section   rpt-90 pb-130 rpb-100">
+                  <div className="container">
+                    <div className="row justify-content-between align-items-center">
+                      <div className="col-lg-6">
+                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                          <div className="section-title mb-25">
+                            <h2>
+                              Launch your career with our Web Development course
+                            </h2>
+                          </div>
 
-                <div className="">
-                  <div className="">
-                    <ul
-                      style={{
-                        fontSize: "18px",
-                        fontWeight: "700",
-                        marginLeft: "8px",
-                      }}
-                    >
-                      <li>7-9pm BST</li>
-                      <p
-                        className="bold"
-                        style={{ fontSize: "18px" }}
-                      >
-                        June 22nd
-                      </p>
-                    </ul>
+                          <p>
+                            Learn to build web applications from scratch and
+                            land your dream job as Developer without paying
+                            thousands for a degree s.
+                          </p>
+                          <div>
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                              className="theme-btn style-four"
+                            >
+                              Join Waiting List
+                              <i className="fas fa-arrow-right" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="mt-10 ">
+                          <img
+                            src="https://pivot2tech.co.uk/_next/image?url=%2Fassets%2Fimages%2Fwomen-in-tech.jpeg&w=1920&q=75"
+                            alt="Why Choose"
+                            className="why-choose-one"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <a
-                    href="#pricing"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
+                </section>
 
+                <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+                  <div className="container">
+                    <div className="row justify-content-between align-items-center">
+                      <div className="col-lg-6">
+                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                          <div className="section-title mb-25">
+                            <h2>
+                              Passionate teachers, innovative methods & modern
+                              tools
+                            </h2>
+                          </div>
+
+                          <ul className="list-style-four pt-5 pb-35">
+                            <li>
+                              Receive a personalized certificate to enance your
+                              CV
+                            </li>
+                            <li>Weekly projects using real-life data</li>
+                            <li>Get real-time answers to never be stuck</li>
+                            <li>
+                              Lifetime Access to course material & lesson
+                              recordings{" "}
+                            </li>
+                            <li>CV and Job Application support</li>
+                          </ul>
+                          <div>
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                              className="theme-btn style-four"
+                            >
+                              Join Waiting List
+                              <i className="fas fa-arrow-right" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="mt-10 ">
+                          <img
+                            src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                            alt="Why Choose"
+                            className="why-choose-one"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -209,6 +243,7 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
+                <Blocks />
 
                 <div className="col-lg-4">
                   <div className="course-sidebar rmt-75">
@@ -235,7 +270,7 @@ const CourseDetails = () => {
                           }}
                           className="text-center"
                         >
-                          All Classes Are Recorded
+                          Applications open August
                         </strong>
 
                         <li>
@@ -248,21 +283,23 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>June 22nd </b>
+                          <b>October 2023 </b>
                         </li>
 
                         <li>
                           <i className="fas fa-globe" /> <span></span>{" "}
-                          <b>Tuesdays 7-9pm & Saturdays 12-2PM GMT</b>
+                          <b>
+                            Tuesdays: 7-9pm GMT <br></br> Saturdays: 12-pm GMT
+                          </b>
                         </li>
                         <p>International Students are Welcome</p>
                         <p style={{ color: "blue" }}>
-                          Click Klarna option to pay in 3 installments
+                          Ony 80 spaces, Add your email to be notified early
                         </p>
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/fZe7tn7OhawebPGcN2"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -270,35 +307,12 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enroll Today!
+                        Join Waiting List
                       </a>
                     </div>
                   </div>
                 </div>
 
-                <Blocks />
-
-                <div
-                  style={{ margin: "auto", textAlign: "center" }}
-                  className="m-auto py-50"
-                >
-                  <p className="info-copy text-center">
-                    Receive a personalized certificate to enance your CV
-                  </p>
-                  <a
-                    href="#pricing"
-                    style={{
-                      padding: "10px",
-                      fontSize: "11px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Enroll Today
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
                 <div className="container">
                   <div className="newsletter-container">
                     <div className="section-title mb-20">
@@ -422,16 +436,6 @@ const CourseDetails = () => {
                             An experienced Software Engineer who works for a
                             global technology consultancy company
                           </p>
-                          <h5>Follow Me</h5>
-                          <div className="social-style-two">
-                            <a href="https://twitter.com/Shuayb__">
-                              <i className="fab fa-twitter" />
-                            </a>
-
-                            <a href="https://linktr.ee/shuaybcodes">
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -443,7 +447,7 @@ const CourseDetails = () => {
                         <div className="col-sm-5">
                           <div className="instructor-image">
                             <Image
-                              src="/assets/images/jamie-pic.jpeg"
+                              src="/assets/images/moin.png"
                               width="270"
                               height="270"
                               alt="instructor-image"
@@ -452,15 +456,23 @@ const CourseDetails = () => {
                         </div>
                         <div className="">
                           <div className="instructor-details">
-                            <h4>Jamie H</h4>
+                            <h4>Moin Bukhari</h4>
                             <span className="designations">
-                              Software Engineer & Mentor
+                              Web Developer & Mentor
                             </span>
                           </div>
                           <p style={{ maxWidth: "70%" }}>
-                            Jamie is an Web Developer and digital nomad. He
-                            helps teach and mentor students in weekly booster
-                            sessions & CV clinics.
+                            Jamie is an Web Developer, Tutor & Startup founder,
+                            building{" "}
+                            <a
+                              style={{ color: "blue" }}
+                              href="https://www.muddakir.app/"
+                            >
+                              Muddakir,
+                            </a>{" "}
+                            an arabic vocabulary app to learn Quran. He helps
+                            with our Discord community & teaches sessions
+                            throughout the week
                           </p>
                         </div>
                       </div>
@@ -470,47 +482,6 @@ const CourseDetails = () => {
               </div>
             </div>
           </div>
-          <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
-            <div className="container">
-              <div className="row justify-content-between align-items-center">
-                <div className="col-lg-6">
-                  <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
-                    <div className="section-title mb-25">
-                      <h2>
-                        Passionate teachers, innovative methods & modern tools
-                      </h2>
-                    </div>
-
-                    <ul className="list-style-four pt-5 pb-35">
-                      <li>Small cohorts with 1 teacher for 10 students</li>
-                      <li>Weekly projects using real-life data</li>
-                      <li>Get real-time answers to never be stuck</li>
-                      <li>Lifetime Access to Pivot2Techs resources </li>
-                      <li>CV and Job Application support</li>
-                    </ul>
-                    <div>
-                      <a
-                        href="#pricing"
-                        className="theme-btn style-four"
-                      >
-                        Secure a spot
-                        <i className="fas fa-arrow-right" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6">
-                  <div className="mt-10 ">
-                    <img
-                      src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                      alt="Why Choose"
-                      className="why-choose-one"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
         </div>
       </section>
     </Layout>

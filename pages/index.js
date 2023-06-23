@@ -96,7 +96,7 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
                 <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Applications now open - Limited Spaces
+                  Applications now closed
                 </span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Learn new skills today,
@@ -106,13 +106,9 @@ const Index = () => {
                   </span>
                 </h3>
 
-                <p className="wow">
-                  Change careers and start your journey as a web developer with
-                  our{" "}
-                  <span style={{ color: "#1F4ECE", fontWeight: "700" }}>
-                    part-time, remote{" "}
-                  </span>
-                  courses. Learn the skills to freelance or a Job in tech!
+                <p className="">
+                  Learn Web development or Digital marketing & Freelancing in 3
+                  months or less.
                 </p>
                 <span
                   style={{
@@ -121,7 +117,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  Latest student landed a £40k role!
+                  Average tech salaries - £50,000
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -257,9 +253,20 @@ const Index = () => {
                   >
                     June 22nd
                   </p>
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>LAST 4 SPACES </strong>
-                  </p>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                        backgroundColor: "#1F4ECD",
+                      }}
+                      className="theme-btn"
+                    >
+                      Join Waiting List
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </a>
                   <ul
                     style={{ marginTop: "10px" }}
                     className="course-tags"
@@ -351,9 +358,20 @@ const Index = () => {
                       June 22nd
                     </p>
                   </div>
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>LAST 4 SPACES</strong>
-                  </p>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                        backgroundColor: "#1F4ECD",
+                      }}
+                      className="theme-btn"
+                    >
+                      Join Waiting List
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </a>
                   {/* <p style={{ fontSize: "20px", color: "blue" }}>
                     <strong>10 Spaces Remaining!</strong>
                   </p> */}

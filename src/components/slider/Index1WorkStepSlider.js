@@ -128,7 +128,7 @@ export default class Index1WorkStepSlider extends Component {
                   alt="tree-icon"
                   className="number"
                 />{" "}
-                <h6> Become a Freelancer</h6>
+                <h6>Learn how to Freelance</h6>
                 <Link href="/course-details-freelance">
                   <a
                     style={{

@@ -25,7 +25,7 @@ const FollowIcon = () => (
           <i className="fab fa-instagram" />
         </a>
       </Link>
-      <Link href="https://twitter.com/Shuayb__">
+      <Link href="https://twitter.com/Pivot2tech_">
         <a>
           <i className="fab fa-twitter" />
         </a>

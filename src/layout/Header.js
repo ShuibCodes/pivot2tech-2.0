@@ -423,6 +423,9 @@ const Header1 = ({ navToggle, setNavToggle }) => (
       <li className="dropdown">
         <Link href="Blogs">Blog</Link>
       </li>
+      <li>
+        <Link href="contact/">Contact</Link>
+      </li>
     </ul>
   ),
   HeaderTop = () => (
@@ -431,14 +434,14 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="top-inner">
           <div className="top-left">
             <p>
-              <i className="far fa-clock" /> <b>Next Cohort</b> June 22nd
+              <i className="far fa-clock" /> <b>Next Cohort</b> - Autumn 2023
             </p>
           </div>
           <div className="top-right d-flex align-items-center">
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span>Applications close Friday!{" "}
+                <span className="px-2">👇🏾</span>Sign up to the waiting list
                 <span className="px-2">👇🏾</span>
               </h6>
             </div>
