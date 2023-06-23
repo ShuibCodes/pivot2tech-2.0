@@ -74,7 +74,7 @@ const CourseDetails = () => {
               <div className="course-details-content">
                 <div className="course-header"></div>
 
-                <section className="why-choose-section   rpt-90 pb-130 rpb-100">
+                <section className="why-choose-section rpb-100">
                   <div className="container">
                     <div className="row justify-content-between align-items-center">
                       <div className="col-lg-6">

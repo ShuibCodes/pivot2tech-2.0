@@ -241,18 +241,13 @@ const Index = () => {
                     inside-out.
                   </span>
                   <hr />
-                  <span
-                    className="bold"
-                    style={{ fontSize: "14px" }}
-                  >
-                    Tuesday's & Saturdays
-                  </span>
                   <p
                     className="bold"
-                    style={{ fontSize: "18px" }}
+                    style={{ fontSize: "17px" }}
                   >
-                    June 22nd
+                    Next cohort: October 2023
                   </p>
+
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
                     <a
                       style={{
@@ -306,7 +301,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Enroll today
+                      Learn More
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
@@ -345,17 +340,11 @@ const Index = () => {
                     </span>
                   </div>
                   <div>
-                    <span
-                      className="bold"
-                      style={{ fontSize: "14px" }}
-                    >
-                      <span>Every Sunday - 7-9PM GMT</span>
-                    </span>
                     <p
                       className="bold"
-                      style={{ fontSize: "18px" }}
+                      style={{ fontSize: "17px" }}
                     >
-                      June 22nd
+                      Next cohort: August 2023
                     </p>
                   </div>
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
@@ -417,7 +406,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Enroll Today
+                      Learn more
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>

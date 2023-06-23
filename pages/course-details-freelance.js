@@ -73,7 +73,7 @@ const CourseDetails = () => {
           <div className="row large-gap">
             <div className="col-lg-12">
               <div className="course-details-content">
-                <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+                <section className="why-choose-section pb-130 rpb-100">
                   <div className="">
                     <div className="row justify-content-between align-items-center">
                       <div className="col-lg-6">
