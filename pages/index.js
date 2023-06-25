@@ -82,7 +82,7 @@ const Index = () => {
         />
         <meta
           property="og:description"
-          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 300 students 🎯"
+          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 500 students 🎯"
         />
         <meta
           property="og:image"
@@ -95,9 +95,7 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s ">
-                  Applications now closed
-                </span>
+                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s "></span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Learn new skills today,
                   <span style={{ color: "#1F4ECE" }}>
