@@ -75,7 +75,7 @@ const ProductDetails = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <span className="price">20</span>
+                  <span className="price">14</span>
 
                   <span
                     style={{
@@ -84,21 +84,25 @@ const ProductDetails = () => {
                     }}
                     className="price"
                   >
-                    35
+                    20
                   </span>
                 </div>
                 {/* <p style={{ fontWeight: "700", fontSize: "21px" }}>
                   ** Limited time offer **
                 </p> */}
                 <div>
-                  <h4>100+ copies sold</h4>
+                  <h5 style={{ color: "#1F4ECE" }}>
+                    30% Off for the next 15 people!
+                  </h5>
+                  <h4>100+ copies downloaded!</h4>
                   <h6>
                     If you cant commit to a 7-week course but want to start
-                    freelancing, this guide is for you
+                    freelancing, this starter pack is for you
                   </h6>
                   <p>
-                    The Ultimate Guide to Freelancing: Learn to Price Projects,
-                    Build Portfolios, Find Clients, Brand Yourself & More!
+                    The Ultimate Guide to Freelancing: Learn to Find clients,
+                    build no-code websites from scratch and start your
+                    freelancing career
                   </p>
 
                   <ul>
@@ -109,15 +113,15 @@ const ProductDetails = () => {
                     </li>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span>Low code Website
-                      templates -{" "}
+                      <span style={{ padding: "7px" }}>✅</span>No-code Website
+                      templates{" "}
                       <span style={{ color: "blue", fontWeight: "bold" }}>
                         worth $160+
                       </span>
                     </li>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span> Proposal &
+                      <span style={{ padding: "7px" }}>✅</span> Proposals &
                       Contract templates 📋{" "}
                     </li>
                     <li>
@@ -160,6 +164,16 @@ const ProductDetails = () => {
       <div style={{ marginTop: "30px" }}>
         <h4 className="text-center">What others are saying 👇🏾</h4>
         <div className="p-10 freelance-bundle-reviews">
+          <div className="review-image">
+            <Image
+              width="100%"
+              height="80%"
+              layout="responsive"
+              objectFit="contain"
+              alt="Student finding 2 clients using the freelance bundle"
+              src="/assets/images/bundle-review.jpeg"
+            />
+          </div>
           <div className="review-image">
             <Image
               width="100%"
