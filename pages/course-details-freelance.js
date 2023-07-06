@@ -6,7 +6,7 @@ import { Accordion } from "react-bootstrap";
 import Head from "next/head";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
-
+import Ebook from "../public/assets/images/ebook-last.png";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -210,6 +210,61 @@ const CourseDetails = () => {
                       alt="student success story"
                       src="/assets/images/review-4.png"
                     />
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-center p-5">
+                    Subscribe & get the E-book FREE
+                  </h3>
+                  <div className="d-md-flex align-items-center justify-content-center p-10">
+                    <Image
+                      src={Ebook}
+                      alt="ebook"
+                      objectFit="contian"
+                      width={220}
+                      height={300}
+                    />
+
+                    <div className="newsletter-container md:pl-5">
+                      <form
+                        onSubmit={(e) => e.preventDefault()}
+                        className="form-newsletter"
+                        action="#"
+                      >
+                        {formSubmitted === "empty" ? (
+                          <p>Thanks! we'll be in touch soon </p>
+                        ) : (
+                          <div className="newsletter-email">
+                            <label htmlFor="email">
+                              <i className="far fa-envelope" />
+                            </label>
+                            <input
+                              onChange={(e) => setEmail(e.target.value)}
+                              value={email}
+                              id="email"
+                              type="email"
+                              placeholder="Enter Email "
+                              required=""
+                              className={
+                                noEmailError
+                                  ? "mb-3 border border-danger"
+                                  : "mb-3"
+                              }
+                            />
+
+                            <button
+                              type="button"
+                              data-dismiss="modal"
+                              style={{ height: "60px", marginLeft: "15px" }}
+                              className="theme-btn"
+                              onClick={handleDismiss}
+                            >
+                              Subscribe
+                            </button>
+                          </div>
+                        )}
+                      </form>
+                    </div>
                   </div>
                 </div>
                 <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
@@ -438,101 +493,7 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className="container">
-                  <div className="newsletter-container">
-                    <div className="section-title mb-20">
-                      <span className="sub-title mb-25">Newsletter</span>
-                      <h2>Don't Miss Our Updates</h2>
-                    </div>
-                    <p>
-                      Stay up to date on Pivot2Tech's updates and free webinars
-                      surrounding coding jobs and freelancing tips.
-                    </p>
-                    <form
-                      onSubmit={(e) => e.preventDefault()}
-                      className="form-newsletter"
-                      action="#"
-                    >
-                      <div className="newsletter-radios mb-25">
-                        <div className="custom-control custom-radio">
-                          <input
-                            type="radio"
-                            className="custom-control-input"
-                            id="hero-wekly"
-                            name="example1"
-                            defaultChecked=""
-                          />
-                          <label
-                            className="custom-control-label"
-                            htmlFor="hero-wekly"
-                          >
-                            New Cohorts
-                          </label>
-                        </div>
-                        <div className="custom-control custom-radio">
-                          <input
-                            type="radio"
-                            className="custom-control-input"
-                            id="hero-monthly"
-                            name="example1"
-                          />
-                          <label
-                            className="custom-control-label"
-                            htmlFor="hero-monthly"
-                          >
-                            Discounts
-                          </label>
-                        </div>
-                        <div className="custom-control custom-radio">
-                          <input
-                            type="radio"
-                            className="custom-control-input"
-                            id="hero-monthly"
-                            name="example1"
-                          />
-                          <label
-                            className="custom-control-label"
-                            htmlFor="hero-monthly"
-                          >
-                            New Courses
-                          </label>
-                        </div>
-                      </div>
-                      {formSubmitted === "empty" ? (
-                        <p>Thanks! we'll be in touch soon </p>
-                      ) : (
-                        <div className="newsletter-email">
-                          <label htmlFor="email">
-                            <i className="far fa-envelope" />
-                          </label>
-                          <input
-                            onChange={(e) => setEmail(e.target.value)}
-                            value={email}
-                            id="email"
-                            type="email"
-                            placeholder="Enter Email Address"
-                            required=""
-                            className={
-                              noEmailError
-                                ? "mb-3 border border-danger"
-                                : "mb-3"
-                            }
-                          />
 
-                          <button
-                            type="button"
-                            data-dismiss="modal"
-                            style={{ height: "60px", marginLeft: "15px" }}
-                            className="theme-btn"
-                            onClick={handleDismiss}
-                          >
-                            Subscribe
-                          </button>
-                        </div>
-                      )}
-                    </form>
-                  </div>
-                </div>
                 <h3>Your Instructor</h3>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
