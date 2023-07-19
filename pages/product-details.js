@@ -75,7 +75,15 @@ const ProductDetails = () => {
                     <i className="fas fa-star" />
                     <i className="fas fa-star" />
                   </div>
-                  <span className="price">14</span>
+                  <span
+                    style={{
+                      color: "#1F4ECE",
+                      fontSize: "20px",
+                      fontWeight: "700",
+                    }}
+                  >
+                    FREE
+                  </span>
 
                   <span
                     style={{
@@ -84,16 +92,13 @@ const ProductDetails = () => {
                     }}
                     className="price"
                   >
-                    20
+                    99
                   </span>
                 </div>
                 {/* <p style={{ fontWeight: "700", fontSize: "21px" }}>
                   ** Limited time offer **
                 </p> */}
                 <div>
-                  <h5 style={{ color: "#1F4ECE" }}>
-                    30% Off for the next 15 people!
-                  </h5>
                   <h4>100+ copies downloaded!</h4>
                   <h6>
                     If you cant commit to a 7-week course but want to start
@@ -150,7 +155,7 @@ const ProductDetails = () => {
                   >
                     <a
                       style={{ color: "white" }}
-                      href="https://whop.com/pivot2tech"
+                      href="https://pivot2tech.gumroad.com/l/zenfw"
                     >
                       Grab a copy
                     </a>
