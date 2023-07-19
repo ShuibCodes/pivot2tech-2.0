@@ -99,7 +99,6 @@ const ProductDetails = () => {
                   ** Limited time offer **
                 </p> */}
                 <div>
-                  <h4>100+ copies downloaded!</h4>
                   <h6>
                     If you cant commit to a 7-week course but want to start
                     freelancing, this starter pack is for you

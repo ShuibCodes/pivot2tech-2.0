@@ -435,7 +435,7 @@ const Index = () => {
                       style={{ color: "#1F4ECD" }}
                       className="price"
                     >
-                      14{" "}
+                      FREE{" "}
                       <span
                         style={{
                           textDecoration: "line-through",
@@ -443,13 +443,11 @@ const Index = () => {
                         }}
                         className="price"
                       >
-                        20
+                        99
                       </span>
                     </span>
                   </div>
-                  <a style={{ color: "#1F4ECD", textDecoration: "underline" }}>
-                    Pay Once, Keep forever
-                  </a>
+
                   <p>
                     Get the guide to everything you need to become a freelancer
                     on your own.
@@ -470,8 +468,8 @@ const Index = () => {
                       </span>
                     </li>
                     <li>
-                      <span style={{ marginRight: "7px" }}>✅</span>5 Low-code
-                      Website templates- (worth £160+)
+                      <span style={{ marginRight: "7px" }}>✅</span> Low-code
+                      Website templates- (worth £160)
                     </li>
 
                     <li>
