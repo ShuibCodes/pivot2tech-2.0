@@ -44,13 +44,14 @@ const ProductDetails = () => {
                 defaultActiveKey={"preview1"}
                 className="product-details-images rmb-55 wow fadeInLeft delay-0-2s"
               >
-                <Tab.Content className="tab-content preview-images">
+                <Tab.Content className="">
                   <Tab.Pane
-                    className="tab-pane fade preview-item"
+                    className=""
                     eventKey="preview1"
                   >
                     <img
-                      src="assets/images/bundle-pic.png"
+                      style={{ padding: "15px 0px" }}
+                      src="assets/images/bundle-image.png"
                       alt="freelancing-bundle"
                     />
                   </Tab.Pane>
@@ -59,7 +60,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg-5">
               <div className="product-details-content wow fadeInRight delay-0-2s">
-                <h2>Beginner Freelance Bundle</h2>
+                <h2 className="">Beginner Freelance Bundle</h2>
                 <div className="author">
                   <img
                     src="assets/images/shuayb.jpg"
@@ -112,31 +113,33 @@ const ProductDetails = () => {
                   <ul>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span> How to find
-                      clients using UpWork
+                      <span style={{ padding: "7px" }}>✅</span>$160 worth of 5
+                      No-code Website templates
                     </li>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span>No-code Website
-                      templates{" "}
-                      <span style={{ color: "blue", fontWeight: "bold" }}>
-                        worth $160+
-                      </span>
+                      <span style={{ padding: "7px" }}>✅</span> Video tutorials
+                      on acquiring your first client
                     </li>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span> Proposals &
-                      Contract templates 📋{" "}
+                      <span style={{ padding: "7px" }}>✅</span> Templates for
+                      Proposals & Contracts 📋
                     </li>
                     <li>
                       {" "}
-                      <span style={{ padding: "7px" }}>✅</span> Optimize your
-                      Upwork profile{" "}
+                      <span style={{ padding: "7px" }}>✅</span> Upwork profile
+                      optimization guide
                     </li>
                     <li>
                       {" "}
                       <span style={{ padding: "7px" }}>✅</span> Website
                       Checklist 📋
+                    </li>
+                    <li>
+                      <span style={{ padding: "7px" }}>✅</span>
+                      How To Start Freelancing, With No Experience - The
+                      Complete Guide - Ebook
                     </li>
                   </ul>
                 </div>
