@@ -9338,13 +9338,9 @@ blockquote .blockquote-footer:before {
 	margin-bottom: 50px;
 	margin-left: 15px;
 	margin-right: 15px;
-	-webkit-filter: opacity(0.5) grayscale(1);
-	filter: opacity(0.5) grayscale(1);
+
 }
-.logo-inner .logo-item:hover {
-	-webkit-filter: opacity(1) grayscale(0);
-	filter: opacity(1) grayscale(0);
-}
+
 @media only screen and (max-width: 767px) {
 	.logo-inner .logo-item {
 		width: 25%;

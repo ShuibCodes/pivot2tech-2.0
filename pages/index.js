@@ -159,9 +159,50 @@ const Index = () => {
       <div className="advertise-mobile">
         <Advertise />
       </div>
+      <div className="text-center p-5">
+        <h3 className="mt-20 ">
+          Students have landed jobs at top companies like:
+        </h3>
+      </div>
+      <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
+        <div className="container">
+          <div className="logo-inner">
+            <div className="logo-item wow fadeInUp delay-0-1s">
+              <Link href="/contact">
+                <img
+                  src="assets/images/client-logos/bank.png"
+                  alt="Client Logo"
+                />
+              </Link>
+            </div>
+            <div className="logo-item wow fadeInUp delay-0-2s">
+              <Link href="/contact">
+                <img
+                  src="assets/images/client-logos/capgemini.png"
+                  alt="Client Logo"
+                />
+              </Link>
+            </div>
+            <div className="logo-item wow fadeInUp delay-0-3s">
+              <Link href="/contact">
+                <img
+                  src="assets/images/client-logos/trison.png"
+                  alt="Client Logo"
+                />
+              </Link>
+            </div>
+            <div className="logo-item wow fadeInUp delay-0-4s">
+              <Link href="/contact">
+                <img
+                  src="assets/images/client-logos/agreed-digital.png"
+                  alt="Client Logo"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      {/* About Section End */}
-      {/* Coach Section Start */}
       <section
         id="what-learn"
         className="coach-section rel z-1 pt-120 rpt-90 pb-100 rpb-70 bg-lighter"
