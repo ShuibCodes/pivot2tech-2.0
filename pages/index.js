@@ -345,7 +345,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: August 2023
+                      Next cohort: September 2023
                     </p>
                   </div>
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
