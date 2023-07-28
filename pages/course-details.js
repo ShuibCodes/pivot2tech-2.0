@@ -425,7 +425,7 @@ const CourseDetails = () => {
                             </span>
                           </div>
                           <p style={{ maxWidth: "70%" }}>
-                            Jamie is an Web Developer, Tutor & Startup founder,
+                            Moin is an Web Developer, Tutor & Startup founder,
                             building{" "}
                             <a
                               style={{ color: "blue" }}
