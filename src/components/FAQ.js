@@ -67,15 +67,15 @@ function FAQ() {
         <WellernAccordion
           eventName={"collapse1"}
           title={
-            "Whats the difference between the Fullstack and Freelance course?"
+            "Whats the difference between the Frontend and Freelance course?"
           }
           active={active}
           onClick={() => onClick("collapse1")}
         >
           <div className="course-video-list">
             <p className="p-40">
-              Our Fullstack Web Developer course gives you the skills and
-              confidence to start applying to Junior Fullstack roles in the
+              Our Frontend Web Developer course gives you the skills and
+              confidence to start applying to Junior Frontend roles in the
               industry by the end of the course. However, if you're not looking
               to switch careers and just want to earn a side income, the
               Freelance course is a great option. We teach you necessary skills

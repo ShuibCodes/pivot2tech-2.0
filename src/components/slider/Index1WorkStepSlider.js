@@ -60,9 +60,9 @@ export default class Index1WorkStepSlider extends Component {
               <h4>Learn software fundamentals and databases</h4>
               <p>
                 If you want to take your career to its highest potential, you
-                need to learn full stack. You’ll have the widest appeal to
-                employers and earn the top of your pay bracket as soon as
-                possible.
+                need to learn software development. You’ll have the widest
+                appeal to employers and earn the top of your pay bracket as soon
+                as possible.
               </p>
             </div>
           </div>

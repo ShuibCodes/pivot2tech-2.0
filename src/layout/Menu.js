@@ -12,7 +12,7 @@ export const Home = () => (
 export const Courses = () => (
   <Fragment>
     <li>
-      <Link href="/course-details">Fullstack Web Development</Link>
+      <Link href="/course-details">Frontend Web Development</Link>
     </li>
     <li>
       <Link href="/course-details-freelance">

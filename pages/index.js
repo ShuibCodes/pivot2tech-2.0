@@ -275,7 +275,7 @@ const Index = () => {
                 <div className="coach-content">
                   <span className="label">Online Lessons - 13 weeks</span>
                   <h4>
-                    <Link href="/">Fullstack Web Development</Link>
+                    <Link href="/">Frontend Web Development</Link>
                   </h4>
 
                   <span style={{ fontSize: "16px", color: "black" }}>
@@ -608,7 +608,7 @@ const Index = () => {
             textAlign: "center",
           }}
         >
-          Whether you opt for our beginner, freelance or full stack course
+          Whether you opt for our beginner, freelance or front-end development
           options, you know you’re building a solid foundation for the rest of
           your tech career.
         </p>
