@@ -7,11 +7,11 @@ const Advertise = () => {
       <div className="col-lg-6">
         <div className="advertise-item wow fadeInUp delay-0-2s">
           <div className="content">
-            <p style={{ fontSize: "17px" }}>Next Cohort</p>
-            <h4 style={{ fontWeight: "bold" }}>October 2023</h4>
+            <p style={{ fontSize: "17px" }}>NOW OPEN</p>
+            <h4 style={{ fontWeight: "bold" }}>80 spaces left</h4>
             <a href="#courses-group">
               <a className="theme-btn">
-                Join The Waiting List
+                Enrol Today
                 <i className="fas fa-arrow-right" />
               </a>
             </a>

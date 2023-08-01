@@ -88,15 +88,18 @@ const CourseDetails = () => {
 
                           <p>
                             Learn to build web applications from scratch and
-                            land your dream job as Developer without paying
-                            thousands for a degree s.
+                            land your dream job as software developer without
+                            paying thousands for a degrees.
+                          </p>
+                          <p style={{ fontSize: "18px", fontWeight: "700" }}>
+                            Last Cohort of 2023!
                           </p>
                           <div>
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                              href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Secure your space
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -111,7 +114,59 @@ const CourseDetails = () => {
                           />
                         </div>
                       </div>
+                      <div className="text-center mt-50">
+                        <h4 className="mt-20">
+                          Students have landed jobs at top companies like:
+                        </h4>
+                      </div>
+                      <div className="logo-section pt-100 rpt-100 pb-80 rpb-50">
+                        <div className="container">
+                          <div className="logo-inner">
+                            <div className="logo-item wow fadeInUp delay-0-1s">
+                              <Link href="/contact">
+                                <img
+                                  src="assets/images/client-logos/bank.png"
+                                  alt="Client Logo"
+                                />
+                              </Link>
+                            </div>
+                            <div className="logo-item wow fadeInUp delay-0-2s">
+                              <Link href="/contact">
+                                <img
+                                  src="assets/images/client-logos/capgemini.png"
+                                  alt="Client Logo"
+                                />
+                              </Link>
+                            </div>
+                            <div className="logo-item wow fadeInUp delay-0-3s">
+                              <Link href="/contact">
+                                <img
+                                  src="assets/images/client-logos/trison.png"
+                                  alt="Client Logo"
+                                />
+                              </Link>
+                            </div>
+                            <div className="logo-item wow fadeInUp delay-0-4s">
+                              <Link href="/contact">
+                                <img
+                                  src="assets/images/client-logos/agreed-digital.png"
+                                  alt="Client Logo"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div className="text-center">
+                    <a
+                      href="#pricing"
+                      className="theme-btn style-four"
+                    >
+                      Enrol Today
+                      <i className="fas fa-arrow-right" />
+                    </a>
                   </div>
                 </section>
 
@@ -142,73 +197,16 @@ const CourseDetails = () => {
                           </ul>
                           <div>
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                              href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Enrol Today
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="container py-100">
-                        <h3 className="text-center p-5">
-                          Subscribe & get the E-book FREE
-                        </h3>
-                        <div className="d-md-flex align-items-center justify-content-center p-10">
-                          <Image
-                            src={Ebook}
-                            alt="ebook"
-                            objectFit="contian"
-                            width={220}
-                            height={300}
-                          />
 
-                          <div className="newsletter-container md:pl-5">
-                            <form
-                              onSubmit={(e) => e.preventDefault()}
-                              className="form-newsletter"
-                              action="#"
-                            >
-                              {formSubmitted === "empty" ? (
-                                <p>Thanks! we'll be in touch soon </p>
-                              ) : (
-                                <div className="newsletter-email">
-                                  <label htmlFor="email">
-                                    <i className="far fa-envelope" />
-                                  </label>
-                                  <input
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    value={email}
-                                    id="email"
-                                    type="email"
-                                    placeholder="Enter Email "
-                                    required=""
-                                    className={
-                                      noEmailError
-                                        ? "mb-3 border border-danger"
-                                        : "mb-3"
-                                    }
-                                  />
-
-                                  <button
-                                    type="button"
-                                    data-dismiss="modal"
-                                    style={{
-                                      height: "60px",
-                                      marginLeft: "15px",
-                                    }}
-                                    className="theme-btn"
-                                    onClick={handleDismiss}
-                                  >
-                                    Subscribe
-                                  </button>
-                                </div>
-                              )}
-                            </form>
-                          </div>
-                        </div>
-                      </div>{" "}
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
@@ -302,6 +300,17 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
+                <a
+                  href="#pricing"
+                  style={{
+                    padding: "11px",
+                    fontSize: "12px",
+                    margin: "10px 0px",
+                  }}
+                  className="theme-btn"
+                >
+                  Enrol Today
+                </a>
                 <Blocks />
 
                 <div className="col-lg-4">
@@ -329,7 +338,7 @@ const CourseDetails = () => {
                           }}
                           className="text-center"
                         >
-                          Applications open August
+                          80 spaces
                         </strong>
 
                         <li>
@@ -342,7 +351,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>October 2023 </b>
+                          <b>3rd October 2023 </b>
                         </li>
 
                         <li>
@@ -353,12 +362,12 @@ const CourseDetails = () => {
                         </li>
                         <p>International Students are Welcome</p>
                         <p style={{ color: "blue" }}>
-                          Ony 80 spaces, Add your email to be notified early
+                          All lessons are recorded *
                         </p>
                       </ul>
 
                       <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                        href="https://buy.stripe.com/4gwcNH7Oh6fY1b2cN7"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -366,7 +375,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Join Waiting List
+                        Enrol Today
                       </a>
                     </div>
                   </div>

@@ -9343,7 +9343,7 @@ blockquote .blockquote-footer:before {
 
 @media only screen and (max-width: 767px) {
 	.logo-inner .logo-item {
-		width: 25%;
+		
 		text-align: center;
 	}
 }
