@@ -18,7 +18,7 @@ const SocialModal = () => {
         } else {
           setDismiss(window.localStorage.getItem("dismiss-social-modal"));
         }
-      }, 6000);
+      }, 1200000);
     }
   }, []);
 
