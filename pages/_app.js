@@ -131,8 +131,6 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <div className="position-relative">
-        <CookieBanner />
-        <SocialModal />
         <Component {...pageProps} />
       </div>
     </Fragment>
