@@ -98,7 +98,6 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s "></span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Learn new skills today,
                   <span style={{ color: "#1F4ECE" }}>
@@ -156,9 +155,9 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      <div className="advertise-mobile">
+      {/* <div className="advertise-mobile">
         <Advertise />
-      </div>
+      </div> */}
       <div className="text-center p-5">
         <h3 className="mt-20 ">
           Students have landed jobs at top companies like:
@@ -432,6 +431,90 @@ const Index = () => {
                   </Link>
                 </div>
               </div>
+              <div className="col-lg-4 col-md-6 item design technology">
+                <div className="coach-item">
+                  <div className="coach-image">
+                    <img
+                      src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
+                      alt="freelance-bundle"
+                    />
+                  </div>
+                  <div className="coach-content">
+                    <span className="label">Lifetime access</span>
+                    <h4>
+                      <Link href="/product-details">
+                        Beginners Freelancing Guide
+                      </Link>
+                    </h4>
+                    <div className="ratting-price">
+                      <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
+                        FREE{" "}
+                        <span
+                          style={{
+                            textDecoration: "line-through",
+                            marginLeft: "20px",
+                          }}
+                          className="price"
+                        >
+                          99
+                        </span>
+                      </span>
+                    </div>
+
+                    <p>
+                      Get the guide to everything you need to become a
+                      freelancer on your own.
+                    </p>
+                    <ul className="">
+                      <li>
+                        <span style={{ marginRight: "7px" }}>✅</span>
+                        <span>
+                          {" "}
+                          Comprehensive videos on finding clients with{" "}
+                          <a
+                            style={{
+                              color: "blue",
+                              textDecoration: "underline",
+                            }}
+                            target="_blank"
+                            href="https://www.upwork.com/"
+                          >
+                            Upwork
+                          </a>
+                        </span>
+                      </li>
+                      <li>
+                        <span style={{ marginRight: "7px" }}>✅</span> Low-code
+                        Website templates- (worth £160)
+                      </li>
+
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "7px" }}>✅</span>
+                        Client contract & proposal tempalte
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "7px" }}>✅</span>
+                        Website Creation Checklist
+                      </li>
+                    </ul>
+                    <Link href="/product-details">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Grab a copy
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
               {/* </Link> */}
             </div>
           </div>
@@ -580,9 +663,9 @@ const Index = () => {
 
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
-      <div className="">
+      {/* <div className="">
         <Advertise />
-      </div>
+      </div> */}
 
       {/* Newsletter Section End */}
 

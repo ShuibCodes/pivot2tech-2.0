@@ -324,20 +324,9 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">239</span>
-                        <span
-                          style={{
-                            textDecoration: "line-through",
-                            marginLeft: "20px",
-                          }}
-                          className="price"
-                        >
-                          299
-                        </span>
+                        <span className="price">299</span>
                       </div>
-                      <p style={{ fontStyle: "italic" }}>
-                        Offer expires Thursday*
-                      </p>
+
                       <p className="bold">or 3 interest-free installments</p>
 
                       <ul className="course-details-list mb-25">
@@ -349,7 +338,7 @@ const CourseDetails = () => {
                           }}
                           className="text-center"
                         >
-                          80 spaces
+                          77 spaces left
                         </strong>
 
                         <li>
@@ -378,7 +367,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/8wM293c4xfQyaLC00m"
+                        href="https://buy.stripe.com/4gwcNH7Oh6fY1b2cN7"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
