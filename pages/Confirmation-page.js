@@ -19,6 +19,7 @@ const E404 = () => {
               All information including Zoom links, guides and access to the
               team will be on there
             </p>
+            <p style={{ color: "white" }}>£299</p>
             <a
               href="https://discord.gg/mKEWp9bGhv"
               className="theme-btn style-two"
