@@ -18,7 +18,9 @@ function team() {
               />
               <div className="content mt-2">
                 <h4>Abdulkadir M</h4>
-                <p className="text-muted">Fullstack Instructor</p>
+                <p className="text-muted">
+                  Senior Software Enginner & Instructor
+                </p>
               </div>
             </div>
           </div>
@@ -26,12 +28,12 @@ function team() {
             <div class="img-block mb-5">
               <img
                 style={{ maxHeight: "250px" }}
-                src="assets/images/haroon-pic.jpeg"
+                src="assets/images/moin.png"
                 class="img-fluid  img-thumbnail "
                 alt="image1"
               />
               <div class="content mt-2">
-                <h4>Harun S</h4>
+                <h4>Moin H</h4>
                 <p class="text-muted">Web Development Mentor</p>
               </div>
             </div>
@@ -60,7 +62,9 @@ function team() {
               />
               <div class="content mt-2">
                 <h4>Shuayb A</h4>
-                <p class="text-muted">Freelance Instructor</p>
+                <p class="text-muted">
+                  Freelance Digital Marketer & Instructor
+                </p>
               </div>
             </div>
           </div>

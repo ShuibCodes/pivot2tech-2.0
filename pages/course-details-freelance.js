@@ -7,6 +7,7 @@ import Head from "next/head";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import Ebook from "../public/assets/images/ebook-last.png";
+import reviewTwo from "../public/assets/images/review-two.png";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -80,8 +81,7 @@ const CourseDetails = () => {
                         <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                           <div className="section-title mb-25">
                             <h2>
-                              Learn the Art of Working from Anywhere and Achieve
-                              Career Independence!
+                              Learn Digital Marketing & Earn a Remote Income
                             </h2>
                           </div>
 
@@ -96,10 +96,10 @@ const CourseDetails = () => {
                           </div>
                           <div href="/course-details">
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
+                              href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Secure your space
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -117,6 +117,7 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
+                <h2> 👇🏾 Last Cohort of 2023! 👇🏾</h2>
                 <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
                   <div className="">
                     <div className="row justify-content-between align-items-center">
@@ -133,8 +134,7 @@ const CourseDetails = () => {
                             >
                               <li>
                                 <span style={{ marginRight: "10px" }}>✅</span>
-                                Earn Comprehensive tutorials on Low-code Web
-                                Development
+                                Comprehensive lessons on No-code Web Development
                               </li>
                               <li>
                                 <span style={{ marginRight: "10px" }}>✅</span>
@@ -208,8 +208,253 @@ const CourseDetails = () => {
                       layout="responsive"
                       objectFit="scale"
                       alt="student success story"
-                      src="/assets/images/review-4.png"
+                      src="/assets/images/review-two.png"
                     />
+                  </div>
+                </div>
+                <div className="my-50">
+                  <h3 className="text-center p-5">
+                    What students have been building
+                  </h3>
+                  <div className="row coach-active justify-content-center">
+                    <div className="col-lg-4 col-md-6 item development photography">
+                      <img src="assets/images/student-work-mobile.png" />
+                    </div>
+                    <video
+                      width="300"
+                      height="300"
+                      controls
+                      autoPlay
+                      muted
+                    >
+                      <source
+                        src="assets/images/video.mp4"
+                        type="video/mp4"
+                      ></source>
+                    </video>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <a
+                    href="#pricing"
+                    style={{
+                      padding: "16px",
+                      fontSize: "14px",
+                      margin: "10px 0px",
+                    }}
+                    className="theme-btn"
+                  >
+                    Enrol Today
+                  </a>
+                </div>
+                <section className="why-choose-section pt-120 rpt-90 pb-90   rpb-100">
+                  <div className="container">
+                    <div className="row justify-content-between align-items-center">
+                      <div className="col-lg-6">
+                        <div className=" ">
+                          <img
+                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGl0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                            alt="Why Choose"
+                            className="why-choose-one"
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-6 pt-50">
+                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                          <div className="section-title mb-25">
+                            <h2>
+                              Turn more pitches into projects with a strong
+                              portfolio
+                            </h2>
+                          </div>
+
+                          <div>
+                            <p>
+                              Your best pitch is always your best past work. We
+                              teach you to show instead of tell by using strong
+                              portfolio samples. Get the best possible samples
+                              in the least amount of time so that more of your
+                              pitches turn into projects.
+                            </p>
+                          </div>
+
+                          <a
+                            href="#pricing"
+                            className="theme-btn style-four"
+                          >
+                            Enrol Today
+                            <i className="fas fa-arrow-right" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <div>
+                  <p className="info-copy">
+                    Our Freelance Web & Digital Marketing course is the perfect
+                    way to get started.
+                  </p>
+                  <br />
+                </div>
+
+                <div>
+                  <p className="info-copy">
+                    Learn in-demand, recession-proof online skills to earn a
+                    side income online
+                  </p>
+                </div>
+
+                <Accordion
+                  className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
+                  id="course-faq"
+                  defaultActiveKey="collapse1"
+                >
+                  <WellernAccordion
+                    eventName={"collapse1"}
+                    title={"Curriculum Breakdown"}
+                    active={active}
+                    onClick={() => onClick("collapse1")}
+                  >
+                    <ul className="course-video-list">
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="duration"
+                        >
+                          Week 1-2
+                        </span>
+                        <span className="title">
+                          Comprehensive lessons on how to build a website with a
+                          No-code tool, Webflow. With weekly projects &
+                          homework.
+                        </span>{" "}
+                      </li>
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="duration"
+                        >
+                          Week 3-4
+                        </span>
+                        <span className="title">
+                          Freelancing 101. How to find clients, price your
+                          projects & market yourself.
+                          <br></br>
+                          <br></br>
+                          Shopify & Ecommerce. How to build a live E-commerce
+                          website using Shopify.
+                        </span>{" "}
+                      </li>
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="duration"
+                        >
+                          Week 5-6
+                        </span>
+                        <span className="title">
+                          SEO (Search Engine Optimization). How to get a website
+                          ranking on Google.
+                          <br></br>
+                          <br></br> A full guide on Paid ads (Google & Meta
+                          Ads).
+                        </span>{" "}
+                      </li>
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="duration"
+                        >
+                          Week 7
+                        </span>
+                        <span className="title">
+                          Projects & portfolio week. 1-1 support with your
+                          projects and portfolio.
+                          <br></br>
+                          <br></br> This final project week gives you an
+                          opportunity to showcase your skills, knowledge, and
+                          expertise web & digital marketing.
+                        </span>
+                      </li>
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="duration"
+                        >
+                          Post-course
+                        </span>
+                        <span className="title">
+                          Freelance Beginners Bundle. Free access to templates,
+                          checklists & a comprehensive guide to Upwork .
+                          <br />
+                          <br />
+                          By the end of the course, you will be have 3 projects
+                          and a portfolio, ready to secure your first paying
+                          client.
+                          <br></br>
+                          <br></br>
+                          <strong style={{ color: "blue" }}>
+                            Access to the recordings & Discord community will
+                            also be available forever.
+                          </strong>
+                        </span>
+                      </li>
+                    </ul>
+                  </WellernAccordion>
+                </Accordion>
+                <div className="col-lg-4">
+                  <div className="course-sidebar rmt-75">
+                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                      <div className="widget-video">
+                        <img
+                          id="pricing"
+                          src="https://prodocssolution.com/wp-content/uploads/2022/04/960x0.jpg"
+                          alt="Course Details"
+                        />
+                      </div>
+                      <div className="price-off">
+                        <span className="price">299</span>
+                      </div>
+
+                      <p className="bold">or 3 interest-free installments</p>
+                      <ul className="course-details-list mb-25">
+                        <li>
+                          <i className="far fa-file-alt" />{" "}
+                          <span>Course Level</span> <b>Beginner</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>Duration</span>{" "}
+                          <b>7 weeks</b>
+                        </li>
+                        <li>
+                          <i className="far fa-clock" /> <span>When</span>{" "}
+                          <b>17th September 2023 </b>
+                        </li>
+
+                        <li>
+                          <i className="fas fa-globe" /> <span></span>{" "}
+                          <b>Sundays 7-9pm</b>
+                        </li>
+                        <p>International Students are Welcome</p>
+                        <p style={{ color: "blue" }}>
+                          Limited spaces, Add your email to be notified early
+                        </p>
+                      </ul>
+
+                      <a
+                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
+                        style={{
+                          padding: "11px",
+                          fontSize: "12px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Enrol Today
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div>
@@ -264,232 +509,6 @@ const CourseDetails = () => {
                           </div>
                         )}
                       </form>
-                    </div>
-                  </div>
-                </div>
-                <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
-                  <div className="container">
-                    <div className="row justify-content-between align-items-center">
-                      <div className="col-lg-6">
-                        <div className=" ">
-                          <img
-                            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGl0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
-                            alt="Why Choose"
-                            className="why-choose-one"
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6 pt-50">
-                        <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
-                          <div className="section-title mb-25">
-                            <h2>
-                              Turn more pitches into projects with a strong
-                              portfolio
-                            </h2>
-                          </div>
-
-                          <div>
-                            <p>
-                              Your best pitch is always your best past work. We
-                              teach you to show instead of tell by using strong
-                              portfolio samples. Get the best possible samples
-                              in the least amount of time so that more of your
-                              pitches turn into projects.
-                            </p>
-                          </div>
-                          <div href="/course-details">
-                            <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
-                              className="theme-btn style-four"
-                            >
-                              Join Waiting List
-                              <i className="fas fa-arrow-right" />
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                <div>
-                  <p className="info-copy">
-                    Our Freelance Web & Digital Marketing course is the perfect
-                    way to get started.
-                  </p>
-                  <br />
-                  <p className="info-copy-small">
-                    With our comprehensive courses and experienced mentors,
-                    you'll be ready to land your first paying client in no time.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="info-copy">
-                    Learn in-demand, recession-proof online skills to earn a
-                    side income online
-                  </p>
-                  <p
-                    style={{ marginTop: "-18px" }}
-                    className="info-copy"
-                  >
-                    From SEO to low-code web development
-                  </p>
-                </div>
-                <h3>Course Curriculum </h3>
-                <Accordion
-                  className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
-                  id="course-faq"
-                  defaultActiveKey="collapse1"
-                >
-                  <WellernAccordion
-                    eventName={"collapse1"}
-                    title={"Curriculum Breakdown"}
-                    active={active}
-                    onClick={() => onClick("collapse1")}
-                  >
-                    <ul className="course-video-list">
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 1-2
-                        </span>
-                        <span className="title">
-                          Web Development Basics. HTML, CSS & TailwindCS.
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 3-4
-                        </span>
-                        <span className="title">
-                          Freelancing in Web Development with Low-code.
-                          Comprehensive guide to Webflow.
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 5-6
-                        </span>
-                        <span className="title">
-                          Freelancing 101 - How to find clients & tools of the
-                          trade
-                        </span>{" "}
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Week 7
-                        </span>
-                        <span className="title">
-                          SEO (Search Engine Optimization) & Ecommerce
-                          (Shopify).
-                          <br />
-                          <br />
-                          You Will learn the key areas of SEO, understanding
-                          keywords, on-page optimization, technical SEO and
-                          more. This will tie in directly with Ecommerce, and
-                          you will build your own demo online store
-                        </span>
-                      </li>
-                      <li>
-                        <span
-                          style={{ color: "#1F4ECE", marginRight: "10px" }}
-                          className="duration"
-                        >
-                          Post-course
-                        </span>
-                        <span className="title">
-                          Freelance Beginners Bundle. Free access to templates,
-                          checklists & a comprehensive guide to Upwork .
-                          <br />
-                          <br />
-                          By the end of the course, you will be have 3 projects
-                          and a portfolio, ready to secure your first paying
-                          client.
-                          <br></br>
-                          <br></br>
-                          <strong>
-                            Access to the recordings & Discrod community will
-                            also be available forever.
-                          </strong>
-                        </span>
-                      </li>
-                    </ul>
-                  </WellernAccordion>
-                </Accordion>
-                <div className="col-lg-4">
-                  <div className="course-sidebar rmt-75">
-                    <div className="widget widget-course-details wow fadeInUp delay-0-2s">
-                      <div className="widget-video">
-                        <img
-                          id="pricing"
-                          src="https://prodocssolution.com/wp-content/uploads/2022/04/960x0.jpg"
-                          alt="Course Details"
-                        />
-                      </div>
-                      <div className="price-off">
-                        <span className="price">299</span>
-                        <span className="bold">
-                          or 3 interest-free installments
-                        </span>
-                      </div>
-                      <ul className="course-details-list mb-25">
-                        <strong
-                          style={{
-                            color: "blue",
-                            fontStyle: "italic",
-                            fontSize: "18px",
-                          }}
-                          className="text-center"
-                        >
-                          Applications open July
-                        </strong>
-
-                        <li>
-                          <i className="far fa-file-alt" />{" "}
-                          <span>Course Level</span> <b>Beginner</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>Duration</span>{" "}
-                          <b>7 weeks</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>August 2023 </b>
-                        </li>
-
-                        <li>
-                          <i className="fas fa-globe" /> <span></span>{" "}
-                          <b>Sundays 7-9pm</b>
-                        </li>
-                        <p>International Students are Welcome</p>
-                        <p style={{ color: "blue" }}>
-                          Limited spaces, Add your email to be notified early
-                        </p>
-                      </ul>
-
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link"
-                        style={{
-                          padding: "11px",
-                          fontSize: "12px",
-                          margin: "10px 0px",
-                        }}
-                        className="theme-btn"
-                      >
-                        Join Waiting List
-                      </a>
                     </div>
                   </div>
                 </div>

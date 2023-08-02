@@ -53,11 +53,9 @@ export default class Index1WorkStepSlider extends Component {
               <p>
                 Git the ground running as a new coder with real-life projects in
                 your portfolio and a community to lean on when challenges arise.
-                <br />
+                <br /> <br />
                 Work with the client side and the server side of websites and
-                applications and maintain complete control over the development
-                process. Make the right decisions faster through your
-                big-picture lens.
+                applications.
               </p>
             </div>
           </div>

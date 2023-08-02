@@ -98,7 +98,6 @@ const Index = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
-                <span className="sub-title style-two mb-20 wow fadeInUp delay-0-2s "></span>
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
                   Learn new skills today,
                   <span style={{ color: "#1F4ECE" }}>
@@ -118,7 +117,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  Average tech salaries - £50,000
+                  Lastest student salary: £40,000
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -156,9 +155,9 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      <div className="advertise-mobile">
+      {/* <div className="advertise-mobile">
         <Advertise />
-      </div>
+      </div> */}
       <div className="text-center p-5">
         <h3 className="mt-20 ">
           Students have landed jobs at top companies like:
@@ -246,7 +245,10 @@ const Index = () => {
         </div>
         <Tweets />
         {/* <Mentoring /> */}
-
+        <div className="section-title text-center py-2">
+          <h2>Final Cohort of 2023</h2>
+          <h4>Don't Miss Out!</h4>
+        </div>
         <div
           id="courses-group"
           className="container"
@@ -287,23 +289,11 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Next cohort: October 2023
+                    Next cohort: 3rd October 2023
                   </p>
-
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                        backgroundColor: "#1F4ECD",
-                      }}
-                      className="theme-btn"
-                    >
-                      Join Waiting List
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </a>
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong>77 spaces</strong>
+                  </p>
                   <ul
                     style={{ marginTop: "10px" }}
                     className="course-tags"
@@ -343,7 +333,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn More
+                      Enrol Today
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
@@ -386,26 +376,13 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: September 2023
+                      Next cohort: 17th September 2023
                     </p>
                   </div>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFgRN8sY32s3E-Qqvmtbpa9Oc5kka_5Nd-_8OTqTepcqMF9g/viewform?usp=sf_link">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                        backgroundColor: "#1F4ECD",
-                      }}
-                      className="theme-btn"
-                    >
-                      Join Waiting List
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </a>
-                  {/* <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>10 Spaces Remaining!</strong>
-                  </p> */}
+
+                  <p style={{ fontSize: "20px", color: "blue" }}>
+                    <strong>76 spaces</strong>
+                  </p>
 
                   <ul className="course-tags">
                     <li>
@@ -448,12 +425,13 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn more
+                      Enrol Today
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 </div>
               </div>
+
               {/* </Link> */}
             </div>
             <div className="col-lg-4 col-md-6 item design technology">
@@ -472,10 +450,7 @@ const Index = () => {
                     </Link>
                   </h4>
                   <div className="ratting-price">
-                    <span
-                      style={{ color: "#1F4ECD" }}
-                      className="price"
-                    >
+                    <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
                       FREE{" "}
                       <span
                         style={{
@@ -500,7 +475,10 @@ const Index = () => {
                         {" "}
                         Comprehensive videos on finding clients with{" "}
                         <a
-                          style={{ color: "blue", textDecoration: "underline" }}
+                          style={{
+                            color: "blue",
+                            textDecoration: "underline",
+                          }}
                           target="_blank"
                           href="https://www.upwork.com/"
                         >
@@ -543,61 +521,10 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <div className="m-20">
+      {/* <div className="m-20">
         <Roadmap />
-      </div>
+      </div> */}
 
-      <div>
-        <h3 className="text-center p-5">Subscribe & get the E-book FREE</h3>
-        <div className="d-md-flex align-items-center justify-content-center p-10">
-          <Image
-            src={Ebook}
-            alt="ebook"
-            objectFit="contian"
-            width={220}
-            height={300}
-          />
-
-          <div className="newsletter-container md:pl-5">
-            <form
-              onSubmit={(e) => e.preventDefault()}
-              className="form-newsletter"
-              action="#"
-            >
-              {formSubmitted === "empty" ? (
-                <p>Thanks! we'll be in touch soon </p>
-              ) : (
-                <div className="newsletter-email">
-                  <label htmlFor="email">
-                    <i className="far fa-envelope" />
-                  </label>
-                  <input
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                    id="email"
-                    type="email"
-                    placeholder="Enter Email "
-                    required=""
-                    className={
-                      noEmailError ? "mb-3 border border-danger" : "mb-3"
-                    }
-                  />
-
-                  <button
-                    type="button"
-                    data-dismiss="modal"
-                    style={{ height: "60px", marginLeft: "15px" }}
-                    className="theme-btn"
-                    onClick={handleDismiss}
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              )}
-            </form>
-          </div>
-        </div>
-      </div>
       <section style={{ maxWidth: " 800px", margin: "auto", padding: "30px" }}>
         <h3 className="text-center cards-title-text ">
           Build an unshakeable foundation
@@ -658,7 +585,57 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div>
+        <h3 className="text-center p-5">Subscribe & get the E-book FREE</h3>
+        <div className="d-md-flex align-items-center justify-content-center p-10">
+          <Image
+            src={Ebook}
+            alt="ebook"
+            objectFit="contian"
+            width={220}
+            height={300}
+          />
 
+          <div className="newsletter-container md:pl-5">
+            <form
+              onSubmit={(e) => e.preventDefault()}
+              className="form-newsletter"
+              action="#"
+            >
+              {formSubmitted === "empty" ? (
+                <p>Thanks! we'll be in touch soon </p>
+              ) : (
+                <div className="newsletter-email">
+                  <label htmlFor="email">
+                    <i className="far fa-envelope" />
+                  </label>
+                  <input
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    id="email"
+                    type="email"
+                    placeholder="Enter Email "
+                    required=""
+                    className={
+                      noEmailError ? "mb-3 border border-danger" : "mb-3"
+                    }
+                  />
+
+                  <button
+                    type="button"
+                    data-dismiss="modal"
+                    style={{ height: "60px", marginLeft: "15px" }}
+                    className="theme-btn"
+                    onClick={handleDismiss}
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              )}
+            </form>
+          </div>
+        </div>
+      </div>
       <div id="the-team">
         <Team />
       </div>
@@ -687,9 +664,9 @@ const Index = () => {
 
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
-      <div className="">
+      {/* <div className="">
         <Advertise />
-      </div>
+      </div> */}
 
       {/* Newsletter Section End */}
 
