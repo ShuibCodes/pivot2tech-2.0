@@ -81,8 +81,7 @@ const CourseDetails = () => {
                         <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                           <div className="section-title mb-25">
                             <h2>
-                              Learn the Art of Working from Anywhere and Achieve
-                              Career Independence!
+                              Learn Digital Marketing & Earn a Remote Income
                             </h2>
                           </div>
 
@@ -416,20 +415,9 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">239</span>
-                        <span
-                          style={{
-                            textDecoration: "line-through",
-                            marginLeft: "20px",
-                          }}
-                          className="price"
-                        >
-                          299
-                        </span>
+                        <span className="price">299</span>
                       </div>
-                      <p style={{ fontStyle: "italic" }}>
-                        Offer expires Thursday*
-                      </p>
+
                       <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
                         <li>
@@ -456,7 +444,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/cN2aFzb0t33M1b2eVh"
+                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
