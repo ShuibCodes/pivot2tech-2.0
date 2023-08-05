@@ -85,26 +85,23 @@ const CourseDetails = () => {
                             </h2>
                           </div>
 
-                          <div>
-                            <p>
-                              Unleash unlimited potential with freelance web
-                              design & digital marketing. experience the freedom
-                              to work on exciting projects, earn more, and learn
-                              easily with our comprehensive training. start your
-                              journey today!
-                            </p>
-                          </div>
+                          <p>
+                            Join 500+ students, making an extra
+                            <strong> £1,000 a month from freelancing</strong>
+                          </p>
+
                           <div href="/course-details">
                             <a
                               href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Secure your space
+                              Enrol Today
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
                         </div>
                       </div>
+
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
@@ -117,7 +114,52 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
-                <h2> 👇🏾 Last Cohort of 2023! 👇🏾</h2>
+                <h2 className="text-center">Student results 👇🏾</h2>
+                <div className="p-10 freelance-bundle-reviews">
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/freelance-review-2.png"
+                    />
+                  </div>
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/akhi-tweets.png"
+                    />
+                  </div>
+
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial tweet for freelance course "
+                      src="/assets/images/freelance-review.jpeg"
+                    />
+                  </div>
+
+                  <div className="review-image">
+                    <Image
+                      width="100"
+                      height="100"
+                      layout="responsive"
+                      objectFit="scale"
+                      alt="student success story"
+                      src="/assets/images/review-two.png"
+                    />
+                  </div>
+                </div>
+                <h4>Next Cohort: 17th September</h4>
                 <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
                   <div className="">
                     <div className="row justify-content-between align-items-center">
@@ -177,41 +219,6 @@ const CourseDetails = () => {
                   </div>
                 </section>
 
-                <h2 className="text-center">Student results 👇🏾</h2>
-                <div className="p-10 freelance-bundle-reviews">
-                  <div className="review-image">
-                    <Image
-                      width="100%"
-                      height="80%"
-                      layout="responsive"
-                      objectFit="contain"
-                      alt="testimonial for freelance bootcamp"
-                      src="/assets/images/freelance-review-2.png"
-                    />
-                  </div>
-
-                  <div className="review-image">
-                    <Image
-                      width="100%"
-                      height="80%"
-                      layout="responsive"
-                      objectFit="contain"
-                      alt="testimonial tweet for freelance course "
-                      src="/assets/images/freelance-review.jpeg"
-                    />
-                  </div>
-
-                  <div className="review-image">
-                    <Image
-                      width="100"
-                      height="100"
-                      layout="responsive"
-                      objectFit="scale"
-                      alt="student success story"
-                      src="/assets/images/review-two.png"
-                    />
-                  </div>
-                </div>
                 <div className="my-50">
                   <h3 className="text-center p-5">
                     What students have been building
@@ -418,7 +425,10 @@ const CourseDetails = () => {
                         <span className="price">299</span>
                       </div>
 
-                      <p className="bold">or 3 interest-free installments</p>
+                      <p className="bold">
+                        Or 3 installments of £99
+                        <br></br> (click Klarna at checkout*)
+                      </p>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
@@ -438,9 +448,6 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>International Students are Welcome</p>
-                        <p style={{ color: "blue" }}>
-                          Limited spaces, Add your email to be notified early
-                        </p>
                       </ul>
 
                       <a

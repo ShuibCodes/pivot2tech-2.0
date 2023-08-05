@@ -92,14 +92,14 @@ const CourseDetails = () => {
                             paying thousands for a degrees.
                           </p>
                           <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                            Last Cohort of 2023!
+                            Next Cohort: 3rd October
                           </p>
                           <div>
                             <a
                               href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Secure your space
+                              Enrol Today
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -114,59 +114,7 @@ const CourseDetails = () => {
                           />
                         </div>
                       </div>
-                      <div className="text-center mt-50">
-                        <h4 className="mt-20">
-                          Students have landed jobs at top companies like:
-                        </h4>
-                      </div>
-                      <div className="logo-section pt-100 rpt-100 pb-80 rpb-50">
-                        <div className="container">
-                          <div className="logo-inner">
-                            <div className="logo-item wow fadeInUp delay-0-1s">
-                              <Link href="/contact">
-                                <img
-                                  src="assets/images/client-logos/bank.png"
-                                  alt="Client Logo"
-                                />
-                              </Link>
-                            </div>
-                            <div className="logo-item wow fadeInUp delay-0-2s">
-                              <Link href="/contact">
-                                <img
-                                  src="assets/images/client-logos/capgemini.png"
-                                  alt="Client Logo"
-                                />
-                              </Link>
-                            </div>
-                            <div className="logo-item wow fadeInUp delay-0-3s">
-                              <Link href="/contact">
-                                <img
-                                  src="assets/images/client-logos/trison.png"
-                                  alt="Client Logo"
-                                />
-                              </Link>
-                            </div>
-                            <div className="logo-item wow fadeInUp delay-0-4s">
-                              <Link href="/contact">
-                                <img
-                                  src="assets/images/client-logos/agreed-digital.png"
-                                  alt="Client Logo"
-                                />
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                  <div className="text-center">
-                    <a
-                      href="#pricing"
-                      className="theme-btn style-four"
-                    >
-                      Enrol Today
-                      <i className="fas fa-arrow-right" />
-                    </a>
                   </div>
                 </section>
 
@@ -311,7 +259,6 @@ const CourseDetails = () => {
                 >
                   Enrol Today
                 </a>
-                <Blocks />
 
                 <div className="col-lg-4">
                   <div className="course-sidebar rmt-75">
@@ -326,9 +273,10 @@ const CourseDetails = () => {
                       <div className="price-off">
                         <span className="price">299</span>
                       </div>
-
-                      <p className="bold">or 3 interest-free installments</p>
-
+                      <p className="bold">
+                        Or 3 installments of £99
+                        <br></br> (click Klarna at checkout*)
+                      </p>
                       <ul className="course-details-list mb-25">
                         <strong
                           style={{
