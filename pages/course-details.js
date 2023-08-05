@@ -338,7 +338,7 @@ const CourseDetails = () => {
                           }}
                           className="text-center"
                         >
-                          77 spaces left
+                          70 spaces left
                         </strong>
 
                         <li>
