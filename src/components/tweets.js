@@ -1,9 +1,9 @@
 import React from "react";
 import { TwitterTweetEmbed } from "react-twitter-embed";
 import Image from "next/image";
-import reviewFirst from "../../public/assets/images/review-first.png";
+import reviewFirst from "../../public/assets/images/akhi-tweet.png";
 import reviewOne from "../../public/assets/images/review-one.png";
-import reviewTwo from "../../public/assets/images/review-two.png";
+import reviewTwo from "../../public/assets/images/student-job.png";
 import reviewThree from "../../public/assets/images/review-three.png";
 
 function tweets() {
@@ -19,8 +19,16 @@ function tweets() {
             <div class="col-md-6 col-lg-3 py-10">
               <Image
                 src={reviewFirst}
-                width={230}
-                height={250}
+                width={250}
+                height={100}
+                alt="review"
+              />
+            </div>
+            <div class="col-md-6 col-lg-3 py-10">
+              <Image
+                src={reviewTwo}
+                width={300}
+                height={180}
                 alt="review"
               />
             </div>
@@ -32,14 +40,7 @@ function tweets() {
                 alt="review"
               />
             </div>
-            <div class="col-md-6 col-lg-3 py-10">
-              <Image
-                src={reviewTwo}
-                width={250}
-                height={250}
-                alt="review"
-              />
-            </div>
+
             <div class="col-md-6 col-lg-3 py-10">
               <Image
                 src={reviewThree}
