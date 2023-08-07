@@ -12,15 +12,12 @@ export const Home = () => (
 export const Courses = () => (
   <Fragment>
     <li>
-      <Link href="/course-details">Frontend Web Development</Link>
+      <Link href="/course-details">Software Engineering</Link>
     </li>
     <li>
       <Link href="/course-details-freelance">
         Freelance Web & Digital Marketing
       </Link>
-    </li>
-    <li>
-      <Link href="/product-details">Beginners Freelance Bundle</Link>
     </li>
   </Fragment>
 );
@@ -33,7 +30,7 @@ export const Resources = () => (
       </Link>
     </li>
     <li>
-      <Link href="/product-details">Beginners Freelance Bundle</Link>
+      <Link href="/product-details">FREE Starter Freelance Pack</Link>
     </li>
   </Fragment>
 );

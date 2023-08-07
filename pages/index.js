@@ -277,12 +277,12 @@ const Index = () => {
                 <div className="coach-content">
                   <span className="label">Online Lessons - 13 weeks</span>
                   <h4>
-                    <Link href="/">Frontend Web Development</Link>
+                    <Link href="/course-details">Software Engineering</Link>
                   </h4>
 
                   <span style={{ fontSize: "16px", color: "black" }}>
-                    Take your skills to the max by learning development from the
-                    inside-out.
+                    Learn to build web applications from scratch and land your
+                    dream job as software developer
                   </span>
                   <hr />
                   <p
@@ -367,8 +367,9 @@ const Index = () => {
                   </h4>
                   <div className="ratting-price">
                     <span style={{ fontSize: "16px", color: "black" }}>
-                      Start Earning a side Freelancing income from home. Turn
-                      your digital skills into a paycheck!
+                      Start earning a side income from home from freelance
+                      digital marketing. Turn your digital skills into a
+                      paycheck!
                     </span>
                   </div>
                   <div>

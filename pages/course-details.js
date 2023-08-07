@@ -82,7 +82,8 @@ const CourseDetails = () => {
                         <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                           <div className="section-title mb-25">
                             <h2>
-                              Launch your career with our Web Development course
+                              Launch your career with our Software Engineering
+                              course
                             </h2>
                           </div>
 
