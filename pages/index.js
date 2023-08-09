@@ -382,7 +382,7 @@ const Index = () => {
                   </div>
 
                   <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>68 spaces</strong>
+                    <strong>63 spaces</strong>
                   </p>
 
                   <ul className="course-tags">
