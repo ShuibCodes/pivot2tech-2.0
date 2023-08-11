@@ -13,6 +13,7 @@ import Team from "../src/components/team";
 import Tweets from "../src/components/tweets";
 import { supabase } from "../lib/initSupabase";
 import Ebook from "../public/assets/images/ebook-last.png";
+import Bundle from "../public/assets/images/bundle-image.png";
 import Roadmap from "../src/components/roadmap";
 const Index1Isotope = dynamic(
   () => import("../src/components/isotope/Index1Isotope"),
@@ -155,9 +156,9 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      {/* <div className="advertise-mobile">
+      <div className="advertise-mobile">
         <Advertise />
-      </div> */}
+      </div>
       <div className="text-center p-5">
         <h3 className="mt-20 ">
           Students have landed jobs at top companies like:
@@ -291,8 +292,8 @@ const Index = () => {
                   >
                     Next cohort: 3rd October 2023
                   </p>
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>64 spaces</strong>
+                  <p style={{ fontSize: "18px", color: "blue" }}>
+                    <span>62 spaces left</span>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -337,6 +338,15 @@ const Index = () => {
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
+                  <p
+                    style={{
+                      fontSize: "14px",
+                      color: "blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    30% Off (until Wednesday)
+                  </p>
                 </div>
               </div>
               {/* </Link> */}
@@ -380,9 +390,8 @@ const Index = () => {
                       Next cohort: 17th September 2023
                     </p>
                   </div>
-
-                  <p style={{ fontSize: "20px", color: "blue" }}>
-                    <strong>63 spaces</strong>
+                  <p style={{ fontSize: "18px", color: "blue" }}>
+                    <span>61 spaces left</span>
                   </p>
 
                   <ul className="course-tags">
@@ -430,94 +439,19 @@ const Index = () => {
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
+                  <p
+                    style={{
+                      fontSize: "14px",
+                      color: "blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    30% Off (until Wednesday)
+                  </p>
                 </div>
               </div>
 
               {/* </Link> */}
-            </div>
-            <div className="col-lg-4 col-md-6 item design technology">
-              <div className="coach-item">
-                <div className="coach-image">
-                  <img
-                    src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
-                    alt="freelance-bundle"
-                  />
-                </div>
-                <div className="coach-content">
-                  <span className="label">Lifetime access</span>
-                  <h4>
-                    <Link href="/product-details">
-                      Beginners Freelancing Guide
-                    </Link>
-                  </h4>
-                  <div className="ratting-price">
-                    <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
-                      FREE{" "}
-                      <span
-                        style={{
-                          textDecoration: "line-through",
-                          marginLeft: "20px",
-                        }}
-                        className="price"
-                      >
-                        99
-                      </span>
-                    </span>
-                  </div>
-
-                  <p>
-                    Get the guide to everything you need to become a freelancer
-                    on your own.
-                  </p>
-                  <ul className="">
-                    <li>
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      <span>
-                        {" "}
-                        Comprehensive videos on finding clients with{" "}
-                        <a
-                          style={{
-                            color: "blue",
-                            textDecoration: "underline",
-                          }}
-                          target="_blank"
-                          href="https://www.upwork.com/"
-                        >
-                          Upwork
-                        </a>
-                      </span>
-                    </li>
-                    <li>
-                      <span style={{ marginRight: "7px" }}>✅</span> Low-code
-                      Website templates- (worth £160)
-                    </li>
-
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      Client contract & proposal tempalte
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      Website Creation Checklist
-                    </li>
-                  </ul>
-                  <Link href="/product-details">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Grab a copy
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -587,13 +521,15 @@ const Index = () => {
         </div>
       </section>
       <div>
-        <h3 className="text-center p-5">Subscribe & get the E-book FREE</h3>
+        <h5 className="text-center p-5">
+          Subscribe & get the Beginner's Freelance Guide FREE
+        </h5>
         <div className="d-md-flex align-items-center justify-content-center p-10">
           <Image
-            src={Ebook}
+            src={Bundle}
             alt="ebook"
             objectFit="contian"
-            width={220}
+            width={300}
             height={300}
           />
 
@@ -643,24 +579,13 @@ const Index = () => {
       <div id="FAQs">
         <FAQs />
       </div>
-      <div className="text-center hero-btn mt-30 wow fadeInUp delay-0-8s">
+      <div className="text-center hero-btn py-20 wow fadeInUp delay-0-8s">
         <Link href="/contact">
           <a className="theme-btn grab-course">
             Question? - Contact us
             <i className="fas fa-arrow-right" />
           </a>
         </Link>
-      </div>
-
-      <div className="text-center">
-        <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
-          <Link href="/#courses-group">
-            <a className="theme-btn">
-              Grab your course
-              <i className="fas fa-arrow-right" />
-            </a>
-          </Link>
-        </div>
       </div>
 
       {/* Work Process Section End */}
@@ -683,7 +608,6 @@ const Index = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-7 col-md-8">
               <div className="section-title text-center mb-55">
-                <span className="sub-title mb-20">News &amp; Blog</span>
                 <h2>Blogs</h2>
               </div>
             </div>

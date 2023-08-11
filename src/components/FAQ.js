@@ -44,17 +44,18 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={"What are the time requirements? can I do this part-time?"}
+          title={"What are the time requirements?"}
           active={active}
           onClick={() => onClick("collapse1")}
         >
           <div className="course-video-list">
             <p className="p-40">
-              We highly recommend attending the lessons, but this is a
-              part-time, evening course. 4 hours a week minimum. So there is a
-              lot of self-study thats expected. You can also book 1-1 lessons
-              with our instructors anytime! Details of the times are on the
-              course pages
+              The live lessons are <strong>completely optional</strong> although
+              we do recommend them.
+              <br></br>
+              <br></br>
+              You'll have <strong>lifetime access</strong> of all the lesson
+              recordings & resources
             </p>
           </div>
         </WellernAccordion>
@@ -66,20 +67,20 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={
-            "Whats the difference between the Frontend and Freelance course?"
-          }
+          title={"What opportunites can I get after the course?"}
           active={active}
           onClick={() => onClick("collapse1")}
         >
           <div className="course-video-list">
             <p className="p-40">
-              Our Frontend Web Developer course gives you the skills and
-              confidence to start applying to Junior Frontend roles in the
-              industry by the end of the course. However, if you're not looking
-              to switch careers and just want to earn a side income, the
-              Freelance course is a great option. We teach you necessary skills
-              to find your own clients doing low-code web development and SEO.
+              Once you've graduated, you'll be equipped with the skills,
+              confidence and a full portfolio of real-life proejcts. We've had
+              students land base salaries of <strong>£40,000 </strong>at
+              companies like <strong>Santander and capgemini.</strong>
+              <br></br>
+              <br></br>
+              For the freelance digital marketing bootcamp, past students have
+              landed freelance gigs ranging between <strong>£500-1000</strong>
             </p>
           </div>
         </WellernAccordion>
@@ -104,26 +105,7 @@ function FAQ() {
           </div>
         </WellernAccordion>
       </Accordion>
-      <Accordion
-        className="faq-accordion pt-10 "
-        id="course-faq"
-        defaultActiveKey=""
-      >
-        <WellernAccordion
-          eventName={"collapse1"}
-          title={"Do I have to be good at maths to learn code?"}
-          active={active}
-          onClick={() => onClick("collapse1")}
-        >
-          <div className="course-video-list">
-            <p className="p-40">
-              You dont need to be good at maths to be a good developer. Learning
-              to program involves Googling (A LOT), collaboration & problem
-              solving. The computer does all the maths for you :)
-            </p>
-          </div>
-        </WellernAccordion>
-      </Accordion>
+
       <Accordion
         className="faq-accordion pt-10 "
         id="course-faq"

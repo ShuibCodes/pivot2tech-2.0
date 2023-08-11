@@ -106,7 +106,10 @@ export default class Index1WorkStepSlider extends Component {
                   alt="laptop-image"
                   className="number"
                 />{" "}
-                <h6> Become a Web Developer</h6>
+                <h6 style={{ fontSize: "17px" }}>
+                  {" "}
+                  Become a Software Engineer
+                </h6>
                 <Link href="/course-details">
                   <a
                     style={{
@@ -124,11 +127,11 @@ export default class Index1WorkStepSlider extends Component {
               <div className="">
                 {" "}
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/616/616562.png"
+                  src="https://cdn-icons-png.flaticon.com/128/1998/1998087.png"
                   alt="tree-icon"
                   className="number"
                 />{" "}
-                <h6>Learn how to Freelance</h6>
+                <h6 style={{ fontSize: "16px" }}>Become a Digital marketer</h6>
                 <Link href="/course-details-freelance">
                   <a
                     style={{

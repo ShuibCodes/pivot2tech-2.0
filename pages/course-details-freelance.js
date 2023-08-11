@@ -8,6 +8,7 @@ import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import Ebook from "../public/assets/images/ebook-last.png";
 import reviewTwo from "../public/assets/images/review-two.png";
+import FAQ from "../src/components/FAQ";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -286,7 +287,7 @@ const CourseDetails = () => {
                           </div>
 
                           <a
-                            href="#pricing"
+                            href="https://buy.stripe.com/3cs14Z8Sl33M06YaF2"
                             className="theme-btn style-four"
                           >
                             Enrol Today
@@ -422,14 +423,29 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">299</span>
+                        <span className="price">210</span>
+                        <span
+                          style={{
+                            textDecoration: "line-through",
+                            marginLeft: "20px",
+                          }}
+                          className="price"
+                        >
+                          300
+                        </span>
                       </div>
 
-                      <p className="bold">
-                        Or 3 installments of £99
-                        <br></br> (click Klarna at checkout*)
-                      </p>
                       <ul className="course-details-list mb-25">
+                        <strong
+                          style={{
+                            color: "blue",
+                            fontStyle: "italic",
+                            fontSize: "18px",
+                          }}
+                          className="text-center"
+                        >
+                          30% Off (Limited time offer)
+                        </strong>
                         <li>
                           <i className="far fa-file-alt" />{" "}
                           <span>Course Level</span> <b>Beginner</b>
@@ -447,11 +463,11 @@ const CourseDetails = () => {
                           <i className="fas fa-globe" /> <span></span>{" "}
                           <b>Sundays 7-9pm</b>
                         </li>
-                        <p>International Students are Welcome</p>
+                        <p>Lifetime access to all course content</p>
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
+                        href="https://buy.stripe.com/3cs14Z8Sl33M06YaF2"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -459,11 +475,12 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol Today
+                        Sign up
                       </a>
                     </div>
                   </div>
                 </div>
+                <FAQ />
                 <div>
                   <h3 className="text-center p-5">
                     Subscribe & get the E-book FREE
