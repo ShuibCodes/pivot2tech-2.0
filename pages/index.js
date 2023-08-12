@@ -156,13 +156,9 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      <div className="advertise-mobile">
-        <Advertise />
-      </div>
+      <div className="advertise-mobile">{/* <Advertise /> */}</div>
       <div className="text-center p-5">
-        <h3 className="mt-20 ">
-          Students have landed jobs at top companies like:
-        </h3>
+        <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
       </div>
       <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
         <div className="container">
@@ -293,7 +289,7 @@ const Index = () => {
                     Next cohort: 3rd October 2023
                   </p>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>62 spaces left</span>
+                    <span>55 spaces left</span>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -391,7 +387,7 @@ const Index = () => {
                     </p>
                   </div>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>61 spaces left</span>
+                    <span>51 spaces left</span>
                   </p>
 
                   <ul className="course-tags">
@@ -520,6 +516,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="my-20">
+        <Advertise />
+      </div>
       <div>
         <h5 className="text-center p-5">
           Subscribe & get the Beginner's Freelance Guide FREE

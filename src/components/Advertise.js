@@ -9,9 +9,9 @@ const Advertise = () => {
           <div className="content">
             <p style={{ fontSize: "17px", color: "black" }}> Limited Spaces</p>
             <h4 style={{ fontWeight: "bold" }}> 30% OFF until Tuesday!</h4>
-            <a href="#courses-group">
+            <a href="/course-details#pricing">
               <a className="theme-btn">
-                Sign up
+                Give me access
                 <i className="fas fa-arrow-right" />
               </a>
             </a>
