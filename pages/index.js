@@ -289,7 +289,7 @@ const Index = () => {
                     Next cohort: 3rd October 2023
                   </p>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>55 spaces left</span>
+                    <span>45 spaces left</span>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -387,7 +387,7 @@ const Index = () => {
                     </p>
                   </div>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>51 spaces left</span>
+                    <span>45 spaces left</span>
                   </p>
 
                   <ul className="course-tags">
