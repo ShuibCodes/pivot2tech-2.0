@@ -54,9 +54,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="header-inner d-flex align-items-center justify-content-between">
               <div className="d-lg-flex align-items-center">
                 <div className="logo">
+                  {/* mobile logo here */}
                   <Link href="/">
                     <img
-                      src="/assets/images/bootcamp-logo.png"
+                      src="/assets/images/new-bootcamp-logo-phone.png"
                       alt="Logo"
                     />
                   </Link>
@@ -125,10 +126,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 <div className="">
                   <Link href="/">
                     <Image
-                      src="/assets/images/bootcamp-logo.png"
+                      src="/assets/images/new-bootcamp-logo-phone.png"
                       alt="Logo"
-                      width="103"
-                      height="69"
+                      width="80"
+                      height="80"
                     />
                   </Link>
                 </div>
@@ -339,10 +340,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                 <div className="">
                   <Link href="/">
                     <Image
-                      src="/assets/images/bootcamp-logo.png"
+                      src="/assets/images/new-bootcamp-logo-phone.png"
                       alt="Logo"
                       width="103"
-                      height="69"
+                      height="100"
                     />
                   </Link>
                 </div>
@@ -354,9 +355,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
                     <div className="mobile-logo bg-green br-10 p-15">
                       <a href="/">
                         <img
-                          src="assets/images/bootcamp-logo.png"
+                          src="assets/images/new-bootcamp-logo-phone.png"
                           alt="Logo"
                           title="Logo"
+                          style={{ width: "80%", height: "80%" }}
                         />
                       </a>
                     </div>

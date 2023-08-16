@@ -156,7 +156,9 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      <div className="advertise-mobile">{/* <Advertise /> */}</div>
+      <div className="advertise-mobile">
+        <Advertise />
+      </div>
       <div className="text-center p-5">
         <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
       </div>
@@ -334,15 +336,6 @@ const Index = () => {
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
-                  <p
-                    style={{
-                      fontSize: "14px",
-                      color: "blue",
-                      fontWeight: "600",
-                    }}
-                  >
-                    30% Off (until Wednesday)
-                  </p>
                 </div>
               </div>
               {/* </Link> */}
@@ -435,7 +428,7 @@ const Index = () => {
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
-                  <p
+                  {/* <p
                     style={{
                       fontSize: "14px",
                       color: "blue",
@@ -443,7 +436,7 @@ const Index = () => {
                     }}
                   >
                     30% Off (until Wednesday)
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -589,9 +582,9 @@ const Index = () => {
 
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
-      {/* <div className="">
+      <div className="">
         <Advertise />
-      </div> */}
+      </div>
 
       {/* Newsletter Section End */}
 

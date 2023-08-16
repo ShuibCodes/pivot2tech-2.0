@@ -287,7 +287,7 @@ const CourseDetails = () => {
                           </div>
 
                           <a
-                            href="https://buy.stripe.com/3cs14Z8Sl33M06YaF2"
+                            href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                             className="theme-btn style-four"
                           >
                             Enrol Today
@@ -423,8 +423,8 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">210</span>
-                        <span
+                        <span className="price">299</span>
+                        {/* <span
                           style={{
                             textDecoration: "line-through",
                             marginLeft: "20px",
@@ -432,11 +432,11 @@ const CourseDetails = () => {
                           className="price"
                         >
                           300
-                        </span>
+                        </span> */}
                       </div>
 
                       <ul className="course-details-list mb-25">
-                        <strong
+                        {/* <strong
                           style={{
                             color: "blue",
                             fontStyle: "italic",
@@ -445,7 +445,7 @@ const CourseDetails = () => {
                           className="text-center"
                         >
                           30% Off (Limited time offer)
-                        </strong>
+                        </strong> */}
                         <li>
                           <i className="far fa-file-alt" />{" "}
                           <span>Course Level</span> <b>Beginner</b>
@@ -467,7 +467,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/3cs14Z8Sl33M06YaF2"
+                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
                         style={{
                           padding: "11px",
                           fontSize: "12px",

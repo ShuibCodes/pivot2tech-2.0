@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }) {
 
         <link
           rel="shortcut icon"
-          href="assets/images/favicon-new.ico"
+          href="assets/images/favicon-p2t.ico"
           type="image/x-icon"
         />
         {/*====== Google Fonts ======*/}
