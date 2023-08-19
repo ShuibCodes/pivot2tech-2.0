@@ -442,6 +442,87 @@ const Index = () => {
 
               {/* </Link> */}
             </div>
+            <div className="col-lg-4 col-md-6 item design technology">
+              <div className="coach-item">
+                <div className="coach-image">
+                  <img
+                    src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
+                    alt="freelance-bundle"
+                  />
+                </div>
+                <div className="coach-content">
+                  <span className="label">Lifetime access</span>
+                  <h4>
+                    <Link href="/product-details">
+                      Beginners Freelancing Guide
+                    </Link>
+                  </h4>
+                  <div className="ratting-price">
+                    <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
+                      FREE{" "}
+                      <span
+                        style={{
+                          textDecoration: "line-through",
+                          marginLeft: "22px",
+                        }}
+                        className="price"
+                      >
+                        99
+                      </span>
+                    </span>
+                  </div>
+
+                  <p>
+                    Get the guide to everything you need to become a freelancer
+                    on your own.
+                  </p>
+                  <ul className="">
+                    <li>
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      <span>
+                        {" "}
+                        Comprehensive videos on finding clients with{" "}
+                        <a
+                          style={{ color: "blue", textDecoration: "underline" }}
+                          target="_blank"
+                          href="https://www.upwork.com/"
+                        >
+                          Upwork
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span style={{ marginRight: "7px" }}>✅</span> Low-code
+                      Website templates- (worth $500)
+                    </li>
+
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      Client contract & proposal tempalte
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>✅</span>
+                      Website Creation Checklist
+                    </li>
+                  </ul>
+                  <a href="https://pivot2tech.gumroad.com/l/zenfw">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Grab your copy
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
