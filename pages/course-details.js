@@ -316,10 +316,19 @@ const CourseDetails = () => {
                             Tuesdays: 7-9pm GMT <br></br> Saturdays: 12-2pm GMT
                           </b>
                         </li>
-                        <p>Lifetime access to all course content</p>
-                        <p style={{ color: "blue" }}>
-                          All lessons are recorded *
-                        </p>
+                        <div className="text-center  py-5">
+                          <img
+                            className="p-2"
+                            src="assets/images/features/icon2.png"
+                            alt="Icon"
+                          />
+                          <p style={{ color: "blue", fontWeight: "bold" }}>
+                            14-day money back guarantee
+                          </p>
+                          <p style={{ fontStyle: "italic" }}>
+                            Lifetime access to all course content*
+                          </p>
+                        </div>
                       </ul>
 
                       <a

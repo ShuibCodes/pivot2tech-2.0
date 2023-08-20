@@ -156,9 +156,7 @@ const Index = () => {
 
       {/* Features Section End */}
       {/* About Section Start */}
-      <div className="advertise-mobile">
-        <Advertise />
-      </div>
+      <div className="advertise-mobile">{/* <Advertise /> */}</div>
       <div className="text-center p-5">
         <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
       </div>
@@ -291,7 +289,7 @@ const Index = () => {
                     Next cohort: 3rd October 2023
                   </p>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>45 spaces left</span>
+                    <span>43 spaces left</span>
                   </p>
                   <ul
                     style={{ marginTop: "10px" }}
@@ -380,7 +378,7 @@ const Index = () => {
                     </p>
                   </div>
                   <p style={{ fontSize: "18px", color: "blue" }}>
-                    <span>45 spaces left</span>
+                    <span>41 spaces left</span>
                   </p>
 
                   <ul className="course-tags">
