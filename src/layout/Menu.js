@@ -25,9 +25,7 @@ export const Courses = () => (
 export const Resources = () => (
   <Fragment>
     <li>
-      <Link href="/intro-to-coding">
-        FREE intro to Web Development mini-course
-      </Link>
+      <Link href="/intro-to-coding">FREE intro to Web Development course</Link>
     </li>
     <li>
       <Link href="/web-development-roadmap-2023">
