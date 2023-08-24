@@ -24,7 +24,7 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={"Do I need a tech background/experience ??"}
+          title={"Do I need a tech background/experience?"}
           active={active}
           onClick={() => onClick("collapse1")}
         >
@@ -92,6 +92,25 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
+          title={"Do we get a certificate at the end of the bootcamp??"}
+          active={active}
+          onClick={() => onClick("collapse1")}
+        >
+          <div className="course-video-list">
+            <p className="p-40">
+              Email pivot2techteam@gmail.com with a copy of your portfolio after
+              completing the course and we'll send your certificate.
+            </p>
+          </div>
+        </WellernAccordion>
+      </Accordion>
+      <Accordion
+        className="faq-accordion pt-10 "
+        id="course-faq"
+        defaultActiveKey=""
+      >
+        <WellernAccordion
+          eventName={"collapse1"}
           title={"How much support do I get?"}
           active={active}
           onClick={() => onClick("collapse1")}
@@ -133,7 +152,7 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={"What is you refund policy"}
+          title={"What is your refund policy"}
           active={active}
           onClick={() => onClick("collapse1")}
         >

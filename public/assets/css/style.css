@@ -4881,6 +4881,36 @@ h6,
 	margin-bottom: 10px;
 }
 
+
+.video-course-mobile{
+	display:none;
+}
+
+@media only screen and (min-width: 40em) {
+	.video-course-mobile{
+		display:block;
+	}
+}
+
+
+.video-course-large{
+	display:block;
+}
+
+@media only screen and (min-width: 40em) {
+	.video-course-large{
+		display:none;
+	}
+}
+
+
+.course-overview{
+	padding-top: 30px;
+}
+
+
+
+
 /*******************************************************/
 /******************* 07. Hero Section ******************/
 /*******************************************************/
@@ -5483,8 +5513,8 @@ h6,
 	z-index: -1;
 	top: 0;
 	left: 0;
-	opacity: 0.85;
-	background-color: #081a55;
+
+
 }
 @media only screen and (max-width: 1500px) {
 	.page-banner-area {
