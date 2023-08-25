@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import Slider from "react-slick";
-import PageBannerKids from "../src/components/page-banner-kids";
+import PageBannerKids from "../src/components/page-banner-da";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import { coachSlider } from "../src/sliderProps";
@@ -14,8 +14,6 @@ const CourseDetails = () => {
   };
   return (
     <Layout>
-      <PageBannerKids pageName={"Course Details"} />
-
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
@@ -182,7 +180,47 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-
+                <div className="text-center p-5">
+                  <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
+                </div>
+                <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
+                  <div className="container">
+                    <div className="logo-inner">
+                      <div className="logo-item wow fadeInUp delay-0-1s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/bank.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-2s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/capgemini.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-3s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/trison.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-4s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/agreed-digital.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
                     <div className="col-sm-5">
