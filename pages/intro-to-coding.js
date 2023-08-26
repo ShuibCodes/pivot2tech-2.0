@@ -10,7 +10,7 @@ const ProductDetails = () => {
   return (
     <Layout>
       <Head>
-        <title>Beginners Freelancing Guide | Pivot2Tech</title>
+        <title>Intro to Web Development | Pivot2Tech</title>
         <meta
           property="og:url"
           content="https://pivot2tech.co.uk/product-details"
@@ -22,7 +22,7 @@ const ProductDetails = () => {
         {/* <meta property="fb:app_id" content="your fb app id" /> */}
         <meta
           property="og:title"
-          content="Beginners Freelancing Guide  | Pivot2Tech "
+          content="Intro to Web Development  | Pivot2Tech "
         />
         <meta
           name="twitter:card"
@@ -30,7 +30,7 @@ const ProductDetails = () => {
         />
         <meta
           property="og:description"
-          content="Guide includes all you need to start Freelancing & work remotely 🌴"
+          content="A free, mini-course on intro to web development"
         />
         <meta
           property="og:image"
