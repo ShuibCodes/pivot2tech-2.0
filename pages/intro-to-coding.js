@@ -265,7 +265,7 @@ const ProductDetails = () => {
                   Next cohort: 3rd October 2023
                 </p>
                 <p style={{ fontSize: "18px", color: "blue" }}>
-                  <span>43 spaces left</span>
+                  <span>30 spaces left</span>
                 </p>
                 <ul
                   style={{ marginTop: "10px" }}
@@ -353,7 +353,7 @@ const ProductDetails = () => {
                   </p>
                 </div>
                 <p style={{ fontSize: "18px", color: "blue" }}>
-                  <span>41 spaces left</span>
+                  <span>37 spaces left</span>
                 </p>
 
                 <ul className="course-tags">
