@@ -4927,13 +4927,10 @@ h6,
 	z-index: -1;
 	width: 330px;
 	height: 330px;
-	background: #f7f7f7;
-	line-height: 330px;
+		line-height: 330px;
 	border-radius: 50%;
 	text-align: center;
-	-webkit-transform: translate(-25%, 50%);
-	-ms-transform: translate(-25%, 50%);
-	transform: translate(-25%, 50%);
+
 }
 .hero-section:after {
 	position: absolute;
@@ -4943,13 +4940,11 @@ h6,
 	z-index: -1;
 	width: 965px;
 	height: 965px;
-	background: #f7f7f7;
+
 	line-height: 965px;
 	border-radius: 50%;
 	text-align: center;
-	-webkit-transform: translate(15%, -50%);
-	-ms-transform: translate(15%, -50%);
-	transform: translate(15%, -50%);
+	
 }
 @media only screen and (max-width: 1199px) {
 	.hero-section:after {
@@ -4960,9 +4955,7 @@ h6,
 @media only screen and (max-width: 991px) {
 	.hero-section:after {
 		right: 50%;
-		-webkit-transform: translate(50%, -60%);
-		-ms-transform: translate(50%, -60%);
-		transform: translate(50%, -60%);
+	
 	}
 }
 @media only screen and (max-width: 575px) {
