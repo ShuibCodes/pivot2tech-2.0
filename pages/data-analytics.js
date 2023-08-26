@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import Slider from "react-slick";
 import PageBannerKids from "../src/components/page-banner-da";
+import pic from "../public/assets/images/portfolio.png";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import { coachSlider } from "../src/sliderProps";
@@ -280,7 +282,10 @@ const CourseDetails = () => {
             </div>
             <div className="col-lg-4">
               <div className="course-sidebar rmt-75">
-                <div className="widget widget-course-details wow fadeInUp delay-0-2s">
+                <div
+                  id="pricing"
+                  className="widget widget-course-details wow fadeInUp delay-0-2s"
+                >
                   <div className="widget-video">
                     <img
                       src="https://cdn.cs.1worldsync.com/syndication/mediaserverredirect/40fdffba73a38111fbc9c79a0fc6fbaa/custom_width(400).jpg?ts=638017679456984871"
@@ -329,311 +334,92 @@ const CourseDetails = () => {
       </section>
       {/* Course Details End */}
       {/* Recent Coach Start */}
-      <section className="coach-section-two rel z-1 pt-120 rpt-90 pb-130 rpb-100">
+      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-7 col-md-8">
-              <div className="section-title text-center mb-45">
-                <span className="sub-title-two">Latest Courses</span>
-                <h2>Browser Latest Courses</h2>
+          <div className="row justify-content-between align-items-center">
+            <div className="col-lg-6">
+              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-25">
+                  <h2>Become Job-ready in 13 weeks</h2>
+                </div>
+
+                <div>
+                  <p>
+                    Upon completing the bootcamp, you will be equipped with the
+                    formal training and skills necessary to pursue roles in Data
+                    Analysis, Business Analysis, or Business Intelligence.
+                    <br></br>
+                    You'll learn about Python, and the skills required for data
+                    transformation and visualization.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="#pricing"
+                    className="theme-btn style-four"
+                  >
+                    Enrol Today
+                    <i className="fas fa-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="mt-10 ">
+                <img
+                  src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                  alt="Why Choose"
+                  className="why-choose-one"
+                />
               </div>
             </div>
           </div>
-          <Slider
-            {...coachSlider}
-            className="coach-slider"
-          >
-            <div className="coach-item style-two wow fadeInUp delay-0-2s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach1.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Web Design
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Basic Web Design by Photoshop and Figma
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                  <span className="price">95</span>
-                </div>
-              </div>
-            </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-4s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach2.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Development
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Web Development by Php and WordPress
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(32)</span>
-                  </div>
-                  <span className="price">38</span>
-                </div>
-              </div>
-            </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-6s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach3.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Marketing
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Basic Marketing Strategy for Research
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(68)</span>
-                  </div>
-                  <span className="price">0</span>
-                </div>
-              </div>
-            </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-2s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach1.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Web Design
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Basic Web Design by Photoshop and Figma
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                  <span className="price">95</span>
-                </div>
-              </div>
-            </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-4s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach2.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Development
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Web Development by Php and WordPress
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(32)</span>
-                  </div>
-                  <span className="price">38</span>
-                </div>
-              </div>
-            </div>
-            <div className="coach-item style-two wow fadeInUp delay-0-6s">
-              <div className="coach-image">
-                <img
-                  src="assets/images/coachs/coach3.jpg"
-                  alt="Coach"
-                />
-              </div>
-              <div className="coach-content">
-                <a
-                  href="#"
-                  className="category"
-                >
-                  Marketing
-                </a>
-                <h4>
-                  <a href="#">
-                    How to Learn Basic Marketing Strategy for Research
-                  </a>
-                </h4>
-                <ul className="coach-footer">
-                  <li>
-                    <i className="fas fa-user-graduate" />
-                    <span>
-                      By <b>Bennie L.</b>
-                    </span>
-                  </li>
-                  <li>
-                    <i className="far fa-file-alt" />
-                    <span>12 Lessions</span>
-                  </li>
-                  <li>
-                    <i className="far fa-user" />
-                    <span>seats</span>
-                  </li>
-                </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(68)</span>
-                  </div>
-                  <span className="price">0</span>
-                </div>
-              </div>
-            </div>
-          </Slider>
         </div>
-      </section>
+      </section>{" "}
+      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-lg-6">
+              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
+                <div className="section-title mb-25">
+                  <h2>Build Projects for your portfolio</h2>
+                </div>
+
+                <div>
+                  <p>
+                    After every module, you'll build a project with real-life
+                    data for your portfolio.
+                    <br></br>
+                    At the end of the bootcamp, you'll have a portfolio of
+                    projects ready to showcase your skills and techniques as a
+                    data analyst.
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="#pricing"
+                    className="theme-btn style-four"
+                  >
+                    Enrol Today
+                    <i className="fas fa-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="mt-10 ">
+                <Image
+                  src={pic}
+                  alt="Why Choose"
+                  className="why-choose-one"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>{" "}
     </Layout>
   );
 };
