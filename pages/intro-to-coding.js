@@ -142,7 +142,7 @@ const ProductDetails = () => {
                   >
                     <a
                       style={{ color: "white" }}
-                      href="https://pivot2tech.gumroad.com/l/zenfw"
+                      href="https://pivot2tech.gumroad.com/l/intro-to-web-development?_gl=1*yp85z5*_ga*NTI1MTAxMjY4LjE2OTE0MTI2MjU.*_ga_6LJN6D94N6*MTY5MzA3NTYzNi4xMDAuMS4xNjkzMDc1NjUyLjAuMC4w"
                     >
                       Get access
                     </a>
