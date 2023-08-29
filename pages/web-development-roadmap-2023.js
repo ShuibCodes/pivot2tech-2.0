@@ -102,7 +102,7 @@ const ProductDetails = () => {
                   >
                     <a
                       style={{ color: "white" }}
-                      href="pivot2tech.gumroad.com/l/pvhut"
+                      href="https://pivot2tech.gumroad.com/l/pvhut?_gl=1*ihnsdq*_ga*NTI1MTAxMjY4LjE2OTE0MTI2MjU.*_ga_6LJN6D94N6*MTY5MzMxNTcwMi4xMDQuMS4xNjkzMzE2ODYxLjAuMC4w"
                     >
                       FREE copy
                     </a>
