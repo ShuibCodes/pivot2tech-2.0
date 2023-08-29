@@ -172,9 +172,11 @@ const CourseDetails = () => {
                   Book in a FREE taster session today
                 </h4>
                 <div className="text-center">
-                  <a className="theme-btn m-10">
-                    Free Trial <i className="fas fa-arrow-right" />
-                  </a>
+                  <Link href="/kids-free-trail">
+                    <a className="theme-btn m-10">
+                      Free Trial <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
                 </div>
 
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
@@ -326,12 +328,10 @@ const CourseDetails = () => {
                   href="#"
                   className="category"
                 >
-                  Web Design
+                  Roblox Developer
                 </a>
                 <h4>
-                  <a href="#">
-                    How to Learn Basic Web Design by Photoshop and Figma
-                  </a>
+                  <a href="#">Short title here</a>
                 </h4>
                 <ul className="coach-footer">
                   <li>
@@ -349,17 +349,6 @@ const CourseDetails = () => {
                     <span>seats</span>
                   </li>
                 </ul>
-                <div className="ratting-price">
-                  <div className="ratting">
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <i className="fas fa-star" />
-                    <span>(50)</span>
-                  </div>
-                  <span className="price">95</span>
-                </div>
               </div>
             </div>
             <div className="coach-item style-two wow fadeInUp delay-0-4s">
