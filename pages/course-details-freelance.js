@@ -428,7 +428,7 @@ const CourseDetails = () => {
                         </span>
                       </div>
                       <p style={{ fontStyle: "italic" }}>
-                        Offer expires Thursday*
+                        Offer expires at Midnight*
                       </p>
                       <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
