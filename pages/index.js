@@ -420,18 +420,18 @@ const Index = () => {
                       </li>
                       <li>
                         {" "}
-                        <span style={{ marginRight: "8px" }}> 📈</span>
-                        SEO
-                      </li>
-                      <li>
-                        {" "}
                         <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
                         Marketing
                       </li>
                       <li>
                         {" "}
+                        <span style={{ marginRight: "8px" }}> 📈</span>
+                        Ecommerce
+                      </li>
+                      <li>
+                        {" "}
                         <span style={{ marginRight: "8px" }}> 🧭</span> How to
-                        find clients - fast
+                        find clients
                       </li>
                       <li>
                         {" "}
@@ -471,68 +471,48 @@ const Index = () => {
               <div className="coach-item">
                 <div className="coach-image">
                   <img
-                    src="https://bigthink.com/wp-content/uploads/2022/06/AdobeStock_323910609.jpeg"
-                    alt="freelance-bundle"
+                    src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGF0YSUyMHNjaWVuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                    alt="data-analytics"
                   />
                 </div>
                 <div className="coach-content">
-                  <span className="label">Lifetime access</span>
+                  <span className="label">12 weeks</span>
                   <h4>
-                    <Link href="/product-details">
-                      Beginners Freelancing Guide
-                    </Link>
+                    <Link href="/product-details">Data Analytics</Link>
                   </h4>
                   <div className="ratting-price">
                     <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
-                      FREE{" "}
-                      <span
-                        style={{
-                          textDecoration: "line-through",
-                          marginLeft: "22px",
-                        }}
-                        className="price"
-                      >
-                        99
-                      </span>
+                      Coming Soon{" "}
                     </span>
                   </div>
 
                   <p>
-                    Get the guide to everything you need to become a freelancer
-                    on your own.
+                    Become a successful professional in the Data Analytics field
+                    with our immersive, part-time bootcamp.
                   </p>
                   <ul className="">
                     <li>
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      <span>
-                        {" "}
-                        Comprehensive videos on finding clients with{" "}
-                        <a
-                          style={{ color: "blue", textDecoration: "underline" }}
-                          target="_blank"
-                          href="https://www.upwork.com/"
-                        >
-                          Upwork
-                        </a>
-                      </span>
-                    </li>
-                    <li>
-                      <span style={{ marginRight: "7px" }}>✅</span> Low-code
-                      Website templates- (worth $500)
+                      <span style={{ marginRight: "7px" }}>💻</span>3 real-life
+                      projects
                     </li>
 
                     <li>
                       {" "}
                       <span style={{ marginRight: "7px" }}>✅</span>
-                      Client contract & proposal tempalte
+                      Live classes 2 times per week
                     </li>
                     <li>
                       {" "}
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      Website Creation Checklist
+                      <span style={{ marginRight: "7px" }}>⏳</span>
+                      Lifetime access
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📜</span>
+                      Certifcation upon completion
                     </li>
                   </ul>
-                  <a href="https://pivot2tech.gumroad.com/l/zenfw">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-KL2iLyBirWx2YN5DV4r6LkRPtSkQCKTIZgr1d_vr-Q5f0Q/viewform?usp=sf_link">
                     <a
                       style={{
                         padding: "10px",
@@ -541,7 +521,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Grab your copy
+                      Join the Waiting List
                       <i className="fas fa-arrow-right" />
                     </a>
                   </a>
