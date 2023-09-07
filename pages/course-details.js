@@ -335,9 +335,7 @@ const CourseDetails = () => {
                           299
                         </span>
                       </div>
-                      <p style={{ fontStyle: "italic" }}>
-                        Offer expires at Midnight*
-                      </p>
+
                       <p className="bold">or 3 interest-free installments</p>
 
                       <ul className="course-details-list mb-25">
@@ -349,7 +347,7 @@ const CourseDetails = () => {
                           }}
                           className="text-center"
                         >
-                          27 spaces left
+                          23 spaces left
                         </strong>
 
                         <li>
