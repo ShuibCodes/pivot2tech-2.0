@@ -228,51 +228,36 @@ const CourseDetails = () => {
                     <div className="col-sm-5">
                       <div className="instructor-image">
                         <img
-                          src="assets/images/teams/instructor.jpg"
+                          src="https://pbs.twimg.com/profile_images/1657853305454747649/gLRc0CB2_400x400.jpg"
                           alt="instructor"
                         />
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="instructor-details">
-                        <h4>John D. Mathews</h4>
+                        <h4>Abraham Musa</h4>
                         <span className="designations">
-                          Senior Web Designer
+                          Senior Data Analyst & Teacher
                         </span>
-                        <div className="ratting mb-10">
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <span>(50)</span>
-                        </div>
+
                         <p>
-                          Sit amet consectet adipising elit sed do eiusmod
-                          incididunt ut labore et dolore magna
+                          Abraham is a senior Data Analyst at Admiral UK. He has
+                          also been a facilitator of numerous Data Analytics &
+                          Data Science Bootcamps both in the Uk and Africa.
                         </p>
                         <h5>Follow Me</h5>
                         <div className="social-style-two">
-                          <Link href="/contact">
+                          <a href="https://twitter.com/abseejp">
                             <a>
                               <i className="fab fa-twitter" />
                             </a>
-                          </Link>
-                          <Link href="/contact">
+                          </a>
+
+                          <a href="https://www.linkedin.com/in/abseejp/?originalSubdomain=uk">
                             <a>
-                              <i className="fab fa-facebook-f" />
+                              <i className="fab fa-linkedin" />
                             </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </Link>
-                          <Link href="/contact">
-                            <a>
-                              <i className="fab fa-pinterest-p" />
-                            </a>
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -321,11 +306,11 @@ const CourseDetails = () => {
                     </li>
                   </ul>
 
-                  <Link href="/contact">
+                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
                       Sign up <i className="fas fa-arrow-right" />
                     </a>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -340,7 +325,7 @@ const CourseDetails = () => {
             <div className="col-lg-6">
               <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-25">
-                  <h2>Become Job-ready in 13 weeks</h2>
+                  <h2>Become Job-ready in 12 weeks</h2>
                 </div>
 
                 <div>
