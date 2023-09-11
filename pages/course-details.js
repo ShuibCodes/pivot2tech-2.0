@@ -389,7 +389,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/8wM293c4xfQyaLC00m"
+                        href="https://buy.stripe.com/00gaFz2tXfQy3ja14z"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
