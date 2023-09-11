@@ -416,7 +416,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">239</span>
+                        <span className="price">225</span>
                         <span
                           style={{
                             textDecoration: "line-through",
@@ -427,9 +427,7 @@ const CourseDetails = () => {
                           299
                         </span>
                       </div>
-                      <p style={{ fontStyle: "italic" }}>
-                        Offer expires at Midnight*
-                      </p>
+
                       <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
                         <li>
