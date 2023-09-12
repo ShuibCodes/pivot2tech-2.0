@@ -294,7 +294,7 @@ const Index = () => {
 
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>25 spaces left</span>
+                        <span>24 spaces left</span>
                       </p>
                       <div>
                         {" "}
@@ -395,7 +395,7 @@ const Index = () => {
                     </div>
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>29 spaces left</span>
+                        <span>21 spaces left</span>
                       </p>
                       <div>
                         {" "}
