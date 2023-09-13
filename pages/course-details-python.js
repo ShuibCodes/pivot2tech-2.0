@@ -195,18 +195,7 @@ const CourseDetails = () => {
                         <span className="designations">
                           Senior Web Designer
                         </span>
-                        <div className="ratting mb-10">
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <i className="fas fa-star" />
-                          <span>(50)</span>
-                        </div>
-                        <p>
-                          Sit amet consectet adipising elit sed do eiusmod
-                          incididunt ut labore et dolore magna
-                        </p>
+
                         <h5>Follow Me</h5>
                         <div className="social-style-two">
                           <Link href="/contact">
