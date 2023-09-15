@@ -246,8 +246,8 @@ const Index = () => {
         <Tweets />
         {/* <Mentoring /> */}
         <div className="section-title text-center py-2">
-          <h2>Final Cohort of 2023</h2>
-          <h4>Don't Miss Out!</h4>
+          <h2>25% Off </h2>
+          <h4>Until Sunday</h4>
         </div>
         <div
           id="courses-group"

@@ -8,7 +8,6 @@ import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import Ebook from "../public/assets/images/ebook-last.png";
 import reviewTwo from "../public/assets/images/review-two.png";
-import FAQ from "../src/components/FAQ";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -82,27 +81,31 @@ const CourseDetails = () => {
                         <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                           <div className="section-title mb-25">
                             <h2>
-                              Learn Digital Marketing & Earn a Remote Income
+                              Learn the Art of Working from Anywhere and Achieve
+                              Career Independence!
                             </h2>
                           </div>
 
-                          <p>
-                            Join 500+ students, making an extra
-                            <strong> £1,000 a month from freelancing</strong>
-                          </p>
-
+                          <div>
+                            <p>
+                              Unleash unlimited potential with freelance web
+                              design & digital marketing. experience the freedom
+                              to work on exciting projects, earn more, and learn
+                              easily with our comprehensive training. start your
+                              journey today!
+                            </p>
+                          </div>
                           <div href="/course-details">
                             <a
                               href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Enrol Today
+                              Secure your space
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
                         </div>
                       </div>
-
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
@@ -115,52 +118,7 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
-                <h2 className="text-center">Student results 👇🏾</h2>
-                <div className="p-10 freelance-bundle-reviews">
-                  <div className="review-image">
-                    <Image
-                      width="100%"
-                      height="80%"
-                      layout="responsive"
-                      objectFit="contain"
-                      alt="testimonial for freelance bootcamp"
-                      src="/assets/images/freelance-review-2.png"
-                    />
-                  </div>
-                  <div className="review-image">
-                    <Image
-                      width="100%"
-                      height="80%"
-                      layout="responsive"
-                      objectFit="contain"
-                      alt="testimonial for freelance bootcamp"
-                      src="/assets/images/akhi-tweets.png"
-                    />
-                  </div>
-
-                  <div className="review-image">
-                    <Image
-                      width="100%"
-                      height="80%"
-                      layout="responsive"
-                      objectFit="contain"
-                      alt="testimonial tweet for freelance course "
-                      src="/assets/images/freelance-review.jpeg"
-                    />
-                  </div>
-
-                  <div className="review-image">
-                    <Image
-                      width="100"
-                      height="100"
-                      layout="responsive"
-                      objectFit="scale"
-                      alt="student success story"
-                      src="/assets/images/review-two.png"
-                    />
-                  </div>
-                </div>
-                <h4>Next Cohort: 17th September</h4>
+                <h2> 👇🏾 Last Cohort of 2023! 👇🏾</h2>
                 <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
                   <div className="">
                     <div className="row justify-content-between align-items-center">
@@ -220,6 +178,41 @@ const CourseDetails = () => {
                   </div>
                 </section>
 
+                <h2 className="text-center">Student results 👇🏾</h2>
+                <div className="p-10 freelance-bundle-reviews">
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/freelance-review-2.png"
+                    />
+                  </div>
+
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial tweet for freelance course "
+                      src="/assets/images/freelance-review.jpeg"
+                    />
+                  </div>
+
+                  <div className="review-image">
+                    <Image
+                      width="100"
+                      height="100"
+                      layout="responsive"
+                      objectFit="scale"
+                      alt="student success story"
+                      src="/assets/images/review-two.png"
+                    />
+                  </div>
+                </div>
                 <div className="my-50">
                   <h3 className="text-center p-5">
                     What students have been building
@@ -287,7 +280,7 @@ const CourseDetails = () => {
                           </div>
 
                           <a
-                            href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
+                            href="#pricing"
                             className="theme-btn style-four"
                           >
                             Enrol Today
@@ -423,29 +416,29 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">299</span>
-                        {/* <span
+                        <span className="price">225</span>
+                        <span
                           style={{
                             textDecoration: "line-through",
                             marginLeft: "20px",
                           }}
                           className="price"
                         >
-                          300
-                        </span> */}
+                          299
+                        </span>
                       </div>
+                      <p
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          fontStyle: "italic",
+                        }}
+                      >
+                        25% Off!
+                      </p>
 
+                      <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
-                        {/* <strong
-                          style={{
-                            color: "blue",
-                            fontStyle: "italic",
-                            fontSize: "18px",
-                          }}
-                          className="text-center"
-                        >
-                          30% Off (Limited time offer)
-                        </strong> */}
                         <li>
                           <i className="far fa-file-alt" />{" "}
                           <span>Course Level</span> <b>Beginner</b>
@@ -463,24 +456,12 @@ const CourseDetails = () => {
                           <i className="fas fa-globe" /> <span></span>{" "}
                           <b>Sundays 7-9pm</b>
                         </li>
-
-                        <div className="text-center  py-5">
-                          <img
-                            className="p-2"
-                            src="assets/images/features/icon2.png"
-                            alt="Icon"
-                          />
-                          <p style={{ color: "blue", fontWeight: "bold" }}>
-                            14-day money back guarantee
-                          </p>
-                          <p style={{ fontStyle: "italic" }}>
-                            Lifetime access to all course content*
-                          </p>
-                        </div>
+                        <p>International Students are Welcome</p>
+                        <p style={{ color: "blue" }}>10 spaces left</p>
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/eVacNH9Wp1ZIbPG4gA"
+                        href="https://buy.stripe.com/28ocNHecFbAibPG6oU"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -488,12 +469,11 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Sign up
+                        Enrol Today
                       </a>
                     </div>
                   </div>
                 </div>
-                <FAQ />
                 <div>
                   <h3 className="text-center p-5">
                     Subscribe & get the E-book FREE

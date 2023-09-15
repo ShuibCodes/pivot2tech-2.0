@@ -273,30 +273,28 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">299</span>
-                        {/* <span
+                        <span className="price">225</span>
+                        <span
                           style={{
                             textDecoration: "line-through",
                             marginLeft: "20px",
                           }}
                           className="price"
                         >
-                          300
-                        </span> */}
+                          299
+                        </span>
                       </div>
+                      <p
+                        style={{
+                          fontSize: "22px",
+                          fontWeight: "700",
+                          fontStyle: "italic",
+                        }}
+                      >
+                        25% Off!
+                      </p>
 
                       <ul className="course-details-list mb-25">
-                        {/* <strong
-                          style={{
-                            color: "blue",
-                            fontStyle: "italic",
-                            fontSize: "18px",
-                          }}
-                          className="text-center"
-                        >
-                          30% Off (Limited time offer)
-                        </strong> */}
-
                         <li>
                           <i className="far fa-file-alt" />{" "}
                           <span>Course Level</span> <b>Beginner</b>
@@ -332,7 +330,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/4gwcNH7Oh6fY1b2cN7"
+                        href="https://buy.stripe.com/00gaFz2tXfQy3ja14z"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
