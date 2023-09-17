@@ -245,7 +245,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Enrol Today
+                    Learn more
                   </a>
                 </div>
                 <section className="why-choose-section pt-120 rpt-90 pb-90   rpb-100">
@@ -280,10 +280,10 @@ const CourseDetails = () => {
                           </div>
 
                           <a
-                            href="#pricing"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSctqaesUP6GciZgM_yo7RcZop2Z4ykhtTaLdmc8j6B7OKE1SA/viewform?usp=sf_link"
                             className="theme-btn style-four"
                           >
-                            Enrol Today
+                            Join the waiting list
                             <i className="fas fa-arrow-right" />
                           </a>
                         </div>
@@ -416,26 +416,8 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">225</span>
-                        <span
-                          style={{
-                            textDecoration: "line-through",
-                            marginLeft: "20px",
-                          }}
-                          className="price"
-                        >
-                          299
-                        </span>
+                        <span className="price">299</span>
                       </div>
-                      <p
-                        style={{
-                          fontSize: "22px",
-                          fontWeight: "700",
-                          fontStyle: "italic",
-                        }}
-                      >
-                        25% Off!
-                      </p>
 
                       <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
@@ -461,7 +443,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/28ocNHecFbAibPG6oU"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSctqaesUP6GciZgM_yo7RcZop2Z4ykhtTaLdmc8j6B7OKE1SA/viewform?usp=sf_link"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -469,7 +451,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol Today
+                        Join the waiting list
                       </a>
                     </div>
                   </div>

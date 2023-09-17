@@ -395,7 +395,7 @@ const Index = () => {
                     </div>
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>Last 4 spaces!</span>
+                        <span>COURSE CLOSED</span>
                       </p>
                       <div>
                         {" "}
@@ -448,7 +448,7 @@ const Index = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol Today
+                        Learn more
                         <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
