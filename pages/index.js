@@ -246,8 +246,7 @@ const Index = () => {
         <Tweets />
         {/* <Mentoring /> */}
         <div className="section-title text-center py-2">
-          <h2>25% Off </h2>
-          <h4>Until Sunday</h4>
+          <h2>Final Cohort of 2023 </h2>
         </div>
         <div
           id="courses-group"
@@ -294,7 +293,7 @@ const Index = () => {
 
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>19 spaces left</span>
+                        <span>15 spaces left</span>
                       </p>
                       <div>
                         {" "}
