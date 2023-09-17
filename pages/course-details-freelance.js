@@ -431,7 +431,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>17th September 2023 </b>
+                          <b>Early 2024 </b>
                         </li>
 
                         <li>
@@ -439,7 +439,6 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>International Students are Welcome</p>
-                        <p style={{ color: "blue" }}>10 spaces left</p>
                       </ul>
 
                       <a

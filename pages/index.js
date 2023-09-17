@@ -390,12 +390,12 @@ const Index = () => {
                         className="bold"
                         style={{ fontSize: "17px" }}
                       >
-                        Next cohort: 17th September 2023
+                        Next cohort: Early 2024
                       </p>
                     </div>
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>COURSE CLOSED</span>
+                        <span>Course is closed</span>
                       </p>
                       <div>
                         {" "}
