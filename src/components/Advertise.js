@@ -7,11 +7,13 @@ const Advertise = () => {
       <div className="col-lg-6">
         <div className="advertise-item wow fadeInUp delay-0-2s">
           <div className="content">
-            <p style={{ fontSize: "17px", color: "black" }}>Coming Soon </p>
-            <h4 style={{ fontWeight: "bold" }}> Data Analytics Bootcamp</h4>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-KL2iLyBirWx2YN5DV4r6LkRPtSkQCKTIZgr1d_vr-Q5f0Q/viewform?usp=sf_link">
+            <p style={{ fontSize: "17px", color: "black" }}>
+              Final cohort of 2023{" "}
+            </p>
+            <h4 style={{ fontWeight: "bold" }}> 14 spaces left!</h4>
+            <a href="#courses-group">
               <a className="theme-btn">
-                Register your interest
+                Enrol Today
                 <i className="fas fa-arrow-right" />
               </a>
             </a>

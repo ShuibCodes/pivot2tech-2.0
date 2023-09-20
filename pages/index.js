@@ -152,6 +152,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <Advertise />
       {/* Hero Section End */}
       {/* Features Section Start */}
 
