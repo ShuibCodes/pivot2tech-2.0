@@ -152,7 +152,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <Advertise />
+
       {/* Hero Section End */}
       {/* Features Section Start */}
 
@@ -202,7 +202,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-
+      <Advertise />
       <section
         id="what-learn"
         className="coach-section rel z-1 pt-120 rpt-90 pb-100 rpb-70 bg-lighter"
@@ -294,7 +294,7 @@ const Index = () => {
 
                     <div className="d-flex justify-content-around ">
                       <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>15 spaces left</span>
+                        <span>14 spaces left</span>
                       </p>
                       <div>
                         {" "}
