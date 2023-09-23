@@ -62,12 +62,7 @@ const CourseDetails = () => {
                   style={{ fontSize: "18px" }}
                   className="list-style-two mb-45"
                 >
-                  <span>
-                    {" "}
-                    <i className="far fa-clock mr-2" /> 26th September - 24th
-                    October
-                  </span>
-                  <li>Tuesdays and Thursdays - 5-7pm </li>
+                  <li>Tuesdays and Saturdays - 6-8pm </li>
                   <li>Online, virtual classes </li>
                 </ul>
                 <h3>What your child will learn</h3>
