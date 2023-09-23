@@ -225,15 +225,9 @@ const CourseDetails = () => {
                 <div className="widget widget-course-details wow fadeInUp delay-0-2s">
                   <div className="widget-video">
                     <img
-                      src="assets/images/widgets/course-details.jpg"
-                      alt="Course Details"
+                      src="assets/images/py-kids-cover-2.png"
+                      alt="python-coding-for-kids"
                     />
-                    <a
-                      href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                      className="mfp-iframe youtube-video-play"
-                    >
-                      <i className="fas fa-play" />
-                    </a>
                   </div>
                   <div className="price-off">
                     <span className="price">199</span>
@@ -269,7 +263,7 @@ const CourseDetails = () => {
                     </a>
                   </Link>
                   <div className="my-10">
-                    <Link href="/contact">
+                    <Link href="/kids-free-trail">
                       <a
                         style={{ backgroundColor: "#2351CF" }}
                         className="theme-btn"

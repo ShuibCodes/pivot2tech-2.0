@@ -278,11 +278,11 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">240</span>
+                    <span className="price">299</span>
                     <span className="off">25 spaces</span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    30th October
+                    Start: Early November (TBC)
                   </p>
                   <ul className="course-details-list mb-25">
                     <li>
@@ -291,7 +291,7 @@ const CourseDetails = () => {
                     </li>
                     <li>
                       <i className="far fa-clock" /> <span>Duration</span>{" "}
-                      <b>5 hours/week</b>
+                      <b>6 hours/week</b>
                     </li>
 
                     <li>
@@ -309,7 +309,7 @@ const CourseDetails = () => {
                     </li>
                   </ul>
 
-                  <a href="https://buy.stripe.com/aEU293fgJgUC8Du3cJ">
+                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
                       Sign up <i className="fas fa-arrow-right" />
                     </a>
