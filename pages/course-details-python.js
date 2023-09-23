@@ -184,7 +184,7 @@ const CourseDetails = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-4 col-sm-6">
+                    {/* <div className="col-md-4 col-sm-6">
                       <div className="instructor-details">
                         <h4>John D. Mathews</h4>
                         <span className="designations">
@@ -215,7 +215,7 @@ const CourseDetails = () => {
                           </Link>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
