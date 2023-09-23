@@ -289,7 +289,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: 3rd October 2023
+                      Next cohort: 7nd October 2023
                     </p>
 
                     <div className="d-flex justify-content-around ">

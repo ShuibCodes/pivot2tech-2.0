@@ -287,7 +287,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>3rd October 2023 </b>
+                          <b>Tuesday 7nd October </b>
                         </li>
 
                         <li>
