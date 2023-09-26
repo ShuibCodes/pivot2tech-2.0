@@ -81,18 +81,19 @@ const CourseDetails = () => {
                         <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                           <div className="section-title mb-25">
                             <h2>
-                              Learn the Art of Working from Anywhere and Achieve
-                              Career Independence!
+                              <span style={{ color: "#1F4ECE" }}>
+                                {" "}
+                                Launch Your High-Income Career.{" "}
+                              </span>{" "}
+                              join the new generation of remote workers.
                             </h2>
                           </div>
 
                           <div>
                             <p>
-                              Unleash unlimited potential with freelance web
-                              design & digital marketing. experience the freedom
-                              to work on exciting projects, earn more, and learn
-                              easily with our comprehensive training. start your
-                              journey today!
+                              Experience the freedom to work on exciting
+                              projects, earn more, and learn easily with our
+                              comprehensive training. start your journey today!
                             </p>
                           </div>
                           <div href="/course-details">
@@ -100,7 +101,7 @@ const CourseDetails = () => {
                               href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Secure your space
+                              Secure my space
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
