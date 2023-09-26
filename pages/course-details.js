@@ -320,7 +320,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Sign up
+                        Save my spot
                       </a>
                     </div>
                   </div>
