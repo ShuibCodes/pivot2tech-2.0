@@ -8,9 +8,9 @@ const Advertise = () => {
         <div className="advertise-item wow fadeInUp delay-0-2s">
           <div className="content">
             <p style={{ fontSize: "17px", color: "black" }}>
-              Final cohort of 2023{" "}
+              October Software Engineering Bootcamp{" "}
             </p>
-            <h4 style={{ fontWeight: "bold" }}> 14 spaces left!</h4>
+            <h4 style={{ fontWeight: "bold" }}> 11 days left to apply</h4>
             <a href="#courses-group">
               <a className="theme-btn">
                 Enrol Today
