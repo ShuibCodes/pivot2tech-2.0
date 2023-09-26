@@ -94,7 +94,7 @@ const CourseDetails = () => {
                             paying thousands for a degrees.
                           </p>
                           <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                            Next Cohort: 3rd October
+                            Next Cohort: Saturday 7th October
                           </p>
                           <div>
                             <a
@@ -287,7 +287,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>Saturday 7rd October </b>
+                          <b>Saturday 7nd October </b>
                         </li>
 
                         <li>
