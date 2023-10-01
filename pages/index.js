@@ -14,6 +14,7 @@ import Tweets from "../src/components/tweets";
 import { supabase } from "../lib/initSupabase";
 import Ebook from "../public/assets/images/ebook-last.png";
 import Bundle from "../public/assets/images/bundle-image.png";
+import webDev from "../public/assets/images/web-dev.webp";
 import moneyback from "../public/assets/images/money-back.png";
 import Roadmap from "../src/components/roadmap";
 const Index1Isotope = dynamic(
@@ -581,14 +582,41 @@ const Index = () => {
                 <img
                   src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                   alt="Why Choose"
-                  className="why-choose-one"
+                  className="why-choose-one mobile-hero"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
+      <div>
+        <h3 className="text-center p-5">Beginner's Intro to Web Development</h3>
+        <p
+          style={{ fontSize: "18px" }}
+          className="p-20 text-center"
+        >
+          This short, mini-course is designed to get you up and running with the
+          bulding blocks of web development: HTML, CSS & JavaScript.
+        </p>
+        <div className="d-md-flex align-items-center justify-content-center p-10">
+          <Image
+            src={webDev}
+            alt="ebook"
+            objectFit="contian"
+            width={400}
+            height={200}
+          />
 
+          <div className="newsletter-container md:pl-5">
+            <a href="https://pivot2tech.gumroad.com/l/intro-to-web-development?_gl=1*wzamwl*_ga*NTI1MTAxMjY4LjE2OTE0MTI2MjU.*_ga_6LJN6D94N6*MTY5NjE0NzI4MS4xMjIuMS4xNjk2MTQ3NzY3LjAuMC4w">
+              <a className="theme-btn">
+                Grab a FREE copy
+                <i className="fas fa-arrow-right" />
+              </a>
+            </a>
+          </div>
+        </div>
+      </div>
       <section className="work-process-section bg-white rel z-1 pt-130 rpt-100 pb-100 rpb-70">
         <div className="container">
           <div id="what-learn">
@@ -599,59 +627,7 @@ const Index = () => {
       <div className="my-20">
         <Advertise />
       </div>
-      <div>
-        <h5 className="text-center p-5">
-          Subscribe & get the Beginner's Freelance Guide FREE
-        </h5>
-        <div className="d-md-flex align-items-center justify-content-center p-10">
-          <Image
-            src={Bundle}
-            alt="ebook"
-            objectFit="contian"
-            width={300}
-            height={300}
-          />
 
-          <div className="newsletter-container md:pl-5">
-            <form
-              onSubmit={(e) => e.preventDefault()}
-              className="form-newsletter"
-              action="#"
-            >
-              {formSubmitted === "empty" ? (
-                <p>Thanks! we'll be in touch soon </p>
-              ) : (
-                <div className="newsletter-email">
-                  <label htmlFor="email">
-                    <i className="far fa-envelope" />
-                  </label>
-                  <input
-                    onChange={(e) => setEmail(e.target.value)}
-                    value={email}
-                    id="email"
-                    type="email"
-                    placeholder="Enter Email "
-                    required=""
-                    className={
-                      noEmailError ? "mb-3 border border-danger" : "mb-3"
-                    }
-                  />
-
-                  <button
-                    type="button"
-                    data-dismiss="modal"
-                    style={{ height: "60px", marginLeft: "15px" }}
-                    className="theme-btn"
-                    onClick={handleDismiss}
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              )}
-            </form>
-          </div>
-        </div>
-      </div>
       <div id="the-team">
         <Team />
       </div>
