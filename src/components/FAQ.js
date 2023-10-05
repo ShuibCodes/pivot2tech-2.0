@@ -67,6 +67,28 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
+          title={"What if I miss a lesson?"}
+          active={active}
+          onClick={() => onClick("collapse1")}
+        >
+          <div className="course-video-list">
+            <p className="p-40">
+              All our sessions are recorded, and you'll have 24/7 access to our
+              tutors via the online community.
+              <br></br>
+              We also run extra drop-in sessions once a week - usually on
+              Thursday evenings for the Software Engineering course
+            </p>
+          </div>
+        </WellernAccordion>
+      </Accordion>
+      <Accordion
+        className="faq-accordion pt-10 "
+        id="course-faq"
+        defaultActiveKey=""
+      >
+        <WellernAccordion
+          eventName={"collapse1"}
           title={"What opportunites can I get after the course?"}
           active={active}
           onClick={() => onClick("collapse1")}
@@ -92,14 +114,13 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={"Do we get a certificate at the end of the bootcamp??"}
+          title={"Do we get a certificate at the end of the bootcamp?"}
           active={active}
           onClick={() => onClick("collapse1")}
         >
           <div className="course-video-list">
             <p className="p-40">
-              Email pivot2techteam@gmail.com with a copy of your portfolio after
-              completing the course and we'll send your certificate.
+              Yes, we offer an official certifcate of completeion for your CV.
             </p>
           </div>
         </WellernAccordion>
