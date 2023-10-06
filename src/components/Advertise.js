@@ -10,7 +10,7 @@ const Advertise = () => {
             <p style={{ fontSize: "17px", color: "black" }}>
               Next Software Engineering Bootcamp: <strong>7th October</strong>
             </p>
-            <h4 style={{ fontWeight: "bold" }}> 7 spaces left</h4>
+            <h4 style={{ fontWeight: "bold" }}> 5 spaces left</h4>
             <Link href="/course-details">
               <a className="theme-btn">
                 Enrol Today
