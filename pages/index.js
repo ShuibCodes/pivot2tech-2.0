@@ -204,7 +204,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <Advertise />
+      {/* <Advertise /> */}
       <section
         id="what-learn"
         className="coach-section rel z-1 pt-120 rpt-90 pb-100 rpb-70 bg-lighter"
@@ -291,13 +291,10 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: 7nd October 2023
+                      Next cohort: Early 2024
                     </p>
 
                     <div className="d-flex justify-content-around ">
-                      <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>3 spaces left</span>
-                      </p>
                       <div>
                         {" "}
                         <Image
@@ -347,7 +344,7 @@ const Index = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol Today
+                        Learn more
                         <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
@@ -396,9 +393,6 @@ const Index = () => {
                       </p>
                     </div>
                     <div className="d-flex justify-content-around ">
-                      <p style={{ fontSize: "18px", color: "blue" }}>
-                        <span>Course is closed</span>
-                      </p>
                       <div>
                         {" "}
                         <Image
@@ -624,9 +618,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <div className="my-20">
-        <Advertise />
-      </div>
+      <div className="my-20">{/* <Advertise /> */}</div>
 
       <div id="the-team">
         <Team />
@@ -645,9 +637,7 @@ const Index = () => {
 
       {/* Work Process Section End */}
       {/* Newsletter Section Start */}
-      <div className="">
-        <Advertise />
-      </div>
+      <div className="">{/* <Advertise /> */}</div>
 
       {/* Newsletter Section End */}
 

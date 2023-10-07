@@ -94,14 +94,14 @@ const CourseDetails = () => {
                             paying thousands for a degrees.
                           </p>
                           <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                            Next Cohort: Saturday 7th October
+                            Next Cohort: Early 2024
                           </p>
                           <div>
                             <a
-                              href="#pricing"
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                               className="theme-btn style-four"
                             >
-                              Enrol Today
+                              Join Waiting List
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -147,10 +147,10 @@ const CourseDetails = () => {
                           </ul>
                           <div>
                             <a
-                              href="https://buy.stripe.com/4gwcNH7Oh6fY1b2cN7"
+                              href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                               className="theme-btn style-four"
                             >
-                              Secure a space
+                              Join the waiting list
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -251,7 +251,7 @@ const CourseDetails = () => {
                   </WellernAccordion>
                 </Accordion>
                 <a
-                  href="https://buy.stripe.com/4gwcNH7Oh6fY1b2cN7"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                   style={{
                     padding: "11px",
                     fontSize: "12px",
@@ -259,7 +259,7 @@ const CourseDetails = () => {
                   }}
                   className="theme-btn"
                 >
-                  Enrol Today
+                  Join Waiting List
                 </a>
 
                 <div className="col-lg-4">
@@ -273,26 +273,9 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">240</span>
-                        <span
-                          style={{
-                            textDecoration: "line-through",
-                            marginLeft: "20px",
-                            fontSize: "22px",
-                            fontStyle: "italic",
-                          }}
-                          className="price"
-                        >
-                          300
-                        </span>
+                        <span className="price">299</span>
                       </div>
-                      <p
-                        style={{
-                          fontStyle: "italic",
-                        }}
-                      >
-                        Limited time offer - ends Friday 23:59*
-                      </p>
+
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
@@ -304,7 +287,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>Saturday 7nd October </b>
+                          <b>Early 2024</b>
                         </li>
 
                         <li>
@@ -321,10 +304,6 @@ const CourseDetails = () => {
                           />
                           <p style={{ color: "blue", fontWeight: "bold" }}>
                             14-day money back guarantee
-                          </p>
-
-                          <p style={{ color: "blue", fontStyle: "italic" }}>
-                            last 7 spaces of 2023*
                           </p>
                         </div>
                       </ul>
