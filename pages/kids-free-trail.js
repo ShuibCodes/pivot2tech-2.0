@@ -119,7 +119,7 @@ const CourseDetails = () => {
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
-                            src="https://cdn-dochk.nitrocdn.com/qEcxptvCNtRciuVoCsqmAJAQKLzxYhSu/assets/images/optimized/rev-1dc3412/www.softwareacademy.co.uk/wp-content/uploads/2022/01/Grad.png"
+                            src="hGrad.png"
                             alt="Why Choose"
                             className="why-choose-one"
                           />
@@ -153,7 +153,7 @@ const CourseDetails = () => {
                             />
                           </Link>
                           <h6 className="py-5">
-                            Takes less than 30 seconds to book.
+                            Exclusive discounts after the trial
                           </h6>
                         </div>
                         <div className="logo-item text-center wow fadeInUp delay-0-3s">
@@ -164,9 +164,7 @@ const CourseDetails = () => {
                               className="py-3"
                             />
                           </Link>
-                          <h6 className="py-5">
-                            Takes less than 30 seconds to book.
-                          </h6>
+                          <h6 className="py-5">Certificate upon completion</h6>
                         </div>
                       </div>
                     </div>

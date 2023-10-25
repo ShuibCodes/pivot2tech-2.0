@@ -58,6 +58,7 @@ const CourseDetails = () => {
                 </p>
 
                 <h3>When and Where</h3>
+                <h4>Tuesday 24th October</h4>
                 <ul
                   style={{ fontSize: "18px" }}
                   className="list-style-two mb-45"
@@ -85,17 +86,20 @@ const CourseDetails = () => {
                           href="https://www.youtube.com/watch?v=9Y7ma241N8k"
                           className="mfp-iframe course-video-play"
                         >
-                          <span className="title">Arguments</span>{" "}
+                          <span className="title">Outputs</span>{" "}
                         </a>
                       </li>
                       <li>
-                        <span className="title">Arrays</span>{" "}
+                        <span className="title">Inputs & Variables</span>{" "}
                       </li>
                       <li>
-                        <span className="title">Statements</span>
+                        <span className="title">Data Types & Maths</span>
                       </li>
                       <li>
-                        <span className="title">Functions</span>
+                        <span className="title">More Maths</span>
+                      </li>
+                      <li>
+                        <span className="title">Selection (IF Statements)</span>
                       </li>
                     </ul>
                   </WellernAccordion>
@@ -107,16 +111,27 @@ const CourseDetails = () => {
                   >
                     <ul className="course-video-list">
                       <li>
-                        <span className="title">Loops</span>{" "}
+                        <span className="title">
+                          Multiple Selections (ELIF Statements)
+                        </span>{" "}
                       </li>
                       <li>
-                        <span className="title">Variables</span>{" "}
+                        <span className="title">For Loops (Interation 1)</span>{" "}
                       </li>
                       <li>
-                        <span className="title">Algorithm</span>
+                        <span className="title">
+                          While Loops (Interation 2)
+                        </span>
                       </li>
                       <li>
-                        <span className="title">Conditionals</span>
+                        <span className="title">
+                          Validations & Error Handling
+                        </span>
+                      </li>{" "}
+                      <li>
+                        <span className="title">
+                          Data Structures (1D Lists)
+                        </span>
                       </li>
                     </ul>
                   </WellernAccordion>
@@ -128,17 +143,24 @@ const CourseDetails = () => {
                   >
                     <ul className="course-video-list">
                       <li>
-                        <span className="title">Declarations</span>{" "}
+                        <span className="title">
+                          {" "}
+                          Data Structures (2D Lists)
+                        </span>{" "}
                       </li>
                       <li>
-                        <span className="title">Frameworks</span>{" "}
+                        <span className="title">String Methods</span>{" "}
                       </li>
                       <li>
-                        <span className="title">Operands</span>
+                        <span className="title">File Handling</span>
                       </li>
                       <li>
-                        <span className="title">Operators</span>
-                        <i className="far fa-play-circle" />{" "}
+                        <span className="title">Procedures</span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Functions & Parameter Passing
+                        </span>
                       </li>
                     </ul>
                   </WellernAccordion>
@@ -176,14 +198,14 @@ const CourseDetails = () => {
 
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
-                    <div className="col-sm-5">
+                    {/* <div className="col-sm-5">
                       <div className="instructor-image">
                         <img
                           src="assets/images/teams/instructor.jpg"
                           alt="instructor"
                         />
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="col-md-4 col-sm-6">
                       <div className="instructor-details">
                         <h4>John D. Mathews</h4>
@@ -230,17 +252,25 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">199</span>
+                    <span className="price">150</span>
                     <span className="off">25% off</span>
+
                     <img
                       style={{ maxWidth: "20%" }}
                       src="https://static.wixstatic.com/media/74c84a_23793fd31b7e44889268b9e4779299f1~mv2.png/v1/fill/w_195,h_176,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LogoColour1%20(1).png"
                     />
                   </div>
+                  <p style={{ fontWeight: "700", fontStyle: "italic" }}>
+                    For the first 5 students*
+                  </p>
                   <ul className="course-details-list mb-25">
                     <li>
+                      <i className="far fa-clock" /> <span>Start:</span>{" "}
+                      <b>Tuesday 24th October</b>
+                    </li>
+                    <li>
                       <i className="far fa-file-alt" />{" "}
-                      <span>Course Level</span> <b>Kids ages 9-12</b>
+                      <span>Course Level</span> <b>Kids ages 9-14</b>
                     </li>
                     <li>
                       <i className="far fa-clock" /> <span>Duration</span>{" "}

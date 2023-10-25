@@ -474,11 +474,7 @@ const Index = () => {
                   <h4>
                     <Link href="/product-details">Data Analytics</Link>
                   </h4>
-                  <div className="ratting-price">
-                    <span style={{ color: "#1F4ECD", fontWeight: "700" }}>
-                      Coming Soon{" "}
-                    </span>
-                  </div>
+                  <div className="ratting-price"></div>
 
                   <p>
                     Become a successful professional in the Data Analytics field
@@ -506,7 +502,7 @@ const Index = () => {
                       Certifcation upon completion
                     </li>
                   </ul>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc-KL2iLyBirWx2YN5DV4r6LkRPtSkQCKTIZgr1d_vr-Q5f0Q/viewform?usp=sf_link">
+                  <a href="https://forms.gle/bgpAcbJMok6rZE8Q6">
                     <a
                       style={{
                         padding: "10px",
@@ -515,7 +511,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Join the Waiting List
+                      Join Waiting List
                       <i className="fas fa-arrow-right" />
                     </a>
                   </a>

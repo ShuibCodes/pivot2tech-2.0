@@ -282,7 +282,7 @@ const CourseDetails = () => {
                     <span className="off">25 spaces</span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Early November (TBC)
+                    Start: Saturday 25th November
                   </p>
                   <ul className="course-details-list mb-25">
                     <li>
@@ -296,22 +296,22 @@ const CourseDetails = () => {
 
                     <li>
                       <i className="far fa-clipboard" /> <span>Days</span>{" "}
-                      <b>Mondays & Saturdays</b>
+                      <b>Wed (6-9pm) & Sat (11-2pm) </b>
                     </li>
                     <li>
                       <i className="far fa-clock" /> <span>Times</span>{" "}
-                      <b>6-9pm & 10-12pm </b>
+                      <b>2 online lessons a week</b>
                     </li>
 
                     <li>
-                      <i className="fas fa-globe" /> <span>Location</span>{" "}
-                      <b>Online</b>
+                      <i className="fas fa-globe" />{" "}
+                      <span>Community access included</span>{" "}
                     </li>
                   </ul>
 
-                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
+                  <a href="https://docs.google.com/forms/d/1OWSXrqx97vD15GMnzXApBH_u-I-ihedhxB4WhEzXjOU/edit">
                     <a className="theme-btn">
-                      Sign up <i className="fas fa-arrow-right" />
+                      Join the waiting list <i className="fas fa-arrow-right" />
                     </a>
                   </a>
                 </div>
@@ -343,10 +343,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="#pricing"
+                    href="https://docs.google.com/forms/d/1OWSXrqx97vD15GMnzXApBH_u-I-ihedhxB4WhEzXjOU/edit"
                     className="theme-btn style-four"
                   >
-                    Enrol Today
+                    Join the waiting list
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -389,7 +389,7 @@ const CourseDetails = () => {
                     href="#pricing"
                     className="theme-btn style-four"
                   >
-                    Enrol Today
+                    Join the waiting list
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
