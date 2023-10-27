@@ -436,15 +436,18 @@ const Header1 = ({ navToggle, setNavToggle }) => (
         <div className="top-inner">
           <div className="top-left">
             <p>
-              <i className="far fa-clock" /> <b>Applications Now Open!</b>{" "}
+              <i className="far fa-clock" />{" "}
+              <Link href="/data-analytics">
+                Join The Data Analytics Bootcamp
+              </Link>
             </p>
           </div>
           <div className="top-right d-flex align-items-center">
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">👇🏾</span>Limited Spaces
-                <span className="px-2">👇🏾</span>
+                <span className="px-2">🚨</span> only 25 spaces
+                <span className="px-2">🚨</span>
               </h6>
             </div>
           </div>

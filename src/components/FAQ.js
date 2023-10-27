@@ -67,7 +67,7 @@ function FAQ() {
       >
         <WellernAccordion
           eventName={"collapse1"}
-          title={"What if I miss a lesson?"}
+          title={"Are the live lessons recorded?"}
           active={active}
           onClick={() => onClick("collapse1")}
         >
@@ -77,7 +77,7 @@ function FAQ() {
               tutors via the online community.
               <br></br>
               We also run extra drop-in sessions once a week - usually on
-              Thursday evenings for the Software Engineering course
+              Thursday evenings for the Software Engineering course.
             </p>
           </div>
         </WellernAccordion>

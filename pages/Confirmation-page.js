@@ -12,11 +12,17 @@ const E404 = () => {
               <h2>Thank you for signing up!</h2>
             </div>
             <h4>
-              You'll receive an onboarding email in 5-7 working days from one of
-              the team{" "}
+              You'll receive an onboarding email in 2-5 working days from one of
+              the team!{" "}
             </h4>
 
             <p style={{ color: "white" }}>£299</p>
+            <Link
+              href="/contact"
+              className="theme-btn style-four"
+            >
+              <a className="theme-btn style-four">Got a question? Contact us</a>
+            </Link>
           </div>
         </div>
       </section>

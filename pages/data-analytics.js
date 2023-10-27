@@ -29,23 +29,23 @@ const CourseDetails = () => {
                   />
                   <span className="off">Beginner Friendly</span>
                 </div>
-                <h2>Data Analytics Bootcamp</h2>
+                <h3 className="my-12">
+                  Become a Data Analyst without spending £30,000 on a degree.
+                </h3>
 
                 <div className="image mb-35">
                   <img
-                    src="https://www.pathstream.com/blog/wp-content/uploads/110.png"
+                    src="https://www.purdueglobal.edu/blog/it/rise-of-data-analyst.jpg"
                     alt="Course Details"
                   />
                 </div>
+
                 <p style={{ fontSize: "18px" }}>
-                  Become a successful professional in the Data Analytics field
-                  with our immersive, part-time bootcamp. With personalized
-                  support and practical learning, you’ll get the best results.
-                  <br></br>
-                  <br></br>
+                  Join our our immersive, part-time bootcamp for personalized
+                  support, practical learning and a jobs & CV workshop.
                 </p>
 
-                <h3>When and Where</h3>
+                <h3>What is included:</h3>
                 <ul
                   style={{ fontSize: "18px" }}
                   className="list-style-two mb-45"
@@ -66,7 +66,7 @@ const CourseDetails = () => {
                   </p>
                 </ul>
                 <h3>What you will learn</h3>
-                <h5>Beginner to Job Ready </h5>
+
                 <p>Pre-requisites: None</p>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
@@ -228,37 +228,24 @@ const CourseDetails = () => {
                     <div className="col-sm-5">
                       <div className="instructor-image">
                         <img
-                          src="https://pbs.twimg.com/profile_images/1657853305454747649/gLRc0CB2_400x400.jpg"
+                          src="assets/images/abdirahim.jpeg"
                           alt="instructor"
                         />
                       </div>
                     </div>
                     <div className="col-md-4 col-sm-6">
                       <div className="instructor-details">
-                        <h4>Abraham Musa</h4>
+                        <h4>Abdirahim</h4>
                         <span className="designations">
-                          Senior Data Analyst & Teacher
+                          Data Consultant & Instructor
                         </span>
 
                         <p>
-                          Abraham is a senior Data Analyst at Admiral UK. He has
-                          also been a facilitator of numerous Data Analytics &
-                          Data Science Bootcamps both in the Uk and Africa.
+                          Abdirahim is a Data Consultant with over four years of
+                          experience in Data Analytics and Data Science. He is
+                          currently works for a leading digital marketing agency
+                          in the Uk.
                         </p>
-                        <h5>Follow Me</h5>
-                        <div className="social-style-two">
-                          <a href="https://twitter.com/abseejp">
-                            <a>
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </a>
-
-                          <a href="https://www.linkedin.com/in/abseejp/?originalSubdomain=uk">
-                            <a>
-                              <i className="fab fa-linkedin" />
-                            </a>
-                          </a>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -279,10 +266,10 @@ const CourseDetails = () => {
                   </div>
                   <div className="price-off">
                     <span className="price">299</span>
-                    <span className="off">25 spaces</span>
+                    <span className="off">25 spaces only</span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Saturday 25th November
+                    Start: Wednesday 29th November
                   </p>
                   <ul className="course-details-list mb-25">
                     <li>
@@ -298,20 +285,17 @@ const CourseDetails = () => {
                       <i className="far fa-clipboard" /> <span>Days</span>{" "}
                       <b>Wed (6-9pm) & Sat (11-2pm) </b>
                     </li>
-                    <li>
-                      <i className="far fa-clock" /> <span>Times</span>{" "}
-                      <b>2 online lessons a week</b>
-                    </li>
 
                     <li>
                       <i className="fas fa-globe" />{" "}
-                      <span>Community access included</span>{" "}
+                      <span>Recorded sessions & guest speakers</span>{" "}
                     </li>
                   </ul>
 
-                  <a href="https://docs.google.com/forms/d/1OWSXrqx97vD15GMnzXApBH_u-I-ihedhxB4WhEzXjOU/edit">
+                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
-                      Join the waiting list <i className="fas fa-arrow-right" />
+                      Secure your space
+                      <i className="fas fa-arrow-right" />
                     </a>
                   </a>
                 </div>
@@ -334,19 +318,20 @@ const CourseDetails = () => {
                 <div>
                   <p>
                     Upon completing the bootcamp, you will be equipped with the
-                    formal training and skills necessary to pursue roles in Data
-                    Analysis, Business Analysis, or Business Intelligence.
+                    formal training and skills necessary to pursue roles in{" "}
+                    <i>Data Analysis</i>, <i>Business Analysis</i>, or{" "}
+                    <i>Business Intelligence.</i>
                     <br></br>
-                    You'll learn about Python, and the skills required for data
-                    transformation and visualization.
+                    You'll learn about <i>Python</i>, and the skills required
+                    for data transformation and visualization.
                   </p>
                 </div>
                 <div>
                   <a
-                    href="https://docs.google.com/forms/d/1OWSXrqx97vD15GMnzXApBH_u-I-ihedhxB4WhEzXjOU/edit"
+                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
                     className="theme-btn style-four"
                   >
-                    Join the waiting list
+                    Secure your space
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -386,10 +371,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="#pricing"
+                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
                     className="theme-btn style-four"
                   >
-                    Join the waiting list
+                    Secure your space
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>

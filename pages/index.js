@@ -178,28 +178,28 @@ const Index = () => {
               </Link>
             </div>
             <div className="logo-item wow fadeInUp delay-0-2s">
-              <Link href="/contact">
-                <img
-                  src="assets/images/client-logos/capgemini.png"
-                  alt="Client Logo"
-                />
-              </Link>
+              <img
+                src="assets/images/client-logos/capgemini.png"
+                alt="Client Logo"
+              />
             </div>
             <div className="logo-item wow fadeInUp delay-0-3s">
-              <Link href="/contact">
-                <img
-                  src="assets/images/client-logos/trison.png"
-                  alt="Client Logo"
-                />
-              </Link>
+              <img
+                src="assets/images/client-logos/trison.png"
+                alt="Client Logo"
+              />
             </div>
             <div className="logo-item wow fadeInUp delay-0-4s">
-              <Link href="/contact">
-                <img
-                  src="assets/images/client-logos/agreed-digital.png"
-                  alt="Client Logo"
-                />
-              </Link>
+              <img
+                src="assets/images/client-logos/agreed-digital.png"
+                alt="Client Logo"
+              />
+            </div>
+            <div className="logo-item wow fadeInUp delay-0-4s">
+              <img
+                src="assets/images/octapus-energy.png"
+                alt="Client Logo"
+              />
             </div>
           </div>
         </div>
@@ -292,17 +292,6 @@ const Index = () => {
                       Next cohort: Early 2024
                     </p>
 
-                    <div className="d-flex justify-content-around ">
-                      <div>
-                        {" "}
-                        <Image
-                          src={moneyback}
-                          height={60}
-                          width={60}
-                        />
-                      </div>
-                    </div>
-
                     <ul
                       style={{ marginTop: "10px" }}
                       className="course-tags"
@@ -390,16 +379,7 @@ const Index = () => {
                         Next cohort: Early 2024
                       </p>
                     </div>
-                    <div className="d-flex justify-content-around ">
-                      <div>
-                        {" "}
-                        <Image
-                          src={moneyback}
-                          height={60}
-                          width={60}
-                        />
-                      </div>
-                    </div>
+                    <div className="d-flex justify-content-around "></div>
 
                     <ul className="course-tags">
                       <li>
@@ -475,10 +455,15 @@ const Index = () => {
                     <Link href="/product-details">Data Analytics</Link>
                   </h4>
                   <div className="ratting-price"></div>
-
                   <p>
                     Become a successful professional in the Data Analytics field
                     with our immersive, part-time bootcamp.
+                  </p>
+                  <p
+                    className="bold"
+                    style={{ fontSize: "17px" }}
+                  >
+                    Start date: 26th November
                   </p>
                   <ul className="">
                     <li>
@@ -501,8 +486,18 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📜</span>
                       Certifcation upon completion
                     </li>
-                  </ul>
-                  <a href="https://forms.gle/bgpAcbJMok6rZE8Q6">
+                  </ul>{" "}
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      color: "blue",
+                      fontWeight: "600",
+                      marginTop: "12px",
+                    }}
+                  >
+                    only 25 spaces
+                  </p>
+                  <Link href="/data-analytics">
                     <a
                       style={{
                         padding: "10px",
@@ -511,10 +506,10 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Join Waiting List
+                      Secure your space
                       <i className="fas fa-arrow-right" />
                     </a>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
