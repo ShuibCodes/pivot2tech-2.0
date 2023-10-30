@@ -16,7 +16,6 @@ const E404 = () => {
               the team!{" "}
             </h4>
 
-            <p style={{ color: "white" }}>£299</p>
             <Link
               href="/contact"
               className="theme-btn style-four"
