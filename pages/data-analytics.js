@@ -56,13 +56,15 @@ const CourseDetails = () => {
                     <span> 80-hours of learning over 12 weeks</span>
                   </span>
                   <li>Live classes 2 times per week</li>
-
                   <i className="far fa-file-alt mr-3" />
                   <span>100% Hands on experience</span>
-
                   <p>
                     <i className="far fa-user mr-3" />
                     Certified in 12 weeks
+                  </p>{" "}
+                  <p>
+                    🎁 <b>BONUS</b>: 2 sessions with our{" "}
+                    <a href="https://maryandahir.simple.ink/">career coach</a>
                   </p>
                 </ul>
                 <h3>What you will learn</h3>
@@ -266,7 +268,7 @@ const CourseDetails = () => {
                   </div>
                   <div className="price-off">
                     <span className="price">299</span>
-                    <span className="off">24/25 spaces left</span>
+                    <span className="off">24 spaces left</span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
                     Start: Wednesday 29th November

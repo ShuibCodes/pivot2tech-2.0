@@ -254,6 +254,80 @@ const Index = () => {
           className="container"
         >
           <div className="row coach-active justify-content-center">
+            <Link href="/data-analytics">
+              <div className="col-lg-4 col-md-6 item design technology">
+                <div className="coach-item">
+                  <div className="coach-image">
+                    <img
+                      src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGF0YSUyMHNjaWVuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+                      alt="data-analytics"
+                    />
+                  </div>
+                  <div className="coach-content">
+                    <span className="label">12 weeks</span>
+                    <h4>
+                      <Link href="/product-details">Data Analytics</Link>
+                    </h4>
+                    <div className="ratting-price"></div>
+                    <p>
+                      Become a successful professional in the Data Analytics
+                      field with our immersive, part-time bootcamp.
+                    </p>
+                    <p
+                      className="bold"
+                      style={{ fontSize: "17px" }}
+                    >
+                      Start date: 26th November
+                    </p>
+                    <ul className="">
+                      <li>
+                        <span style={{ marginRight: "7px" }}>💻</span>3
+                        real-life projects
+                      </li>
+
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "7px" }}>✅</span>
+                        Live classes 2 times per week
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "7px" }}>⏳</span>
+                        Lifetime access
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "7px" }}>📜</span>
+                        Certifcation upon completion
+                      </li>
+                    </ul>{" "}
+                    <p
+                      style={{
+                        fontSize: "16px",
+                        color: "blue",
+                        fontWeight: "600",
+                        marginTop: "12px",
+                      }}
+                    >
+                      24 spaces left
+                    </p>
+                    <Link href="/data-analytics">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Secure your space
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </Link>
             <div className="col-lg-4 col-md-6 item development photography">
               <Link href="/course-details">
                 <div
@@ -441,78 +515,6 @@ const Index = () => {
                 {/* </Link> */}
               </div>
             </Link>
-            <div className="col-lg-4 col-md-6 item design technology">
-              <div className="coach-item">
-                <div className="coach-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGF0YSUyMHNjaWVuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
-                    alt="data-analytics"
-                  />
-                </div>
-                <div className="coach-content">
-                  <span className="label">12 weeks</span>
-                  <h4>
-                    <Link href="/product-details">Data Analytics</Link>
-                  </h4>
-                  <div className="ratting-price"></div>
-                  <p>
-                    Become a successful professional in the Data Analytics field
-                    with our immersive, part-time bootcamp.
-                  </p>
-                  <p
-                    className="bold"
-                    style={{ fontSize: "17px" }}
-                  >
-                    Start date: 26th November
-                  </p>
-                  <ul className="">
-                    <li>
-                      <span style={{ marginRight: "7px" }}>💻</span>3 real-life
-                      projects
-                    </li>
-
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "7px" }}>✅</span>
-                      Live classes 2 times per week
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "7px" }}>⏳</span>
-                      Lifetime access
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "7px" }}>📜</span>
-                      Certifcation upon completion
-                    </li>
-                  </ul>{" "}
-                  <p
-                    style={{
-                      fontSize: "16px",
-                      color: "blue",
-                      fontWeight: "600",
-                      marginTop: "12px",
-                    }}
-                  >
-                    24/25 spaces left
-                  </p>
-                  <Link href="/data-analytics">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Secure your space
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
