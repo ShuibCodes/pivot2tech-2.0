@@ -268,7 +268,7 @@ const CourseDetails = () => {
                   </div>
                   <div className="price-off">
                     <span className="price">299</span>
-                    <span className="off">24 spaces left</span>
+                    <span className="off">23 spaces left</span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
                     Start: Wednesday 29th November
