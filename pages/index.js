@@ -300,6 +300,12 @@ const Index = () => {
                         <span style={{ marginRight: "7px" }}>📜</span>
                         Certifcation upon completion
                       </li>
+                      <li className="mt-1">
+                        🎁 <b>BONUS</b>: 2 sessions with our{" "}
+                        <a href="https://maryandahir.simple.ink/">
+                          career coach
+                        </a>
+                      </li>
                     </ul>{" "}
                     <p
                       style={{
