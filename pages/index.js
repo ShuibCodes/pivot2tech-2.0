@@ -309,7 +309,7 @@ const Index = () => {
                         marginTop: "12px",
                       }}
                     >
-                      24 spaces left
+                      23 spaces left
                     </p>
                     <Link href="/data-analytics">
                       <a
