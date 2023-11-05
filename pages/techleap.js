@@ -379,7 +379,7 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="#pricing"
+                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
                     className="theme-btn style-four"
                   >
                     Secure your space

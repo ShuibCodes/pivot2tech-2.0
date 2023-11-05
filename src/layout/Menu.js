@@ -15,6 +15,9 @@ export const Courses = () => (
       <Link href="/course-details">Software Engineering</Link>
     </li>
     <li>
+      <Link href="/data-analytics">Data Analytics</Link>
+    </li>
+    <li>
       <Link href="/course-details-freelance">
         Freelance Web & Digital Marketing
       </Link>
