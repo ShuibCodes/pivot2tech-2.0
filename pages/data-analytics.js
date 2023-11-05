@@ -67,7 +67,13 @@ const CourseDetails = () => {
                     <a href="https://maryandahir.simple.ink/">career coach</a>
                   </p>
                 </ul>
-                <h3>What you will learn</h3>
+                <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
+                  <a className="theme-btn">
+                    Secure your space
+                    <i className="fas fa-arrow-right" />
+                  </a>
+                </a>
+                <h3 className="mt-30">What you will learn</h3>
 
                 <p>Pre-requisites: None</p>
                 <Accordion
