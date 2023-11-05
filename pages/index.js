@@ -263,10 +263,19 @@ const Index = () => {
                   />
                 </div>
                 <div className="coach-content">
-                  <span className="label">12 weeks</span>
+                  <span className="label">Online lessons -12 weeks</span>
                   <h4>
                     <Link href="/product-details">Data Analytics</Link>
                   </h4>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      color: "blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    22 spaces left
+                  </p>
                   <div className="ratting-price"></div>
                   <p>
                     Become a successful professional in the Data Analytics field
