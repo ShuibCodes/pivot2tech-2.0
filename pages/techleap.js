@@ -8,6 +8,7 @@ import pic from "../public/assets/images/portfolio.png";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import { coachSlider } from "../src/sliderProps";
+import Maryan from "../public/assets/images/maryan.png";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -21,61 +22,146 @@ const CourseDetails = () => {
           <div className="row large-gap">
             <div className="col-lg-8">
               <div className="course-details-content">
-                <div className="course-header">
-                  <span className="category">Become Data Certified</span>
-                  <img
-                    src="assets/images/shapes/line-shape.png"
-                    alt="Line"
-                  />
-                  <span className="off">Beginner Friendly</span>
-                </div>
-                <h3 className="my-12">
-                  Become a Data Analyst without spending £30,000 on a degree.
-                </h3>
-
+                <h3 className="my-12">Land a job</h3>
+                <h4 className="my-12">Get hired 5x faster</h4>
+                <h5 className="my-12">
+                  Land interviews, networking calls & job offers
+                </h5>
                 <div className="image mb-35">
                   <img
-                    src="https://www.purdueglobal.edu/blog/it/rise-of-data-analyst.jpg"
+                    src="https://www.workitdaily.com/media-library/woman-accepts-a-job-offer-after-an-interview.jpg?id=28305318&width=980"
                     alt="Course Details"
                   />
                 </div>
-
-                <p style={{ fontSize: "18px" }}>
-                  Join our our immersive, part-time bootcamp for personalized
-                  support, practical learning and a jobs & CV workshop.
-                </p>
-
-                <h3>What is included:</h3>
-                <ul
-                  style={{ fontSize: "18px" }}
-                  className="list-style-two mb-45"
-                >
-                  <span>
-                    {" "}
-                    <i className="far fa-clock mr-2" />{" "}
-                    <span> 80-hours of learning over 12 weeks</span>
-                  </span>
-                  <li>Live classes 2 times per week</li>
-                  <i className="far fa-file-alt mr-3" />
-                  <span>100% Hands on experience</span>
-                  <p>
-                    <i className="far fa-user mr-3" />
-                    Certified in 12 weeks
-                  </p>{" "}
-                  <p>
-                    🎁 <b>BONUS</b>: 2 sessions with our{" "}
-                    <a href="https://maryandahir.simple.ink/">career coach</a>
-                  </p>
-                </ul>
-                <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
-                  <a className="theme-btn">
-                    Secure your space
+                <Link href="/faqs">
+                  <a
+                    className="theme-btn"
+                    style={{ color: "white", textDecoration: "none" }}
+                  >
+                    £30 per week for 4 weeks{" "}
                     <i className="fas fa-arrow-right" />
                   </a>
-                </a>
-                <h3 className="mt-30">What you will learn</h3>
+                </Link>
 
-                <p>Pre-requisites: None</p>
+                <div className="text-center image mb-35 mt-100">
+                  <Image
+                    src={Maryan}
+                    alt="Course Details"
+                  />
+                  <div className="my-20">
+                    <h3 className="my-1">Maryan Dahir</h3>
+                    <h4>Tech Careers Coach </h4>
+                  </div>
+                </div>
+
+                <h4>You're tired of the relentless job search</h4>
+                <h3>We understand.</h3>
+                <p>
+                  Which is why we designed the TechLeap program. A 4-week high
+                  performance Job Search cohort that mimics life in Tech.
+                </p>
+
+                <p>
+                  With our expert guidance, you'll <b>gain the skills</b> and{" "}
+                  <b>confidence</b> to secure
+                  <b>interviews</b> and <b>Job offers.</b>
+                </p>
+
+                <section className="mt-100">
+                  <h2>Proven results 👇🏾</h2>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "18px",
+                        padding: "35px 0px 35px 0px",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      “Reaching out to Maryan was one of the best decisions I've
+                      made in my career. She was incredibly helpful and gave me
+                      the advice I needed to secure a Customer Success role. I
+                      couldn't recommend her services enough!"
+                      <br></br>
+                      <b>
+                         - Khalid Yusuf, Customer Success Manager (AB Tasty)
+                      </b>
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "18px",
+                        padding: "35px 0px 35px 0px",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      “Maryan's career coaching is truly exceptional. Her
+                      dedication as an Event Coordinator and Course Lead,
+                      promoting diversity and mentorship in tech, is evident in
+                      her invaluable guidance. She's the ideal mentor for
+                      personal branding, interviews, and all things tech
+                      careers”
+                    </p>
+
+                    <p
+                      style={{
+                        fontSize: "18px",
+                        padding: "35px 0px 35px 0px",
+                        fontStyle: "italic",
+                      }}
+                    >
+                      “Maryan's commitment to diversity and inclusion in the
+                      tech sector as an Event Coordinator is commendable. Her
+                      role as a Course Lead & expertise in sales, makes her an
+                      outstanding mentor.”
+                    </p>
+                  </div>
+                </section>
+
+                <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
+                  <div className="container">
+                    <div className="logo-inner">
+                      <div className="logo-item wow fadeInUp delay-0-1s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/abtasty.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-2s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/octapus-energy.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-2s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/bank.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-3s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/capgemini.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3
+                  id="howItWorks"
+                  className="mt-30"
+                >
+                  A 3-week Career Accelarator course
+                </h3>
+                <p>Kick-off Monday 18th December , 7pm</p>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -193,44 +279,6 @@ const CourseDetails = () => {
                 <div className="text-center p-5">
                   <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
                 </div>
-                <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
-                  <div className="container">
-                    <div className="logo-inner">
-                      <div className="logo-item wow fadeInUp delay-0-1s">
-                        <Link href="/contact">
-                          <img
-                            src="assets/images/client-logos/bank.png"
-                            alt="Client Logo"
-                          />
-                        </Link>
-                      </div>
-                      <div className="logo-item wow fadeInUp delay-0-2s">
-                        <Link href="/contact">
-                          <img
-                            src="assets/images/client-logos/capgemini.png"
-                            alt="Client Logo"
-                          />
-                        </Link>
-                      </div>
-                      <div className="logo-item wow fadeInUp delay-0-3s">
-                        <Link href="/contact">
-                          <img
-                            src="assets/images/client-logos/trison.png"
-                            alt="Client Logo"
-                          />
-                        </Link>
-                      </div>
-                      <div className="logo-item wow fadeInUp delay-0-4s">
-                        <Link href="/contact">
-                          <img
-                            src="assets/images/client-logos/agreed-digital.png"
-                            alt="Client Logo"
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
                   <div className="row align-items-center">
                     <div className="col-sm-5">
@@ -320,18 +368,18 @@ const CourseDetails = () => {
             <div className="col-lg-6">
               <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
                 <div className="section-title mb-25">
-                  <h2>Become Job-ready in 12 weeks</h2>
+                  <h4>
+                    Don't let the pain of job hunting hold you back any longer.
+                  </h4>
+                  <h5>
+                    Take the first leap toward your dream job with Tech Leap
+                  </h5>
                 </div>
 
                 <div>
                   <p>
-                    Upon completing the bootcamp, you will be equipped with the
-                    formal training and skills necessary to pursue roles in{" "}
-                    <i>Data Analysis</i>, <i>Business Analysis</i>, or{" "}
-                    <i>Business Intelligence.</i>
-                    <br></br>
-                    You'll learn about <i>Python</i>, and the skills required
-                    for data transformation and visualization.
+                    We break the job search down into milestones and tasks each
+                    week, and go through the process together.
                   </p>
                 </div>
                 <div>
@@ -349,50 +397,7 @@ const CourseDetails = () => {
             <div className="col-lg-6">
               <div className="mt-10 ">
                 <img
-                  src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b25saW5lJTIwdGVhY2hpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                  alt="Why Choose"
-                  className="why-choose-one"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>{" "}
-      <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-6">
-              <div className="why-choose-content rmb-80 wow fadeInUp delay-0-2s">
-                <div className="section-title mb-25">
-                  <h2>Build Projects for your portfolio</h2>
-                </div>
-
-                <div>
-                  <p>
-                    After every module, you'll build a project with real-life
-                    data for your portfolio.
-                    <br></br>
-                    At the end of the bootcamp, you'll have a portfolio of
-                    projects ready to showcase your skills and techniques as a
-                    data analyst.
-                  </p>
-                </div>
-                <div>
-                  <a
-                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
-                    className="theme-btn style-four"
-                  >
-                    Secure your space
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="mt-10 ">
-                <Image
-                  src={pic}
+                  src="https://www.jobs.ca/content/uploads/2022/03/Interview-questions-to-be-asked.jpg"
                   alt="Why Choose"
                   className="why-choose-one"
                 />
