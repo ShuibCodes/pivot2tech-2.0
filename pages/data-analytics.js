@@ -67,7 +67,7 @@ const CourseDetails = () => {
                     <a href="https://maryandahir.simple.ink/">career coach</a>
                   </p>
                 </ul>
-                <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
+                <a href="#pricing">
                   <a className="theme-btn">
                     Secure your space
                     <i className="fas fa-arrow-right" />
