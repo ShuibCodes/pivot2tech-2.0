@@ -101,7 +101,7 @@ const CourseDetails = () => {
                               href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Secure my space
+                              Join the waiting list
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -119,7 +119,7 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
-                <h2> 👇🏾 Last Cohort of 2023! 👇🏾</h2>
+
                 <section className="why-choose-section pt-120 rpt-90 pb-130 rpb-100">
                   <div className="">
                     <div className="row justify-content-between align-items-center">
@@ -432,14 +432,19 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>Early 2024 </b>
+                          <b>4th Febraury 2024 </b>
                         </li>
 
                         <li>
                           <i className="fas fa-globe" /> <span></span>{" "}
                           <b>Sundays 7-9pm</b>
                         </li>
-                        <p>International Students are Welcome</p>
+                        <p>
+                          <i>
+                            Limited Capactiy, Join the waiting list to get
+                            notfied early
+                          </i>
+                        </p>
                       </ul>
 
                       <a
