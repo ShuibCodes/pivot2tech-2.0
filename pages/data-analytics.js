@@ -308,7 +308,7 @@ const CourseDetails = () => {
                       <span>Recorded sessions & guest speakers</span>{" "}
                     </li>
                   </ul>
-                  <p>🚨 10 spaces left 🚨</p>
+                  <p>🚨 8 spaces left 🚨</p>
                   <a href="https://checkout.stripe.com/c/pay/plink_1OEcLdB4LR0nzv0DCatqnAAX#fidkdWxOYHwnPyd1blppbHNgWjA0SXZ1UVdHMUlXNWt%2FczVBXTZwUUA2fE5TbVN1a0dRT21qN3ZQTWI0NHN3QWhxSmdIXX10M0I3QEJ%2FZ3V%2FcUxjU31VbDNSV0hpUD1LUlF0M2ZsVmlMcn1JNTVDalZtVmdgaCcpJ3VpbGtuQH11anZgYUxhJz8nZ0xcZktNPFJ1Mm43MHdsNz1JJ3gl">
                     <a className="theme-btn">
                       Secure your space

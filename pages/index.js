@@ -283,7 +283,7 @@ const Index = () => {
                       fontWeight: "600",
                     }}
                   >
-                    10 spaces left
+                    8 spaces left
                   </p>
                   <div className="ratting-price"></div>
                   <p>
