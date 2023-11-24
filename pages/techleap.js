@@ -159,9 +159,9 @@ const CourseDetails = () => {
                   id="howItWorks"
                   className="mt-30"
                 >
-                  A 3-week Career Accelarator course
+                  A 3-week, 6-hour Career Accelarator Cohort
                 </h3>
-                <p>Kick-off Monday 18th December , 7pm</p>
+                <p>Kick-off Tuesday 26th December , 7pm</p>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -321,11 +321,19 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">299</span>
-                    <span className="off">23 spaces left</span>
+                    <span className="price">120</span>
+                    <span
+                      style={{
+                        textDecoration: "line-through",
+                        marginLeft: "20px",
+                      }}
+                      className="price"
+                    >
+                      239
+                    </span>
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Wednesday 29th November
+                    Start: Tuesday 26th December
                   </p>
                   <ul className="course-details-list mb-25">
                     <li>
@@ -333,19 +341,23 @@ const CourseDetails = () => {
                       <span>Course Level</span> <b>Beginner's</b>
                     </li>
                     <li>
-                      <i className="far fa-clock" /> <span>Duration</span>{" "}
-                      <b>6 hours/week</b>
+                      <i className="far fa-clock" /> <span>Times</span>{" "}
+                      <b>2hrs a week, for 3 weeks</b>
                     </li>
 
                     <li>
                       <i className="far fa-clipboard" /> <span>Days</span>{" "}
-                      <b>Wed (6-9pm) & Sat (11-2pm) </b>
+                      <b>TBC </b>
                     </li>
 
                     <li>
                       <i className="fas fa-globe" />{" "}
-                      <span>Recorded sessions & guest speakers</span>{" "}
+                      <span>Live, group coaching sessions</span>{" "}
                     </li>
+                    <p>
+                      {" "}
+                      <span>Lifetime access to all recordings</span>{" "}
+                    </p>
                   </ul>
 
                   <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
