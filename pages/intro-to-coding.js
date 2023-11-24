@@ -262,11 +262,9 @@ const ProductDetails = () => {
                   className="bold"
                   style={{ fontSize: "17px" }}
                 >
-                  Next cohort: 3rd October 2023
+                  Next cohort: February 2024
                 </p>
-                <p style={{ fontSize: "18px", color: "blue" }}>
-                  <span>30 spaces left</span>
-                </p>
+
                 <ul
                   style={{ marginTop: "10px" }}
                   className="course-tags"
@@ -306,7 +304,7 @@ const ProductDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Enrol Today
+                    Register your interst
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
@@ -349,12 +347,9 @@ const ProductDetails = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Next cohort: 17th September 2023
+                    Next cohort: February 2024
                   </p>
                 </div>
-                <p style={{ fontSize: "18px", color: "blue" }}>
-                  <span>37 spaces left</span>
-                </p>
 
                 <ul className="course-tags">
                   <li>
@@ -397,7 +392,7 @@ const ProductDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Enrol Today
+                    Register your interest
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
