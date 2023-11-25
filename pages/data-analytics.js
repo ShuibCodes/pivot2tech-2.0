@@ -273,18 +273,8 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">180</span>
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        marginLeft: "20px",
-                      }}
-                      className="price"
-                    >
-                      300
-                    </span>
-                    <span className="off"> 40% Off till Friday</span>
-                  </div>
+                    <span className="price">299</span>
+                   
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
                     Start: Wednesday 29th November
                   </p>
@@ -308,8 +298,8 @@ const CourseDetails = () => {
                       <span>Recorded sessions & guest speakers</span>{" "}
                     </li>
                   </ul>
-                  <p>🚨 5 spaces left 🚨</p>
-                  <a href="https://checkout.stripe.com/c/pay/plink_1OEcLdB4LR0nzv0DCatqnAAX#fidkdWxOYHwnPyd1blppbHNgWjA0SXZ1UVdHMUlXNWt%2FczVBXTZwUUA2fE5TbVN1a0dRT21qN3ZQTWI0NHN3QWhxSmdIXX10M0I3QEJ%2FZ3V%2FcUxjU31VbDNSV0hpUD1LUlF0M2ZsVmlMcn1JNTVDalZtVmdgaCcpJ3VpbGtuQH11anZgYUxhJz8nZ0xcZktNPFJ1Mm43MHdsNz1JJ3gl">
+                  <p>🚨4 spaces left 🚨</p>
+                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
                       Secure your space
                       <i className="fas fa-arrow-right" />

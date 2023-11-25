@@ -269,21 +269,12 @@ const Index = () => {
                   </h4>
                   <p
                     style={{
-                      fontSize: "20px",
-                      color: "blue",
-                      fontWeight: "600",
-                    }}
-                  >
-                    40% OFF TILL FRIDAY
-                  </p>
-                  <p
-                    style={{
                       fontSize: "18px",
                       color: "blue",
                       fontWeight: "600",
                     }}
                   >
-                    5 spaces left
+                    Final 4 spaces
                   </p>
                   <div className="ratting-price"></div>
                   <p>
