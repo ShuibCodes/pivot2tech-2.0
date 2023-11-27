@@ -299,7 +299,7 @@ const CourseDetails = () => {
                       <span>Recorded sessions & guest speakers</span>{" "}
                     </li>
                   </ul>
-                  <p>🚨4 spaces left 🚨</p>
+                  <p>48 hours left</p>
                   <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
                       Secure your space

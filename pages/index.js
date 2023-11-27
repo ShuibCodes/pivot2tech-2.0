@@ -274,7 +274,7 @@ const Index = () => {
                       fontWeight: "600",
                     }}
                   >
-                    Final 4 spaces
+                    48 hours left
                   </p>
                   <div className="ratting-price"></div>
                   <p>
