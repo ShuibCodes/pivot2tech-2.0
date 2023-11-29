@@ -274,7 +274,7 @@ const Index = () => {
                       fontWeight: "600",
                     }}
                   >
-                    48 hours left
+                    Sold out
                   </p>
                   <div className="ratting-price"></div>
                   <p>
@@ -285,7 +285,7 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Start date: 29th November
+                    Next Cohort: March 2024
                   </p>
                   <ul className="">
                     <li>

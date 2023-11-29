@@ -69,7 +69,7 @@ const CourseDetails = () => {
                 </ul>
                 <a href="#pricing">
                   <a className="theme-btn">
-                    Secure your space
+                    Register your interest
                     <i className="fas fa-arrow-right" />
                   </a>
                 </a>
@@ -277,7 +277,7 @@ const CourseDetails = () => {
                     Or pay in 3 installments
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Wednesday 29th November
+                    Start: March 2024
                   </p>
                   <ul className="course-details-list mb-25">
                     <li>
@@ -299,10 +299,10 @@ const CourseDetails = () => {
                       <span>Recorded sessions & guest speakers</span>{" "}
                     </li>
                   </ul>
-                  <p>48 hours left</p>
-                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
+
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link">
                     <a className="theme-btn">
-                      Secure your space
+                      Join the waiting list
                       <i className="fas fa-arrow-right" />
                     </a>
                   </a>
@@ -336,10 +336,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://checkout.stripe.com/c/pay/plink_1OEcLdB4LR0nzv0DCatqnAAX#fidkdWxOYHwnPyd1blppbHNgWjA0SXZ1UVdHMUlXNWt%2FczVBXTZwUUA2fE5TbVN1a0dRT21qN3ZQTWI0NHN3QWhxSmdIXX10M0I3QEJ%2FZ3V%2FcUxjU31VbDNSV0hpUD1LUlF0M2ZsVmlMcn1JNTVDalZtVmdgaCcpJ3VpbGtuQH11anZgYUxhJz8nZ0xcZktNPFJ1Mm43MHdsNz1JJ3gl"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                     className="theme-btn style-four"
                   >
-                    Secure your space
+                    Register your interest
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
@@ -382,7 +382,7 @@ const CourseDetails = () => {
                     href="#pricing"
                     className="theme-btn style-four"
                   >
-                    Secure your space
+                    Register your interest
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
