@@ -437,9 +437,7 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <div className="top-left">
             <p>
               <i className="far fa-clock" />{" "}
-              <Link href="/data-analytics">
-                Join The Data Analytics Bootcamp
-              </Link>
+              <Link href="/">Enrolment re-starts soon</Link>
             </p>
           </div>
           <div className="top-right d-flex align-items-center">

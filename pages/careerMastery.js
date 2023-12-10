@@ -22,27 +22,25 @@ const CourseDetails = () => {
           <div className="row large-gap">
             <div className="col-lg-8">
               <div className="course-details-content">
-                <h3 className="my-12">Land a job</h3>
-                <h4 className="my-12">Get hired 5x faster</h4>
-                <h5 className="my-12">
+                <h2 className="my-12">Land a job</h2>
+                <h2 className="my-12">Get hired 5x faster</h2>
+                <h3 className="my-12">
                   Land interviews, networking calls & job offers
-                </h5>
+                </h3>
                 <div className="image mb-35">
                   <img
                     src="https://www.workitdaily.com/media-library/woman-accepts-a-job-offer-after-an-interview.jpg?id=28305318&width=980"
                     alt="Course Details"
                   />
                 </div>
-                <Link href="/faqs">
+                <div>
                   <a
-                    className="theme-btn"
-                    style={{ color: "white", textDecoration: "none" }}
+                    href="#info"
+                    className="theme-btn style-four"
                   >
-                    £30 per week for 4 weeks{" "}
-                    <i className="fas fa-arrow-right" />
+                    Learn More <i className="fas fa-arrow-down" />
                   </a>
-                </Link>
-
+                </div>
                 <div className="text-center image mb-35 mt-100">
                   <Image
                     src={Maryan}
@@ -54,13 +52,14 @@ const CourseDetails = () => {
                   </div>
                 </div>
 
-                <h4>You're tired of the relentless job search</h4>
-                <h3>We understand.</h3>
-                <p>
-                  Which is why we designed the TechLeap program. A 4-week high
-                  performance Job Search cohort that mimics life in Tech.
+                <h3>You're tired of the relentless job search</h3>
+                <h4>We understand.</h4>
+                <p>Which is why we designed the CareerMastery program.</p>
+                <p id="#info">
+                  {" "}
+                  A 3-week high performance Job Search cohort that mimics life
+                  in Tech.
                 </p>
-
                 <p>
                   With our expert guidance, you'll <b>gain the skills</b> and{" "}
                   <b>confidence</b> to secure
@@ -156,20 +155,34 @@ const CourseDetails = () => {
                 </div>
 
                 <h3
-                  id="howItWorks"
+                  id="info"
                   className="mt-30"
                 >
                   A 3-week, 6-hour Career Accelarator Cohort
                 </h3>
-                <p>Kick-off Tuesday 26th December , 7pm</p>
+                <h4
+                  id="howItWorks"
+                  className="mt-30"
+                >
+                  Every Wednesday 7-9
+                </h4>
+                <p>Kick-off Wednesday 3th January , 7pm</p>
+                <div>
+                  <a
+                    href="#pricing"
+                    className="theme-btn style-four "
+                  >
+                    Book your spot <i className="fas fa-arrow-down" />
+                  </a>
+                </div>
                 <Accordion
-                  className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
+                  className="faq-accordion pt-10 pb-50 mt-10 wow fadeInUp delay-0-2s"
                   id="course-faq"
                   defaultActiveKey="collapse1"
                 >
                   <WellernAccordion
                     eventName={"collapse1"}
-                    title={"Week 1-3: Excel for Data Analysts"}
+                    title={"Week 1:Networking and LinkedIn Mastery"}
                     active={active}
                     onClick={() => onClick("collapse1")}
                   >
@@ -180,132 +193,112 @@ const CourseDetails = () => {
                           className="mfp-iframe course-video-play"
                         >
                           <span className="title">
-                            Introduction to Data Analytics
+                            Importance of networking
                           </span>{" "}
                         </a>
                       </li>
                       <li>
                         <span className="title">
-                          Data Cleaning and Formulas
+                          LinkedIn Essentials/LinkedIn Workshop
                         </span>{" "}
                       </li>
                       <li>
-                        <span className="title">Referencing and Lookups</span>
-                      </li>
-                      <li>
                         <span className="title">
-                          Aggregating Data With PivotTables{" "}
+                          {" "}
+                          Online vs. In-Person Networking
                         </span>
                       </li>
                       <li>
-                        <span className="title">Communicating With Excel </span>
+                        <span className="title">
+                          Building a strong LinkedIn network.
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Hands-on session to enhance LinkedIn profiles.
+                        </span>
                       </li>
                     </ul>
                   </WellernAccordion>
                   <WellernAccordion
-                    title={"Week 4-6: SQL Databases"}
+                    title={"Week 2: CV Building and Job Application"}
                     eventName={"collaps2"}
                     active={active}
                     onClick={() => onClick("collaps2")}
                   >
                     <ul className="course-video-list">
                       <li>
-                        <span className="title">Introduction to SQL </span>{" "}
-                      </li>
-                      <li>
-                        <span className="title">Grouping in SQL</span>{" "}
-                      </li>
-                      <li>
                         <span className="title">
-                          Combining Data With JOINs and UNIONs{" "}
-                        </span>
-                      </li>
-                      <li>
-                        <span className="title">Advanced JOINs and NULLs </span>
-                      </li>
-                      <li>
-                        <span className="title">Subqueries in SQL </span>
-                      </li>
-                      <li>
-                        <span className="title">Functions in SQL </span>
-                      </li>
-                    </ul>
-                  </WellernAccordion>
-                  <WellernAccordion
-                    title={"Week 7-9: Data Visualization PowerBI"}
-                    eventName={"collaps3"}
-                    active={active}
-                    onClick={() => onClick("collaps3")}
-                  >
-                    <ul className="course-video-list">
-                      <li>
-                        <span className="title">Introduction to PowerBI</span>{" "}
-                      </li>
-                      <li>
-                        <span className="title">
-                          Data Manipulation in PowerBI
+                          Crafting Your Tech CV/ Cover Letters for Tech Roles{" "}
                         </span>{" "}
                       </li>
                       <li>
-                        <span className="title">Dashboards in PowerBI</span>
+                        <span className="title">
+                          What makes a good cover letters (example template)
+                        </span>{" "}
                       </li>
                       <li>
                         <span className="title">
-                          Data Narratives in PowerBI
+                          Tailoring cover letters to tech job applications.{" "}
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Job Search Strategy, Application Process/ Mock
+                          Application Review
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Applicant Tracking Systems (ATS) and CV keywords.
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Review and provide feedback on participants' CV and
+                          cover letters.{" "}
                         </span>
                       </li>
                     </ul>
                   </WellernAccordion>
                   <WellernAccordion
-                    title={"Week 10-13: Python for Data Analysts"}
+                    title={"Week 3: Interviewing and Negotiation "}
                     eventName={"collaps3"}
                     active={active}
                     onClick={() => onClick("collaps3")}
                   >
                     <ul className="course-video-list">
                       <li>
-                        Python basics. Variables, lists, dictionaries, slicing,
-                        loops, if-else, functions
+                        <span className="title"> Interview Preparation</span>{" "}
                       </li>
-                      <li>Reading CSV / excel files with python</li>
                       <li>
-                        DataFrames and Basic Operations with DataFrames,
-                        indexing DF
+                        <span className="title">
+                          Different types of tech interviews (technical,
+                          behavioural, etc.).
+                        </span>{" "}
                       </li>
-                      <li>How to use scientific libraries in Python</li>
+                      <li>
+                        <span className="title">Technical Interviews</span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Preparing for coding challenges.
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Creating STAR (Situation, Task, Action, Result)
+                          stories.
+                        </span>
+                      </li>
+                      <li>
+                        <span className="title">
+                          Negotiating job offers, benefits, and equity.
+                        </span>
+                      </li>
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-                <div className="text-center p-5">
-                  <h3 className="mt-20 ">Our graduates have landed jobs at:</h3>
-                </div>
-                <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
-                  <div className="row align-items-center">
-                    <div className="col-sm-5">
-                      <div className="instructor-image">
-                        <img
-                          src="assets/images/abdirahim.jpeg"
-                          alt="instructor"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="instructor-details">
-                        <h4>Abdirahim</h4>
-                        <span className="designations">
-                          Data Consultant & Instructor
-                        </span>
-
-                        <p>
-                          Abdirahim is a Data Consultant with over four years of
-                          experience in Data Analytics and Data Science. He is
-                          currently works for a leading digital marketing agency
-                          in the Uk.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-lg-4">
@@ -329,25 +322,33 @@ const CourseDetails = () => {
                       }}
                       className="price"
                     >
-                      239
+                      300
                     </span>
                   </div>
+                  <p
+                    style={{
+                      fontSize: "22px",
+                      fontWeight: "700",
+                      color: "#1F4ECE",
+                    }}
+                  >
+                    or £40/m for 3 months
+                  </p>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Tuesday 26th December
+                    Start: Wednesday 3rd January
                   </p>
                   <ul className="course-details-list mb-25">
-                    <li>
-                      <i className="far fa-file-alt" />{" "}
-                      <span>Course Level</span> <b>Beginner's</b>
+                    <li style={{ fontSize: "18px" }}>
+                      <i className="far fa-file-alt" /> 3-week cohort
                     </li>
                     <li>
                       <i className="far fa-clock" /> <span>Times</span>{" "}
-                      <b>2hrs a week, for 3 weeks</b>
+                      <b>6-9pm GMT (all recorded) </b>
                     </li>
 
                     <li>
                       <i className="far fa-clipboard" /> <span>Days</span>{" "}
-                      <b>TBC </b>
+                      <b>Every Wednesday</b>
                     </li>
 
                     <li>
@@ -356,11 +357,19 @@ const CourseDetails = () => {
                     </li>
                     <p>
                       {" "}
-                      <span>Lifetime access to all recordings</span>{" "}
+                      <p
+                        style={{
+                          fontSize: "18px",
+                          fontWeight: "700",
+                          color: "#1F4ECE",
+                        }}
+                      >
+                        Only 15 spots
+                      </p>{" "}
                     </p>
                   </ul>
 
-                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
+                  <a href="https://buy.stripe.com/14keVP5G9dIqdXO14J">
                     <a className="theme-btn">
                       Secure your space
                       <i className="fas fa-arrow-right" />
@@ -383,9 +392,6 @@ const CourseDetails = () => {
                   <h4>
                     Don't let the pain of job hunting hold you back any longer.
                   </h4>
-                  <h5>
-                    Take the first leap toward your dream job with Tech Leap
-                  </h5>
                 </div>
 
                 <div>
@@ -396,10 +402,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
+                    href="#pricing"
                     className="theme-btn style-four"
                   >
-                    Secure your space
+                    Join for 3 payments of £40{" "}
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>

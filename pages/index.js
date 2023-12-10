@@ -258,6 +258,82 @@ const Index = () => {
               <div className="coach-item">
                 <div className="coach-image">
                   <img
+                    src="assets/images/careerMastery.webp"
+                    alt="data-analytics"
+                  />
+                </div>
+                <div className="coach-content">
+                  <span className="label">Online lessons - 3 weeks</span>
+                  <h4>
+                    <Link href="/product-details">Career Mastery</Link>
+                  </h4>
+                  {/* <p
+                    style={{
+                      fontSize: "18px",
+                      color: "blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    Sold out
+                  </p> */}
+                  <div className="ratting-price"></div>
+                  <p>
+                    A 3-week high performance Job Search cohort that mimics life
+                    in Tech. With our expert guidance, you'll gain the skills
+                    and confidence to secure interviews and Job offers.
+                  </p>
+                  <p
+                    className="bold"
+                    style={{ fontSize: "17px" }}
+                  >
+                    Next Cohort: 3rd January
+                  </p>
+                  <ul className="">
+                    <li>
+                      <span style={{ marginRight: "7px" }}>
+                        💻 Networking & LinkedIn Mastery
+                      </span>
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📝</span>
+                      CV Building and Job Applications
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📜</span>
+                      Get your CV & applications reviewed
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📞</span>
+                      Mock interviews & technical test practice
+                    </li>{" "}
+                    <li className="mt-3">
+                      {" "}
+                      Get recruiters belling your line after 3-weeks!
+                    </li>
+                  </ul>{" "}
+                  <Link href="/careerMastery">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Learn more
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 item design technology">
+              <div className="coach-item">
+                <div className="coach-image">
+                  <img
                     src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGF0YSUyMHNjaWVuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
                     alt="data-analytics"
                   />
@@ -420,94 +496,95 @@ const Index = () => {
                 </div>
               </Link>
             </div>
-            <Link href="/course-details-freelance">
-              <div className="col-lg-4 col-md-6 item design technology">
-                {/* <Link href="/course-details-freelance"> */}
-                <div className="coach-item wow">
-                  <div className="coach-image">
-                    <Link href="/course-grid">
-                      <a
-                        style={{ fontSize: "11px" }}
-                        className="category"
-                      >
-                        7 Weeks
-                      </a>
-                    </Link>
-                    <img
-                      src="assets/images/digital-nomad-3.jpg"
-                      alt="Coach"
-                    />
-                  </div>
-                  <div className="coach-content">
-                    <span className="label">Online Lessons - 7 Weeks</span>
-                    <h4>
-                      <Link href="/course-details-freelance">
-                        Freelance Web & Digital Marketing
-                      </Link>
-                    </h4>
-                    <div className="ratting-price">
-                      <span style={{ fontSize: "16px", color: "black" }}>
-                        Start earning a side income from home from freelance
-                        digital marketing. Turn your digital skills into a
-                        paycheck!
-                      </span>
-                    </div>
-                    <div>
-                      <p
-                        className="bold"
-                        style={{ fontSize: "17px" }}
-                      >
-                        Next cohort: Early 2024
-                      </p>
-                    </div>
-                    <div className="d-flex justify-content-around "></div>
-
-                    <ul className="course-tags">
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}> 💰💰</span>Earn an
-                        extra £1000/m from home
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}> 💻</span>
-                        Low-code Web Development
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
-                        Marketing
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}> 📈</span>
-                        Ecommerce
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}> 🧭</span> How to
-                        find clients
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>∞</span>
-                        Lifetime access
-                      </li>
-                    </ul>
+          </div>
+          <Link href="/course-details-freelance">
+            <div className="col-lg-4 col-md-6 item design technology">
+              {/* <Link href="/course-details-freelance"> */}
+              <div className="coach-item wow">
+                <div className="coach-image">
+                  <Link href="/course-grid">
+                    <a
+                      style={{ fontSize: "11px" }}
+                      className="category"
+                    >
+                      7 Weeks
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/digital-nomad-3.jpg"
+                    alt="Coach"
+                  />
+                </div>
+                <div className="coach-content">
+                  <span className="label">Online Lessons - 7 Weeks</span>
+                  <h4>
                     <Link href="/course-details-freelance">
-                      <a
-                        style={{
-                          padding: "10px",
-                          fontSize: "11px",
-                          margin: "10px 0px",
-                        }}
-                        className="theme-btn"
-                      >
-                        Learn more
-                        <i className="fas fa-arrow-right" />
-                      </a>
+                      Freelance Web & Digital Marketing
                     </Link>
-                    {/* <p
+                  </h4>
+                  <div className="ratting-price">
+                    <span style={{ fontSize: "16px", color: "black" }}>
+                      Start earning a side income from home from freelance
+                      digital marketing. Turn your digital skills into a
+                      paycheck!
+                    </span>
+                  </div>
+                  <div>
+                    <p
+                      className="bold"
+                      style={{ fontSize: "17px" }}
+                    >
+                      Next cohort: Early 2024
+                    </p>
+                  </div>
+                  <div className="d-flex justify-content-around "></div>
+
+                  <ul className="course-tags">
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 💰💰</span>Earn an
+                      extra £1000/m from home
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 💻</span>
+                      Low-code Web Development
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
+                      Marketing
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 📈</span>
+                      Ecommerce
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}> 🧭</span> How to
+                      find clients
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "8px" }}>∞</span>
+                      Lifetime access
+                    </li>
+                  </ul>
+                  <Link href="/course-details-freelance">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Learn more
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                  {/* <p
                     style={{
                       fontSize: "14px",
                       color: "blue",
@@ -516,13 +593,12 @@ const Index = () => {
                   >
                     30% Off (until Wednesday)
                   </p> */}
-                  </div>
                 </div>
-
-                {/* </Link> */}
               </div>
-            </Link>
-          </div>
+
+              {/* </Link> */}
+            </div>
+          </Link>
         </div>
       </section>
       {/* <div className="m-20">
