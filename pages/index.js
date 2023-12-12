@@ -278,9 +278,8 @@ const Index = () => {
                   </p> */}
                   <div className="ratting-price"></div>
                   <p>
-                    A 3-week high performance Job Search cohort that mimics life
-                    in Tech. With our expert guidance, you'll gain the skills
-                    and confidence to secure interviews and Job offers.
+                    Land networking calls, convert job referrals and master each
+                    stage of the interview processs
                   </p>
                   <p
                     className="bold"
@@ -309,10 +308,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3">
-                      {" "}
-                      Get recruiters belling your line after 3-weeks!
-                    </li>
+                    <li className="mt-3"> (Only opening to 15 people)</li>
                   </ul>{" "}
                   <Link href="/careerMastery">
                     <a
@@ -343,15 +339,6 @@ const Index = () => {
                   <h4>
                     <Link href="/product-details">Data Analytics</Link>
                   </h4>
-                  <p
-                    style={{
-                      fontSize: "18px",
-                      color: "blue",
-                      fontWeight: "600",
-                    }}
-                  >
-                    Sold out
-                  </p>
                   <div className="ratting-price"></div>
                   <p>
                     Become a successful professional in the Data Analytics field
@@ -446,7 +433,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: Early 2024
+                      Next cohort: February 2024
                     </p>
 
                     <ul
@@ -534,7 +521,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: Early 2024
+                      Next cohort: February 2024
                     </p>
                   </div>
                   <div className="d-flex justify-content-around "></div>

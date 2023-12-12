@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import Head from "next/head";
 import { Accordion } from "react-bootstrap";
 import Slider from "react-slick";
 import PageBannerKids from "../src/components/page-banner-da";
@@ -17,6 +18,34 @@ const CourseDetails = () => {
   };
   return (
     <Layout>
+      <Head>
+        <title>Pivot2Tech Bootcamp 🚀</title>
+        <meta
+          property="og:url"
+          content="https://pivot2tech.co.uk/"
+        />
+        <meta
+          property="og:type"
+          content="website"
+        />
+        {/* <meta property="fb:app_id" content="your fb app id" /> */}
+        <meta
+          property="og:title"
+          content="CareerMastery"
+        />
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          property="og:description"
+          content="Land networking calls, convert job referrals and master each stage of the interiview processs"
+        />
+        <meta
+          property="og:image"
+          content="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        />
+      </Head>
       <section className="course-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row large-gap">
@@ -153,28 +182,33 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </div>
-
+                <div>
+                  <h2>Our Job Search Methodology</h2>
+                  <ul>
+                    <li>1. Land Networking Calls</li>
+                    <li>2. Convert Networking Calls into Job Referrals</li>
+                    <li>
+                      3. Convert Job Referrals into Phone Screen Interviews
+                    </li>
+                    <li>
+                      4. Master Each Stage of the Interview Process to land
+                      offers
+                    </li>
+                  </ul>
+                </div>
                 <h3
                   id="info"
                   className="mt-30"
                 >
                   A 3-week, 6-hour Career Accelarator Cohort
                 </h3>
-                <h4
+                <h6
                   id="howItWorks"
                   className="mt-30"
                 >
-                  Every Wednesday 7-9
-                </h4>
-                <p>Kick-off Wednesday 3th January , 7pm</p>
-                <div>
-                  <a
-                    href="#pricing"
-                    className="theme-btn style-four "
-                  >
-                    Book your spot <i className="fas fa-arrow-down" />
-                  </a>
-                </div>
+                  Every Wednesday, 7-9pm GMT
+                </h6>
+                <h2 className="py-10">Syllabus</h2>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 mt-10 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -343,7 +377,7 @@ const CourseDetails = () => {
                     </li>
                     <li>
                       <i className="far fa-clock" /> <span>Times</span>{" "}
-                      <b>6-9pm GMT (all recorded) </b>
+                      <b>7-9pm GMT (all recorded) </b>
                     </li>
 
                     <li>
@@ -364,7 +398,7 @@ const CourseDetails = () => {
                           color: "#1F4ECE",
                         }}
                       >
-                        Only 15 spots
+                        15 spaces
                       </p>{" "}
                     </p>
                   </ul>
