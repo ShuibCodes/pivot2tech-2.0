@@ -43,7 +43,7 @@ const CourseDetails = () => {
         />
         <meta
           property="og:image"
-          content="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          content="https://www.workitdaily.com/media-library/woman-accepts-a-job-offer-after-an-interview.jpg?id=28305318&width=980"
         />
       </Head>
       <section className="course-details-area pt-130 rpt-100">
