@@ -308,7 +308,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3"> (Only opening to 15 people)</li>
+                    <li className="mt-3"> 13 spaces left</li>
                   </ul>{" "}
                   <Link href="/careerMastery">
                     <a

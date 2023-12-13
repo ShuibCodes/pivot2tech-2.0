@@ -398,7 +398,7 @@ const CourseDetails = () => {
                           color: "#1F4ECE",
                         }}
                       >
-                        15 spaces
+                        13/15 spaces left
                       </p>{" "}
                     </p>
                   </ul>
