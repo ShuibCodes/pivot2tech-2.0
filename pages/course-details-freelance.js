@@ -417,7 +417,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">299</span>
+                        <span className="price">499</span>
                       </div>
 
                       <p className="bold">or 3 interest-free installments</p>
