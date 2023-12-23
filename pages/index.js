@@ -285,7 +285,7 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Next Cohort: 3rd January
+                    Start: 3rd January
                   </p>
                   <ul className="">
                     <li>
@@ -308,7 +308,14 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3"> 13 spaces left</li>
+                    <li className="mt-3"> 9 spaces left</li>
+                    <li
+                      style={{ color: "blue" }}
+                      className="mt-3"
+                    >
+                      {" "}
+                      Only £40/m for 3 months
+                    </li>
                   </ul>{" "}
                   <Link href="/careerMastery">
                     <a
@@ -319,7 +326,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn more
+                      Enrol Today
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
