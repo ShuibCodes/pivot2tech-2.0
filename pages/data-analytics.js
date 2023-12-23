@@ -339,7 +339,7 @@ const CourseDetails = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                     className="theme-btn style-four"
                   >
-                    Register your interest
+                    Join the waiting list
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
