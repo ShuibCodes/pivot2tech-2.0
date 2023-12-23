@@ -339,18 +339,6 @@ const CourseDetails = () => {
                             />
                           </div>
                         </div>
-                        <div className="">
-                          <div className="instructor-details">
-                            <h4>Abdulkadir Maxamed</h4>
-                            <span className="designations">
-                              Senior Software Engineer
-                            </span>
-                          </div>
-                          <p style={{ maxWidth: "70%" }}>
-                            An experienced Software Engineer who works for a
-                            global technology consultancy company
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -385,8 +373,8 @@ const CourseDetails = () => {
                               Muddakir,
                             </a>{" "}
                             an arabic vocabulary app to learn Quran. He helps
-                            with our Discord community & teaches sessions
-                            throughout the week
+                            with our community & teaches sessions throughout the
+                            week
                           </p>
                         </div>
                       </div>
