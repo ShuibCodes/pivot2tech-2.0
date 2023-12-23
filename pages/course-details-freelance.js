@@ -165,7 +165,7 @@ const CourseDetails = () => {
                             </ul>
                           </div>
                         </div>
-                      </div>
+                      </div>{" "}
                       <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
@@ -180,7 +180,8 @@ const CourseDetails = () => {
                 </section>
 
                 <h2 className="text-center">Student results 👇🏾</h2>
-                <div className="p-10 freelance-bundle-reviews">
+                <div className="p-1 freelance-bundle-reviews">
+                  <img src="assets/images/omar.png" />
                   <div className="review-image">
                     <Image
                       width="100%"
@@ -200,17 +201,6 @@ const CourseDetails = () => {
                       objectFit="contain"
                       alt="testimonial tweet for freelance course "
                       src="/assets/images/freelance-review.jpeg"
-                    />
-                  </div>
-
-                  <div className="review-image">
-                    <Image
-                      width="100"
-                      height="100"
-                      layout="responsive"
-                      objectFit="scale"
-                      alt="student success story"
-                      src="/assets/images/review-two.png"
                     />
                   </div>
                 </div>
@@ -432,7 +422,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>4th Febraury 2024 </b>
+                          <b>18th Febraury 2024 </b>
                         </li>
 
                         <li>
@@ -440,10 +430,7 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>
-                          <i>
-                            Limited Capactiy, Join the waiting list to get
-                            notfied early
-                          </i>
+                          <i className="mt-5">25 spaces</i>
                         </p>
                       </ul>
 

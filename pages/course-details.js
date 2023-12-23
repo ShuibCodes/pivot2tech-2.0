@@ -250,17 +250,41 @@ const CourseDetails = () => {
                     </ul>
                   </WellernAccordion>
                 </Accordion>
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
-                  style={{
-                    padding: "11px",
-                    fontSize: "12px",
-                    margin: "10px 0px",
-                  }}
-                  className="theme-btn"
-                >
-                  Join Waiting List
-                </a>
+
+                <h2 className="text-center">Student results 👇🏾</h2>
+                <div className="freelance-bundle-reviews">
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/student-job.png"
+                    />
+                  </div>
+
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial tweet for freelance course "
+                      src="/assets/images/new-job.jpeg"
+                    />
+                  </div>
+                  <div className="review-image">
+                    <Image
+                      width="100%"
+                      height="80%"
+                      layout="responsive"
+                      objectFit="contain"
+                      alt="testimonial tweet for freelance course "
+                      src="/assets/images/review-three.png"
+                    />
+                  </div>
+                </div>
 
                 <div className="col-lg-4">
                   <div className="course-sidebar rmt-75">
@@ -287,7 +311,7 @@ const CourseDetails = () => {
                         </li>
                         <li>
                           <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>Early 2024</b>
+                          <b>13th Febraury 2024</b>
                         </li>
 
                         <li>
@@ -323,25 +347,10 @@ const CourseDetails = () => {
                   </div>
                 </div>
                 <FAQ />
-                <h2 className="py-1 my-20">Your Instructors</h2>
+                <h2 className="py-1 my-20">Your Instructor</h2>
 
                 <div className="p-20 p-md-1 row">
-                  <div className="col-md-6">
-                    <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
-                      <div className="row align-items-center">
-                        <div className="col-sm-5">
-                          <div className="instructor-image">
-                            <Image
-                              src="/assets/images/abdulkadir.jpeg"
-                              width="270"
-                              height="270"
-                              alt="instructor-image"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="col-md-6"></div>
                   {/* here */}
                   <div className="col-md-6">
                     <div className="course-instructor pt-10 pb-55 wow fadeInUp delay-0-2s">
