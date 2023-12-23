@@ -97,57 +97,20 @@ export default class Index1WorkStepSlider extends Component {
               </p>
             </div>
           </div>
-          <div className="work-step-item">
-            <div className="content section-flex">
-              <div>
-                {" "}
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/428/428001.png"
-                  alt="laptop-image"
-                  className="number"
-                />{" "}
-                <h6 style={{ fontSize: "17px" }}>
-                  {" "}
-                  Become a Software Engineer
-                </h6>
-                <Link href="/course-details">
-                  <a
-                    style={{
-                      padding: "10px",
-                      fontSize: "9px",
-                      margin: "10px 0px",
-                      backgroundColor: "#00CC83",
-                    }}
-                    className="theme-btn"
-                  >
-                    Join Now
-                  </a>
-                </Link>
-              </div>
-              <div className="">
-                {" "}
-                <img
-                  src="https://cdn-icons-png.flaticon.com/128/1998/1998087.png"
-                  alt="tree-icon"
-                  className="number"
-                />{" "}
-                <h6 style={{ fontSize: "16px" }}>Become a Digital marketer</h6>
-                <Link href="/course-details-freelance">
-                  <a
-                    style={{
-                      padding: "10px",
-                      fontSize: "9px",
-                      margin: "10px 0px",
-                      backgroundColor: "#0084DF",
-                    }}
-                    className="theme-btn"
-                  >
-                    Join Now
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div className="work-step-item">
+          <a
+            href="#courses-group"
+            style={{
+              padding: "10px",
+              fontSize: "12px",
+              margin: "10px 0px",
+              backgroundColor: "#00CC83",
+            }}
+            className="theme-btn"
+          >
+            Explore Bootcamps
+          </a>
         </div>
       </Fragment>
     );
