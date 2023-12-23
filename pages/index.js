@@ -88,7 +88,7 @@ const Index = () => {
         />
         <meta
           property="og:description"
-          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 500 students 🎯"
+          content="Part-time, affordable Tech Bootcamp ⌛️ Beginner →  Software Engineer or Freelancer 🌎 in 3 months! Community of over 620 students 🎯"
         />
         <meta
           property="og:image"
@@ -236,7 +236,7 @@ const Index = () => {
             >
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 500+ students!
+                Community of over 620+ students!
               </li>
             </ul>
           </div>
