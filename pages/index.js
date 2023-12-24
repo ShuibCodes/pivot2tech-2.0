@@ -308,7 +308,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3 bold"> 9 spaces left</li>
+                    <li className="mt-3 bold"> 7 spaces left</li>
                     <li
                       style={{ color: "blue" }}
                       className="mt-3"
