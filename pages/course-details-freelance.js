@@ -83,25 +83,25 @@ const CourseDetails = () => {
                             <h2>
                               <span style={{ color: "#1F4ECE" }}>
                                 {" "}
-                                Launch Your High-Income Career.{" "}
+                                Work whenever and wherever you want
                               </span>{" "}
-                              join the new generation of remote workers.
+                              join the new generation of freelancers
                             </h2>
                           </div>
 
                           <div>
                             <p>
                               Experience the freedom to work on exciting
-                              projects, earn more, and learn easily with our
-                              comprehensive training. start your journey today!
+                              projects, earn more, and work around YOUR
+                              schedule.
                             </p>
                           </div>
                           <div href="/course-details">
                             <a
-                              href="#pricing"
+                              href="#results"
                               className="theme-btn style-four"
                             >
-                              Join the waiting list
+                              Show me how
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -159,14 +159,14 @@ const CourseDetails = () => {
                               </li>
                               <li>
                                 <span style={{ marginRight: "10px" }}>✅</span>
-                                Reviewing many different Client Situations, we
-                                can be in and how to handle them
+                                Reviewing many different Client Situation we can
+                                be in and how to handle them
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>{" "}
-                      <div className="col-lg-6">
+                      {/* <div className="col-lg-6">
                         <div className="mt-10 ">
                           <img
                             src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -174,14 +174,28 @@ const CourseDetails = () => {
                             className="why-choose-one freelance-section"
                           />
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </section>
 
-                <h2 className="text-center">Student results 👇🏾</h2>
-                <div className="p-1 freelance-bundle-reviews">
-                  <img src="assets/images/omar.png" />
+                <h2
+                  id="results"
+                  className="text-center"
+                >
+                  Student results 👇🏾
+                </h2>
+                <div className="p-5 freelance-bundle-reviews">
+                  <div className="review-image">
+                    <Image
+                      width="60%"
+                      height="25%"
+                      layout="responsive"
+                      objectFit="fit"
+                      alt="testimonial for freelance bootcamp"
+                      src="/assets/images/new-client-omar.png"
+                    />
+                  </div>
                   <div className="review-image">
                     <Image
                       width="100%"
@@ -236,7 +250,7 @@ const CourseDetails = () => {
                     }}
                     className="theme-btn"
                   >
-                    Learn more
+                    Enrol now
                   </a>
                 </div>
                 <section className="why-choose-section pt-120 rpt-90 pb-90   rpb-100">
@@ -293,8 +307,8 @@ const CourseDetails = () => {
 
                 <div>
                   <p className="info-copy">
-                    Learn in-demand, recession-proof online skills to earn a
-                    side income online
+                    Learn in-demand, recession-proof online skills to earn
+                    £1,000/m extra
                   </p>
                 </div>
 
@@ -402,7 +416,7 @@ const CourseDetails = () => {
                       <div className="widget-video">
                         <img
                           id="pricing"
-                          src="https://prodocssolution.com/wp-content/uploads/2022/04/960x0.jpg"
+                          src="assets/images/freelance.jpeg"
                           alt="Course Details"
                         />
                       </div>
@@ -430,7 +444,7 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>
-                          <i className="mt-5">25 spaces</i>
+                          <i className="mt-5 text-center bold">25 spaces</i>
                         </p>
                       </ul>
 
