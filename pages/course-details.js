@@ -384,7 +384,7 @@ const CourseDetails = () => {
                             textAlign: "center",
                           }}
                         >
-                          25 spaces
+                          25 / 25 spaces left
                         </p>
                         <div className="text-center  py-5">
                           <img

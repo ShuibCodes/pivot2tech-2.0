@@ -330,7 +330,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      25 / 25 spaces left
+                      23 / 25 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
