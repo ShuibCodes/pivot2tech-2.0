@@ -433,7 +433,7 @@ const CourseDetails = () => {
                         </span>
                       </div>
                       <p className="bold">50% off until Tuesday</p>
-                      <p className="bold">or 3 interest-free installments</p>
+                      <p className="bold">or in 3 installments</p>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
