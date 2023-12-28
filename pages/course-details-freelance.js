@@ -444,7 +444,9 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>
-                          <i className="mt-5 text-center bold">25 spaces</i>
+                          <i className="mt-5 text-center bold">
+                            25 / 25 spaces left
+                          </i>
                         </p>
                       </ul>
 
@@ -457,7 +459,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol today
+                        Secure yout space
                       </a>
                     </div>
                   </div>
