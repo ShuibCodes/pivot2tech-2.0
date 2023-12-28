@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import webDev from "../public/assets/images/web-dev.webp";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 import Head from "next/head";
@@ -94,14 +95,14 @@ const CourseDetails = () => {
                             paying thousands for a degrees.
                           </p>
                           <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                            Next Cohort: Early 2024
+                            Next Cohort: 13th February
                           </p>
                           <div>
                             <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
+                              href="#pricing"
                               className="theme-btn style-four"
                             >
-                              Join Waiting List
+                              Secure your space
                               <i className="fas fa-arrow-right" />
                             </a>
                           </div>
@@ -145,15 +146,6 @@ const CourseDetails = () => {
                             </li>
                             <li>CV and Job Application support</li>
                           </ul>
-                          <div>
-                            <a
-                              href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
-                              className="theme-btn style-four"
-                            >
-                              Join the waiting list
-                              <i className="fas fa-arrow-right" />
-                            </a>
-                          </div>
                         </div>
                       </div>
 
@@ -169,6 +161,49 @@ const CourseDetails = () => {
                     </div>
                   </div>
                 </section>
+                <div className="text-center p-5">
+                  <h4 className="mt-20 ">
+                    Our alums have switched careers and landed roles at{" "}
+                  </h4>
+                </div>
+                <div className="logo-section pt-130 rpt-100 pb-80 rpb-50">
+                  <div className="container">
+                    <div className="logo-inner">
+                      <div className="logo-item wow fadeInUp delay-0-1s">
+                        <Link href="/contact">
+                          <img
+                            src="assets/images/client-logos/bank.png"
+                            alt="Client Logo"
+                          />
+                        </Link>
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-2s">
+                        <img
+                          src="assets/images/client-logos/capgemini.png"
+                          alt="Client Logo"
+                        />
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-3s">
+                        <img
+                          src="assets/images/client-logos/trison.png"
+                          alt="Client Logo"
+                        />
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-4s">
+                        <img
+                          src="assets/images/client-logos/agreed-digital.png"
+                          alt="Client Logo"
+                        />
+                      </div>
+                      <div className="logo-item wow fadeInUp delay-0-4s">
+                        <img
+                          src="assets/images/octapus-energy.png"
+                          alt="Client Logo"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <Accordion
                   className="faq-accordion pt-10 pb-50 wow fadeInUp delay-0-2s"
                   id="course-faq"
@@ -320,6 +355,16 @@ const CourseDetails = () => {
                             Tuesdays: 7-9pm GMT <br></br> Saturdays: 12-2pm GMT
                           </b>
                         </li>
+                        <p
+                          className="py-3"
+                          style={{
+                            color: "blue",
+                            fontWeight: "bold",
+                            textAlign: "center",
+                          }}
+                        >
+                          25 spaces
+                        </p>
                         <div className="text-center  py-5">
                           <img
                             className="p-2"
@@ -333,7 +378,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
+                        href="https://buy.stripe.com/eVa14Z5G96fY4neeVC"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -341,12 +386,47 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Join the waiting list
+                        Enrol Now
                       </a>
                     </div>
                   </div>
                 </div>
+
                 <FAQ />
+                <br></br>
+                <br></br>
+                <div>
+                  <h4 className="text-center p-5">
+                    Or Grab a FREE copy of the Beginner's Intro to Web
+                    Development
+                  </h4>
+                  <p
+                    style={{ fontSize: "18px" }}
+                    className="p-20 text-center"
+                  >
+                    This short, mini-course is designed to get you up and
+                    running with the bulding blocks of web development: HTML,
+                    CSS & JavaScript.
+                  </p>
+                  <div className="d-md-flex align-items-center justify-content-center p-10">
+                    <Image
+                      src={webDev}
+                      alt="ebook"
+                      objectFit="contian"
+                      width={400}
+                      height={200}
+                    />
+
+                    <div className="newsletter-container md:pl-5">
+                      <a href="https://pivot2tech.gumroad.com/l/intro-to-web-development?_gl=1*wzamwl*_ga*NTI1MTAxMjY4LjE2OTE0MTI2MjU.*_ga_6LJN6D94N6*MTY5NjE0NzI4MS4xMjIuMS4xNjk2MTQ3NzY3LjAuMC4w">
+                        <a className="theme-btn">
+                          Get access for £0
+                          <i className="fas fa-arrow-right" />
+                        </a>
+                      </a>
+                    </div>
+                  </div>
+                </div>
                 <h2 className="py-1 my-20">Your Instructor</h2>
 
                 <div className="p-20 p-md-1 row">

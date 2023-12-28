@@ -98,20 +98,19 @@ export default class Index1WorkStepSlider extends Component {
             </div>
           </div>
         </div>
-        <div className="work-step-item">
-          <a
-            href="#courses-group"
-            style={{
-              padding: "10px",
-              fontSize: "12px",
-              margin: "10px 0px",
-              backgroundColor: "#00CC83",
-            }}
-            className="theme-btn"
-          >
-            Explore Bootcamps
-          </a>
-        </div>
+
+        <a
+          href="#courses-group"
+          style={{
+            padding: "10px",
+            fontSize: "12px",
+            margin: "10px 0px",
+            backgroundColor: "#00CC83",
+          }}
+          className="theme-btn"
+        >
+          Explore Bootcamps
+        </a>
       </Fragment>
     );
   }
