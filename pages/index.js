@@ -254,6 +254,204 @@ const Index = () => {
           className="container"
         >
           <div className="row coach-active justify-content-center">
+            <div className="col-lg-4 col-md-6 item development photography">
+              <Link href="/course-details">
+                <div
+                  id="what-learn"
+                  className="coach-item wow fadeInUp delay-0-4s"
+                >
+                  <div className="coach-image">
+                    <Link href="/course-grid">
+                      <a
+                        style={{ fontSize: "11px" }}
+                        className="category"
+                      >
+                        13 Weeks
+                      </a>
+                    </Link>
+                    <img
+                      src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+                      alt="fullstack bootcamp"
+                    />
+                  </div>
+                  <div className="coach-content">
+                    <span className="label">Online Lessons - 13 weeks</span>
+                    <h4>
+                      <Link href="/course-details">Software Engineering</Link>
+                    </h4>
+
+                    <span style={{ fontSize: "16px", color: "black" }}>
+                      Learn to build web applications from scratch and land your
+                      dream job as software developer
+                    </span>
+                    <hr />
+                    <p
+                      className="bold"
+                      style={{ fontSize: "17px" }}
+                    >
+                      Next cohort: 13th February
+                    </p>
+
+                    <ul
+                      style={{ marginTop: "10px" }}
+                      className="course-tags"
+                    >
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>💻</span> 4
+                        real-life projects
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework
+                        and project review
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live
+                        chat support
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>📆</span> Weekly
+                        homework
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
+                        access
+                      </li>
+                    </ul>
+                    <p
+                      style={{
+                        marginTop: "5px",
+                        fontSize: "16px",
+                        color: "blue",
+                        fontWeight: "700",
+                      }}
+                    >
+                      25 / 25 spaces left
+                    </p>
+                    <Link href="/course-details">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Learn more
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <Link href="/course-details-freelance">
+              <div className="col-lg-4 col-md-6 item design technology">
+                {/* <Link href="/course-details-freelance"> */}
+                <div className="coach-item wow">
+                  <div className="coach-image">
+                    <Link href="/course-grid">
+                      <a
+                        style={{ fontSize: "11px" }}
+                        className="category"
+                      >
+                        7 Weeks
+                      </a>
+                    </Link>
+                    <img
+                      src="assets/images/digital-nomad-3.jpg"
+                      alt="Coach"
+                    />
+                  </div>
+                  <div className="coach-content">
+                    <span className="label">Online Lessons - 7 Weeks</span>
+                    <h4>
+                      <Link href="/course-details-freelance">
+                        Freelance Web & Digital Marketing
+                      </Link>
+                    </h4>
+                    <div className="ratting-price">
+                      <span style={{ fontSize: "16px", color: "black" }}>
+                        Start earning a side income from home from freelance
+                        digital marketing. Turn your digital skills into a
+                        paycheck!
+                      </span>
+                    </div>
+                    <div>
+                      <p
+                        className="bold"
+                        style={{ fontSize: "17px" }}
+                      >
+                        Next cohort: February 2024
+                      </p>
+                    </div>
+                    <div className="d-flex justify-content-around "></div>
+
+                    <ul className="course-tags">
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 💰💰</span>Earn an
+                        extra £1000/m from home
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 💻</span>
+                        Low-code Web Development
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
+                        Marketing
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 📈</span>
+                        Ecommerce
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}> 🧭</span> How to
+                        find clients
+                      </li>
+                      <li>
+                        {" "}
+                        <span style={{ marginRight: "8px" }}>∞</span>
+                        Lifetime access
+                      </li>
+                    </ul>
+                    <p
+                      style={{
+                        marginTop: "5px",
+                        fontSize: "16px",
+                        color: "blue",
+                        fontWeight: "700",
+                      }}
+                    >
+                      25 / 25 spaces left
+                    </p>
+                    <Link href="/course-details-freelance">
+                      <a
+                        style={{
+                          padding: "10px",
+                          fontSize: "11px",
+                          margin: "10px 0px",
+                        }}
+                        className="theme-btn"
+                      >
+                        Learn more
+                        <i className="fas fa-arrow-right" />
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+
+                {/* </Link> */}
+              </div>
+            </Link>
             <div className="col-lg-4 col-md-6 item design technology">
               <div className="coach-item">
                 <div className="coach-image">
@@ -308,7 +506,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3 bold"> 7 spaces left</li>
+                    <li className="mt-3 bold"> 5 / 15 spaces left</li>
                     <li
                       style={{ color: "blue" }}
                       className="mt-3"
@@ -404,195 +602,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-md-6 item development photography">
-              <Link href="/course-details">
-                <div
-                  id="what-learn"
-                  className="coach-item wow fadeInUp delay-0-4s"
-                >
-                  <div className="coach-image">
-                    <Link href="/course-grid">
-                      <a
-                        style={{ fontSize: "11px" }}
-                        className="category"
-                      >
-                        13 Weeks
-                      </a>
-                    </Link>
-                    <img
-                      src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nJTIwYm9vdGNhbXB8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                      alt="fullstack bootcamp"
-                    />
-                  </div>
-                  <div className="coach-content">
-                    <span className="label">Online Lessons - 13 weeks</span>
-                    <h4>
-                      <Link href="/course-details">Software Engineering</Link>
-                    </h4>
-
-                    <span style={{ fontSize: "16px", color: "black" }}>
-                      Learn to build web applications from scratch and land your
-                      dream job as software developer
-                    </span>
-                    <hr />
-                    <p
-                      className="bold"
-                      style={{ fontSize: "17px" }}
-                    >
-                      Next cohort: February 2024
-                    </p>
-
-                    <ul
-                      style={{ marginTop: "10px" }}
-                      className="course-tags"
-                    >
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>💻</span> 4
-                        real-life projects
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>👨‍🏫</span>Homework
-                        and project review
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>👨‍🔧👩‍🔧</span> Live
-                        chat support
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>📆</span> Weekly
-                        homework
-                      </li>
-                      <li>
-                        {" "}
-                        <span style={{ marginRight: "8px" }}>∞ </span>Lifetime
-                        access
-                      </li>
-                    </ul>
-                    <Link href="/course-details">
-                      <a
-                        style={{
-                          padding: "10px",
-                          fontSize: "11px",
-                          margin: "10px 0px",
-                        }}
-                        className="theme-btn"
-                      >
-                        Learn more
-                        <i className="fas fa-arrow-right" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </Link>
-            </div>
           </div>
-          <Link href="/course-details-freelance">
-            <div className="col-lg-4 col-md-6 item design technology">
-              {/* <Link href="/course-details-freelance"> */}
-              <div className="coach-item wow">
-                <div className="coach-image">
-                  <Link href="/course-grid">
-                    <a
-                      style={{ fontSize: "11px" }}
-                      className="category"
-                    >
-                      7 Weeks
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/digital-nomad-3.jpg"
-                    alt="Coach"
-                  />
-                </div>
-                <div className="coach-content">
-                  <span className="label">Online Lessons - 7 Weeks</span>
-                  <h4>
-                    <Link href="/course-details-freelance">
-                      Freelance Web & Digital Marketing
-                    </Link>
-                  </h4>
-                  <div className="ratting-price">
-                    <span style={{ fontSize: "16px", color: "black" }}>
-                      Start earning a side income from home from freelance
-                      digital marketing. Turn your digital skills into a
-                      paycheck!
-                    </span>
-                  </div>
-                  <div>
-                    <p
-                      className="bold"
-                      style={{ fontSize: "17px" }}
-                    >
-                      Next cohort: February 2024
-                    </p>
-                  </div>
-                  <div className="d-flex justify-content-around "></div>
-
-                  <ul className="course-tags">
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 💰💰</span>Earn an
-                      extra £1000/m from home
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 💻</span>
-                      Low-code Web Development
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>👨🏾‍💻</span> Digital
-                      Marketing
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 📈</span>
-                      Ecommerce
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}> 🧭</span> How to
-                      find clients
-                    </li>
-                    <li>
-                      {" "}
-                      <span style={{ marginRight: "8px" }}>∞</span>
-                      Lifetime access
-                    </li>
-                  </ul>
-                  <Link href="/course-details-freelance">
-                    <a
-                      style={{
-                        padding: "10px",
-                        fontSize: "11px",
-                        margin: "10px 0px",
-                      }}
-                      className="theme-btn"
-                    >
-                      Learn more
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  {/* <p
-                    style={{
-                      fontSize: "14px",
-                      color: "blue",
-                      fontWeight: "600",
-                    }}
-                  >
-                    30% Off (until Wednesday)
-                  </p> */}
-                </div>
-              </div>
-
-              {/* </Link> */}
-            </div>
-          </Link>
         </div>
       </section>
       {/* <div className="m-20">

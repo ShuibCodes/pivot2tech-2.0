@@ -449,7 +449,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSctqaesUP6GciZgM_yo7RcZop2Z4ykhtTaLdmc8j6B7OKE1SA/viewform?usp=sf_link"
+                        href="https://buy.stripe.com/cN2dRL5G9awe9Hy7td"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -457,7 +457,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Join the waiting list
+                        Enrol today
                       </a>
                     </div>
                   </div>
