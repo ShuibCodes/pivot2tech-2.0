@@ -278,8 +278,20 @@ const CourseDetails = () => {
                           Post-course
                         </span>
                         <span className="duration">
-                          Support & guidance from our alumni & teachers in
-                          navigating the job market, CV's & job applications
+                          An optional 4-week work experience placement with our
+                          partner company
+                        </span>
+                      </li>
+                      <li>
+                        <span
+                          style={{ color: "#1F4ECE", marginRight: "10px" }}
+                          className="title"
+                        >
+                          🎁 BONUS:
+                        </span>
+                        <span className="duration">
+                          4 hours with our in-house careers coach, guiding you
+                          though job applications, CVs and LinkedIn
                         </span>
                       </li>
                     </ul>
@@ -332,9 +344,18 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">499</span>
+                        <span className="price">249</span>
+                        <span
+                          style={{
+                            textDecoration: "line-through",
+                            marginLeft: "20px",
+                          }}
+                          className="price"
+                        >
+                          499
+                        </span>
                       </div>
-
+                      <p className="bold">50% off until Tuesday</p>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
