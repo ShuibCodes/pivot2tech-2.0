@@ -344,18 +344,9 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">249</span>
-                        <span
-                          style={{
-                            textDecoration: "line-through",
-                            marginLeft: "20px",
-                          }}
-                          className="price"
-                        >
-                          499
-                        </span>
+                        <span className="price">499</span>
                       </div>
-                      <p className="bold">50% off until Tuesday</p>
+
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
