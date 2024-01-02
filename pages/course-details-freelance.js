@@ -453,7 +453,7 @@ const CourseDetails = () => {
                           <b>Sundays 7-9pm</b>
                         </li>
                         <p>
-                          <i className="mt-5">23 / 25 space lefts</i>
+                          <i className="mt-5">20 / 25 space lefts</i>
                         </p>
                       </ul>
 
