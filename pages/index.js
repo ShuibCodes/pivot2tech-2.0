@@ -330,7 +330,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      21 / 25 spaces left
+                      20 / 25 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
@@ -431,7 +431,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      21 / 25 spaces left
+                      20 / 25 spaces left
                     </p>
                     <Link href="/course-details-freelance">
                       <a
@@ -483,7 +483,7 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Start: 3rd January
+                    Start: 4th January
                   </p>
                   <ul className="">
                     <li>

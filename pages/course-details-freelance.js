@@ -445,7 +445,7 @@ const CourseDetails = () => {
                         </li>
                         <p>
                           <i className="mt-5 text-center bold">
-                            25 / 25 spaces left
+                            20 / 25 spaces left
                           </i>
                         </p>
                       </ul>
@@ -459,7 +459,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Secure yout space
+                        Secure your space
                       </a>
                     </div>
                   </div>
