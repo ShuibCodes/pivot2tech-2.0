@@ -479,12 +479,12 @@ const Index = () => {
                     Land networking calls, convert job referrals and master each
                     stage of the interview processs
                   </p>
-                  <p
+                  {/* <p
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
                     Start: 4th January
-                  </p>
+                  </p> */}
                   <ul className="">
                     <li>
                       <span style={{ marginRight: "7px" }}>
@@ -524,7 +524,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Enrol Today
+                      Learn more
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>

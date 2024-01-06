@@ -398,14 +398,14 @@ const CourseDetails = () => {
                           color: "#1F4ECE",
                         }}
                       >
-                        7/15 spaces left
+                        SOLD OUT
                       </p>{" "}
                     </p>
                   </ul>
 
-                  <a href="https://buy.stripe.com/14keVP5G9dIqdXO14J">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf__8tMpnrhDQtGblc_o2ut9JOC1T0-UGSDRsI8KhgymoOKjQ/viewform?usp=sf_link">
                     <a className="theme-btn">
-                      Secure your space
+                      Join the waiting list
                       <i className="fas fa-arrow-right" />
                     </a>
                   </a>
