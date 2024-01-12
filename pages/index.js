@@ -330,7 +330,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      20 / 25 spaces left
+                      19 / 25 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
@@ -506,7 +506,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3 bold"> 5 / 15 spaces left</li>
+                    <li className="mt-3 bold">sold out</li>
                     <li
                       style={{ color: "blue" }}
                       className="mt-3"

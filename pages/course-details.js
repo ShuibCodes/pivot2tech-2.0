@@ -344,7 +344,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">249</span>
+                        <span className="price">349</span>
                         <span
                           style={{
                             textDecoration: "line-through",
@@ -355,7 +355,7 @@ const CourseDetails = () => {
                           499
                         </span>
                       </div>
-                      <p className="bold">50% off until Tuesday</p>
+                      <p className="bold">30% off</p>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
@@ -384,7 +384,7 @@ const CourseDetails = () => {
                             textAlign: "center",
                           }}
                         >
-                          20 / 25 spaces left
+                          19 / 25 spaces left
                         </p>
                         <div className="text-center  py-5">
                           <img
