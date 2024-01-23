@@ -102,11 +102,8 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
-                  Learn new skills today,
-                  <span style={{ color: "#1F4ECE" }}>
-                    {" "}
-                    Launch your tech career
-                  </span>
+                  Learn recession-proof skills,
+                  <span style={{ color: "#1F4ECE" }}> Double your income</span>
                 </h3>
 
                 <p className="">
