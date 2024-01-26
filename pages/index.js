@@ -102,12 +102,15 @@ const Index = () => {
             <div className="col-lg-7">
               <div className="hero-content rpt-25 rmb-75">
                 <h3 className="mb-20 wow fadeInUp delay-0-4s">
-                  Learn to code or freelance
-                  <span style={{ color: "#1F4ECE" }}> for 2 weeks, free </span>
-                  or get your money back
+                  Learn recession-proof skills,
+                  <span style={{ color: "#1F4ECE" }}> Double your income</span>
                 </h3>
 
-                <p className=""></p>
+                <p className="">
+                  Learn <strong>Web development</strong>,{""}
+                  <strong> Digital marketing & Freelancing,</strong> or{" "}
+                  <strong> Data Analytics </strong>in 3 months or less.
+                </p>
                 <span
                   style={{
                     marginTop: "10px",
@@ -115,8 +118,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  Data, software engineering, or digital marketing... you
-                  decide.
+                  Lastest student salary: £40,000
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -325,7 +327,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      18 / 25 spaces left
+                      11 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
@@ -426,7 +428,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      20 / 25 spaces left
+                      10 spaces left
                     </p>
                     <Link href="/course-details-freelance">
                       <a
@@ -474,12 +476,12 @@ const Index = () => {
                     Land networking calls, convert job referrals and master each
                     stage of the interview processs
                   </p>
-                  <p
+                  {/* <p
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Start: 3rd January
-                  </p>
+                    Start: 4th January
+                  </p> */}
                   <ul className="">
                     <li>
                       <span style={{ marginRight: "7px" }}>
@@ -501,7 +503,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3 bold">sold out</li>
+                    <li className="mt-3 bold"> 5 / 15 spaces left</li>
                     <li
                       style={{ color: "blue" }}
                       className="mt-3"
@@ -519,7 +521,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Enrol Today
+                      Learn more
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
