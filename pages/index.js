@@ -118,7 +118,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  620 students worldwide
+                  621 students worldwide
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
@@ -457,7 +457,77 @@ const Index = () => {
                     alt="data-analytics"
                   />
                 </div>
-             
+                <div className="coach-content">
+                  <span className="label">Online lessons - 3 weeks</span>
+                  <h4>
+                    <Link href="/product-details">Career Mastery</Link>
+                  </h4>
+                  {/* <p
+                    style={{
+                      fontSize: "18px",
+                      color: "blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    Sold out
+                  </p> */}
+                  <div className="ratting-price"></div>
+                  <p>
+                    Land networking calls, convert job referrals and master each
+                    stage of the interview processs
+                  </p>
+                  {/* <p
+                    className="bold"
+                    style={{ fontSize: "17px" }}
+                  >
+                    Start: 4th January
+                  </p> */}
+                  <ul className="">
+                    <li>
+                      <span style={{ marginRight: "7px" }}>
+                        💻 Networking & LinkedIn Mastery
+                      </span>
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📝</span>
+                      CV Building and Job Applications
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📜</span>
+                      Get your CV & applications reviewed
+                    </li>
+                    <li>
+                      {" "}
+                      <span style={{ marginRight: "7px" }}>📞</span>
+                      Mock interviews & technical test practice
+                    </li>{" "}
+                    <li className="mt-3 bold"> 5 / 15 spaces left</li>
+                    <li
+                      style={{ color: "blue" }}
+                      className="mt-3"
+                    >
+                      {" "}
+                      Only £40/m for 3 months
+                    </li>
+                  </ul>{" "}
+                  <Link href="/careerMastery">
+                    <a
+                      style={{
+                        padding: "10px",
+                        fontSize: "11px",
+                        margin: "10px 0px",
+                      }}
+                      className="theme-btn"
+                    >
+                      Learn more
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-4 col-md-6 item design technology">
               <div className="coach-item">
                 <div className="coach-image">
