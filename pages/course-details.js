@@ -384,7 +384,7 @@ const CourseDetails = () => {
                             alt="Icon"
                           />
                           <p style={{ color: "blue", fontWeight: "bold" }}>
-                            14-day money back guarantee
+                            14-day money-back guarantee
                           </p>
                         </div>
                       </ul>
