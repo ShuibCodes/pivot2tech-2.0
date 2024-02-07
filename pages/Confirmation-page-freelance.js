@@ -10,24 +10,17 @@ const E404 = () => {
           <div className="error-inner text-center wow fadeInUp delay-0-2s">
             <div className="section-title mt-50 mb-40">
               <h2>
-                Thank you for signing up to the Freelance Web & Digital
-                Marketing Bootcamp!
+                Thank you for signing up, and Welcome to the start of your
+                future!
               </h2>
-              <h2 style={{ fontWeight: "800" }}>Don't Leave this page!</h2>
             </div>
-            <h4>Click below to get access to the Pivot2Tech Discord channel</h4>
-            <h6 style={{ padding: "30px 0px" }}>
-              Make sure you make a Discord account and download the app{" "}
-            </h6>
-            <p>
-              All information including Zoom links, guides and access to the
-              team will be on there
-            </p>
+            <h4>Sign up to our platform below</h4>
+
             <a
-              href="https://discord.gg/mKEWp9bGhv"
-              className="theme-btn style-two"
+              href="https://pivot2tech.circle.so/join?invitation_token=831e17b041678b60b4b241f104c3d24ae31b9c9a-f4ce8a32-9d4d-40cd-b13f-70d0a0515ecb"
+              className="theme-btn style-four"
             >
-              Get Access <i className="fas fa-arrow-right" />
+              <a className="theme-btn style-four">Give me access</a>
             </a>
           </div>
         </div>

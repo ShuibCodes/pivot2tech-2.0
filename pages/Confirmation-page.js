@@ -9,19 +9,19 @@ const E404 = () => {
         <div className="container">
           <div className="error-inner text-center wow fadeInUp delay-0-2s">
             <div className="section-title mt-50 mb-40">
-              <h2>Thank you for signing up!</h2>
+              <h2>
+                Thank you for signing up, and Welcome to the start of your
+                future!
+              </h2>
             </div>
-            <h4>
-              You'll receive an onboarding email in 2-5 working days from one of
-              the team!{" "}
-            </h4>
+            <h4>Sign up to our platform below</h4>
 
-            <Link
-              href="/contact"
+            <a
+              href="https://pivot2tech.circle.so/join?invitation_token=b2b7fcd7b5586cd13c26911237b493c13d416ae7-503fcc8d-0054-4f76-980d-1587232e6ec6"
               className="theme-btn style-four"
             >
-              <a className="theme-btn style-four">Got a question? Contact us</a>
-            </Link>
+              <a className="theme-btn style-four">Give me access</a>
+            </a>
           </div>
         </div>
       </section>
