@@ -327,7 +327,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      9 spaces left
+                      3 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
@@ -428,7 +428,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      8 spaces left
+                      4 spaces left
                     </p>
                     <Link href="/course-details-freelance">
                       <a
@@ -503,7 +503,7 @@ const Index = () => {
                       <span style={{ marginRight: "7px" }}>📞</span>
                       Mock interviews & technical test practice
                     </li>{" "}
-                    <li className="mt-3 bold"> 5 / 15 spaces left</li>
+                    <li className="mt-3 bold">Register your interest</li>
                     <li
                       style={{ color: "blue" }}
                       className="mt-3"
