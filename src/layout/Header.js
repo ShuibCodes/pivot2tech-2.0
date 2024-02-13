@@ -437,14 +437,14 @@ const Header1 = ({ navToggle, setNavToggle }) => (
           <div className="top-left">
             <p>
               <i className="far fa-clock" />{" "}
-              <Link href="/">Join Our Career Mastery Cohort</Link>
+              <Link href="/">Join our next cohort</Link>
             </p>
           </div>
           <div className="top-right d-flex align-items-center">
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">🚨</span>3rd January 2024
+                <span className="px-2">🚨</span> Course closes - 15th Febraury
                 <span className="px-2">🚨</span>
               </h6>
             </div>
