@@ -327,7 +327,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      9 spaces left
+                      2 spaces left
                     </p>
                     <Link href="/course-details">
                       <a
@@ -428,7 +428,7 @@ const Index = () => {
                         fontWeight: "700",
                       }}
                     >
-                      8 spaces left
+                      3 spaces left
                     </p>
                     <Link href="/course-details-freelance">
                       <a
