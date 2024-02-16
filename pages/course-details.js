@@ -374,9 +374,7 @@ const CourseDetails = () => {
                             fontWeight: "bold",
                             textAlign: "center",
                           }}
-                        >
-                          3 spaces left
-                        </p>
+                        ></p>
                         <div className="text-center  py-5">
                           <img
                             className="p-2"
@@ -390,7 +388,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/eVa14Z5G96fY4neeVC"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -398,7 +396,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Secure your space
+                        Join the waiting list
                       </a>
                     </div>
                   </div>

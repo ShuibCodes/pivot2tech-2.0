@@ -326,9 +326,7 @@ const Index = () => {
                         color: "blue",
                         fontWeight: "700",
                       }}
-                    >
-                      3 spaces left
-                    </p>
+                    ></p>
                     <Link href="/course-details">
                       <a
                         style={{
