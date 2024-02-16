@@ -384,7 +384,7 @@ const CourseDetails = () => {
                             textAlign: "center",
                           }}
                         >
-                          2 spaces left
+                          SOLD OUT
                         </p>
                         <div className="text-center  py-5">
                           <img
@@ -399,7 +399,7 @@ const CourseDetails = () => {
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/cN2bJDb0t6fY4ne7tg"
+                        href=""
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -407,7 +407,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Enrol Now
+                        SOLD OUT
                       </a>
                     </div>
                   </div>
