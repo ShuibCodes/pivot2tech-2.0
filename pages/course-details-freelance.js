@@ -421,7 +421,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">499</span>
+                        <span className="price">sold out</span>
                       </div>
 
                       <p className="bold">or 3 interest-free installments</p>
