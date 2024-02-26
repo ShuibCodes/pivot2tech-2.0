@@ -421,10 +421,8 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">sold out</span>
+                        <span className="price">Coming back Spring 2024</span>
                       </div>
-
-                      <p className="bold">or 3 interest-free installments</p>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
@@ -443,13 +441,10 @@ const CourseDetails = () => {
                           <i className="fas fa-globe" /> <span></span>{" "}
                           <b>Sundays 7-9pm</b>
                         </li>
-                        <p>
-                          <i className="mt-5 text-center bold">4 spaces left</i>
-                        </p>
                       </ul>
 
                       <a
-                        href="https://buy.stripe.com/cN2dRL5G9awe9Hy7td"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
                         style={{
                           padding: "11px",
                           fontSize: "12px",
@@ -457,7 +452,7 @@ const CourseDetails = () => {
                         }}
                         className="theme-btn"
                       >
-                        Secure your space
+                        Join the waiting list
                       </a>
                     </div>
                   </div>

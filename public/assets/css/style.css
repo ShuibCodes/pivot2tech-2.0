@@ -6409,7 +6409,7 @@ h6,
 	}
 }
 .coach-content .price:before {
-	content: '£';
+	
 }
 
 .coach-footer {
@@ -7106,7 +7106,7 @@ h6,
 	background: url(../images/coachs/course-price-bg.png) 100% 100%;
 }
 .coach-item-three .image .price:before {
-	content: '£';
+	
 }
 .coach-item-three .content {
 	-webkit-transition: 0.5s;
@@ -10252,14 +10252,14 @@ blockquote .blockquote-footer:before {
 	margin-right: 5px;
 }
 .product-item .product-content .price del:before {
-	content: '£';
+	
 }
 .product-item .product-content .price span {
 	font-weight: 800;
 	color: #00cc83;
 }
 .product-item .product-content .price span:before {
-	content: '£';
+	
 }
 .product-item:hover .product-image:before {
 	opacity: 0.75;
@@ -10361,7 +10361,7 @@ blockquote .blockquote-footer:before {
 	color: #204ecf;
 }
 .product-details-content .ratting-price .price:before {
-	content: '£';
+
 }
 
 .product-details-content .category-tags li {
@@ -10546,7 +10546,7 @@ blockquote .blockquote-footer:before {
 	color: #00cc83;
 }
 .pricin-item .price:before {
-	content: '£';
+	
 	font-size: 24px;
 }
 .pricin-item .price:after {
@@ -11302,7 +11302,7 @@ blockquote .blockquote-footer:before {
 	color: #00cc83;
 }
 .widget-course-details .price-off .price:before {
-	content: '£';
+	
 }
 .widget-course-details .price-off .off {
 	color: white;
@@ -11568,7 +11568,7 @@ blockquote .blockquote-footer:before {
 	justify-content: space-between;
 }
 .widget-price-filter .price span:before {
-	content: '£';
+	
 }
 
 .widget-price-filter #price {

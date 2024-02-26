@@ -348,7 +348,7 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">120</span>
+                    <span className="price">sold out</span>
                     <span
                       style={{
                         textDecoration: "line-through",
@@ -369,7 +369,7 @@ const CourseDetails = () => {
                     or £40/m for 3 months
                   </p>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: Wednesday 3rd January
+                    Start: Spring 2024
                   </p>
                   <ul className="course-details-list mb-25">
                     <li style={{ fontSize: "18px" }}>
