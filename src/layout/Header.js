@@ -444,7 +444,10 @@ const Header1 = ({ navToggle, setNavToggle }) => (
             <div className="social-style-two">
               <h6 className="py-1">
                 {" "}
-                <span className="px-2">🚨</span> Course closes - 15th Febraury
+                <span className="px-2">🚨</span>{" "}
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link">
+                  Join the waiting list & be notified of launch!
+                </a>
                 <span className="px-2">🚨</span>
               </h6>
             </div>
