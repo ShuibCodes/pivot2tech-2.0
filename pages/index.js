@@ -286,7 +286,7 @@ const Index = () => {
                       className="bold"
                       style={{ fontSize: "17px" }}
                     >
-                      Next cohort: 13th February
+                      Coming back June 2024
                     </p>
 
                     <ul
@@ -381,7 +381,7 @@ const Index = () => {
                         className="bold"
                         style={{ fontSize: "17px" }}
                       >
-                        Next cohort: February 2024
+                        Coming back June 2024
                       </p>
                     </div>
                     <div className="d-flex justify-content-around "></div>
@@ -425,9 +425,7 @@ const Index = () => {
                         color: "blue",
                         fontWeight: "700",
                       }}
-                    >
-                      4 spaces left
-                    </p>
+                    ></p>
                     <Link href="/course-details-freelance">
                       <a
                         style={{
