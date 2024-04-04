@@ -288,7 +288,7 @@ const CourseDetails = () => {
                       <span>Course Level</span> <b>Beginner's</b>
                     </li>
                     <li>
-                      <span>Limited spaces</span>
+                      <span>4 spots left at this price</span>
                     </li>
                   </ul>
 
