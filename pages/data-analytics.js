@@ -380,10 +380,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="#pricing"
+                    href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx"
                     className="theme-btn style-four"
                   >
-                    Register your interest
+                    Get instant access
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
