@@ -65,7 +65,7 @@ const CourseDetails = () => {
                   <p>
                     <i className="far fa-user mr-3" />
                     <b>BONUS</b> An internship with a Dubai based software
-                    company!
+                    company 🇦🇪
                   </p>{" "}
                   <p>
                     🎁 <b>BONUS</b>: Full access to{" "}
