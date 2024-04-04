@@ -77,9 +77,9 @@ const CourseDetails = () => {
                     </a>
                   </p>
                 </ul>
-                <a href="#pricing">
+                <a href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx">
                   <a className="theme-btn">
-                    Register your interest
+                    Get instant access
                     <i className="fas fa-arrow-right" />
                   </a>
                 </a>
@@ -278,16 +278,7 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">£299</span>
-                    <span
-                      style={{
-                        textDecoration: "line-through",
-                        marginLeft: "20px",
-                      }}
-                      className="price"
-                    >
-                      £499
-                    </span>
+                    <span className="price">£499</span>
                     Or pay in 3 installments
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}></p>
@@ -297,7 +288,7 @@ const CourseDetails = () => {
                       <span>Course Level</span> <b>Beginner's</b>
                     </li>
                     <li>
-                      <span>5 spots at this price!</span>
+                      <span>Limited spaces</span>
                     </li>
                   </ul>
 
