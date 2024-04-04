@@ -63,6 +63,11 @@ const CourseDetails = () => {
                     Certified in 12 weeks
                   </p>{" "}
                   <p>
+                    <i className="far fa-user mr-3" />
+                    <b>BONUS</b> An internship with a Dubai based software
+                    company!
+                  </p>{" "}
+                  <p>
                     🎁 <b>BONUS</b>: Full access to{" "}
                     <a
                       style={{ color: "blue" }}

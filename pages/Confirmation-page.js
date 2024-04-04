@@ -17,7 +17,7 @@ const E404 = () => {
             <h4>Sign up to our platform below</h4>
 
             <a
-              href="https://pivot2tech.circle.so/join?invitation_token=b2b7fcd7b5586cd13c26911237b493c13d416ae7-503fcc8d-0054-4f76-980d-1587232e6ec6"
+              href="https://pivot2tech.circle.so/join?invitation_token=45e908ce4922acc2be7e5c8fce4613e57afa1190-1ccd9677-b354-4cba-8ce0-87cc3600c732"
               className="theme-btn style-four"
             >
               <a className="theme-btn style-four">Give me access</a>
