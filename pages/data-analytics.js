@@ -53,9 +53,9 @@ const CourseDetails = () => {
                   <span>
                     {" "}
                     <i className="far fa-clock mr-2" />{" "}
-                    <span> 80-hours of learning over 12 weeks</span>
+                    <span> 24 hours of content</span>
                   </span>
-                  <li>Live classes 2 times per week</li>
+                  <li>1-1 mentorship (included seperately)</li>
                   <i className="far fa-file-alt mr-3" />
                   <span>100% Hands on experience</span>
                   <p>
@@ -63,8 +63,13 @@ const CourseDetails = () => {
                     Certified in 12 weeks
                   </p>{" "}
                   <p>
-                    🎁 <b>BONUS</b>: 2 sessions with our{" "}
-                    <a href="https://maryandahir.simple.ink/">career coach</a>
+                    🎁 <b>BONUS</b>: Full access to{" "}
+                    <a
+                      style={{ color: "blue" }}
+                      href="https://pivot2tech.co.uk/careerMastery"
+                    >
+                      CareerMastery
+                    </a>
                   </p>
                 </ul>
                 <a href="#pricing">
@@ -273,36 +278,32 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">499</span>
+                    <span className="price">£299</span>
+                    <span
+                      style={{
+                        textDecoration: "line-through",
+                        marginLeft: "20px",
+                      }}
+                      className="price"
+                    >
+                      £499
+                    </span>
                     Or pay in 3 installments
                   </div>
-                  <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                    Start: March 2024
-                  </p>
+                  <p style={{ fontSize: "18px", fontWeight: "700" }}></p>
                   <ul className="course-details-list mb-25">
                     <li>
                       <i className="far fa-file-alt" />{" "}
                       <span>Course Level</span> <b>Beginner's</b>
                     </li>
                     <li>
-                      <i className="far fa-clock" /> <span>Duration</span>{" "}
-                      <b>6 hours/week</b>
-                    </li>
-
-                    <li>
-                      <i className="far fa-clipboard" /> <span>Days</span>{" "}
-                      <b>Wed (6-9pm) & Sat (11-2pm) </b>
-                    </li>
-
-                    <li>
-                      <i className="fas fa-globe" />{" "}
-                      <span>Recorded sessions & guest speakers</span>{" "}
+                      <span>5 spots at this price!</span>
                     </li>
                   </ul>
 
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link">
+                  <a href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx">
                     <a className="theme-btn">
-                      Join the waiting list
+                      Join now
                       <i className="fas fa-arrow-right" />
                     </a>
                   </a>
@@ -336,10 +337,10 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSf8DCzkp7TVAORInWWuvNFZ4cWfPPHMcPrt1kZV83i6xBNvHA/viewform?usp=sf_link"
+                    href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx"
                     className="theme-btn style-four"
                   >
-                    Join the waiting list
+                    Get instant access
                     <i className="fas fa-arrow-right" />
                   </a>
                 </div>
