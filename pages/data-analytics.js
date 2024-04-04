@@ -99,14 +99,9 @@ const CourseDetails = () => {
                   >
                     <ul className="course-video-list">
                       <li>
-                        <a
-                          href="https://www.youtube.com/watch?v=9Y7ma241N8k"
-                          className="mfp-iframe course-video-play"
-                        >
-                          <span className="title">
-                            Introduction to Data Analytics
-                          </span>{" "}
-                        </a>
+                        <span className="title">
+                          Introduction to Data Analytics
+                        </span>{" "}
                       </li>
                       <li>
                         <span className="title">
