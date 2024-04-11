@@ -290,6 +290,9 @@ const CourseDetails = () => {
                     <li>
                       <span>30-day moneyback gurantee</span>
                     </li>
+                    <li>
+                      <h5>Last 3 spaces</h5>
+                    </li>
                   </ul>
 
                   <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
