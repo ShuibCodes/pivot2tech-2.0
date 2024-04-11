@@ -291,7 +291,7 @@ const CourseDetails = () => {
                       <span>30-day moneyback gurantee</span>
                     </li>
                     <li>
-                      <h5>Last 3 spaces</h5>
+                      <h5>Last 3 spaces until course closes forever.</h5>
                     </li>
                   </ul>
 
