@@ -291,11 +291,11 @@ const CourseDetails = () => {
                       <span>30-day moneyback gurantee</span>
                     </li>
                     <li>
-                      <h5>Last 3 spaces until course closes forever.</h5>
+                      <h5>Last 2 spaces until course closes forever.</h5>
                     </li>
                   </ul>
 
-                  <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
+                  <a href="https://buy.stripe.com/14kdRL2X5bU2f6bJp">
                     <a className="theme-btn">
                       Join now
                       <i className="fas fa-arrow-right" />

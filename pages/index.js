@@ -546,7 +546,7 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Next Cohort: March 2024
+                    Last 2 spaces
                   </p>
                   <ul className="">
                     <li>
@@ -557,7 +557,7 @@ const Index = () => {
                     <li>
                       {" "}
                       <span style={{ marginRight: "7px" }}>✅</span>
-                      Live classes 2 times per week
+                      25 hours of on-demand const first = useContext(second)
                     </li>
                     <li>
                       {" "}
@@ -570,13 +570,7 @@ const Index = () => {
                       Certifcation upon completion
                     </li>
                     <li className="mt-1">
-                      🎁 <b>BONUS</b>: 2 sessions with our{" "}
-                      <a
-                        style={{ color: "blue" }}
-                        href="https://maryandahir.simple.ink/"
-                      >
-                        careers coach
-                      </a>
+                      🎁 <b>BONUS</b>: Career Course for free{" "}
                     </li>
                   </ul>{" "}
                   <Link href="/data-analytics">
@@ -588,7 +582,7 @@ const Index = () => {
                       }}
                       className="theme-btn"
                     >
-                      Learn more
+                      Secure your space
                       <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
