@@ -8,6 +8,7 @@ import pic from "../public/assets/images/portfolio.png";
 import WellernAccordion from "../src/components/WellernAccordion";
 import Layout from "../src/layout/Layout";
 import { coachSlider } from "../src/sliderProps";
+import FAQ from "../src/components/FAQ";
 const CourseDetails = () => {
   const [active, setActive] = useState(`collapse1`);
   const onClick = (value) => {
@@ -395,6 +396,7 @@ const CourseDetails = () => {
             </div>
           </div>
         </div>
+        <FAQ />
       </section>{" "}
     </Layout>
   );

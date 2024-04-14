@@ -179,10 +179,10 @@ function FAQ() {
         >
           <div className="course-video-list">
             <p className="p-40">
-              We offer a cooling-off period of 14 days from the date of purchase
-              and on the condition the bootcamp has not yet commenced. All
-              refund requests are to be made in writing via email to
-              pivot2techteam@gmail.com
+              We offer a cooling-off period of 30 days from the date of purchase
+              and on the condition that you go through 60% of the course content
+              and provide proof with projects you have built. If the course
+              hasn't given you the skills, you can appply for a full refund
             </p>
           </div>
         </WellernAccordion>
