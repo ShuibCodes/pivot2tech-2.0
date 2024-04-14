@@ -78,7 +78,7 @@ const CourseDetails = () => {
                     </a>
                   </p>
                 </ul>
-                <a href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx">
+                <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
                   <a className="theme-btn">
                     Get instant access
                     <i className="fas fa-arrow-right" />
@@ -296,7 +296,7 @@ const CourseDetails = () => {
                     </li>
                   </ul>
 
-                  <a href="https://buy.stripe.com/14kdRL2X5bU2f6bJp">
+                  <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
                     <a className="theme-btn">
                       Join now
                       <i className="fas fa-arrow-right" />
@@ -375,7 +375,7 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://buy.stripe.com/aEUaFz7Oh8o6cTK9Bx"
+                    href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp"
                     className="theme-btn style-four"
                   >
                     Get instant access

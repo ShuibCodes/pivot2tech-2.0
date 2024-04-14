@@ -17,7 +17,7 @@ const E404 = () => {
             <h4>Sign up to our platform below</h4>
             <p>
               This is a self paced course you can start at anytime, all the
-              vidoes are uploaded, and you can @ the teacher for Qestions
+              vidoes are uploaded, and you can @ the teacher for questions/help
             </p>
 
             <a
