@@ -15,6 +15,10 @@ const E404 = () => {
               </h2>
             </div>
             <h4>Sign up to our platform below</h4>
+            <p>
+              This is a self paced course you can start at anytime, all the
+              vidoes are uploaded, and you can @ the teacher for Qestions
+            </p>
 
             <a
               href="https://pivot2tech.circle.so/join?invitation_token=45e908ce4922acc2be7e5c8fce4613e57afa1190-1ccd9677-b354-4cba-8ce0-87cc3600c732"
