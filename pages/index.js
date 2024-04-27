@@ -546,7 +546,7 @@ const Index = () => {
                     className="bold"
                     style={{ fontSize: "17px" }}
                   >
-                    Last 2 spaces
+                    Last space left
                   </p>
                   <ul className="">
                     <li>
