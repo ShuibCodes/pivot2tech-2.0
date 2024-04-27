@@ -50,8 +50,9 @@ function FAQ() {
         >
           <div className="course-video-list">
             <p className="p-40">
-              The live lessons are <strong>completely optional</strong> although
-              we do recommend them.
+              The live lessons (for software engineering and freelance courses)
+              are <strong>completely optional</strong> although we do recommend
+              them
               <br></br>
               <br></br>
               You'll have <strong>lifetime access</strong> of all the lesson
@@ -180,9 +181,10 @@ function FAQ() {
           <div className="course-video-list">
             <p className="p-40">
               We offer a cooling-off period of 30 days from the date of purchase
-              and on the condition that you go through 60% of the course content
-              and provide proof with projects you have built. If the course
-              hasn't given you the skills, you can appply for a full refund
+              and on the condition that you go through 60% (9 hours) of the
+              course content and provide proof with one project you have built.
+              If the course hasn't given you the skills, you can appply for a
+              full refund
             </p>
           </div>
         </WellernAccordion>
