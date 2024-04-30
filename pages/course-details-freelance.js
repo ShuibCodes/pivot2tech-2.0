@@ -421,25 +421,12 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">Coming back Spring 2024</span>
+                        <span className="price">Coming back June 22nd</span>
                       </div>
                       <ul className="course-details-list mb-25">
                         <li>
                           <i className="far fa-file-alt" />{" "}
                           <span>Course Level</span> <b>Beginner</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>Duration</span>{" "}
-                          <b>7 weeks</b>
-                        </li>
-                        <li>
-                          <i className="far fa-clock" /> <span>When</span>{" "}
-                          <b>18th Febraury 2024 </b>
-                        </li>
-
-                        <li>
-                          <i className="fas fa-globe" /> <span></span>{" "}
-                          <b>Sundays 7-9pm</b>
                         </li>
                       </ul>
 
