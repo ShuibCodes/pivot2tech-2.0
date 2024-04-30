@@ -95,7 +95,7 @@ const CourseDetails = () => {
                             paying thousands for a degrees.
                           </p>
                           <p style={{ fontSize: "18px", fontWeight: "700" }}>
-                            Next Cohort: 13th February
+                            Next Cohort: June 22nd
                           </p>
                           <div>
                             <a
@@ -344,7 +344,7 @@ const CourseDetails = () => {
                         />
                       </div>
                       <div className="price-off">
-                        <span className="price">Coming back Spring 2024</span>
+                        <span className="price">Coming back June 22nd</span>
                       </div>
 
                       <ul className="course-details-list mb-25">
