@@ -107,9 +107,9 @@ const Index = () => {
                 </h3>
 
                 <p className="">
-                  Learn <strong>Web development</strong>,{""}
-                  <strong> Digital marketing & Freelancing,</strong> or{" "}
-                  <strong> Data Analytics </strong>in 3 months or less.
+                  Learn{" "}
+                  <strong>Software Engineering or Digital Marketing</strong> in
+                  3 months or less.
                 </p>
                 <span
                   style={{
