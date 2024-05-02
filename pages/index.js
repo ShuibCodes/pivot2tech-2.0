@@ -118,7 +118,7 @@ const Index = () => {
                     fontSize: "18px",
                   }}
                 >
-                  621 students worldwide
+                  640 students worldwide
                 </span>
                 <div className="hero-btn-group">
                   <div className="hero-btn mt-30 wow fadeInUp delay-0-8s">
