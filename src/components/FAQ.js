@@ -183,7 +183,7 @@ function FAQ() {
               We offer a cooling-off period of 30 days from the date of purchase
               and on the condition that you go through 60% (9 hours) of the
               course content and provide proof with one project you have built.
-              If the course hasn't given you the skills, you can appply for a
+              If the course hasn't given you the skills, you can apply for a
               full refund
             </p>
           </div>
