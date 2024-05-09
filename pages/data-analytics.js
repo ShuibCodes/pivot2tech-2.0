@@ -292,7 +292,7 @@ const CourseDetails = () => {
                       <span>30-day moneyback gurantee</span>
                     </li>
                     <li>
-                      <h5>Last 2 spaces until course closes forever.</h5>
+                      <h5>Self paced course, on-demand video lessons</h5>
                     </li>
                   </ul>
 
