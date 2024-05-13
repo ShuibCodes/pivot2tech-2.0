@@ -42,8 +42,8 @@ const CourseDetails = () => {
                 </div>
 
                 <p style={{ fontSize: "18px" }}>
-                  Join our our immersive, part-time bootcamp for personalized
-                  support, practical learning and a jobs & CV workshop.
+                  All the recordings, course content, resources AND Career
+                  coaching in one package.
                 </p>
 
                 <h3>What is included:</h3>
@@ -64,11 +64,6 @@ const CourseDetails = () => {
                     Certified in 12 weeks
                   </p>{" "}
                   <p>
-                    <i className="far fa-user mr-3" />
-                    <b>BONUS</b> A part-time, remote internship with a Dubai
-                    based software company 🇦🇪
-                  </p>{" "}
-                  <p>
                     🎁 <b>BONUS</b>: Full access to{" "}
                     <a
                       style={{ color: "blue" }}
@@ -78,7 +73,7 @@ const CourseDetails = () => {
                     </a>
                   </p>
                 </ul>
-                <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
+                <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                   <a className="theme-btn">
                     Get instant access
                     <i className="fas fa-arrow-right" />
@@ -279,7 +274,7 @@ const CourseDetails = () => {
                     />
                   </div>
                   <div className="price-off">
-                    <span className="price">£499</span>
+                    <span className="price">£229</span>
                     Or pay in 3 installments
                   </div>
                   <p style={{ fontSize: "18px", fontWeight: "700" }}></p>
@@ -296,7 +291,7 @@ const CourseDetails = () => {
                     </li>
                   </ul>
 
-                  <a href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp">
+                  <a href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4">
                     <a className="theme-btn">
                       Join now
                       <i className="fas fa-arrow-right" />
@@ -332,7 +327,7 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp"
+                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
                     className="theme-btn style-four"
                   >
                     Get instant access
@@ -375,7 +370,7 @@ const CourseDetails = () => {
                 </div>
                 <div>
                   <a
-                    href="https://buy.stripe.com/14kdRL2tX5bU2f6bJp"
+                    href="https://buy.stripe.com/9AQ9Bv6KdgUC4ne9B4"
                     className="theme-btn style-four"
                   >
                     Get instant access
