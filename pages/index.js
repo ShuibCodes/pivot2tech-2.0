@@ -233,9 +233,22 @@ const Index = () => {
             >
               <li style={{ fontSize: "22px" }}>
                 {" "}
-                Community of over 620+ students!
+                Community of over 700+ students!
               </li>
             </ul>
+            <a
+              href="https://www.skool.com/pivot2tech"
+              style={{
+                padding: "10px",
+                fontSize: "11px",
+                margin: "20px 0px",
+                backgroundColor: "#1F4ECD",
+              }}
+              className="theme-btn"
+            >
+              Join the exclusive community
+              <i className="fas fa-arrow-right" />
+            </a>
           </div>
         </div>
 
